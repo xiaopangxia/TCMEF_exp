@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0安迪·拉姆编辑锁定本词条缺少名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名安迪·拉姆国    籍以色列出生日期1980年4月10日运动项目网球安迪·拉姆（希伯来语：אנדי רם‎，1980年4月10日乌拉圭蒙得维的亚），以色列职业网球运动员，曾获得温布尔登网球锦标赛混合双打（2006年）、法国网球公开赛混合双打（2007年）和澳大利亚网球公开赛男子双打（2008年）冠军。安迪·拉姆安迪·拉姆window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":16907,"fentryTableName":"\u5386\u5c4a\u6e29\u5e03\u5c14\u767b\u7f51\u7403\u516c\u5f00\u8d5b\u6df7\u5408\u53cc\u6253\u51a0\u519b","fentryTableType":1,"entryId":2404166,"templateId":0,"entryTitle":"\u6e29\u5e03\u5c14\u767b\u7f51\u7403\u516c\u5f00\u8d5b\u6df7\u5408\u53cc\u6253","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([4997434, rsdataList]);
+        }词条标签：运动员，人物

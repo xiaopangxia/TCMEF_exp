@@ -1,0 +1,1 @@
+LED驱动器MIC3203是MicrEL公司的MIC3203是一款迟滞型降压、恒流、高亮度LED(HB led)驱动器

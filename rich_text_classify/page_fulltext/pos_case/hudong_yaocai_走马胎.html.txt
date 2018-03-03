@@ -1,0 +1,68 @@
+编辑讨论分享新浪微博微信扫描二维码用手机浏览词条新知社QQ空间0紫绿草开放分类：中药植物植物药生物祛风湿药紫金牛属紫金牛科自然草本植物荨麻科紫绿草，草本无毛，茎肉质，高25～60厘米，为荨麻科植物粗齿冷水花的全草，可用作草药，主治祛风，活血，理气止痛。编辑摘要基本信息编辑信息模块中文学名：紫绿草界：植物界族：藤麻族门：被子植物门(Magnoliophyta)纲：双子叶植物纲(Magnoliopsida)，又称木兰纲。亚纲：金缕梅亚纲(Hamamelidae)目：荨麻目(Urticales)科：荨麻科(Urticaceae)属：冷水花属(Pilea Lindl)种：为荨麻科植物粗齿冷水花的全草。目录1基本信息2植物形态3药用价值1基本信息2植物形态3药用价值基本信息/紫绿草编辑异名：扇花冷水花、走马胎(《广西药植名录》)，阿伯秀(苗名)。来源：为荨麻科植物粗齿冷水花的全草。植物形态/紫绿草编辑紫绿草草本无毛。茎肉质，高25～60厘米。叶对生，两枚近于等大；叶片卵形、宽卵形或椭圆形，长6～14厘米，宽2～7厘米，先端长渐尖，基部阔楔形或近圆形，边缘在基部之上密生粗牙齿，钟乳体疏生，狭条形，基出脉3条；叶柄长1～7厘米。通常雌雄异株。花序长达3厘米，分枝多；小花淡绿色，雄花直径约1.5毫米，花被片4，雄蕊4；雌花花被片3，卵形，柱头圆笔头状。瘦果卵形，扁，光滑。生于山谷林下阴处。药用价值/紫绿草编辑采集：夏、秋采收。性味：《贵州草药》："性平，味辛。"紫绿草[1][1]功用主治：①《广西药植名录》："祛风，活血。"②《贵州草药》："理气止痛。"用法与用量：内服：煎汤，3～5钱。选方：治胃气痛：紫绿草五钱，茴香子一钱，藿香、紫苏各二钱。煨水服。(《贵州草药》)[2]显示方式：分类详情|分类树中药分类树我要提建议中药，是以中医理论为指导，按中医治疗原则使用的货真质优的药材。包括中药材、中药饮片和中成药等。中药在清朝以前称为本草、生药等。现代所称的生药与中药所指的范围虽有部分重叠但并不相同，不可混淆。中药主要起源于中国，是以中医理论为基础，用于防治疾病的植物，动物、矿物及其加工品，不论产于中国，外国均称中药。中药有着独特的理论体系和应用形式，充分反映了中国自然资源及历史，文化等方面的特点。中药中药材中药材功..中药材药..祛风湿药解表药清热药泻下药化湿药温里药理气药补益药安神药收涩药消食药驱虫药止血药开窍药涌吐药利水渗湿药活血化瘀药平肝熄风药化痰止咳..攻毒杀虫..拔毒化腐..紫绿草丁公藤三十六荡东方狗脊丝棉木丝瓜藤两色槭中国野菰共有237个词条1[2][3][4]…[30]下一页立刻创建该分类下还没有词条，欢迎您来创建。与广大同友分享关于“紫绿草”的知识。成千上万的读者会因为您的贡献而受益匪浅。您还可以：申请分类管理员，参与知识体系建设。分类管理员是一个分类的建设者，超着指导用户阅读的作用。所以现责任心是必不可少的。除此之外，只要您对某一领域有着相当的了解或者深厚的兴趣，拥有丰富的知识，并具愿意将自己的知识传递给更多的人，您就是分类管理员最合适的人选。参加有奖任务和更多举相同的人，通过完成某一领域的词条，分享知识聚集在一起。根据您的贡献程度，您将有机会获得积分和信用奖励。我可以用积分和信用干什么？进入百科商城兑换各种精美礼品。中药分类树我要提建议中药中药材中成药中药方剂中药材功效分类中药材药用部分分类祛风湿药解表药清热药泻下药化湿药温里药理气药补益药安神药收涩药消食药驱虫药止血药开窍药涌吐药利水渗湿药活血化瘀药平肝熄风药化痰止咳平喘药攻毒杀虫止痒药拔毒化腐生肌药(function($,dom){
+	var category_tree_position = ["tableTree_style_category","tree_style_category"];
+	var tree_top_as = $(".classification_style a");
+	tree_top_as.each(function (index, domEle) {
+		  var $self = $(domEle);
+		  var tree_div = $('#'+category_tree_position[$(tree_top_as).index($self)]);
+		  if($.trim(tree_div.text()).length<1){
+			  $self.removeClass().addClass("disabled");
+			}
+	});
+
+	var tree_top_as_exclude = tree_top_as.not(".disabled");
+	$(dom).delegate(".classification_style a[class!='disabled']", 'click', function() {
+		var $self = $(this);
+		var tree_div = $('#'+category_tree_position[tree_top_as.index($self)]);
+		if($self.hasClass('current')){
+			return;
+		}
+		$self.removeClass().addClass("current");
+		tree_div.show();
+		if($self[0].text == "分类树"){
+			  $(".htree").each(function(i, el){
+				var o = $(el), height= o.height();
+				o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+			  });
+		}
+		tree_top_as_exclude.not($self).each(function(){
+				var _this = $(this);
+				_this.removeClass("current");
+			    $('#'+category_tree_position[tree_top_as.index(_this)]).hide();
+		});
+	});
+})(jQuery,document);
+
+
+try{
+	$(document).ready(function(){
+		$('.toggleshow').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).show();
+		});
+		
+		$('.togglehide').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).hide();
+		});
+
+		$('.quizForTreeHref').click(function(){
+		  $('#bootomtiwen').click();
+		});
+		
+		$(".htree").each(function(i, el){
+			var o = $(el), height= o.height();
+			o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+		});
+		
+		$(".categoryAppPannel a[target=_blank]").bind("click", function(){
+  			StatVirtualTraffic(document.referrer, window.location, 'stat_hdstat_onclick_category_tree_app');
+    	});
+	});
+	
+}catch(e){
+	
+}附图上传图片添加视频|添加图册相关影像function goUrl(url){
+			  if(url == "" || url.length == 0){
+			  	return;
+			  }
+			  StatVirtualTraffic(document.referrer,window.location,'stat_hdstat_onclick_new_doccomments');
+			  window.open(url,'_blank');
+			 }参考资料[1]^中医养生引用日期：2017-05-16[2]^中医世家引用日期：2012-06-04开放分类展开收起我来补充中药植物植物药生物祛风湿药紫金牛属紫金牛科自然草本植物荨麻科开放分类[删除][删除][删除][删除][删除][删除][删除][删除][删除][删除]同义词展开收起扇花冷水花走马胎阿伯秀大发药血枫山猪药走马藤大叶紫金牛同义词[删除][删除][删除][删除][删除][删除][删除][删除]互动百科的词条（含所附图片）系由网友上传，如果涉嫌侵权，请与客服联系，我们将按照法律之相关规定及时进行处理。未经许可，禁止商业网站等复制、抓取本站内容；合理使用者，请注明来源于www.baike.com。登录后使用互动百科的服务，将会得到个性化的提示和帮助，还有机会和专业认证智愿者沟通。互动百科用户登录注册

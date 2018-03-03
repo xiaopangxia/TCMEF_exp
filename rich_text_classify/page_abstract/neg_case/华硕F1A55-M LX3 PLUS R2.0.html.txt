@@ -1,0 +1,1 @@
+华硕F1A55-M LX3 PLUS R2.0采用AMD A55 FCH（Hudson D2）芯片组，集成8声道音效芯片，支持双通道DDR3 2250MHz内存，提供2个DDR3 DIMM 内存插槽。

@@ -1,0 +1,1 @@
+收藏查看我的收藏0有用+1已投票0org.omg.CORBA.ORBPackage编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！提供由 ORB.resolve_initial_references 方法抛出的异常 InvalidName，以及由 ORB 类中的动态 Any 创建方法抛出的异常 InconsistentTypeCode。

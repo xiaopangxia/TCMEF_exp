@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0硫酸盐硫编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！硫酸盐，是由硫酸根离子（SO4）与其他金属离子组成的化合物，都是电解质，且大多数溶于水。硫酸盐矿物是金属元素阳离子（包括铵根）和硫酸根相化合而成的盐类。由于硫是一种变价元素，在自然界它可以呈不同的价态形成不同的矿物。当它以最高的价态S6+与四个O2-结合成SO42-，再与金属元素阳离子即形成硫酸盐。在硫酸盐矿物中，与硫酸根化合的金属阳离子有二十余种。就是说有含硫酸根的盐就是硫酸盐。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":34948,"fentryTableName":"\u7164\u70ad\u52a0\u5de5\u5229\u7528","fentryTableType":1,"entryId":2630510,"templateId":0,"entryTitle":"\u7164\u70ad\u52a0\u5de5\u5229\u7528","isManual":0,"isExpand":1},{"fentryTableId":35363,"fentryTableName":"\u71c3\u6599","fentryTableType":1,"entryId":2678320,"templateId":0,"entryTitle":"\u71c3\u6599","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([3823685, rsdataList]);
+        }

@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0帕维尔·格里尼欣编辑锁定本词条缺少名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！帕维尔·格里尼欣，1986年03月24日出生于俄罗斯，运动员。中文名帕维尔·格里尼欣国    籍俄罗斯出生日期1986年03月24日职    业男子800米运动员目录1个人资料2详细描述帕维尔·格里尼欣个人资料编辑帕维尔·格里尼欣性别：男身高：180 厘米体重：70 公斤出生地：俄罗斯帕维尔·格里尼欣详细描述编辑俄罗斯男子800米运动员。[1]window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":17244,"fentryTableName":"2012\u5e74\u4f26\u6566\u5965\u8fd0\u4f1a\u7537\u5b50\u7530\u5f84\u9009\u624b","fentryTableType":1,"entryId":2405817,"templateId":0,"entryTitle":"2012\u5e74\u4f26\u6566\u5965\u8fd0\u4f1a\u7537\u5b50\u7530\u5f84\u7c7b\u8d5b\u4e8b","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([9247865, rsdataList]);
+        }参考资料1.3．3[引用日期2012-08-23]词条标签：运动员，人物

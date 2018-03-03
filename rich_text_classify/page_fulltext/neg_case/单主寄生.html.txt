@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0单主寄生编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！单主寄生autoecism整个生活史是在同一寄主上渡过其寄生过程的称为单主寄生。例如，向日葵锈菌（Puccinia helia－nthi）和蚕豆锈菌（Uromyces fabae）等。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35020,"fentryTableName":"\u6606\u866b\u751f\u6001\u5b66","fentryTableType":1,"entryId":2639826,"templateId":0,"entryTitle":"\u6606\u866b\u751f\u6001\u5b66","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([814773, rsdataList]);
+        }

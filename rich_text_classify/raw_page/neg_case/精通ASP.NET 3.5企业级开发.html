@@ -1,0 +1,1964 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+
+
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="referrer" content="always" />
+<meta name="description" content="《精通ASP.NET3.5企业级开发》全书共分29章，内容涵盖了分析、设计、开发和测试这4个软件工程的主要步骤。通过4个实例（会员软件系统、客户关系管理系统CRM、办公自动化系统OA、网上书店系统）讲解了软件的开发过程。本书最大的特色在于实践知识多于理论知识，力求让读者通过亲自动手来掌握ASP.NE...">
+<title>精通ASP.NET 3.5企业级开发_百度百科</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
+
+<meta name="keywords" content="精通ASP.NET 3.5企业级开发 精通ASP.NET3.5企业级开发 精通ASP.NET 3.5企业级开发内容简介 精通ASP.NET 3.5企业级开发目录 精通ASP.NET 3.5企业级开发前言 精通ASP.NET 3.5企业级开发书摘">
+<meta name="image" content="https://bkssl.bdimg.com/cms/static/baike.png">
+<script type="text/javascript">
+  // 配置 PD 监控。
+  window.alogObjectConfig = {
+    product: '103',
+    page: '103_1',
+    speed: {
+      sample: '0.008'
+    },
+    monkey: {
+      sample: '1',
+      hid: '1533'
+    },
+    exception: { 
+      sample: '0.004'
+    },
+    feature: {
+      sample: '0.004'
+    },
+    csp: {
+      sample: '0.008',
+      'default-src': [
+        {match: '*.baidu.com,*.bdimg.com,localhost', target: 'Accept'},
+        {match: '*', target: 'Accept,Warn'}
+      ]
+    }
+  };
+
+  void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+  void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+<meta name="csrf-token" content="">
+<meta itemprop="dateUpdate" content="2015-12-27 21:31:35" />
+
+<!--[if lte IE 9]>
+<script>
+    (function() {
+      var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
+        i = e.length;
+      while (i--) {
+        document.createElement(e[i]);
+      }
+    })();
+  </script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_2e0b0ff.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common-base_4c062e6.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/userbar-n/userbar-n_5b008b4.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module_d7320c6.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/announcement/announcement_cba33f4.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/label/label_ca156c6.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/sideShare_2af1cbd.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/video/pageMask/pageMask_ff9a193.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/mainContent_98e3702.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaRelation_ac86a59.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhixin/zhixin_3b0d7a5.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons-n/toolButtons-n_6e90fdd.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons-n/userInfo-n_7e90184.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/searchHeader-n_f9a6e5b.css"/>    
+</head>
+
+<script type="text/javascript">
+    alog('speed.set', 'ht', +new Date);
+</script>
+<script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?55b574651fcae74b0a9f1cf9c8d7c93a";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+<body class="wiki-lemma normal">
+
+
+<div class="header-wrapper pc-header-new">
+<div class="topbar cmn-clearfix">
+<ul class="wgt-userbar" id="j-wgt-userbar">
+<li>
+<a href="http://www.baidu.com/">百度首页</a>
+</li>
+</ul>
+<div class="separator"></div>
+<div class="wiki-common-headTabBar">
+<a href="https://www.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://www.baidu.com/s?ie=utf-8&fr=bks0000&wd=">网页</a>
+<a href="http://news.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&fr=bks0000&ie=utf-8&word=">新闻</a>
+<a href="https://tieba.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=">贴吧</a>
+<a href="https://zhidao.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://zhidao.baidu.com/search?pn=0&&rn=10&lm=0&fr=bks0000&word=">知道</a>
+<a href="http://music.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://music.baidu.com/search?f=ms&ct=134217728&ie=utf-8&rn=&lm=-1&pn=30&fr=bks0000&key=">音乐</a>
+<a href="http://image.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&word=">图片</a>
+<a href="http://v.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://v.baidu.com/v?ct=301989888&rn=20&pn=0&db=0&s=22&ie=utf-8&fr=bks0000&word=">视频</a>
+<a href="http://map.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://map.baidu.com/m?ie=utf-8&fr=bks0000&word=">地图</a>
+<a href="https://wenku.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&fr=bks0000&word=">文库</a>
+<b class="baike">百科</b>
+</div>
+</div>
+<div class="header">
+<div class="layout">
+<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-main cmn-clearfix wgt-searchbar-large">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080011" name="word" type="text" autocomplete="off" autocorrect="off" value="精通ASP.NET 3.5企业级开发" /><button id="search" nslog="normal" nslog-type="10080008" type="button">进入词条</button><button id="searchLemma" nslog="normal" nslog-type="10080009" type="button">全站搜索</button><a class="help" href="/help" nslog="normal" nslog-type="10080010" target="_blank">帮助</a>
+</form>
+<form id="searchLemmaForm" action="/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden" />
+<input name="pn" type="hidden" value="0" />
+<input name="rn" type="hidden" value="0" />
+<input name="enc" type="hidden" value="utf8" />
+</form>
+<ul id="suggestion" class="suggestion">
+<div class="sug"></div>
+<li class="extra">
+<span id="close" nslog="normal" nslog-type="10080012">关闭</span>
+</li>
+</ul>
+</div></div>
+</div>
+<div class="declare-wrap" id="J-declare-wrap">
+<div class="declare" id="J-declare">声明：百科词条人人可编辑，词条创建和修改均免费，绝不存在官方及代理商付费代编，请勿上当受骗。<a class="declare-details" target="_blank" href="/common/declaration">详情>></a>
+<div class="close-btn" id="J-declare-close">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navbar-wrapper">
+<div class="wgt-navbar">
+<div class="navbar-bg">
+<div class="navbar-bg-top">
+<div class="navbar-content layout">
+<div class="navbar-content-box">
+<dl class="index ">
+<dt><a href="/">首页</a></dt>
+</dl>
+<dl class="cat ">
+<dt><a>分类</a></dt>
+<dd>
+<div><a href="/art" target="_blank" class="art">艺术</a></div>
+<div><a href="/science" target="_blank" class="technology">科学</a></div>
+<div><a href="/ziran" target="_blank">自然</a></div>
+<div><a href="/wenhua" target="_blank">文化</a></div>
+<div><a href="/dili" target="_blank">地理</a></div>
+<div><a href="/shenghuo" target="_blank">生活</a></div>
+<div><a href="/shehui" target="_blank">社会</a></div>
+<div><a href="/renwu" target="_blank">人物</a></div>
+<div><a href="/jingji" target="_blank">经济</a></div>
+<div><a href="/tiyu" target="_blank">体育</a></div>
+<div><a href="/lishi" target="_blank">历史</a></div>
+</dd>
+</dl>
+<dl class="special ">
+<dt><a>特色百科</a></dt>
+<dd>
+<div><a href="/calendar/" target="_blank">历史上的今天</a></div>
+<div><a href="/museum/" target="_blank">数字博物馆</a></div>
+<div><a href="/item/史记·2016?fr=navbar" target="_blank">史记·2016</a></div>
+<div><a href="/city/" target="_blank">城市百科</a></div>
+<div><a href="/operation/worldwar2" target="_blank">二战百科</a></div>
+<div><a href="/feiyi?fr=dhlfeiyi" target="_blank">非遗百科</a></div>
+</dd>
+</dl>
+<dl class="user" >
+<dt><a>用户</a></dt>
+<dd>
+<div><a href="/kedou/" target="_blank">蝌蚪团</a></div>
+<div><a href="/event/ranmeng/" target="_blank">燃梦计划</a></div>
+<div><a href="/task/" target="_blank">百科任务</a></div>
+<div><a href="/mall/" target="_blank">百科商城</a></div>
+</dd>
+</dl>
+<dl class="cooperation" >
+<dt><a>权威合作</a></dt>
+<dd>
+<div><a href="/operation/cooperation#joint" target="_blank">合作模式</a></div>
+<div><a href="/operation/cooperation#issue" target="_blank">常见问题</a></div>
+<div><a href="/operation/cooperation#connection" target="_blank">联系方式</a></div>
+</dd>
+</dl>
+<dl class="mobile" >
+<dt><a>手机百科</a></dt>
+<dd>
+<div><a href="/m#wap" target="_blank">网页版</a></div>
+</dd>
+</dl>
+<div class="usercenter">
+<div><a href="/usercenter" target="_blank"><em class="cmn-icon cmn-icons cmn-icons_navbar-usercenter"></em>个人中心</a></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="body-wrapper">
+<div class="before-content">
+</div>
+<div class="content-wrapper">
+<div class="content">
+<div class="personal-content">
+</div>
+<div class="main-content">
+<div class="top-tool">
+<a class="add-sub-icon top-tool-icon" href="javascript:;" title="添加义项" nslog-type="50000101">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_add-subLemma-solid"></em>
+</a>
+<a href="/divideload/%E7%B2%BE%E9%80%9AASP.NET%203.5%E4%BC%81%E4%B8%9A%E7%BA%A7%E5%BC%80%E5%8F%91" title="拆分词条" target="_blank" class="split-icon top-tool-icon" style="display:none;" nslog-type="50000104">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lemma-split"></em>
+</a>
+<div class="top-collect top-tool-icon" nslog="area" nslog-type="50000102">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-solid"></em>
+<span class="collect-text">收藏</span>
+<div class="collect-tip">查看<a href="/uc/favolemma" target="_blank">我的收藏</a></div>
+</div>
+<a href="javascript:void(0);" id="j-top-vote" class="top-vote top-tool-icon" nslog-type="10060801">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-solid"></em>
+<span class="vote-count">0</span>
+<span class="vote-tip">有用+1</span>
+<span class="voted-tip">已投票</span>
+</a><div class="bksharebuttonbox top-share">
+<a class="top-share-icon top-tool-icon" nslog-type="9067">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_share"></em>
+<span class="share-count" id="j-topShareCount">0</span>
+</a>
+<div class="new-top-share" id="top-share">
+<ul class="top-share-list">
+<li class="top-share-item">
+<a class="share-link bds_qzone"  href="javascript:void(0);" nslog-type="10060501">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="share-link bds_tsina" href="javascript:void(0);" nslog-type="10060701">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="bds_wechat"  href="javascript:void(0);" nslog-type="10060401">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="share-link bds_tqq"  href="javascript:void(0);" nslog-type="10060601">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div style="width:0;height:0;clear:both"></div><dl class="lemmaWgt-lemmaTitle lemmaWgt-lemmaTitle-">
+<dd class="lemmaWgt-lemmaTitle-title">
+<h1 >精通ASP.NET 3.5企业级开发</h1>
+<a href="javascript:;" class="edit-lemma cmn-btn-hover-blue cmn-btn-28 j-edit-link"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+<a class="lock-lemma" target="_blank" href="/view/10812319.htm" title="锁定"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lock-lemma"></em>锁定</a>
+</dd>
+</dl><div class="edit-prompt">本词条缺少<strong>名片图</strong>，补充相关内容使词条更完整，还能快速升级，赶紧来<a  class="edit-prompt-link j-edit-link">编辑</a>吧！</div>
+<div class="promotion-declaration">
+</div><div class="lemma-summary" label-module="lemmaSummary">
+<div class="para" label-module="para">《精通ASP.NET3.5企业级开发》全书共分29章，内容涵盖了分析、设计、开发和测试这4个软件工程的主要步骤。通过4个实例（会员软件系统、客户关系管理系统CRM、办公自动化系统OA、网上书店系统）讲解了软件的开发过程。本书最大的特色在于实践知识多于理论知识，力求让读者通过亲自动手来掌握ASP.NET3.5新技术。</div>
+</div>
+<div class="configModuleBanner">
+</div><div class="basic-info cmn-clearfix">
+<dl class="basicInfo-block basicInfo-left">
+<dt class="basicInfo-item name">书&nbsp;&nbsp;&nbsp;&nbsp;名</dt>
+<dd class="basicInfo-item value">
+精通ASP.NET 3.5企业级开发
+</dd>
+<dt class="basicInfo-item name">作&nbsp;&nbsp;&nbsp;&nbsp;者</dt>
+<dd class="basicInfo-item value">
+<a target=_blank href="/item/%E7%8E%8B%E5%B2%A9">王岩</a>
+</dd>
+<dt class="basicInfo-item name">ISBN</dt>
+<dd class="basicInfo-item value">
+9787115180179
+</dd>
+</dl><dl class="basicInfo-block basicInfo-right">
+<dt class="basicInfo-item name">定&nbsp;&nbsp;&nbsp;&nbsp;价</dt>
+<dd class="basicInfo-item value">
+52.00 元
+</dd>
+<dt class="basicInfo-item name">出版社</dt>
+<dd class="basicInfo-item value">
+<a target=_blank href="/item/%E4%BA%BA%E6%B0%91%E9%82%AE%E7%94%B5%E5%87%BA%E7%89%88%E7%A4%BE">人民邮电出版社</a>
+</dd>
+<dt class="basicInfo-item name">出版时间</dt>
+<dd class="basicInfo-item value">
+2008
+</dd>
+<dt class="basicInfo-item name">开&nbsp;&nbsp;&nbsp;&nbsp;本</dt>
+<dd class="basicInfo-item value">
+16
+</dd>
+</dl></div>
+<div class="lemmaWgt-lemmaCatalog">
+<div class="lemma-catalog">
+<h2 class="block-title">目录</h2>
+<div class="catalog-list column-1">
+<ol>
+<li class="level1">
+<span class="index">1</span>
+<span class="text"><a href="#1">内容简介</a></span>
+</li>
+<li class="level1">
+<span class="index">2</span>
+<span class="text"><a href="#2">目录</a></span>
+</li>
+<li class="level1">
+<span class="index">3</span>
+<span class="text"><a href="#3">前言</a></span>
+</li>
+<li class="level1">
+<span class="index">4</span>
+<span class="text"><a href="#4">书摘</a></span>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="anchor-list">
+<a name="1" class="lemma-anchor para-title" ></a>
+<a name="sub7800221_1" class="lemma-anchor " ></a>
+<a name="内容简介" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">精通ASP.NET 3.5企业级开发</span>内容简介</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="1" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">本书由浅入深、循序渐进地介绍了.NET3.5的新技术，包括新控件、新功能和新的类，还讲述到了Microsoft公司最新发行的LINQ查询方式，并简单介绍了其在VisualStudio2008中的应用<div class="lemma-picture text-pic layout-right" style="width:152px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E7%B2%BE%E9%80%9AASP.NET%203.5%E4%BC%81%E4%B8%9A%E7%BA%A7%E5%BC%80%E5%8F%91/1528186/0/0df431adcbef76092a46bf292edda3cc7cd99e32?fr=lemma&ct=single" target="_blank"
+		title="" style="width:152px;height:220px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=1abb19c0f21fbe09185ec4165b610c30/0df431adcbef76092a46bf292edda3cc7cd99e32.jpg"  alt="" style="width:152px;height:220px;"/>
+</a>
+</div>情况。</div>
+<div class="para" label-module="para">本书适用于初、中级.NET用户。没有接触过.NET的入门者可以轻松地阅读本书，而有过.NET开发经验的人学习本书，会了解ASP.NET3.5更强大的控件和更安全的类库，进一步掌握利用ASP.NET3.5技术开发网络应用的必要技能。</div><div class="anchor-list">
+<a name="2" class="lemma-anchor para-title" ></a>
+<a name="sub7800221_2" class="lemma-anchor " ></a>
+<a name="目录" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">精通ASP.NET 3.5企业级开发</span>目录</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="2" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">第1章　用户需求的分析与处理　1</div>
+<div class="para" label-module="para">1.1　用户提出自己的需求　1</div>
+<div class="para" label-module="para">1.2　系统分析人员分析用户的需求　2</div>
+<div class="para" label-module="para">1.2.1　分析人员体验用户环境　2</div>
+<div class="para" label-module="para">1.2.2　分析并确定调研结果　3</div>
+<div class="para" label-module="para">1.3　用户与项目管理人员确定最终需求　4</div>
+<div class="para" label-module="para">1.4　根据最终需求确定工作环境　5</div>
+<div class="para" label-module="para">1.4.1　软件环境　5</div>
+<div class="para" label-module="para">1.4.2　硬件环境　5</div>
+<div class="para" label-module="para">第2章　项目计划安排　7</div>
+<div class="para" label-module="para">2.1　项目计划软件　7</div>
+<div class="para" label-module="para">2.1.1　创建一个进度表　8</div>
+<div class="para" label-module="para">2.1.2　使用不同的图表显示项目进度　8</div>
+<div class="para" label-module="para">2.2　实现此项目需要的资源　10</div>
+<div class="para" label-module="para">2.3　如何写好项目计划安排表　11</div>
+<div class="para" label-module="para">2.4　前期的项目计划表　11</div>
+<div class="para" label-module="para">第3章　概念性系统设计　13</div>
+<div class="para" label-module="para">3.1　概念设计的原则　13</div>
+<div class="para" label-module="para">3.2　将用户需求模块化　14</div>
+<div class="para" label-module="para">3.3　确定系统最终模块　15</div>
+<div class="para" label-module="para">3.4　根据模块划分完善项目计划表　17</div>
+<div class="para" label-module="para">第4章　模块的详细设计　18</div>
+<div class="para" label-module="para">4.1　UML　18</div>
+<div class="para" label-module="para">4.1.1　为什么用UML　18</div>
+<div class="para" label-module="para">4.1.2　UML包括的内容　19</div>
+<div class="para" label-module="para">4.2　分析设计工具Visio　19</div>
+<div class="para" label-module="para">4.2.1　为什么用Visio　19</div>
+<div class="para" label-module="para">4.2.2　使用Visio设计模块　20</div>
+<div class="para" label-module="para">4.3　用图例实现设计　23</div>
+<div class="para" label-module="para">4.3.1　用例图实现业务流程的设计　24</div>
+<div class="para" label-module="para">4.3.2　类图实现静态模块结构的设计　26</div>
+<div class="para" label-module="para">4.3.3　类图与类图之间的关系　26</div>
+<div class="para" label-module="para">4.3.4　部署整个设计的架构　27</div>
+<div class="para" label-module="para">第5章　数据库设计　28</div>
+<div class="para" label-module="para">5.1　罗列数据信息　28</div>
+<div class="para" label-module="para">5.2　根据数据信息构建表结构　29</div>
+<div class="para" label-module="para">5.3　数据库构建工具PowerDesigner　31</div>
+<div class="para" label-module="para">5.3.1　使用构建工具PowerDesigner　31</div>
+<div class="para" label-module="para">5.3.2　PowerDesigner的使用　31</div>
+<div class="para" label-module="para">5.4　用PowerDesigner构建设计好的数据表　33</div>
+<div class="para" label-module="para">5.5　生成数据库　34</div>
+<div class="para" label-module="para">第6章　系统架构设计　36</div>
+<div class="para" label-module="para">6.1　三层架构的组成　36</div>
+<div class="para" label-module="para">6.2　数据访问层　38</div>
+<div class="para" label-module="para">6.2.1　数据访问逻辑组件　38</div>
+<div class="para" label-module="para">6.2.2　业务实体　38</div>
+<div class="para" label-module="para">6.2.3　数据访问代码分析　42</div>
+<div class="para" label-module="para">6.3　用户界面层分析设计　44</div>
+<div class="para" label-module="para">6.3.1　为什么要进行界面层设计　44</div>
+<div class="para" label-module="para">6.3.2　确定界面的风格　44</div>
+<div class="para" label-module="para">6.3.3　如何进行界面设计　44</div>
+<div class="para" label-module="para">6.4　小结　45</div>
+<div class="para" label-module="para">第7章　开发前期项目准备　46</div>
+<div class="para" label-module="para">7.1　进入ASP.NET3.5的世界　46</div>
+<div class="para" label-module="para">7.1.1　ASP.NET3.5的优点　47</div>
+<div class="para" label-module="para">7.1.2　创建本实例的项目　47</div>
+<div class="para" label-module="para">7.2　版本控制工具VSS　48</div>
+<div class="para" label-module="para">7.2.1　VSS的使用　48</div>
+<div class="para" label-module="para">7.2.2　将项目部署到VSS　50</div>
+<div class="para" label-module="para">7.2.3　需要注意的问题　50</div>
+<div class="para" label-module="para">7.3　界面设计的相关文件　51</div>
+<div class="para" label-module="para">7.3.1　设计母版页　51</div>
+<div class="para" label-module="para">7.3.2　设计站点地图　52</div>
+<div class="para" label-module="para">7.3.3　设计皮肤文件　54</div>
+<div class="para" label-module="para">7.4　使用LINQtoSQLClasses实现数据访问组件　55</div>
+<div class="para" label-module="para">7.4.1　在项目中添加数据库连接　55</div>
+<div class="para" label-module="para">7.4.2　在项目中添加数据库映射类　56</div>
+<div class="para" label-module="para">7.4.3　LINQtoSQL在数据访问中的位置　56</div>
+<div class="para" label-module="para">7.5　小结　57</div>
+<div class="para" label-module="para">第8章　会员卡类型管理模块　58</div>
+<div class="para" label-module="para">8.1　会员卡类型实体类　58</div>
+<div class="para" label-module="para">8.2　会员卡类型实体方法　60</div>
+<div class="para" label-module="para">8.3　会员卡类型管理功能具体实现　64</div>
+<div class="para" label-module="para">8.3.1　添加会员卡类型　65</div>
+<div class="para" label-module="para">8.3.2　修改会员卡类型名称　67</div>
+<div class="para" label-module="para">8.3.3　修改会员卡积分规则　68</div>
+<div class="para" label-module="para">8.3.4　获取卡类型积分规则　69</div>
+<div class="para" label-module="para">8.3.5　将导航地图与功能结合　69</div>
+<div class="para" label-module="para">8.4　技术要点分析　71</div>
+<div class="para" label-module="para">8.4.1　界面布局技术要点　71</div>
+<div class="para" label-module="para">8.4.2　业务实体的属性映射　72</div>
+<div class="para" label-module="para">8.4.3　StringBuild类的使用　72</div>
+<div class="para" label-module="para">8.4.4　使用.NET3.5的Lambda表达式　72</div>
+<div class="para" label-module="para">8.4.5　类型转换　73</div>
+<div class="para" label-module="para">8.4.6　partial关键字　73</div>
+<div class="para" label-module="para">8.4.7　枚举enum　73</div>
+<div class="para" label-module="para">8.4.8　跨页传递参数　74</div>
+<div class="para" label-module="para">8.4.9　判断会员卡类型名称是否重复　74</div>
+<div class="para" label-module="para">8.4.10　System.Linq命名空间　75</div>
+<div class="para" label-module="para">8.4.11　LINQ数据连接上下文　75</div>
+<div class="para" label-module="para">8.5　小结　75</div>
+<div class="para" label-module="para">第9章　会员资料管理模块　76</div>
+<div class="para" label-module="para">9.1　会员资料实体类　76</div>
+<div class="para" label-module="para">9.2　会员资料实体方法　78</div>
+<div class="para" label-module="para">9.3　会员资料管理功能具体实现　82</div>
+<div class="para" label-module="para">9.3.1　添加验证数据功能　82</div>
+<div class="para" label-module="para">9.3.2　添加配置数据源功能　83</div>
+<div class="para" label-module="para">9.3.3　添加功能的代码设计　85</div>
+<div class="para" label-module="para">9.3.4　使用GridView控件修改会员资料　87</div>
+<div class="para" label-module="para">9.3.5　修改资料功能的代码及测试　89</div>
+<div class="para" label-module="para">9.3.6　获取会员资料界面设计　90</div>
+<div class="para" label-module="para">9.3.7　获取会员资料代码设计　92</div>
+<div class="para" label-module="para">9.3.8　会员资料管理功能集成测试　94</div>
+<div class="para" label-module="para">9.4　技术要点分析　95</div>
+<div class="para" label-module="para">9.4.1　界面布局技术要点　95</div>
+<div class="para" label-module="para">9.4.2　日期型数据　95</div>
+<div class="para" label-module="para">9.4.3　GridView控件中的列属性DataFormatString　96</div>
+<div class="para" label-module="para">9.4.4　AutoPostBack　96</div>
+<div class="para" label-module="para">9.4.5　页面验证　97</div>
+<div class="para" label-module="para">9.4.6　正则表达式　97</div>
+<div class="para" label-module="para">9.4.7　分页数据显示　98</div>
+<div class="para" label-module="para">9.4.8　数据源类型　99</div>
+<div class="para" label-module="para">9.5　小结　99</div>
+<div class="para" label-module="para">第10章　商品管理模块　100</div>
+<div class="para" label-module="para">10.1　商品信息实体类　100</div>
+<div class="para" label-module="para">10.2　商品信息实体方法　101</div>
+<div class="para" label-module="para">10.3　商品管理功能具体实现　104</div>
+<div class="para" label-module="para">10.3.1　销售和退货界面设计　105</div>
+<div class="para" label-module="para">10.3.2　销售和退货代码实现　106</div>
+<div class="para" label-module="para">10.3.3　测试销售和退货功能　107</div>
+<div class="para" label-module="para">10.3.4　积分反馈规则设计及实现　108</div>
+<div class="para" label-module="para">10.3.5　积分反馈功能设计及实现　113</div>
+<div class="para" label-module="para">10.3.6　商品管理功能集成测试　115</div>
+<div class="para" label-module="para">10.4　技术要点分析　115</div>
+<div class="para" label-module="para">10.4.1　界面布局技术要点　115</div>
+<div class="para" label-module="para">10.4.2　DropDownList数据源的添加　116</div>
+<div class="para" label-module="para">10.4.3　关联表实体的数据处理　117</div>
+<div class="para" label-module="para">10.4.4　LinqDataSource自定义　118</div>
+<div class="para" label-module="para">10.4.5　GridViewRow属性　118</div>
+<div class="para" label-module="para">10.4.6　GridView控件的刷新　119</div>
+<div class="para" label-module="para">10.5　小结　119</div>
+<div class="para" label-module="para">第11章　会员卡积分管理模块　120</div>
+<div class="para" label-module="para">11.1　积分管理类　120</div>
+<div class="para" label-module="para">11.1.1　获取积分方法的实现　120</div>
+<div class="para" label-module="para">11.1.2　测试获取积分功能　123</div>
+<div class="para" label-module="para">11.1.3　积分处理方法的实现　124</div>
+<div class="para" label-module="para">11.1.4　测试积分处理功能　125</div>
+<div class="para" label-module="para">11.1.5　查询历史记录方法的实现　126</div>
+<div class="para" label-module="para">11.1.6　测试查询历史记录功能　127</div>
+<div class="para" label-module="para">11.2　积分管理功能集成测试　129</div>
+<div class="para" label-module="para">11.2.1　为积分界面添加导航链接　129</div>
+<div class="para" label-module="para">11.2.2　历史记录界面获取导航参数　129</div>
+<div class="para" label-module="para">11.3　技术要点分析　130</div>
+<div class="para" label-module="para">11.3.1　GridView控件的汇总　130</div>
+<div class="para" label-module="para">11.3.2　SQLServer的CASE函数　131</div>
+<div class="para" label-module="para">11.3.3　导航参数的设置和获取　132</div>
+<div class="para" label-module="para">11.3.4　LINQ中的SUM求和　133</div>
+<div class="para" label-module="para">11.3.5　调试技巧　134</div>
+<div class="para" label-module="para">11.3.6　SqlDataReader类的使用　135</div>
+<div class="para" label-module="para">11.3.7　C#的运算符　136</div>
+<div class="para" label-module="para">11.3.8　switch关键字　137</div>
+<div class="para" label-module="para">11.3.9　var关键字　137</div>
+<div class="para" label-module="para">11.4　小结　138</div>
+<div class="para" label-module="para">第12章　权限管理模块　139</div>
+<div class="para" label-module="para">12.1　创建登录界面　139</div>
+<div class="para" label-module="para">12.1.1　ASP.NET3.5的注册控件　140</div>
+<div class="para" label-module="para">12.1.2　设计Default.aspx默认主页　141</div>
+<div class="para" label-module="para">12.1.3　ASP.NET3.5的登录控件　141</div>
+<div class="para" label-module="para">12.1.4　创建默认错误页面　144</div>
+<div class="para" label-module="para">12.2　用户信息的存储　144</div>
+<div class="para" label-module="para">12.2.1　查看创建的用户　144</div>
+<div class="para" label-module="para">12.2.2　用.NET配置工具管理用户　145</div>
+<div class="para" label-module="para">12.3　角色权限管理　146</div>
+<div class="para" label-module="para">12.3.1　创建角色　147</div>
+<div class="para" label-module="para">12.3.2　管理角色的访问权限　148</div>
+<div class="para" label-module="para">12.4　测试角色的访问规则　149</div>
+<div class="para" label-module="para">12.4.1　测试管理员访问权限　149</div>
+<div class="para" label-module="para">12.4.2　测试普通用户访问权限　150</div>
+<div class="para" label-module="para">12.5　代码设计技术要点　150</div>
+<div class="para" label-module="para">12.5.1　使用.NET配置工具的注意事项　150</div>
+<div class="para" label-module="para">12.5.2　在Web.config中指定默认错误页　151</div>
+<div class="para" label-module="para">12.5.3　在程序中访问错误配置节　151</div>
+<div class="para" label-module="para">12.5.4　管理Forms身份验证服务的类　151</div>
+<div class="para" label-module="para">12.5.5　Membership类的功能　152</div>
+<div class="para" label-module="para">12.5.6　Membership类在Web.config文件中如何配置　152</div>
+<div class="para" label-module="para">12.5.7　使用Membership类管理用户　153</div>
+<div class="para" label-module="para">12.5.8　MembershipUser：用户信息类　153</div>
+<div class="para" label-module="para">12.5.9　在Web.config文件中配置角色管理　155</div>
+<div class="para" label-module="para">12.5.10　使用Roles类管理角色　155</div>
+<div class="para" label-module="para">12.5.11　将用户角色配置在自己的数据库中　156</div>
+<div class="para" label-module="para">12.6　小结　157</div>
+<div class="para" label-module="para">第13章　项目的测试　158</div>
+<div class="para" label-module="para">13.1　软件的测试　158</div>
+<div class="para" label-module="para">13.1.1　测试的目的　158</div>
+<div class="para" label-module="para">13.1.2　测试的方法　159</div>
+<div class="para" label-module="para">13.1.3　传统测试的问题及解决方案　159</div>
+<div class="para" label-module="para">13.2　测试的工具　160</div>
+<div class="para" label-module="para">13.2.1　VisualStudio2008中的NUnit　160</div>
+<div class="para" label-module="para">13.2.2　用NUnit进行测试　161</div>
+<div class="para" label-module="para">第14章　部署及发行　165</div>
+<div class="para" label-module="para">14.1　书写软件的配置说明　165</div>
+<div class="para" label-module="para">14.1.1　软件要求包括的文档　165</div>
+<div class="para" label-module="para">14.1.2　软件运行环境的要求　165</div>
+<div class="para" label-module="para">14.2　软件的部署　166</div>
+<div class="para" label-module="para">14.2.1　整理软件运行需要的文件资源　166</div>
+<div class="para" label-module="para">14.2.2　VisualStudio2008提供的部署模板　166</div>
+<div class="para" label-module="para">14.2.3　创建Web安装项目　167</div>
+<div class="para" label-module="para">14.2.4　裸机测试部署好的程序　169</div>
+<div class="para" label-module="para">14.3　如何检验软件的质量　169</div>
+<div class="para" label-module="para">第15章　客户关系管理系统CRM的设计　170</div>
+<div class="para" label-module="para">15.1　CRM的分类和价值体现　170</div>
+<div class="para" label-module="para">15.1.1　CRM的分类　170</div>
+<div class="para" label-module="para">15.1.2　CRM的价值体现　171</div>
+<div class="para" label-module="para">15.2　企业的CRM需求分析　171</div>
+<div class="para" label-module="para">15.2.1　企业的需求列表　171</div>
+<div class="para" label-module="para">15.2.2　分析企业的需求　172</div>
+<div class="para" label-module="para">15.2.3　体验企业业务流程并确定最终需求　172</div>
+<div class="para" label-module="para">15.3　系统模块设计　172</div>
+<div class="para" label-module="para">15.3.1　根据需求确定模块内容　173</div>
+<div class="para" label-module="para">15.3.2　分析功能模块并设计类图　173</div>
+<div class="para" label-module="para">15.4　数据库设计　175</div>
+<div class="para" label-module="para">15.4.1　数据库的表信息　175</div>
+<div class="para" label-module="para">15.4.2　数据库的表关系　179</div>
+<div class="para" label-module="para">15.4.3　数据库的操作类　180</div>
+<div class="para" label-module="para">15.5　开发前期的项目构建　180</div>
+<div class="para" label-module="para">15.5.1　创建项目　180</div>
+<div class="para" label-module="para">15.5.2　设计母版页　180</div>
+<div class="para" label-module="para">第16章　基础配置模块　183</div>
+<div class="para" label-module="para">16.1　区域设置　183</div>
+<div class="para" label-module="para">16.1.1　添加区域　183</div>
+<div class="para" label-module="para">16.1.2　设计“选择区域”用户控件　187</div>
+<div class="para" label-module="para">16.1.3　添加区域中的城市　189</div>
+<div class="para" label-module="para">16.1.4　用主细表方式查看区域和城市　192</div>
+<div class="para" label-module="para">16.2　客户等级设置　193</div>
+<div class="para" label-module="para">16.2.1　客户等级的设计　193</div>
+<div class="para" label-module="para">16.2.2　客户等级的代码实现　194</div>
+<div class="para" label-module="para">16.3　客户状态设置　195</div>
+<div class="para" label-module="para">16.4　客户业务类型设置　196</div>
+<div class="para" label-module="para">16.5　部门设置　196</div>
+<div class="para" label-module="para">16.6　基础配置模块集成测试　198</div>
+<div class="para" label-module="para">16.7　代码设计技术要点　200</div>
+<div class="para" label-module="para">16.7.1　DataList控件的属性和模板　200</div>
+<div class="para" label-module="para">16.7.2　DataList控件如何使用　200</div>
+<div class="para" label-module="para">16.7.3　XML文件的概念及用途　201</div>
+<div class="para" label-module="para">16.7.4　XML文件的优缺点　202</div>
+<div class="para" label-module="para">16.7.5　XML文件与HTML文件的区别　202</div>
+<div class="para" label-module="para">16.7.6　XPath方法　202</div>
+<div class="para" label-module="para">16.7.7　LINQ实体关系图　203</div>
+<div class="para" label-module="para">16.8　小结　204</div>
+<div class="para" label-module="para">第17章　客户管理模块　205</div>
+<div class="para" label-module="para">17.1　客户资料的管理　205</div>
+<div class="para" label-module="para">17.1.1　客户资料中常用的用户控件　205</div>
+<div class="para" label-module="para">17.1.2　设计客户资料实体类　206</div>
+<div class="para" label-module="para">17.1.3　设计客户资料实体方法　207</div>
+<div class="para" label-module="para">17.1.4　添加客户资料　210</div>
+<div class="para" label-module="para">17.1.5　修改客户资料　211</div>
+<div class="para" label-module="para">17.1.6　设计GridView控件的模板列　213</div>
+<div class="para" label-module="para">17.1.7　查询客户资料　215</div>
+<div class="para" label-module="para">17.2　联系人资料的管理　218</div>
+<div class="para" label-module="para">17.2.1　添加联系人　218</div>
+<div class="para" label-module="para">17.2.2　修改联系人资料　222</div>
+<div class="para" label-module="para">17.2.3　查询联系人　223</div>
+<div class="para" label-module="para">17.2.4　联系人生日提醒功能　224</div>
+<div class="para" label-module="para">17.3　客户管理模块集成测试　225</div>
+<div class="para" label-module="para">17.4　代码设计技术要点　226</div>
+<div class="para" label-module="para">17.4.1　SQLServer中的模糊查询　226</div>
+<div class="para" label-module="para">17.4.2　LINQ的模糊查询　226</div>
+<div class="para" label-module="para">17.4.3　日期控件的使用　227</div>
+<div class="para" label-module="para">17.4.4　验证控件ValidationSummary的使用方法　228</div>
+<div class="para" label-module="para">17.4.5　日期型数据的算术操作　228</div>
+<div class="para" label-module="para">17.4.6　数据库空值DBNull的使用技巧　229</div>
+<div class="para" label-module="para">17.4.7　LINQ实体类和实体类之间的关系　230</div>
+<div class="para" label-module="para">17.4.8　LINQ的泛型查询结果IQueryable　231</div>
+<div class="para" label-module="para">17.5　小结　231</div>
+<div class="para" label-module="para">第18章　员工管理模块　232</div>
+<div class="para" label-module="para">18.1　员工资料管理　232</div>
+<div class="para" label-module="para">18.1.1　员工资料的实体类　232</div>
+<div class="para" label-module="para">18.1.2　员工资料的实体方法　234</div>
+<div class="para" label-module="para">18.1.3　实现对员工的添加和编辑　235</div>
+<div class="para" label-module="para">18.2　工作日志管理　237</div>
+<div class="para" label-module="para">18.2.1　设计日志的登记功能　237</div>
+<div class="para" label-module="para">18.2.2　用主细表方式实现日志的查询　240</div>
+<div class="para" label-module="para">18.3　联系记录管理　242</div>
+<div class="para" label-module="para">18.3.1　为销售人员设计最近的联系记录　242</div>
+<div class="para" label-module="para">18.3.2　用查询实现联系记录的快速浏览　245</div>
+<div class="para" label-module="para">18.4　计划任务管理　246</div>
+<div class="para" label-module="para">18.4.1　计划任务的实体和方法　246</div>
+<div class="para" label-module="para">18.4.2　使用MultiView控件实现计划任务管理　248</div>
+<div class="para" label-module="para">18.4.3　设计SqlDataSource的多表查询语句　251</div>
+<div class="para" label-module="para">18.5　员工管理模块集成测试　252</div>
+<div class="para" label-module="para">18.6　代码设计技术要点　253</div>
+<div class="para" label-module="para">18.6.1　使用SQL语句查询区间范围与使用LINQ的区别　253</div>
+<div class="para" label-module="para">18.6.2　LinqDataSource控件中参数的动态设置　253</div>
+<div class="para" label-module="para">18.6.3　Page的首次加载属性IsPostBack　254</div>
+<div class="para" label-module="para">18.6.4　提高Web页面性能的技巧　254</div>
+<div class="para" label-module="para">18.7　小结　255</div>
+<div class="para" label-module="para">第19章　客户服务管理模块　256</div>
+<div class="para" label-module="para">19.1　客户投诉管理　256</div>
+<div class="para" label-module="para">19.1.1　客户投诉功能的界面设计　256</div>
+<div class="para" label-module="para">19.1.2　创建存储过程　257</div>
+<div class="para" label-module="para">19.1.3　使用存储过程实现记录的添加(LINQ方式)　258</div>
+<div class="para" label-module="para">19.1.4　用主细表方式实现对投诉的处理　259</div>
+<div class="para" label-module="para">19.2　客户新需求管理　261</div>
+<div class="para" label-module="para">19.2.1　客户新需求的登记　261</div>
+<div class="para" label-module="para">19.2.2　用存储过程无代码实现需求的修改　262</div>
+<div class="para" label-module="para">19.3　客户合同管理　264</div>
+<div class="para" label-module="para">19.3.1　合同管理　264</div>
+<div class="para" label-module="para">19.3.2　合同到期提示功能　265</div>
+<div class="para" label-module="para">19.4　实施项目管理　266</div>
+<div class="para" label-module="para">19.4.1　实施项目的总结　266</div>
+<div class="para" label-module="para">19.4.2　认识ASP.NET的缓存　268</div>
+<div class="para" label-module="para">19.4.3　页面缓存的使用方法　268</div>
+<div class="para" label-module="para">19.4.4　用缓存提高实施项目的查询性能　268</div>
+<div class="para" label-module="para">19.5　客户服务管理模块集成测试　270</div>
+<div class="para" label-module="para">19.6　代码设计技术要点　270</div>
+<div class="para" label-module="para">19.6.1　数据类型的比较方法CompareTo　270</div>
+<div class="para" label-module="para">19.6.2　数据缓存Cache的使用　271</div>
+<div class="para" label-module="para">19.6.3　存储过程中输出参数的使用　272</div>
+<div class="para" label-module="para">19.6.4　SqlCommand命令中的输入输出参数　272</div>
+<div class="para" label-module="para">19.7　小结　273</div>
+<div class="para" label-module="para">第20章　OA系统的需求设计　274</div>
+<div class="para" label-module="para">20.1　分析OA的用户需求　274</div>
+<div class="para" label-module="para">20.1.1　中小企业的OA需求列表　274</div>
+<div class="para" label-module="para">20.1.2　分析企业需求　275</div>
+<div class="para" label-module="para">20.1.3　进行需求调研并确定最终需求　275</div>
+<div class="para" label-module="para">20.2　设计OA的系统模块　275</div>
+<div class="para" label-module="para">20.2.1　根据需求分析模块　276</div>
+<div class="para" label-module="para">20.2.2　设计各模块的类和方法　277</div>
+<div class="para" label-module="para">20.3　为OA系统构建数据库　278</div>
+<div class="para" label-module="para">20.3.1　根据需求构建数据库　278</div>
+<div class="para" label-module="para">20.3.2　.NET3.5自动生成的数据库　281</div>
+<div class="para" label-module="para">20.4　开发前期的项目构建　282</div>
+<div class="para" label-module="para">20.4.1　使用Menu控件搭建OA系统的项目模板　283</div>
+<div class="para" label-module="para">20.4.2　为系统添加数据库实体类　284</div>
+<div class="para" label-module="para">第21章　管理者特区设置模块　285</div>
+<div class="para" label-module="para">21.1　使用MultiView控件设置权限　285</div>
+<div class="para" label-module="para">21.1.1　管理角色　285</div>
+<div class="para" label-module="para">21.1.2　用户的管理　287</div>
+<div class="para" label-module="para">21.1.3　赋予用户角色权限　289</div>
+<div class="para" label-module="para">21.2　考勤设置　290</div>
+<div class="para" label-module="para">21.3　部门设置　293</div>
+<div class="para" label-module="para">21.4　公告管理　295</div>
+<div class="para" label-module="para">21.4.1　发布公告　295</div>
+<div class="para" label-module="para">21.4.2　滚动显示公告内容　296</div>
+<div class="para" label-module="para">21.5　管理者特区集成测试　297</div>
+<div class="para" label-module="para">21.6　代码设计技术要点　298</div>
+<div class="para" label-module="para">21.6.1　SQLServer的日期函数　298</div>
+<div class="para" label-module="para">21.6.2　服务器端如何动态输出脚本块　299</div>
+<div class="para" label-module="para">21.6.3　引用母版页中的内容　300</div>
+<div class="para" label-module="para">21.6.4　Menu控件的特色　301</div>
+<div class="para" label-module="para">21.6.5　以编程方式访问Menu控件　301</div>
+<div class="para" label-module="para">21.7　小结　302</div>
+<div class="para" label-module="para">第22章　个人办公室管理模块　303</div>
+<div class="para" label-module="para">22.1　密码管理　303</div>
+<div class="para" label-module="para">22.1.1　设计登录界面　303</div>
+<div class="para" label-module="para">22.1.2　修改密码　304</div>
+<div class="para" label-module="para">22.1.3　找回密码　305</div>
+<div class="para" label-module="para">22.1.4　使用SMTP虚拟服务器发送邮件　306</div>
+<div class="para" label-module="para">22.2　短信息管理　307</div>
+<div class="para" label-module="para">22.2.1　发送短信息　307</div>
+<div class="para" label-module="para">22.2.2　接收短信息　308</div>
+<div class="para" label-module="para">22.2.3　查看发送信息记录　311</div>
+<div class="para" label-module="para">22.3　邮箱管理　312</div>
+<div class="para" label-module="para">22.3.1　邮件的SMTP设置　312</div>
+<div class="para" label-module="para">22.3.2　发送邮件　314</div>
+<div class="para" label-module="para">22.3.3　接收邮件　316</div>
+<div class="para" label-module="para">22.4　个人日程安排　317</div>
+<div class="para" label-module="para">22.4.1　日程安排　317</div>
+<div class="para" label-module="para">22.4.2　当日日程提醒功能　319</div>
+<div class="para" label-module="para">22.5　个性化设置　320</div>
+<div class="para" label-module="para">22.5.1　Profile的配置　320</div>
+<div class="para" label-module="para">22.5.2　使用Profile实现个性化网页　320</div>
+<div class="para" label-module="para">22.6　个人办公室管理模块集成测试　322</div>
+<div class="para" label-module="para">22.7　代码技术要点分析　323</div>
+<div class="para" label-module="para">22.7.1　获取登录用户的信息　323</div>
+<div class="para" label-module="para">22.7.2　POP3和SMTP　324</div>
+<div class="para" label-module="para">22.7.3　用ProfileSection实现配置文件的编辑　324</div>
+<div class="para" label-module="para">22.8　小结　325</div>
+<div class="para" label-module="para">第23章　信息共享区管理模块　326</div>
+<div class="para" label-module="para">23.1　知识库资料管理　326</div>
+<div class="para" label-module="para">23.1.1　文件的上传　326</div>
+<div class="para" label-module="para">23.1.2　浏览服务器上的文件　328</div>
+<div class="para" label-module="para">23.1.3　文件的下载　330</div>
+<div class="para" label-module="para">23.1.4　文件的查询　332</div>
+<div class="para" label-module="para">23.2　在线人员管理　333</div>
+<div class="para" label-module="para">23.2.1　查看在线人员　333</div>
+<div class="para" label-module="para">23.2.2　向在线人员发送信息　335</div>
+<div class="para" label-module="para">23.2.3　当前用户的登录和注销　335</div>
+<div class="para" label-module="para">23.3　浏览公告历史记录　336</div>
+<div class="para" label-module="para">23.4　信息服务管理　337</div>
+<div class="para" label-module="para">23.4.1　用WebService实现天气预报　337</div>
+<div class="para" label-module="para">23.4.2　在程序中使用WebService　338</div>
+<div class="para" label-module="para">23.5　信息共享区管理模块集成测试　339</div>
+<div class="para" label-module="para">23.6　代码技术要点分析　340</div>
+<div class="para" label-module="para">23.6.1　WebService的概念　340</div>
+<div class="para" label-module="para">23.6.2　WebService在.NET中的应用　341</div>
+<div class="para" label-module="para">23.6.3　文件和目录操作的类　341</div>
+<div class="para" label-module="para">23.6.4　用代码创建DataTable　343</div>
+<div class="para" label-module="para">23.6.5　获取网站中其他网页的内容　343</div>
+<div class="para" label-module="para">23.7　小结　344</div>
+<div class="para" label-module="para">第24章　人力资源管理模块　345</div>
+<div class="para" label-module="para">24.1　工资管理　345</div>
+<div class="para" label-module="para">24.1.1　工资计算公式的设计　345</div>
+<div class="para" label-module="para">24.1.2　工资的发放　349</div>
+<div class="para" label-module="para">24.2　绩效管理　352</div>
+<div class="para" label-module="para">24.2.1　考核员工　352</div>
+<div class="para" label-module="para">24.2.2　查询员工考核记录　354</div>
+<div class="para" label-module="para">24.3　培训管理　355</div>
+<div class="para" label-module="para">24.4　招聘管理　355</div>
+<div class="para" label-module="para">24.4.1　空缺申报　355</div>
+<div class="para" label-module="para">24.4.2　空缺查看并处理　357</div>
+<div class="para" label-module="para">24.5　人力资源管理模块集成测试　358</div>
+<div class="para" label-module="para">24.6　简单OA系统集成测试　358</div>
+<div class="para" label-module="para">24.7　代码技术要点分析　360</div>
+<div class="para" label-module="para">24.7.1　字符串的操作方法　361</div>
+<div class="para" label-module="para">24.7.2　SelectedText、SelectedValue、SelectedItem3者的区别　361</div>
+<div class="para" label-module="para">24.7.3　LoginStatus控件的使用　362</div>
+<div class="para" label-module="para">24.8　小结　362</div>
+<div class="para" label-module="para">第25章　网上书店的设计　363</div>
+<div class="para" label-module="para">25.1　书店系统的用户需求　363</div>
+<div class="para" label-module="para">25.1.1　用户根据业务流程提出需求　363</div>
+<div class="para" label-module="para">25.1.2　项目小组分析用户的需求　364</div>
+<div class="para" label-module="para">25.1.3　与用户一起确定最终需求　364</div>
+<div class="para" label-module="para">25.2　根据需求设计系统的功能　364</div>
+<div class="para" label-module="para">25.2.1　划分系统的功能模块　364</div>
+<div class="para" label-module="para">25.2.2　设计各模块的功能及方法　365</div>
+<div class="para" label-module="para">25.3　根据功能设计数据库　366</div>
+<div class="para" label-module="para">25.3.1　数据库中的表结构　366</div>
+<div class="para" label-module="para">25.3.2　数据库的操作类（LINQ）　369</div>
+<div class="para" label-module="para">25.4　构建项目模板　369</div>
+<div class="para" label-module="para">25.4.1　创建项目　369</div>
+<div class="para" label-module="para">25.4.2　设计项目的母版页　370</div>
+<div class="para" label-module="para">25.4.3　设计网站的默认Default页　370</div>
+<div class="para" label-module="para">25.5　小结　371</div>
+<div class="para" label-module="para">第26章　目录管理模块　372</div>
+<div class="para" label-module="para">26.1　用户的登录　372</div>
+<div class="para" label-module="para">26.1.1　用户的注册　372</div>
+<div class="para" label-module="para">26.1.2　用户的登录　373</div>
+<div class="para" label-module="para">26.1.3　显示用户的登录状态　375</div>
+<div class="para" label-module="para">26.2　浏览网站中的书籍目录　375</div>
+<div class="para" label-module="para">26.2.1　添加书籍的分类目录　375</div>
+<div class="para" label-module="para">26.2.2　浏览书籍的分类目录　378</div>
+<div class="para" label-module="para">26.2.3　删除书籍的分类目录　380</div>
+<div class="para" label-module="para">26.3　目录管理模块集成测试　383</div>
+<div class="para" label-module="para">26.3.1　后台管理页面　383</div>
+<div class="para" label-module="para">26.3.2　获取母版页中的导航列表　384</div>
+<div class="para" label-module="para">26.4　代码设计技术要点　385</div>
+<div class="para" label-module="para">26.4.1　Web.config中的验证属性authentication　385</div>
+<div class="para" label-module="para">26.4.2　泛型　386</div>
+<div class="para" label-module="para">26.4.3　泛型的优缺点　386</div>
+<div class="para" label-module="para">26.4.4　LINQ数据集到泛型集合的转换　387</div>
+<div class="para" label-module="para">26.4.5　用Repeater控件绑定单个数据项　387</div>
+<div class="para" label-module="para">26.5　小结　388</div>
+<div class="para" label-module="para">第27章　图书管理模块　389</div>
+<div class="para" label-module="para">27.1　商品供应商管理　389</div>
+<div class="para" label-module="para">27.1.1　设计供应商管理功能的界面　389</div>
+<div class="para" label-module="para">27.1.2　实现供应商管理功能　390</div>
+<div class="para" label-module="para">27.2　图书资料管理　391</div>
+<div class="para" label-module="para">27.2.1　图书入库功能的界面设计　392</div>
+<div class="para" label-module="para">27.2.2　图书入库功能的代码实现　392</div>
+<div class="para" label-module="para">27.2.3　图书资料的修改　396</div>
+<div class="para" label-module="para">27.2.4　图书浏览功能　397</div>
+<div class="para" label-module="para">27.2.5　图书搜索功能　399</div>
+<div class="para" label-module="para">27.3　图书管理模块集成测试　402</div>
+<div class="para" label-module="para">27.4　代码设计技术要点　402</div>
+<div class="para" label-module="para">27.4.1　正则表达式操作类Regex　403</div>
+<div class="para" label-module="para">27.4.2　判断数据库中字段是否为空　404</div>
+<div class="para" label-module="para">27.4.3　分析字符串方法Split　405</div>
+<div class="para" label-module="para">27.4.4　LINQ中的事务处理机制　405</div>
+<div class="para" label-module="para">27.5　小结　406</div>
+<div class="para" label-module="para">第28章　购物篮管理模块　407</div>
+<div class="para" label-module="para">28.1　显示商品详细信息　407</div>
+<div class="para" label-module="para">28.1.1　设计购物界面　407</div>
+<div class="para" label-module="para">28.1.2　设计购物功能　408</div>
+<div class="para" label-module="para">28.2　添加商品到购物篮　409</div>
+<div class="para" label-module="para">28.2.1　设计购物篮界面　410</div>
+<div class="para" label-module="para">28.2.2　自定义配置文件提供程序ProfileProvider　411</div>
+<div class="para" label-module="para">28.2.3　实现购物篮内容的添加和保存　425</div>
+<div class="para" label-module="para">28.3　购物篮中商品的价格计算、修改和删除　429</div>
+<div class="para" label-module="para">28.3.1　修改购物篮中图书的数量　430</div>
+<div class="para" label-module="para">28.3.2　计算购物篮内的总价值　430</div>
+<div class="para" label-module="para">28.3.3　移除购物篮中的商品　432</div>
+<div class="para" label-module="para">28.4　集成测试注意事项　432</div>
+<div class="para" label-module="para">28.5　代码设计技术要点　433</div>
+<div class="para" label-module="para">28.5.1　Dictionary集合　433</div>
+<div class="para" label-module="para">28.5.2　ProfileProvider配置提供程序　434</div>
+<div class="para" label-module="para">28.6　小结　435</div>
+<div class="para" label-module="para">第29章　订单管理模块　436</div>
+<div class="para" label-module="para">29.1　自定义账户地址　436</div>
+<div class="para" label-module="para">29.1.1　在母版页中实现下订单功能　436</div>
+<div class="para" label-module="para">29.1.2　在购物篮中实现提交订单功能　437</div>
+<div class="para" label-module="para">29.1.3　设计账户地址用户控件　437</div>
+<div class="para" label-module="para">29.1.4　保存账户地址信息　440</div>
+<div class="para" label-module="para">29.1.5　账户地址的Profile设置　441</div>
+<div class="para" label-module="para">29.2　送货地址　443</div>
+<div class="para" label-module="para">29.3　银行卡支付信息　444</div>
+<div class="para" label-module="para">29.4　提交订单　446</div>
+<div class="para" label-module="para">29.4.1　设计地址确认控件　446</div>
+<div class="para" label-module="para">29.4.2　在订单中实现地址确认功能　446</div>
+<div class="para" label-module="para">29.5　订单完成　447</div>
+<div class="para" label-module="para">29.5.1　设计所购商品的显示控件　447</div>
+<div class="para" label-module="para">29.5.2　设计订单的完成功能　448</div>
+<div class="para" label-module="para">29.6　代码设计技术要点　453</div>
+<div class="para" label-module="para">29.6.1　Wizard控件的概述　453</div>
+<div class="para" label-module="para">29.6.2　Wizard控件的使用　453</div>
+<div class="para" label-module="para">29.6.3　SQLServer的系统函数　454</div>
+<div class="para" label-module="para">29.7　小结　455</div>
+<div class="para" label-module="para">……</div><div class="anchor-list">
+<a name="3" class="lemma-anchor para-title" ></a>
+<a name="sub7800221_3" class="lemma-anchor " ></a>
+<a name="前言" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">精通ASP.NET 3.5企业级开发</span>前言</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="3" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">网络已经成为我们工作和生活不可缺少的一部分，随着网络时代的到来，开发网络应用软件成了炙手可热的职业。越来越多的人学习制作个人网站、门户网站、企业服务网站。Microsoft公司.NET技术的推出，使网站的开发变得轻松自如。.</div>
+<div class="para" label-module="para">ASP已经渐渐退出了历史的舞台。.NET技术已经成为网络应用的主流，它提高了界面和代码的可定制性，更适合于大型网络系统。目前的网络服务已经不仅仅是为企业制作网站，而是利用企业的网络资源，为企业量身定做一套提高效率的应用软件系统。本书从4个实例出发，结合一些企业的需求，详细讲述了如何利用软件为企业带来更大的价值体现。</div>
+<div class="para" label-module="para">为了帮助更多的软件开发人员提高软件的开发水平，笔者精心编著了本书。本书依照软件工程的开发步骤，首先介绍需求分析，在读者掌握了企业有什么需求后，再介绍根据需求设计功能模块和数据库的方法。书中的讲述严格按照分析→设计→开发→测试的步骤进行，并详细介绍了各个步骤中的辅助工具。</div>
+<div class="para" label-module="para">本书在内容的编排和目录组织上都十分慎重，力争让读者能够快速掌握软件的使用方法。比如在每章的最后一节，都详细介绍了该章所涉及的知识点，并附以代码示范，让读者掌握这些技术的使用方法。介绍实例开发的各章统一按照功能命名，这样读者就可以明确知道每一章将要学到什么知识。</div>
+<div class="para" label-module="para">本书的特点</div>
+<div class="para" label-module="para">1．版本最新，与时俱进</div>
+<div class="para" label-module="para">采用最新的ASP.NET 3.5技术，使用Visual Studio 2008开发环境，在讲解各个实例的时候结合了它的新功能。</div>
+<div class="para" label-module="para">2．采用多个版本的数据库查询方式</div>
+<div class="para" label-module="para">在数据库查询方面，既介绍了常见的SQL查询方式，也介绍了最新的LINQ查询方式。</div>
+<div class="para" label-module="para">3．步骤清晰，说明详细</div>
+<div class="para" label-module="para">在具体介绍软件功能的时候，为了让读者从一开始就能知道这个功能的实现方法，本书提供了详细的图例，说明功能是如何开始、如何实现、如何返回结果的。此外，在图例中稍显复杂的地方，还提供了详细的标注，让读者一看就明白整个功能的设计原理和实现手段。</div>
+<div class="para" label-module="para">4．取材广泛，内容充实</div>
+<div class="para" label-module="para">本书根据笔者多年来的开发经验和真正的客户需求，从企业必需的应用软件着手，详细介绍了如何设计和实现各个功能。在4个实例中，使用了不同的方法实现相同的导航功能，让读者更加了解.NET 3.5中各个导航类。</div>
+<div class="para" label-module="para">5．讲解通俗，可读性强</div>
+<div class="para" label-module="para">每个实例的制作步骤都以通俗易懂的语言进行讲述，读者只需要按照步骤操作，就可以轻松地完成一个应用软件的制作，不但掌握了开发步骤，还掌握了开发技巧。</div>
+<div class="para" label-module="para">本书的内容</div>
+<div class="para" label-module="para">第1章介绍企业有需求后开发人员该如何处理。</div>
+<div class="para" label-module="para">第2章介绍接到一个项目后开发人员该如何安排项目计划。</div>
+<div class="para" label-module="para">第3章介绍如何初步设计接到的软件项目。</div>
+<div class="para" label-module="para">第4章讲述如何组合项目中的各个功能，并进行详细设计和模块划分。</div><div class="anchor-list">
+<a name="4" class="lemma-anchor para-title" ></a>
+<a name="sub7800221_4" class="lemma-anchor " ></a>
+<a name="书摘" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">精通ASP.NET 3.5企业级开发</span>书摘</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="4" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">第1章用户需求的分析与处理</div>
+<div class="para" label-module="para">1.2.2分析并确定调研结果</div>
+<div class="para" label-module="para">分析人员将需求调研的结果带回公司，写出调研报告。召开会议研讨时开发人员和项目经理等所有参与此项目的人都要参加，要根据报告一条条地分析具体流程的有效性和可行性，从软件的角度完善其中的细节；不清晰的地方要再与用户进行沟通，争取做到每个人都清楚地明白用户究竟需要什么样的功能。研讨完毕后，将可行需求和不可行需求（包括有局限性的需求）分列记录，并在不可行需求中详细注明原因，最后说明软件的目的及功能。</div>
+<div class="para" label-module="para">在本例中，不可行需求的列表如下。</div>
+<div class="para" label-module="para">（1）新会员卡使用磁卡及防伪标志。使用磁卡可以，但必须具备扫描磁卡的专用设备，仅仅依靠软件无法实现。防伪标志的使用由用户自己决定，也不能通过软件实现。</div>
+<div class="para" label-module="para">（2）办卡人员不能以各种名目向办卡人索取钱财或其他报酬。软件不是万能的，无法监督办卡人员，此需求只能由用户管理部门实施各种监管制度来满足。</div>
+<div class="para" label-module="para">（3）卡的级别由超市自己决定，并根据市场行情随时做出变化。由于卡的级别与卡的消费记录和客户信息等关联在一起，所以如果删除卡的级别，则有可能导致客户信息丢失或消费记录混乱等情况，所以建议卡的级别一旦建立，不要随便删除。</div>
+<div class="para" label-module="para">（4）会员卡如果遗失，超市方面给予补办，但不补积分。会员卡是通过身份证号来确定的，一人只办一张，如果顾客遗失，重新办理时，旧的客户资料、积分以及消费记录等都存在，却不给顾客补积分，这样明显与以前的历史记录冲突。建议要么不给补办，要么补卡同时补积分。</div>
+<div class="para" label-module="para">（5）换卡顾客因为没有历史手工数据的记录，所以新卡中无积分。顾客手中有卡，说明在此消费过，应考虑是否允许顾客凭借以前的销售单据补积分。</div>
+<div class="para" label-module="para">（6）由于用户已经存在一套销售系统，为了不冲突，建议会员卡积分统一到服务台办理，与款台分离。</div>
+<div class="para" label-module="para">对于有局限性的需求一定要仔细推敲，并与用户紧密沟通，达成改善的意见。可行性列表将在下一节详细介绍。</div>
+<div class="para" label-module="para">软件的目的是提高用户的工作效率，细分员工的工作职责，协调部门之间的业务往来，监督业务运行的过程。该软件的主要功能如下。</div>
+<div class="para" label-module="para">……</div>
+<div id="open-tag">
+<div class="open-tag-title">词条标签：</div>
+<dd id="open-tag-item">
+<span class="taglist">
+出版物
+</span>
+，<span class="taglist">
+书籍
+</span>
+</dd>
+<div class="open-tag-collapse" id="open-tag-collapse"></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="side-content">
+<div class="lemmaWgt-promotion-vbaike">
+<div class="promotion_title">V百科<a href="/vbaike#gallary" target="_blank">往期回顾</a></div>
+<div class="promotion_viewport">
+<dl>
+</dl>
+<div class="promotion_viewport_pager"></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightPreciseAd" data-lemmaId="1528186" data-lemmaTitle="精通ASP.NET 3.5企业级开发"></div><div class="lemmaWgt-sideRecommend">
+<a name="zhixinWrap" class="qnAnchor"></a>
+<div class="zhixin-box" id="zhixinWrap" data-source="" data-newLemmaId="1528186">
+</div>
+<form id="zhixinErrorForm" class="hidden" action="https://sp2.baidu.com/-uV1bjeh1BF3odCf/index.php/feedback/zx/baikeJC" target="zhixinSubErr" method="post">
+<input class="js-url" name="fb_html_url" type="hidden" />
+<input class="js-query" name="fb_query" type="hidden" />
+<input class="js-title" name="fb_card_title" type="hidden" />
+<input class="js-content" name="fb_content" type="hidden" />
+<input class="js-souceId" name="fb_source_id" type="hidden" />
+</form>
+<iframe id="zhixinSubErr" name="zhixinSubErr" style="display:none" frameborder="0"></iframe>
+</div>
+<div class="lemmaWgt-promotion-slide">
+<div class="promotion_viewport">
+<dl>
+</dl>
+<div class="promotion_viewport_pager"></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightBigAd">
+</div><dl class="side-box lemma-statistics">
+<dt class="title">词条统计</dt>
+<dd class="description">
+<ul>
+<li>浏览次数：<span id="j-lemmaStatistics-pv"></span>次</li>
+<li>编辑次数：4次<a href="/historylist/%E7%B2%BE%E9%80%9AASP.NET%203.5%E4%BC%81%E4%B8%9A%E7%BA%A7%E5%BC%80%E5%8F%91/1528186" class="nslog:1021" target="_blank">历史版本</a></li>
+<li>最近更新：<span class="j-modified-time" style="display:none">2015-12-27</span></li>
+<li>创建者：<a class="show-userCard" data-uid="443766566" title="查看此用户资料" target="_blank" href="http://www.baidu.com/p/%E7%99%BE%E7%A7%91%E5%B0%8FROBOT" nslog-type="1022">百科小ROBOT</a></li>
+</ul>
+</dd>
+</dl>
+<div class="side-catalog" style="visibility:hidden">
+<div class="side-bar">
+<em class="circle start"></em>
+<em class="circle end"></em>
+</div>
+<div class="catalog-scroller">
+<dl class="catalog-list">
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#1" class="title-link">
+<span class="text">
+<span class="title-index">1</span>
+<span class="title-link" nslog-type="10002802">内容简介</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#2" class="title-link">
+<span class="text">
+<span class="title-index">2</span>
+<span class="title-link" nslog-type="10002802">目录</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#3" class="title-link">
+<span class="text">
+<span class="title-index">3</span>
+<span class="title-link" nslog-type="10002802">前言</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#4" class="title-link">
+<span class="text">
+<span class="title-index">4</span>
+<span class="title-link" nslog-type="10002802">书摘</span>
+</span>
+</a>
+</dt>
+<a class="arrow" href="javascript:void(0);"></a>
+</dl>
+</div>
+<div class="right-wrap">
+<a class="go-up disable" href="javascript:void(0);"></a>
+<a class="go-down" href="javascript:void(0);"></a>
+</div>
+<div class="bottom-wrap">
+<a class="toggle-button" href="javascript:void(0);" nslog-type="10002803"></a>
+<a class="gotop-button" href="javascript:void(0);" nslog-type="10002804"></a>
+</div>
+</div>
+<div id="side_box_fengchao" class="fengchao side-box" nslog="area" nslog-type="10000902">
+</div>
+<div id="side_box_unionAd" class="unionAd side-box">
+<div class="union-content"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="after-content">
+<div class="fc-guess-like new" id="fc_guess_like_new">
+<span class="logo-du">
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+</span>
+<h6>猜你关注</h6>
+<ul class="cmn-clearfix">
+</ul>
+</div>
+<div class="bottom-promotion" id="bottom-promotion">
+<div id="BOTTOM_PRO_AD"></div>
+</div>
+</div>
+</div>
+
+<div class="wgt-footer-main">
+<div class="content">
+<dl class="fresh">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-fresh"></em>新手上路</dt>
+<dd>
+<div><a target="_blank" href="/usercenter/tasks#guide">成长任务</a></div>
+<div><a target="_blank" href="/help#main01">编辑入门</a></div>
+<div><a target="_blank" href="/help#main06">编辑规则</a></div>
+<div><a target="_blank" href="/help#main05">百科术语</a></div>
+</dd>
+</dl>
+<dl class="question">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-question"></em>我有疑问</dt>
+<dd>
+<div><a target="_blank" href="/wikiui/doubt?lemmaId=1528186&fr=lemma"
+            nslog-type="10070001">我要质疑</a></div>
+<div><a target="_blank" href="https://aikefu.baidu.com/?product=bk001" nslog-type="10000003">在线客服</a></div>
+<div><a target="_blank" href="http://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91">参加讨论</a></div>
+<div><a target="_blank" href="/feedback">意见反馈</a></div>
+</dd>
+</dl>
+<dl class="suggestion">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-suggestion"></em>投诉建议</dt>
+<dd>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=1">举报不良信息</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=2">未通过词条申诉</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=6">投诉侵权信息</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=5">封禁查询与解封</a></div>
+</dd>
+</dl>
+</div>
+<div class="copyright">©2018&nbsp;Baidu&nbsp;<a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;|&nbsp;<a href="http://help.baidu.com/question?prod_en=baike&class=89&id=1637" target="_blank">百科协议</a>&nbsp;|&nbsp;<a href="/operation/cooperation" target="_blank">百度百科合作平台</a>&nbsp;|&nbsp;<span>京ICP证030173号&nbsp;</span><img class="copyright-img" width="13" height="16" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/copy_rignt_24.png"></div>
+<p class="recordcode"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" target="_blank"><i class="icon-police"></i>京公网安备11000002000001号</a></p>
+</div>
+
+<div class="lemmaWgt-searchHeader">
+<div class="layout cmn-clearfix">
+<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-simple cmn-clearfix ">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080015" name="word" type="text" autocomplete="off" autocorrect="off" value="精通ASP.NET 3.5企业级开发" /><button id="search" nslog="normal" nslog-type="10080013" type="button">进入词条</button>
+</form>
+<form id="searchLemmaForm" action="/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden" />
+<input name="pn" type="hidden" value="0" />
+<input name="rn" type="hidden" value="0" />
+<input name="enc" type="hidden" value="utf8" />
+</form>
+<ul id="suggestion" class="suggestion">
+<div class="sug"></div>
+<li class="extra">
+<span id="close" nslog="normal" nslog-type="10080016">关闭</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="tool-buttons">
+<a class="toolButtons-edit button j-edit-link" href="javascript:;" nslog-type="10010001"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-hollow"></em>编辑</a>
+<a class="toolButtons-collect button" href="javascript:;" nslog-type="10010002"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-hollow"></em><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-solid"></em>收藏</a>
+<a class="toolButtons-vote button top-vote" href="javascript:;" nslog-type="10010003"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-hollow"></em><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-solid"></em><span class="j-tool-btn-vote-num">赞</span></a>
+</div>
+<div class="user-info">
+<a class="user-link unlogin" href="javascript:;" nslog-type="10010008" target="_blank">登录</a>
+</div>
+</div></div>
+<div class="new-bdsharebuttonbox new-side-share" id="side-share">
+<span class="title">分享</span>
+<div class="side-border">
+<div class="triangle"></div>
+<a class="share-link bds_qzone"  href="javascript:void(0);" nslog-type="10060101">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+<a class="share-link bds_tsina" href="javascript:void(0);" nslog-type="10060301">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+<a class="bds_wechat"  href="javascript:void(0);" nslog-type="10060001">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+<a class="share-link bds_tqq"  href="javascript:void(0);" nslog-type="10060201">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</div>
+</div>
+<div class="qrcode-wrapper" id="layer" style="display: none">
+<div class="bd_weixin_popup_header">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+<span>分享到微信朋友圈</span>
+</div>
+<div id="wechat-qrcode-img"></div>
+<div class="bd_weixin_popup_footer">打开微信“扫一扫”即可将网页分享至朋友圈</div>
+</div>
+<div></div><div></div>
+
+</body><script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/js/mod_4302fe0.js"></script>
+<script type="text/javascript">require.resourceMap({"res":{"wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/lemmaInsert.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaInsert_8f518c5.js","pkg":"wiki-lemma:p5","deps":["wiki-common:widget/component/nslog/nslog.js"]},"wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/tangram.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/tangram_459492a.js","pkg":"wiki-lemma:p5"}},"pkg":{"wiki-lemma:p5":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module-lemmaRelation_0aebd7b.js"}}});</script><script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jquery/jquery_1.11.1_dfce600.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jquery/jquery.mousewheel_4fde694.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jquery/jquery_2d56800.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jsmart/PHPJS_2406ddf.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jsmart/jsmart_a7d06a5.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/sparkMD5/sparkMD5_a5502a8.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/swfObject/swfObject_00526c3.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/letvPlayer/letvPlayer_f923883.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common-base_ce9c01b.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/component/userbar-n/userbar-n_8f86b7d.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_3ffa925.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhixin/zhixin_58e6342.js"></script>
+<script type="text/javascript">!function(){  var $ = require('wiki-common:widget/lib/jquery/jquery'),
+    userbar = require('wiki-common:widget/component/userbar-n/userbar-n');
+    
+  userbar.buildUserbar($('#j-wgt-userbar'), null);
+}();
+!function(){  require('wiki-common:widget/component/headTabBar/headTabBar');
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      initSearchbar = require('wiki-common:widget/component/searchbar-n/searchbar');  
+    initSearchbar($('.wgt-searchbar-main'));
+  }();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var cookie = require('wiki-common:widget/util/cookie');
+    if (!cookie.get('baikedeclare')) {
+        $('#J-declare-wrap').css('display', 'block');
+    }
+    $('#J-declare-close').on('click', function () {
+        // 用户关闭后，不再显示，这里暂设过期时间为1年
+        cookie.set('baikedeclare', 'showed', {
+            expires: 365 * 60 * 60 * 24 * 1000,
+            path: '/'
+        });
+        $('#J-declare-wrap').css('display', 'none');
+    });
+}();
+!function(){  var $ = require('wiki-common:widget/lib/jquery/jquery');
+
+  var timer = '';
+
+  $('.wgt-navbar').on('mouseenter', 'dl', function() {
+  clearTimeout(timer);
+  timer = setTimeout(function() {
+  $('.wgt-navbar').addClass('wgt-navbar-hover');
+}, 300);
+}).on('mouseleave', function() {
+clearTimeout(timer);
+$('.wgt-navbar').removeClass('wgt-navbar-hover');
+}).on('click', 'a', function() {
+clearTimeout(timer);
+$('.wgt-navbar').removeClass('wgt-navbar-hover');
+});
+}();
+!function(){                var $ = require('wiki-common:widget/lib/jquery/jquery');
+                var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+                // 展现策略
+                rightCheck.editView('1528186', function(res) {
+                    if (!res.errno) {
+                        if (res.data.edit) {
+                            $('.lemmaWgt-lemmaTitle .add-subLemma').css('display', 'inline-block');
+                            $('.top-tool .add-sub-icon').css('display', 'inline-block');
+                        }
+                    } else {
+                        if ('1') {
+                            $('.lemmaWgt-lemmaTitle .add-subLemma').css('display', 'inline-block');
+                            $('.top-tool .add-sub-icon').css('display', 'inline-block');
+                        }
+                    }
+                });
+                require('wiki-lemma:widget/basicElement/addSub/addSub.js')({                    lemmaId: '1528186',                    lemmaTitle: '精通ASP.NET 3.5企业级开发',                    lemmaDesc: '',                    versionId: '101080779',                    subLemmaId: '7800221'                });
+            }();
+!function(){        var $ = require('wiki-common:widget/lib/jquery/jquery');
+        var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+        // 展现策略
+        rightCheck.editView('1528186', function(res) {
+            if (!res.errno) {
+                if (res.data.divide) {
+                    $('.top-tool .split-icon').css('display', 'block');
+                }
+            }
+        });
+    }();
+!function(){    var nslog = require('wiki-common:widget/component/nslog/nslog');
+	require.async(["wiki-lemma:widget/basicElement/collect/collect"],function(collect){
+		collect({
+            newLemmaId:"1528186",
+			lemmaId:"7899442",
+			subLemmaId:"7800221"
+		});
+	});
+}();
+!function(){    require.async(["wiki-lemma:widget/basicElement/topShare/topShare"],function(topShare){
+        topShare({
+            newLemmaId: '1528186'
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('1528186', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.lemmaWgt-lemmaTitle .edit-lemma').css('display', 'inline-block');
+                // 编辑和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .edit-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .edit-lemma').before('<br/><br/>');
+                  }
+                }
+            } else {
+                $('.lemmaWgt-lemmaTitle .lock-lemma').show();
+                // 锁定和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .lock-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .lock-lemma').before('<br/><br/>');
+                  }
+                }
+            }
+        } else {
+            if ('1') {
+                $('.lemmaWgt-lemmaTitle .edit-lemma').css('display', 'inline-block');
+                // 编辑和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .edit-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .edit-lemma').before('<br/><br/>');
+                  }
+                }
+            } else {
+                $('.lemmaWgt-lemmaTitle .lock-lemma').show();
+                // 锁定和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .lock-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .lock-lemma').before('<br/><br/>');
+                  }
+                }
+            }
+        }
+    });
+}();
+!function(){	require('wiki-lemma:widget/lemma_content/mainContent/basicInfo/basicInfo')();
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var nslog = require('wiki-common:widget/component/nslog/nslog');
+    nslog(10002701);
+    $('.lemmaWgt-lemmaCatalog a').on('click', function () {
+           nslog(10002702);
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('1528186', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('1528186', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('1528186', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('1528186', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){        require.async(["wiki-common:widget/lib/jquery/jquery"],function($){
+            function openTagToggle(node) {
+                if ($(node).hasClass("collapse")) {
+                    $(node).removeClass("collapse");
+                    $("#open-tag").css("height", '22px');
+                } else {
+                    $(node).addClass("collapse");
+                    $("#open-tag").css("height", $("#open-tag-item").css("height"));
+                }
+            }
+            if (parseInt($("#open-tag-item").css("height")) <= 30) {
+                $('#open-tag-collapse').hide();
+            }
+            $("#open-tag-collapse").on("click", function () {
+                openTagToggle($("#open-tag")[0]);
+            });
+        });
+    }();
+!function(){        require('wiki-lemma:widget/lemma_content/configModule/zhixin/zhixin')(
+            1528186,
+            '精通ASP.NET 3.5企业级开发'
+        );
+    }();
+!function(){    require.async(["wiki-lemma:widget/lemma_content/mainContent/lemmaStatistics/lemmaStatistics"],function(init){
+        init({
+            newLemmaIdEnc:"4b0ae63dea77c17ca302c3f6"
+        });
+    });
+}();
+!function(){	require.async(["wiki-lemma:widget/lemma_content/mainContent/sideCatalog/sideCatalog"],function(SideCatalog){
+		new SideCatalog();
+	});
+}();
+!function(){        require.async(["wiki-lemma:widget/promotion/fengchao/fengchao","wiki-lemma:widget/promotion/unionAd/unionAd"], function (init, unionAd) {
+            init({
+                newLemmaId: "1528186",
+                lemmaTitle: "精通ASP.NET 3.5企业级开发",
+                encodeLemmaTitle: "%BE%AB%CD%A8ASP.NET%203.5%C6%F3%D2%B5%BC%B6%BF%AA%B7%A2",
+                adManager: null
+            }, {
+                errFn: unionAd,
+                dom: $('#side_box_unionAd')
+            });
+        });
+    }();
+!function(){        require.async(['wiki-lemma:widget/promotion/guessLike/guessLike'], function (app) {
+            app.init({
+                lemmaTitle: '精通ASP.NET 3.5企业级开发',
+                adManager: null
+            });
+        });
+    }();
+!function(){            require.async(['wiki-lemma:widget/promotion/bottomAd/bottomAd'], function (init) {
+                init({
+                    sId: 'BOTTOM_PRO_AD',
+                    adManager: null
+                });
+            });
+        }();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var Dialog = require("wiki-common:widget/ui/dialog/dialog");
+    var userLogin = require('wiki-common:widget/component/userLogin/userLogin');
+    var unameFiller = require('wiki-common:widget/component/unameFiller/unameFiller');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+            var isEnterprise = false;
+        var enterpriseOwnerUserId = 0;
+    
+    var userId = 0;
+    var editUrl = '/edit/' + encodeURIComponent('精通ASP.NET 3.5企业级开发') + '/' + '1528186';
+    var pgcUrl = '/enterprise/editpgc?lemmaId=1528186';
+
+    userLogin.regist({
+        onLogin: function(user) {
+            userId = user ? user.uid : 0;
+        }
+    });
+
+    function gotoEdit(url, isMidNight) {
+        if (isMidNight) {
+            Dialog.alert({
+                title: '编辑提示',
+                subMsg: '晚23:00至次日8:00，因审核系统例行维护，您提交的版本可能需要较长时间才能通过，望您谅解。',
+                onConfirm: function() {
+                    window.location.href = url;
+                }
+            });
+        } else {
+            window.location.href = url;
+        }    
+    }
+
+    function showChoseEditDialog(pgcCallback, ugcCallback) {
+        new Dialog({
+            title: '编辑提示',
+            subMsg: '<p>您已开通企业百科服务，推荐您直接编辑“官方资料”，官方资料仅限企业百科绑定的百科账号修改，其他用户账号不可修改。</p><p>如果您想修改其他网友编辑的普通词条内容，请注意遵守百科百科编辑规则。<p>',
+            btns: [{
+            key: 'pgc',
+            text: '编辑官方资料'
+            }, {
+            style: 'white',
+            text: '修改普通词条',
+            key: 'ugc'
+            }],
+            onBtnClick: function(btnKey){
+                if (btnKey === 'pgc') {
+                    pgcCallback && pgcCallback();
+                } else if (btnKey === 'ugc') {
+                    ugcCallback && ugcCallback();
+                }
+            }
+        }).show();
+    }
+
+    function checkUserLegal(res) {
+        var legal = false;
+        switch (res.errno) {
+            case 100001:
+                userLogin.showLoginPop();
+                break;
+            case 100006:
+                unameFiller.show();
+                break;
+            default:
+                legal = true;
+        }
+        return true;
+    }
+
+    function checkUgc(res, url) {
+        if (res.errno) {
+            switch (res.errno) {
+                case 100005:
+                    alert('对不起，您目前被封禁');
+                    break;
+                case 110001:
+                    alert('对不起，该词条被锁定');
+                    break;
+                case 110007:
+                    alert('对不起，消歧页无法编辑');
+                    break;
+                case 110005:
+                    Dialog.alert({
+                    title: '编辑提示',
+                    mainMsg: '对不起，您暂时没有权限编辑该词条。',
+                    subMsg: '<p>您好，该词条内容已较丰富，现仅对百科等级达到<b>四级</b>且通过率达到<b>85%</b>的科友开放编辑。</p><p>当您通过努力达到以上要求，就可以参与编辑该词条了。</p><p><img src="https://bkssl.bdimg.com/img/baike/usercenter/growuptask/star.gif" class="star" />参加<a target="_blank" href="/usercenter#guide">成长任务</a>，更快掌握百科编辑技巧，加速升级！</p>'
+                    });
+                    break;
+                case 110008:
+                    Dialog.alert({
+                    title: '编辑提示',
+                    mainMsg: '对不起，您暂时没有权限编辑该词条。',
+                    subMsg: '<p>您好，该词条内容已较丰富，现仅对百科等级达到<b>六级</b>且通过率达到<b>85%</b>的科友开放编辑。</p><p>当您通过努力达到以上要求，就可以参与编辑该词条了。</p><p><img src="https://bkssl.bdimg.com/img/baike/usercenter/growuptask/star.gif" class="star" />参加<a target="_blank" href="/usercenter#guide">成长任务</a>，更快掌握百科编辑技巧，加速升级！</p>'
+                    });
+                    break;
+                case 470001:
+                    alert('系统错误，请刷新重试');
+                    break;
+            }
+        } else {
+            if (!res.data.right.noAudit) {
+                Dialog.alert({
+                    title: '编辑提示',
+                    subMsg: '很抱歉，该词条有其他用户编辑的版本正在提交，您暂时无法编辑。<br/>百科建议您晚些时候再编辑该词条，或者尝试编辑其他的词条。'
+                });
+                return;
+            }
+            gotoEdit(url, res.data.notice.isMidNight);
+        }
+    }
+
+    $(document.body).on('click', '.j-edit-link', function() {
+        var dl = $(this).attr('data-edit-dl');
+        if (dl) {
+            var url = editUrl + '?dl=' + dl;
+        } else {
+            var url = editUrl;
+        }
+
+        rightCheck.preeditCheck('1528186', '精通ASP.NET 3.5企业级开发', '精通ASP.NET3.5企业级开发', '101080779', '', function(res) {
+            if (!checkUserLegal(res)) {
+                return;
+            }
+            if (isEnterprise && enterpriseOwnerUserId === userId) {
+                showChoseEditDialog(function() {
+                    location.href = pgcUrl;
+                }, function() {
+                    checkUgc(res, url);
+                });
+            } else {
+                checkUgc(res, url);
+            }
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      initSearchbar = require('wiki-common:widget/component/searchbar-n/searchbar');  
+    initSearchbar($('.wgt-searchbar-simple'));
+  }();
+!function(){    require.async(["wiki-lemma:widget/tools/searchHeader/toolButtons-n/toolButtons"],function(init){
+        init({
+            lemmaId:"7899442",
+            subLemmaId:"7800221",
+            newLemmaId:"1528186"
+        });
+    });
+}();
+!function(){    require('wiki-lemma:widget/tools/searchHeader/toolButtons-n/userInfo')();
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      animation = require('wiki-common:widget/util/animation'),
+      nslog = require('wiki-common:widget/component/nslog/nslog'),
+      initSearchbar = require('wiki-common:widget/component/searchbar/searchbar');
+
+    var isFadeIn = false,
+        isFadeOut = false;
+
+    var fadeInAni, fadeOutAni;
+
+    $(window).on('scroll', function(e) {
+        var scrollTop = $(this).scrollTop();
+
+        if (scrollTop > 200 && !isFadeIn && $('.lemmaWgt-searchHeader').css('display') == 'none') {
+            fadeOutAni && fadeOutAni.stop();
+            fadeInAni = animation({
+                duration: 200,
+                easing: 'linear',
+                onStart: function() {
+                    isFadeOut = false;
+                    isFadeIn = true;
+                    $('.lemmaWgt-searchHeader').css('display', 'block');
+                },
+                onStep: function(progress) {
+                    $('.lemmaWgt-searchHeader').css('opacity', progress)
+                },
+                onComplete: function(progress) {
+                    isFadeIn = false;
+                    nslog(10010007);
+                }
+            });
+        } else if (scrollTop <= 200 && !isFadeOut && $('.lemmaWgt-searchHeader').css('display') == 'block') {
+            fadeInAni && fadeInAni.stop();
+            fadeOutAni = animation({
+                duration: 300,
+                easing: 'linear',
+                onStart: function() {
+                    $('.lemmaWgt-searchHeader #suggestion').hide();
+                    isFadeIn = false;
+                    isFadeOut = true;
+                },
+                onStep: function(progress) {
+                    $('.lemmaWgt-searchHeader').css('opacity', 1 - progress);
+                },
+                onComplete: function(progress) {
+                    isFadeOut = false;
+                    $('.lemmaWgt-searchHeader').css('display', 'none');
+                }
+            });
+        }
+    });
+}();
+!function(){    require('wiki-lemma:widget/tools/newSideShare/qzopensl');
+    require.async(["wiki-lemma:widget/tools/newSideShare/taskSideShare"],function(taskShare){
+        taskShare.init({
+            title: '精通ASP.NET 3.5企业级开发',
+            desc: "\u300a\u7cbe\u901aASP.NET3.5\u4f01\u4e1a\u7ea7\u5f00\u53d1\u300b\u5168\u4e66\u5171\u520629\u7ae0\uff0c\u5185\u5bb9\u6db5\u76d6\u4e86\u5206\u6790\u3001\u8bbe\u8ba1\u3001\u5f00\u53d1\u548c\u6d4b\u8bd5\u8fd94\u4e2a\u8f6f\u4ef6\u5de5\u7a0b\u7684\u4e3b\u8981\u6b65\u9aa4\u3002\u901a\u8fc74\u4e2a\u5b9e\u4f8b\uff08\u4f1a\u5458\u8f6f\u4ef6\u7cfb\u7edf\u3001\u5ba2\u6237\u5173\u7cfb\u7ba1\u7406\u7cfb\u7edfCRM\u3001\u529e\u516c\u81ea\u52a8\u5316\u7cfb\u7edfOA\u3001\u7f51\u4e0a\u4e66\u5e97\u7cfb\u7edf\uff09\u8bb2\u89e3\u4e86\u8f6f\u4ef6\u7684\u5f00\u53d1\u8fc7\u7a0b\u3002\u672c\u4e66\u6700\u5927\u7684\u7279\u8272\u5728\u4e8e\u5b9e\u8df5\u77e5\u8bc6\u591a\u4e8e\u7406\u8bba\u77e5\u8bc6\uff0c\u529b\u6c42\u8ba9\u8bfb\u8005\u901a\u8fc7\u4eb2\u81ea\u52a8\u624b\u6765\u638c\u63e1ASP.NE",
+            pic: '',
+            url: '',
+            qqPic: '',
+            newLemmaId: '1528186',
+            lemmaTitle: '精通ASP.NET 3.5企业级开发'
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var nslog = require("wiki-common:widget/component/nslog/nslog");
+    var testElem = require('wiki-common:widget/component/testElem/testElem');
+    var cmsModuleLoader = require('wiki-common:widget/component/cmsModuleLoader/cmsModuleLoader');
+
+    function requireAsync() {
+        require.async(['wiki-lemma:widget/tools/announcement/announcement']);
+    }
+
+    cmsModuleLoader('/api/wikiui/getlemmaconfig', [{
+        name: 'announcement',
+        script: 'wiki-lemma:widget/tools/announcement/announcement.js'
+    }]);
+
+    require.async(["wiki-lemma:widget/tools/lazyLoad/lazyLoad"], function(LazyLoad) {
+        new LazyLoad();
+    });
+
+    require.async(['wiki-common:widget/component/nslog/nslog','wiki-common:widget/lib/jquery/jquery'], function(nslog, $) {
+        nslog().setGlobal({
+            lemmaId: "7899442",
+            newLemmaId: "1528186",
+            subLemmaId: "7800221",
+            lemmaTitle: "精通ASP.NET 3.5企业级开发"
+        });
+
+        // 词条页 pv
+        nslog(9322);
+
+        // 新版头部pv（小流量）
+        if ($('.pc-header-new').length > 0) {
+            nslog(9069);
+        }
+
+        // 链接点击 pv
+        var lemmaPageRegExp = new RegExp(/\/subview\/\d+|\/view\/\d+|\/item\//i);
+        $('body').on('mousedown', 'a', function() {
+            var href = $(this).attr('href');
+            if (href && href.indexOf('/') >= 0 && href.indexOf('#') !== 0) {
+                // 链接点击 pv
+                nslog(10000001);
+                if (lemmaPageRegExp.test(href)) {
+                    // 词条页链接点击 pv
+                    nslog(10000002, window.location.href, {
+                        targetTitle: $(this).text()
+                    });
+                }
+            }
+        });
+
+        /****** 词条页站内流转需求统计 start ******/
+        (function () {
+            // 各种统计配置
+            var circulationLinkCfg = {
+                innerLink: [ // 内链
+                    '.para',
+                    '.lemmaWgt-baseInfo-simple-largeMovie',
+                    '.lemmaWgt-baseInfo-simple-largeStar',
+                    '.basic-info .basicInfo-block',
+                    '.lemma-summary',
+                    '.lemmaWgt-lemmaSummary',
+                    '.view-tip-panel',
+                    '.horizontal-module',
+                    '.lemmaWgt-roleIntroduction',
+                    '.dramaSeries .dramaSerialList',
+                    '.module-music',
+                    '.table-view',
+                    '[log-set-param="table_view"]',
+                    '.list-module',
+                    '.cell-module',
+                    '.baseBox .dl-baseinfo', // 配置后台字段
+                    '.pvBtn-box .leadPVBtnWrapper',
+                    '.drama-actor',
+                    '#staffList',
+                    '.starMovieAndTvplay',
+                    '.main_tab:not(.main_tab-defaultTab)' // 除去词条tab外的tab
+                ],
+                relationTable: '.rs-container-foot', // 关系表
+                peopleRelation: '.star-info-block.relations, .lemmaWgt-focusAndRelation', // 人物关系（明星+普通）
+                moduleActors: '.featureBaseInfo .actors, .lemmaWgt-majorActors', // 主要演员、嘉宾、主持人
+                moduleWorks: '.featureBaseInfo .works, .large-feature .works', // 代表作品
+                moduleQuarterly: '.featureBaseInfo .po_quarterly, .mian_quarterly', // 分季介绍
+                rankStar: '.rank-list.stars-rank', // 明星榜
+                rankDrama: '.drama-rank-list', // 电视剧榜
+                specialTopic: '.special-topic', // 专题模块
+                modDetailTable: '#modDetailTable', // 关系表出图
+                chuizhitu: '.chuizhitu', // 垂直化模块
+                polysemantList: '.polysemantList-wrapper' // 义项切换
+            };
+            /****** 连接统计 ******/
+            function clickNslogFn() {
+                for (var k in circulationLinkCfg) {
+                    if (k === 'innerLink') {
+                        // 词条内链到词条页
+                        var tempArr = circulationLinkCfg[k];
+                        for (var i = 0, l = tempArr.length; i < l; i++) {
+                            tempArr[i] += ' a';
+                        }
+                        var sSelector = tempArr.join(', ');
+
+                        $('body').on('mousedown', sSelector, {key: k},function(e) {
+                            var key = e.data.key;
+                            var href = $(this).attr('href');
+                            var tar = $(this).attr('target') || '';
+                            if (href && href.indexOf('/') >= 0 && href.indexOf('#') !== 0
+                            && tar === '_blank' && lemmaPageRegExp.test(href)) {
+                                // 词条页普通内链点击 pv
+                                nslog(10000004, null ,{division: key});
+                            }
+                        });
+                    } else {
+                        // 模块到词条页链接
+                        $(circulationLinkCfg[k]).on('mousedown', 'a', {key: k}, function (e) {
+                            var key = e.data.key;
+                            var href = $(this).attr('href');
+                            if (href && href.indexOf('#') !== 0 && lemmaPageRegExp.test(href)) {
+                                // 词条页配置模块链接点击 pv
+                                nslog(10000004, null, {division: key});
+                            }
+                        });
+                    }
+                }
+            }
+            // 发起统计请求
+            clickNslogFn();
+
+            /****** 各模块展现量pv ******/
+            function checkModuleIsShow() {
+                var result = [];
+                for (var k in circulationLinkCfg) {
+                    if (k !== 'innerLink' && k !== 'relationTable') {
+                        !!$(circulationLinkCfg[k]).html() && result.push(k);
+                    }
+                }
+                if (result.length > 0) {
+                    nslog(10000005, null, {showModules: result.join(',')});
+                }
+            }
+            checkModuleIsShow();
+
+        })();
+        /****** 词条页站内流转需求统计 end ******/
+
+    });
+
+    // 广告接入 wikiad 统一加载
+    // log 词条页广告被拦截情况（此处 log 请求行为）
+    nslog(70000101, window.location.href, {
+        api: 'lemma-ad',
+        action: 'request'
+    });
+    var tags = {"1":{"tagId":0,"tagName":"\u51fa\u7248\u7269"},"0":{"tagId":0,"tagName":"\u4e66\u7c4d"}};
+    var tagsArray = [];
+    for (var key in tags) {
+        tagsArray.push(tags[key].tagName);
+    }
+    $.ajax({
+        type: 'GET',
+        url: '/api/wikiad/getsquirrels',
+        data: {
+            lemmaId: 1528186,
+            tags: tagsArray.join()
+        },
+        cache: false,
+        dataType: 'JSON',
+        success: function (res) {
+            // log 词条页广告被拦截情况（此处 log 请求成功）
+            nslog(70000101, window.location.href, {
+                api: 'lemma-ad',
+                action: 'success'
+            });
+
+            if (!res.errno) {
+                if (res.data[5]) {
+                    require.async(['wiki-lemma:widget/promotion/rightPreciseAd/rightPreciseAd'], function(rightPreciseAd) {
+                        rightPreciseAd(res.data[5]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[5][0].adId,
+                            adTitle: res.data[5][0].name,
+                            adPos: 5
+                        });
+                    });
+                } else if (res.data[1]) {
+                                        require.async(['wiki-lemma:widget/promotion/vbaike/vbaike'], function(vbaike) {
+                        vbaike(res.data[1]);
+                        for(var i in res.data[1]) {
+                            nslog(10002201, location.href, {
+                                adId: res.data[1][i].adId,
+                                adTitle: res.data[1][i].name,
+                                adPos: 1
+                            });
+                        }
+                    });
+                                    }
+                if (res.data[9]) {
+                                        require.async(['wiki-lemma:widget/promotion/rightBigAd/rightBigAd'], function(rightBigAd) {
+                        rightBigAd(res.data[9]);
+                            nslog(10002201, location.href, {
+                                adId: res.data[9][0].adId,
+                                adTitle: res.data[9][0].name,
+                                adPos: 9
+                            });
+                    });
+                                    } else if(res.data[2]) {
+                    require.async(['wiki-lemma:widget/promotion/slide/slide'], function(slide) {
+                        slide(res.data[2]);
+                        for(var i in res.data[2]) {
+                            nslog(10002201, location.href, {
+                                adId: res.data[2][i].adId,
+                                adTitle: res.data[2][i].name,
+                                adPos: 2
+                            });
+                        }
+                    });
+                }
+                if (res.data[3]) {
+                                        require.async(['wiki-lemma:widget/promotion/topAd/topAd'], function(topAd) {
+                        topAd(res.data[3]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[3][0].adId,
+                            adTitle: res.data[3][0].name,
+                            adPos: 3
+                        });
+                    });
+                                    }
+                if (res.data[4]) {
+                                        require.async(['wiki-lemma:widget/promotion/rightAd/rightAd'], function(rightAd) {
+                        rightAd(res.data[4]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[4][0].adId,
+                            adTitle: res.data[4][0].name,
+                            adPos: 4
+                        });
+                    });
+                                    }
+                if (res.data[15]) {
+                    require.async(['wiki-lemma:widget/promotion/banner/banner'], function(banner) {
+                        banner(res.data[15]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[15][0].adId,
+                            adTitle: res.data[15][0].name,
+                            adPos: 15
+                        });
+                    });
+                }
+                if (res.data[16]) {
+                    require.async(['wiki-lemma:widget/promotion/declaration/declaration'], function(declaration) {
+                        declaration(res.data[16]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[16][0].adId,
+                            adTitle: res.data[16][0].name,
+                            adPos: 16
+                        });
+                    })
+                }
+            } else {
+                return;
+            }
+
+            setTimeout(function () {
+                var elemArr = {};
+                res.data[1] && res.data[1].length > 0 && (elemArr['lemma-vbaike-ad'] = $('.lemmaWgt-promotion-vbaike .promotion_viewport a:eq(0) img').get(0));
+                res.data[2] && res.data[2].length > 0 && (elemArr['lemma-slide-ad'] = $('.lemmaWgt-promotion-slide .promotion_viewport a:eq(0) img').get(0));
+                res.data[3] && res.data[3].length > 0 && (elemArr['lemma-navbar-ad'] = {
+                    node: $('.header [nslog-type="10002202"]').get(0),
+                    validations: {
+                        'noBackgroundImage': function() {
+                            return $('.header [nslog-type="10002202"]').css('background-image').indexOf(res.data[3][0].picUrl) < 0
+                        }
+                    }
+                });
+                res.data[4] && res.data[4].length > 0 && (elemArr['lemma-side-ad'] = {
+                    node: $('.right-ad img').get(0),
+                    validations: {
+                        'noBackgroundImage': function() {
+                            return $('.right-ad img').attr('src').indexOf(res.data[4][0].picUrl) < 0
+                        }
+                    }
+                });
+                res.data[15] && res.data[15].length > 0 && (elemArr['lemma-configModule-banner'] = $('.configModuleBanner').get(0));
+                res.data[16] && res.data[16].length > 0 && (elemArr['lemma-configModule-declaration'] = $('.lemmaWgt-declaration').get(0));
+
+                testElem.log(elemArr, 70000102);
+            }, 1000);
+        },
+        error: function () {
+            // log 词条页广告被拦截情况（此处 log 请求失败）
+            nslog(70000101, window.location.href, {
+                api: 'lemma-ad',
+                action: 'error'
+            });
+        }
+    });
+
+    // 设置分享内容
+    window.BKShare.setCommon({
+        bdText: "\u3010\u7cbe\u901aASP.NET 3.5\u4f01\u4e1a\u7ea7\u5f00\u53d1_\u767e\u5ea6\u767e\u79d1\u3011\u300a\u7cbe\u901aASP.NET3.5\u4f01\u4e1a\u7ea7\u5f00\u53d1\u300b\u5168\u4e66\u5171\u520629\u7ae0\uff0c\u5185\u5bb9\u6db5\u76d6\u4e86\u5206\u6790\u3001\u8bbe\u8ba1\u3001\u5f00\u53d1\u548c\u6d4b\u8bd5\u8fd94\u4e2a\u8f6f\u4ef6\u5de5\u7a0b\u7684\u4e3b\u8981\u6b65\u9aa4\u3002\u901a\u8fc74\u4e2a\u5b9e\u4f8b\uff08\u4f1a\u5458\u8f6f\u4ef6\u7cfb\u7edf\u3001\u5ba2\u6237\u5173\u7cfb\u7ba1\u7406\u7cfb\u7edfCRM\u3001\u529e\u516c\u81ea\u52a8\u5316\u7cfb\u7edfOA\u3001\u7f51\u4e0a\u4e66\u5e97\u7cfb\u7edf\uff09\u8bb2\u89e3\u4e86\u8f6f\u4ef6\u7684\u5f00\u53d1\u8fc7\u7a0b\u3002\u672c\u4e66\u6700\u5927\u7684\u7279\u8272\u5728\u4e8e\u5b9e\u8df5\u77e5\u8bc6\u591a\u4e8e\u7406\u8bba\u77e5\u8bc6\uff0c\u529b\u6c42\u8ba9\u8bfb\u8005\u901a\u8fc7\u4eb2\u81ea\u52a8\u624b\u6765\u638c\u63e1ASP.NE.....\uff08\u5206\u4eab\u81ea@\u767e\u5ea6\u767e\u79d1\uff09",
+        bdDesc: '',
+        bdUrl: 'http:\/\/baike.baidu.com\/item\/%E7%B2%BE%E9%80%9AASP.NET%203.5%E4%BC%81%E4%B8%9A%E7%BA%A7%E5%BC%80%E5%8F%91\/1528186',
+        bdPic: '',
+        onBeforeClick: function (){
+            $('.bdshare_dialog_box').hide();
+        }
+    });
+
+    // 底部投诉带入当前页面 url
+    var map = [1, 2, 6, 5];
+    $('.wgt-footer-main .suggestion').find('a').each(function(i) {
+        $(this).attr('href', 'http://help.baidu.com/newadd?word=%E7%B2%BE%E9%80%9AASP.NET%203.5%E4%BC%81%E4%B8%9A%E7%BA%A7%E5%BC%80%E5%8F%91' + '&&submit_link=' + encodeURIComponent(window.location.href) + '&prod_id=10&category=' + map[i]);
+    });
+
+    // 为超出预设内容的表格添加table-responsive控制
+    $('.main-content').find('table').each(function(index) {
+        var $that = $(this);
+        if ($that.width() > 790) {
+            $that.wrap('<div class="table-responsive"></div>');
+        }
+    });
+}();
+!function(){      require('wiki-common:widget/component/psLink/psLink');
+    }();</script>
+<script type="text/javascript">
+  var Hunter = window.Hunter || {};
+  Hunter.userConfig = Hunter.userConfig || [];
+  </script>
+<script type="text/javascript" src="https://gss0.baidu.com/70cFsjip0QIZ8tyhnq/hunter/baike.js?st=17546" defer></script><script type="text/javascript">
+  // DOM Ready时，统计用户可操作时间。
+  alog('speed.set', 'drt', +new Date);
+
+  void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+</script>
+</html>

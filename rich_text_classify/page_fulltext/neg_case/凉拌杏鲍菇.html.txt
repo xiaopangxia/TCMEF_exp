@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0凉拌杏鲍菇编辑锁定“春困秋乏夏打盹，冬天冻的伸不开腿儿。”貌似一年四季就没有个好季节。凉拌杏鲍菇是一道美食。主要原料是杏鲍菇 。杏鲍菇具有降血脂、降胆固醇、促进胃肠消化、增强机体免疫能力、防止心血管病等功效。中文名凉拌杏鲍菇类    别菜主    料杏鲍菇1个口    感偏辣目录1食材明细2制作步骤凉拌杏鲍菇食材明细编辑主料： 杏鲍菇1个辅料： 麻油适量 盐适量鲜虾辣椒酱适量 鸡精适量 胡椒粉适量 葱适量 辣椒适量[1]凉拌杏鲍菇制作步骤编辑1、杏鲍菇切薄片，改刀成细条。2、莴苣去皮后切细丝、胡萝卜打皮后切细丝。3、锅里坐水，水开后倒入胡萝卜丝、莴苣丝焯水。捞出胡萝卜丝、莴苣丝。控净水、晾凉后倒入干净小盆里，撒少许精盐拌匀。4、起油锅，油热后倒入杏鲍菇丝、小火翻炒，直至杏鲍菇丝变软，关火晾凉。5、取干净小碗，倒入一汤匙凉拌醋，两汤匙酱油、倒入适量花椒油提味。6、把晾凉的杏鲍菇丝倒入盛有胡萝卜丝、莴苣丝的小盆里、倒入调好的料汁，拌匀即可。[1]window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":50187,"fentryTableName":"\u62cc\u83dc","fentryTableType":1,"entryId":2788578,"templateId":0,"entryTitle":"\u62cc\u83dc","isManual":0,"isExpand":1},{"fentryTableId":50211,"fentryTableName":"\u51c9\u83dc","fentryTableType":1,"entryId":2791653,"templateId":0,"entryTitle":"\u51c9\u83dc","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([8128720, rsdataList]);
+        }参考资料1.拌杏鲍菇．美食城[引用日期2015-04-18]词条标签：生活

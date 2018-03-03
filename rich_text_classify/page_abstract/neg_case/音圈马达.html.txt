@@ -1,0 +1,1 @@
+音圈马达 （Voice Coil Actuator/ Voice Coil Motor），是一种将电能转化为机械能的装置，并实现直线型及有限摆角的运动。

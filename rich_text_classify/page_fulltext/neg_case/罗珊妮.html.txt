@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0罗珊妮编辑锁定罗珊妮（Roxane）是粟特贵族。粟特人是古伊朗人，领土在撒马尔罕，伊斯兰教出现前，在土库斯坦定居中文名罗珊妮外文名Roxane民    族古伊朗人逝世日期310当亚历山大进攻波斯帝国、巴克区、贝苏斯时，曾经遭遇当地人强烈的抵抗，但他们最终在公元前328年瓦解。公元前327年，年仅16岁的罗珊妮嫁给亚历山大，当时的画家曾画下婚礼盛况，后来文艺复兴时期的画家吉凡尼·巴兹重新绘制，从画中我们得知亚历山大的男傧相是他的好友赫费斯提翁。亚历山大死后，指挥官佩尔迪卡斯代理朝政，他和罗珊妮处死了亚历山大的第二个妻子斯塔蒂拉，以避免威胁罗珊妮和儿子的地位。公元前310年，罗珊妮和儿子被卡山德谋害。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":17864,"fentryTableName":"\u7ea6\u745f\u592b\u00b7\u9ad8\u767b\u00b7\u83b1\u7ef4\u7279  \u4e3b\u8981\u4f5c\u54c1","fentryTableType":1,"entryId":714482,"templateId":0,"entryTitle":"\u7ea6\u745f\u592b\u00b7\u9ad8\u767b\u00b7\u83b1\u7ef4\u7279","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([4496070, rsdataList]);
+        }词条标签：政治人物，古代史，历史，人物

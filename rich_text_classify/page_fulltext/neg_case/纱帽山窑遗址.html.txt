@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0纱帽山窑遗址编辑锁定纱帽山窑遗址， 是春秋战国时期印纹陶和原始瓷合烧窑址。窑址文化堆积较厚，产品种类丰富，主要器形有碗、罐、瓮等。烧造历史悠久，分布范围较广。印纹陶与原始瓷合烧是越民族先民文化遗存的一个主要文化特征。这样庞大的印纹陶和原始瓷烧造中心在全国是绝无仅有的，对研究春秋战国时期越国的社会经济发展有重大历史价值。中文名称纱帽山窑遗址所属年代春秋战国时期文    物印纹陶与原始瓷文    化越民族先民文化印纹陶与原始瓷正处于从陶过渡到瓷的一个重要阶段，它是制作工艺对瓷器起源和发明有着重要的研究价值和意义，在中国陶瓷史上占有至关重要的地位，为东汉成熟青瓷的产生奠定了坚实的基础。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":23043,"fentryTableName":"\u676d\u5dde\u5e02\u5883\u5185\u7684\u6d59\u6c5f\u7701\u6587\u7269\u4fdd\u62a4\u5355\u4f4d","fentryTableType":1,"entryId":2466571,"templateId":0,"entryTitle":"\u676d\u5dde\u5e02\u5883\u5185\u7684\u6d59\u6c5f\u7701\u6587\u7269\u4fdd\u62a4\u5355\u4f4d","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([2718605, rsdataList]);
+        }词条标签：遗址，旅游，文物考古

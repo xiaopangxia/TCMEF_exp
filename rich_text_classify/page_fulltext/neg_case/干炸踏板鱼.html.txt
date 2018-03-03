@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0干炸踏板鱼编辑锁定干炸踏板鱼是以踏板鱼为主材的菜肴名。菜    名干炸踏板鱼难    度普通目录1辅料2做法干炸踏板鱼辅料编辑面粉、淀粉、泡打粉、花椒粉、葱、姜、盐、料酒、蒸鱼豉油干炸踏板鱼做法编辑1.踏板鱼扒皮，洗净。用盐，葱姜，料酒，蒸鱼豉油，花椒粉，腌制半小时，备用。2.面粉，淀粉，泡打粉加水成面糊，不要太干，厚了不好吃。3.油加热到八程，下入沾好面糊的鱼，炸成两面金黄，开吃吧！[1]window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":50219,"fentryTableName":"\u6c34\u4ea7\u83dc\u54c1","fentryTableType":1,"entryId":2792114,"templateId":0,"entryTitle":"\u6c34\u4ea7\u83dc\u54c1","isManual":0,"isExpand":1},{"fentryTableId":50223,"fentryTableName":"\u70b8\u5236\u83dc\u54c1","fentryTableType":1,"entryId":2793002,"templateId":0,"entryTitle":"\u70b8\u5236\u83dc\u54c1","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([12451465, rsdataList]);
+        }参考资料1.干炸踏板鱼．豆果网[引用日期2013-11-06]词条标签：食品，菜品

@@ -1,0 +1,68 @@
+编辑讨论分享新浪微博微信扫描二维码用手机浏览词条新知社QQ空间0翘荷汤开放分类：中药治燥剂药方翘荷汤，中医药方，主治清上宣肺，燥气化火，清窍不利，耳鸣目赤，龈胀咽痛者。编辑摘要本词条内容尚未完善，欢迎各位编辑词条，贡献自己的专业知识！目录1正文2来源3组成4用法5功用6主治7加减8方论1正文2来源3组成4用法5功用6主治7加减8方论正文/翘荷汤编辑翘荷汤来源/翘荷汤编辑《温病条辨》卷一。[1]组成/翘荷汤编辑薄荷4.5克连翘4.5克 生甘草3克黑栀皮4.5克桔梗9克 绿豆皮6克用法/翘荷汤编辑上药以水400毫升，煮取200毫升，顿服之。日服二剂，甚者日三服。功用/翘荷汤编辑清上宣肺。主治/翘荷汤编辑燥气化火，清窍不利，耳鸣目赤，龈胀咽痛者。加减/翘荷汤编辑耳鸣者，加羚羊角、苦丁茶；目赤者，加鲜菊叶、苦丁茶、夏枯草；咽痛者，加牛蒡子、黄芩。方论/翘荷汤编辑方中薄荷、连翘、栀皮清宜上焦之燥热；桔梗、甘草宣肺利咽；绿豆皮味甘性寒，与连翘、桅皮合用，能清热解毒。诸药同用，则燥热得清，诸症亦解。显示方式：分类详情|分类树中药分类树我要提建议中药，是以中医理论为指导，按中医治疗原则使用的货真质优的药材。包括中药材、中药饮片和中成药等。中药在清朝以前称为本草、生药等。现代所称的生药与中药所指的范围虽有部分重叠但并不相同，不可混淆。中药主要起源于中国，是以中医理论为基础，用于防治疾病的植物，动物、矿物及其加工品，不论产于中国，外国均称中药。中药有着独特的理论体系和应用形式，充分反映了中国自然资源及历史，文化等方面的特点。中药中药方剂中成药中药材治燥剂解表剂泻下剂和解剂清热剂祛暑剂温里剂理血剂补益剂固涩剂安神剂开窍剂理气剂治风剂祛湿剂祛痰剂消导剂驱虫剂涌吐剂翘荷汤养阴清肺汤增液汤杏苏二陈丸杏苏散桑杏汤沙参麦冬汤润肺膏共有20个词条1[2][3]下一页立刻创建该分类下还没有词条，欢迎您来创建。与广大同友分享关于“翘荷汤”的知识。成千上万的读者会因为您的贡献而受益匪浅。您还可以：申请分类管理员，参与知识体系建设。分类管理员是一个分类的建设者，超着指导用户阅读的作用。所以现责任心是必不可少的。除此之外，只要您对某一领域有着相当的了解或者深厚的兴趣，拥有丰富的知识，并具愿意将自己的知识传递给更多的人，您就是分类管理员最合适的人选。参加有奖任务和更多举相同的人，通过完成某一领域的词条，分享知识聚集在一起。根据您的贡献程度，您将有机会获得积分和信用奖励。我可以用积分和信用干什么？进入百科商城兑换各种精美礼品。中药分类树我要提建议中药中药方剂中成药中药材治燥剂解表剂泻下剂和解剂清热剂祛暑剂温里剂理血剂补益剂固涩剂安神剂开窍剂理气剂治风剂祛湿剂祛痰剂消导剂驱虫剂涌吐剂(function($,dom){
+	var category_tree_position = ["tableTree_style_category","tree_style_category"];
+	var tree_top_as = $(".classification_style a");
+	tree_top_as.each(function (index, domEle) {
+		  var $self = $(domEle);
+		  var tree_div = $('#'+category_tree_position[$(tree_top_as).index($self)]);
+		  if($.trim(tree_div.text()).length<1){
+			  $self.removeClass().addClass("disabled");
+			}
+	});
+
+	var tree_top_as_exclude = tree_top_as.not(".disabled");
+	$(dom).delegate(".classification_style a[class!='disabled']", 'click', function() {
+		var $self = $(this);
+		var tree_div = $('#'+category_tree_position[tree_top_as.index($self)]);
+		if($self.hasClass('current')){
+			return;
+		}
+		$self.removeClass().addClass("current");
+		tree_div.show();
+		if($self[0].text == "分类树"){
+			  $(".htree").each(function(i, el){
+				var o = $(el), height= o.height();
+				o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+			  });
+		}
+		tree_top_as_exclude.not($self).each(function(){
+				var _this = $(this);
+				_this.removeClass("current");
+			    $('#'+category_tree_position[tree_top_as.index(_this)]).hide();
+		});
+	});
+})(jQuery,document);
+
+
+try{
+	$(document).ready(function(){
+		$('.toggleshow').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).show();
+		});
+		
+		$('.togglehide').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).hide();
+		});
+
+		$('.quizForTreeHref').click(function(){
+		  $('#bootomtiwen').click();
+		});
+		
+		$(".htree").each(function(i, el){
+			var o = $(el), height= o.height();
+			o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+		});
+		
+		$(".categoryAppPannel a[target=_blank]").bind("click", function(){
+  			StatVirtualTraffic(document.referrer, window.location, 'stat_hdstat_onclick_category_tree_app');
+    	});
+	});
+	
+}catch(e){
+	
+}中药方剂之Q开头类方剂学，名处方,俗称汤头。是中医在辨证论治中产生的一个处方，根据药物的性能和相互关系，配伍而成，在同一张方剂中，药物相同,配伍不同，所产生的方剂不同，故方剂学。牵牛子全天麻胶囊羌活愈风汤芡实茯苓粥祛风止痛片祛风至宝丹芩连片芹菜粥前列舒丸起痛汤羌活附子散羌活饮子羌附汤芡实山药糊芡实糕起阴汤鬾奶散祛风燥湿汤鸲鹆散祛风舒筋丸絿云散荠苨煎瞿麦饮强阳保肾丸蕲艾汤蕲艾膏前胡散杞子南枣煲鸡蛋钱氏白术散雀儿药粥芡实粉粥芹菜蜜汁蚯蚓白糖浸液麒麟竭膏起枕散蚯蚓散羌活导滞汤驱痰饮子羌活桃仁汤羌活神术散羌活芎藁汤羌活补髓丸羌活退翳丸起痿丹羌活附子汤起痿汤驱邪汤翘荷汤耆附汤脐风散芡实丸芡实合剂驱风一字散驱风上清散雀斑丸雀斑汤芩心丸芩连二母丸芩连半夏竹茹汤芩连四物汤芩连平胃汤芩连消毒汤雀目泻肝汤祛风润面散祛风清上散雀盲散雀粪涂敷方雀附丸祛风解毒汤祛风除湿汤秋石丸秋石四精丸秋霜散驱风丸羌乌散潜阳熄风汤芩部丹牵牛汤犀角大青汤琼液散琼液膏琼珠散琼珠膏琼脂膏琼花膏琼酥膏芪菟二丹汤祛伤散祛火至圣汤祛疣汤祛疳消食丸祛瘀四物汤祛瘀消肿膏祛老乌须健阳丹祛风导痰汤祛风换肌丸曲鱼膏曲麦二陈汤期颐饼驱风散热饮子气疝饮气血双补汤气郁汤却毒汤却痛散去斑膏去杖汤去腐灵药取渊汤启宫丸启峻汤启心救胃汤启脾散启膈散启迷丹奇授藿香丸庆云散强中汤麒麟血散曲术丸曲直汤曲蘖丸乞力伽散乾坤一气膏全体神膏茜根丸全生白术散全蝎观音散全趾饮全鳖丸全鹿丸茜梅丸驱疟饮子蔷薇丸茜草通脉汤荠叶涂方卷舒散轻腰汤荠莱粥驱疹汤驱风散热饮子加减芪乌生发汤芩术四物汤蕲蛇酿蘧蒢散芪归猪蹄汤瞿麦六味汤奇妙栀子散芪忍归草汤瞿麦饮子芩连栀子饮芪断固崩汤排脓清窦汤芪芍芨草汤芪苡汤羌活胜风汤加减驱淫保脱汤芪补汤芪附汤芹菜益母汤驱痹汤驱虫糖轻冰散轻脚圆气淋汤前列腺增生丸前列腺汤穹术除眩汤前列通补汤茜茜糖浆茜草汤附图上传图片添加视频|添加图册相关影像function goUrl(url){
+			  if(url == "" || url.length == 0){
+			  	return;
+			  }
+			  StatVirtualTraffic(document.referrer,window.location,'stat_hdstat_onclick_new_doccomments');
+			  window.open(url,'_blank');
+			 }参考资料[1]^药品资讯网：http://www.chemdrug.com/databases/5_0_mdyneetowtvcmvkc.html引用日期：2011-05-19开放分类展开收起我来补充中药治燥剂药方开放分类[删除][删除][删除]同义词展开收起同义词互动百科的词条（含所附图片）系由网友上传，如果涉嫌侵权，请与客服联系，我们将按照法律之相关规定及时进行处理。未经许可，禁止商业网站等复制、抓取本站内容；合理使用者，请注明来源于www.baike.com。登录后使用互动百科的服务，将会得到个性化的提示和帮助，还有机会和专业认证智愿者沟通。互动百科用户登录注册

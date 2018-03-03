@@ -1,0 +1,1 @@
+反转录作用是在反转录酶的作用下，以dNTP为底物，以RNA为模板，tRNA(主要是色氨酸tRNA)为引物，在tRNA3′桹H末端上，按5′→3′方向，合成一条与RNA模板互补的DNA单链，这条DNA单链叫做互补DNA(complementary DNA, cDNA)，它与RNA模板形成RNA桪NA杂交体。

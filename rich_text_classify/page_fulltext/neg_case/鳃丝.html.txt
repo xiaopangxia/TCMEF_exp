@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0鳃丝编辑锁定鳃丝，是着生于鳃瓣上平行排列的黏膜褶，是鱼的腮反面的丝状的条丝，呈红色，因为表面有许多的血管。硬骨鱼的鳃丝是具有大表面积的复杂结构。每根鳃丝都有许多较小的栅板（lamella）。小毛细血管通过每个鳃丝的栅板。血流方向与水流方向相反。这确保了当血液流动时，在其旁边流动的水总是具有比血液中更高的氧浓度。氧气沿着栅板以这种方式被吸收。[1]中文名鳃丝外文名Gill-filaments鱼在陆地上活不了是因为腮丝是在水中是展开的所以能够从水中获得充分的氧气，而在陆地上腮丝是粘结在一起的，不能从空气中获得足够的氧气而窒息死亡。较活跃的鱼具有发育良好的鳃丝，以最大限度地吸收可吸收的氧气。较不活跃的底栖鱼通常具有小得多的鳃丝体积。[1]window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35228,"fentryTableName":"\u6c34\u4ea7\u57fa\u7840\u79d1\u5b66","fentryTableType":1,"entryId":2658407,"templateId":0,"entryTitle":"\u6c34\u4ea7\u57fa\u7840\u79d1\u5b66","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([3854550, rsdataList]);
+        }参考资料1.Fish Dissection - Gills exposed．AUSTRALIAN MUSEUM．2015-9-25[引用日期2017-04-04]词条标签：非生物

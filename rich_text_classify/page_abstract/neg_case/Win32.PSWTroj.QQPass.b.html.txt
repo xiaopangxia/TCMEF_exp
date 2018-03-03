@@ -1,0 +1,1 @@
+Win32.PSWTroj.QQPass.b是一种这是个盗取用户QQ帐号的电脑木马病毒，并能通过移动介质传播。主要影响Win 9x/ME,Win 2000/NT,Win XP,Win 2003系统。

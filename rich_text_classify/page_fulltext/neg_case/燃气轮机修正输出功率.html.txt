@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0燃气轮机修正输出功率编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称燃气轮机修正输出功率英文名称corrected output of gas turbine定　　义按规定条件修正燃气轮机的试验输出功率后的输出功率。应用学科电力（一级学科），汽轮机、燃气轮机（二级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35371,"fentryTableName":"\u6c7d\u8f6e\u673a\u3001\u71c3\u6c14\u8f6e\u673a","fentryTableType":1,"entryId":2678198,"templateId":0,"entryTitle":"\u6c7d\u8f6e\u673a\u3001\u71c3\u6c14\u8f6e\u673a","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([3824531, rsdataList]);
+        }

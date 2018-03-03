@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0直中编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称直中英文名称direct attack定　　义伤寒病邪不经三阳病的传变过程，直接侵犯三阴经，初起即为三阴病。应用学科中医药学（一级学科），中医基础理论（二级学科），病机（三级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35428,"fentryTableName":"\u4e2d\u533b\u57fa\u7840\u7406\u8bba","fentryTableType":1,"entryId":2670619,"templateId":0,"entryTitle":"\u4e2d\u533b\u57fa\u7840\u7406\u8bba","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([3874991, rsdataList]);
+        }词条标签：科学

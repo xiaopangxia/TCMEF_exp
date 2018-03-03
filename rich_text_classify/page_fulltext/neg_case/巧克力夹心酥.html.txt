@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0巧克力夹心酥编辑锁定本词条缺少名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！巧克力夹心酥是一种食品，主料有巧克力、飞饼皮中文名巧克力夹心酥食    材飞饼皮巧克力淋酱配    料蛋黄液口    味甜目录1描述2巧克力夹心酥的做法:巧克力夹心酥描述编辑精致的巧克力夹心酥，可口的餐后甜品，适合冬日暖身。巧克力夹心酥所属分类:老少皆宜 烘焙西餐食材：飞饼皮巧克力淋酱(甘那修)配料：蛋黄液口味：甜制作难度：配菜(中级)制作时间：30巧克力夹心酥巧克力夹心酥的做法:编辑1.飞饼取出，待其稍微回软，然后用牙签扎些孔;2.用心形模具压出心形;巧克力夹心酥巧克力夹心酥3.再用小一号的心形模具把“2”中的一半饼皮再压一下;4.把大饼皮上刷上一层蛋黄液;5.再把“3”中的中空饼皮盖在“4”上，然后表面也刷上蛋黄液;6.把压饼皮剩下的边角料重新揉一下，再擀成饼皮，切成方块，中间填上巧克力淋酱(用的是做布朗尼巧克力夹心酥剩下的甘那修)，对折捏实;7.180°12-15分钟。取出后将巧克力酱填入。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":50215,"fentryTableName":"\u70d8\u7119\u98df\u54c1","fentryTableType":1,"entryId":2791968,"templateId":0,"entryTitle":"\u70d8\u7119\u98df\u54c1","isManual":0,"isExpand":1},{"fentryTableId":50233,"fentryTableName":"\u70e4\u5236\u98df\u54c1","fentryTableType":1,"entryId":2791231,"templateId":0,"entryTitle":"\u70e4\u5236\u98df\u54c1","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([4203932, rsdataList]);
+        }参考资料1.搜菜啦美食网词条标签：食品，菜品

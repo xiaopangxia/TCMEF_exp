@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0顺式剪接编辑锁定本词条缺少名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！在同一个基因内，切除内含子，使相邻的外显子彼此相连的剪接方式叫做顺式剪接。常见的顺式剪接方式如基本剪接、I和II型内含子剪接等。注意同反式剪接的区别，反式剪接是指把不同基因或者染色体上的内含子切除并连接外显子的剪接方式。中文名顺式剪接外文名cis-splicing特    点在同一个基因内类    型剪接方式内    容切除内含子在同一个基因内，切除内含子，使相邻的外显子彼此相连的剪接方式叫做顺式剪接。常见的顺式剪接方式如基本剪接、I和II型内含子剪接等。注意同反式剪接的区别，反式剪接是指把不同基因或者染色体上的内含子切除并连接外显子的剪接方式。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":34916,"fentryTableName":"\u5206\u5b50\u9057\u4f20\u5b66","fentryTableType":1,"entryId":2627244,"templateId":0,"entryTitle":"\u5206\u5b50\u9057\u4f20\u5b66","isManual":0,"isExpand":1},{"fentryTableId":35351,"fentryTableName":"\u57fa\u56e0\u8868\u8fbe\u4e0e\u8c03\u63a7","fentryTableType":1,"entryId":2680704,"templateId":0,"entryTitle":"\u57fa\u56e0\u8868\u8fbe\u4e0e\u8c03\u63a7","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([1075843, rsdataList]);
+        }

@@ -1,0 +1,1 @@
+HD英文全称为High Definition，中文词义是“高保真的”，这是个形容词。HD声卡又被称为HD Audio，开发代号为Azalia，在标准推出后不久，就改名为HD Audio。该标准是Intel携手Dolby（杜比）等80家公司合力推出的音频规范，其最主要的目标是取代先前的AC'97声卡。

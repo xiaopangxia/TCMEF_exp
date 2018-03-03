@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0魔幻龙编辑锁定本词条缺少信息栏，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！魔幻龙是一个战士，Megatron移除有机元素的方法在 Savage Noble 身上遇到了副作用而变成双变野兽的形态，感觉敏锐，爪子和牙齿锋利无比。Savage Noble 魔幻龙形态：双变野兽 （龙/狼）职能：战士格言：科学还无法与自然力量相媲美，请让我为您演示一下。Megatron移除有机元素的方法在 Savage Noble 身上遇到了难以解释的副作用，从而产生了双变野兽。作为从Megatron 有机元素的副产品中脱胎出来的完全有机战士，双变野兽是独一无二的品种。强健有力，感觉敏锐。在狼模式下，爪子和牙齿可以以复仇般的力量撕裂合金。龙模式下同样能够战斗，鳞甲给予他任何Vehicon装甲都无法相比的保护力。尽管对于Megatron 恨之入骨，但由于自身的出处，Savage Noble并没有获得Maximal们的完全信任。Nightscream对这位以“流浪人”自称的战士充满同情。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":34714,"fentryTableName":"\u300a\u731b\u517d\u4fa0 \u300b\u4e3b\u8981\u89d2\u8272","fentryTableType":1,"entryId":159702,"templateId":0,"entryTitle":"\u731b\u517d\u4fa0","isManual":0,"isExpand":1},{"fentryTableId":38422,"fentryTableName":"\u731b\u517d\u4fa0\u00b7\u4eba\u7269","fentryTableType":2,"entryId":159702,"templateId":38420,"entryTitle":"\u731b\u517d\u4fa0","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([8208351, rsdataList]);
+        }

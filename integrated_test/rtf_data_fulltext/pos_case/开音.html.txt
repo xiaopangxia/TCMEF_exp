@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0开音编辑锁定本词条缺少名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！开音，闭音节和开音节的说法只与五个元音字母有关. 五个元音字母是 A E  I O U 这五个元音字母本来的发音分别是Aa〔ei〕Ee〔i:〕Ii〔ai〕Oo〔əu〕Uu〔ju:〕 当它们在一个单词中读本来的音的时候，就叫开音节。中文名开音分    类闭音节和开音节有关字母元音字母音节分类单音节，双音节闭音节和开音节的说法只与五个元音字母有关. 五个元音字母是 A E I O U 这五个元音字母本来的发音分别是Aa〔ei〕Ee〔i:〕Ii〔ai〕Oo〔əu〕Uu〔ju:〕 当它们在一个单词中读本来的音的时候，就叫开音节。 比如：name中的a字母，like 中的i字母 而这几个元音字母在单词中还可以发其他的音.列如〔æ〕、〔e〕、〔i〕、〔ɔ〕、〔ʌ〕如：bag、cat、bed, desk、big、pig这时就叫做闭音节。 重读闭音节是指：这个动词是重读音节，同时单词的最后也是以辅音字母结尾的闭音节。音节：单音节：音标中含有一个元音；（单音节全是省略了重读符号的重音节） 双音节：音标中含有二个元音；（会有重读符号标在某个需重读的音节前） 多音节：音标中含有三个或三个以上的元音音标。（会有重读符号标在某个需重读的音节前）window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35434,"fentryTableName":"\u6cbb\u7597\u5b66","fentryTableType":1,"entryId":2669557,"templateId":0,"entryTitle":"\u6cbb\u7597\u5b66","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([3875715, rsdataList]);
+        }词条标签：文化术语，文化，学科

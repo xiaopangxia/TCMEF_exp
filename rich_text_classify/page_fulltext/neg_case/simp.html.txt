@@ -1,0 +1,1 @@
+收藏查看我的收藏0有用+1已投票0simp编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！固体各向同性材料惩罚模型 （SIMP：Solid Isotropic Material with Penalization）是一种常用的密度-刚度插值模型。目录1SIMPsimpSIMP编辑固体各向同性材料惩罚模型 （SIMP：Solid IsotropicMaterial with Penalization）是拓扑优化问题中常用的密度-刚度插值模型。该模型假设材料密度在单元内为常数并以此为设计变量，材料特性用单元密度的指数函数来模拟，以简便计算，提高效率为目的。

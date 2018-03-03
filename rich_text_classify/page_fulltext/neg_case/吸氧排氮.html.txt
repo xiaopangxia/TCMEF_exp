@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0吸氧排氮编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称吸氧排氮英文名称oxygen inhalation and nitrogen output定　　义呼吸氧气，加大机体组织内氮气张力与肺泡内其分压间的压差梯度，以加快体内氮气排除的过程与方式。应用学科海洋科技（一级学科），海洋技术（二级学科），海洋水下技术（三级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35120,"fentryTableName":"\u6d77\u6d0b\u6280\u672f","fentryTableType":1,"entryId":2387406,"templateId":0,"entryTitle":"\u6d77\u6d0b\u6280\u672f","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([1890512, rsdataList]);
+        }

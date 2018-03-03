@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0质粒复制编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称质粒复制英文名称plasmid replication定　　义质粒在宿主细胞内独立于细菌染色体通过复制机制增加其拷贝数的过程。应用学科生物化学与分子生物学（一级学科），核酸与基因（二级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35349,"fentryTableName":"\u6838\u9178\u4e0e\u57fa\u56e0","fentryTableType":1,"entryId":2680335,"templateId":0,"entryTitle":"\u6838\u9178\u4e0e\u57fa\u56e0","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([3852061, rsdataList]);
+        }

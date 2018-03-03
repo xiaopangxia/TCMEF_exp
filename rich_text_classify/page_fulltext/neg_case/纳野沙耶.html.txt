@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0纳野沙耶编辑锁定纳野沙耶，日本动漫作品《黑岩射手》人物。中文名纳野沙耶外文名纳野サヤSaya Irino[1]其他名称纳野鞘/纳野沙谷配    音能登麻美子登场作品《黑岩射手》性    别女身    份“朝霞谈话室”的辅导员老师目录1人物设定2人物经历纳野沙耶人物设定编辑黑衣麻陶她们学校的心理咨询室“朝霞谈话室”的辅导员老师，单身。会一边听取学生们的烦恼一边款待以咖啡。总是温柔地微笑着，特征是在学生的名字后面加以“君”来称呼。纳野沙耶人物经历编辑因总保持平和的神态，在学生中有很高的人气，常被学生叫成“沙耶酱”。TV版中她就是BGS（黑金锯手），黑金锯齿刀为武器，黑衣帽的随从们则是抵挡敌人攻击的盾牌。看上去是一切的罪魁祸首（她加速了少女们的烦恼，认为只要异世界中的自己被BRS消灭就算是烦恼消失，实质上只是一种逃避），但实际却是为了少女们的精神世界而付出了一切（实际上与麻陶最终做出的承受痛苦与烦恼的决定是不同的，不为本片主题所提倡）。在真正的神足由宇与异世界的Strength互换身份之前，就已经是很好的朋友。BGS的随从们BLACK Gold Saw（黑金锯手）window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":38856,"fentryTableName":"\u9ed1\u5ca9\u5c04\u624b\u00b7BLACK \u2605 ROCK SHOOTER\\t","fentryTableType":2,"entryId":95081,"templateId":38852,"entryTitle":"\u9ed1\u5ca9\u5c04\u624b","isManual":0,"isExpand":1},{"fentryTableId":4391,"fentryTableName":"\u80fd\u767b\u9ebb\u7f8e\u5b50 \u00b7 \u914d\u97f3\u52a8\u6f2b\u4f5c\u54c1","fentryTableType":1,"entryId":15578,"templateId":0,"entryTitle":"\u80fd\u767b\u9ebb\u7f8e\u5b50","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([7777077, rsdataList]);
+        }参考资料1.黑岩射手．百度百科[引用日期2016-01-22]词条标签：动漫形象，人物

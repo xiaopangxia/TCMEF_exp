@@ -1,0 +1,1 @@
+标准曲线斜率Standard curve slope的意义是两个参数之间的比值变化情况。

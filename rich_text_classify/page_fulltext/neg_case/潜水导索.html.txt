@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0潜水导索编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称潜水导索英文名称divers descending line定　　义下端系有重锤，上端固定于水上或水下某一固定点的绳索。供重潜水员或定点潜水的轻潜水员下潜或上升时定向用，潜水员用弹簧钩沿着导索滑移，或用手握着导索移动。应用学科船舶工程（一级学科），专用船特有设备（二级学科），潜水器及水下工作装置（三级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35188,"fentryTableName":"\u4e13\u7528\u8239\u7279\u6709\u8bbe\u5907","fentryTableType":1,"entryId":2661462,"templateId":0,"entryTitle":"\u4e13\u7528\u8239\u7279\u6709\u8bbe\u5907","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([8974788, rsdataList]);
+        }词条标签：船舶工程

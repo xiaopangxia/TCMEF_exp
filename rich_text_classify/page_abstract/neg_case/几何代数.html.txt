@@ -1,0 +1,1 @@
+几何代数（Geometric algebra）是以统一模式生成的协变量代数。

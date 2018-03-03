@@ -1,0 +1,77 @@
+编辑讨论分享新浪微博微信扫描二维码用手机浏览词条新知社QQ空间0宫外孕方开放分类：中医应用科学方剂理血剂科学请用一段简单的话描述该词条，马上添加摘要。基本信息编辑信息模块中文名：宫外孕方目录1方药2用法3功效主治4疗效5中医疗法1方药2用法3功效主治4疗效5中医疗法方药/宫外孕方编辑中医辨证分期治疗。早期用天花粉50～60克，制穿山甲、地龙、公英各12克，五灵脂炭、山楂炭各10～15克，蜈蚣3条，银花15克，地鳖虫15～18克，紫草10～12克，生地8克。并用含珠停100毫克/日，用2日。中期用天花粉40克，制穿山甲、五灵脂炭、紫草、丹皮各12克，山楂炭、王不留行籽各10克，公英15克，蜈蚣3条，甘草6克。晚期用王不留行籽、路路通、郁金、巴戟天、紫草各12克，丹参、党参各15克，制鸡内金、地鳖虫各18克，蜈蚣3条，甘草6克等。用法/宫外孕方编辑随症加减，每日1剂水煎服；三期分别用7～10、各15～20日。功效主治/宫外孕方编辑宫外孕疗效/宫外孕方编辑牟科媛报告32例。治愈28例，有效3例，无效1例，总有效率96.9％。中医疗法/宫外孕方编辑药方当归15g ，赤芍10g，红花3g，三棱15g， 莪术15g，紫草根30g， 鬼臼20g，野葡萄藤30g， 牛膝15g，生甘草15g。用法上方每日1剂，水煎成200ml，分2次服，7天为1疗程，连续服2—3个疗程。 　　另一种治疗宫外孕的中药配方，它包含下列重量份数的原料：炒王不留行10-30g、苏木6-10g、丹参10-20g、泽兰9-12g、牛膝10-20g、益母草10-20g、川芎10-20g、当归10-30g、苍术6-10g、柴胡6-12g、香附10-15g、乌药9-15g、郁金9-15g、熟地10-30g、鸡血藤、白芥子10-15g、茯苓10-20g、白芍10-30g、甘草6-10g;本发明能改善盆腔内环境、促进盆腔血液循环和病理产物的代谢吸收，防止粘连、增强体质、杀胚、降HCG、消包块、恢复输卵管通畅。 　　而且宫外孕早期亦可用中药进行治疗，如紫草、穿心莲、丹参、炒蒲黄、五灵脂、蜈蚣、天花粉等煎服。经检查确诊胚胎被杀死后，则以活血化瘀为主，选用桃仁、红花、丹参、赤芍、三棱、莪术、皂角、水蛭、穿山甲等煎服或保留灌肠，每日1次，2-4周为1疗程，大多可获得满意效果。经方[4]桃仁12克，大黄12克，芒硝6克，桂枝12克，茯苓12克，牡丹皮12克，白芍12克，当归24克，川芎9克，干姜3克，海藻30克，炙甘草6克。 　　次方是由桃核承气汤、桂枝茯苓丸与生化汤合方加味而成。显示方式：分类详情|分类树中药分类树我要提建议中药，是以中医理论为指导，按中医治疗原则使用的货真质优的药材。包括中药材、中药饮片和中成药等。中药在清朝以前称为本草、生药等。现代所称的生药与中药所指的范围虽有部分重叠但并不相同，不可混淆。中药主要起源于中国，是以中医理论为基础，用于防治疾病的植物，动物、矿物及其加工品，不论产于中国，外国均称中药。中药有着独特的理论体系和应用形式，充分反映了中国自然资源及历史，文化等方面的特点。中药中药方剂中成药中药材理血剂解表剂泻下剂和解剂清热剂祛暑剂温里剂补益剂固涩剂安神剂开窍剂理气剂治风剂治燥剂祛湿剂祛痰剂消导剂驱虫剂涌吐剂宫外孕方下瘀血汤丹参饮十灰散咳血方四生丸复元活血汤失笑散共有24个词条1[2][3]下一页立刻创建该分类下还没有词条，欢迎您来创建。与广大同友分享关于“宫外孕方”的知识。成千上万的读者会因为您的贡献而受益匪浅。您还可以：申请分类管理员，参与知识体系建设。分类管理员是一个分类的建设者，超着指导用户阅读的作用。所以现责任心是必不可少的。除此之外，只要您对某一领域有着相当的了解或者深厚的兴趣，拥有丰富的知识，并具愿意将自己的知识传递给更多的人，您就是分类管理员最合适的人选。参加有奖任务和更多举相同的人，通过完成某一领域的词条，分享知识聚集在一起。根据您的贡献程度，您将有机会获得积分和信用奖励。我可以用积分和信用干什么？进入百科商城兑换各种精美礼品。中药分类树我要提建议中药中药方剂中成药中药材理血剂解表剂泻下剂和解剂清热剂祛暑剂温里剂补益剂固涩剂安神剂开窍剂理气剂治风剂治燥剂祛湿剂祛痰剂消导剂驱虫剂涌吐剂(function($,dom){
+	var category_tree_position = ["tableTree_style_category","tree_style_category"];
+	var tree_top_as = $(".classification_style a");
+	tree_top_as.each(function (index, domEle) {
+		  var $self = $(domEle);
+		  var tree_div = $('#'+category_tree_position[$(tree_top_as).index($self)]);
+		  if($.trim(tree_div.text()).length<1){
+			  $self.removeClass().addClass("disabled");
+			}
+	});
+
+	var tree_top_as_exclude = tree_top_as.not(".disabled");
+	$(dom).delegate(".classification_style a[class!='disabled']", 'click', function() {
+		var $self = $(this);
+		var tree_div = $('#'+category_tree_position[tree_top_as.index($self)]);
+		if($self.hasClass('current')){
+			return;
+		}
+		$self.removeClass().addClass("current");
+		tree_div.show();
+		if($self[0].text == "分类树"){
+			  $(".htree").each(function(i, el){
+				var o = $(el), height= o.height();
+				o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+			  });
+		}
+		tree_top_as_exclude.not($self).each(function(){
+				var _this = $(this);
+				_this.removeClass("current");
+			    $('#'+category_tree_position[tree_top_as.index(_this)]).hide();
+		});
+	});
+})(jQuery,document);
+
+
+try{
+	$(document).ready(function(){
+		$('.toggleshow').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).show();
+		});
+		
+		$('.togglehide').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).hide();
+		});
+
+		$('.quizForTreeHref').click(function(){
+		  $('#bootomtiwen').click();
+		});
+		
+		$(".htree").each(function(i, el){
+			var o = $(el), height= o.height();
+			o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+		});
+		
+		$(".categoryAppPannel a[target=_blank]").bind("click", function(){
+  			StatVirtualTraffic(document.referrer, window.location, 'stat_hdstat_onclick_category_tree_app');
+    	});
+	});
+	
+}catch(e){
+	
+}相关文献万方数据期刊论文宫外孕患者健康教育需求效果分析-
+										护士进修杂志
+										-201126(
+										6
+										)万方数据期刊论文宫外孕破裂的CT诊断价值-
+										实用放射学杂志
+										-201026(
+										10
+										)万方数据期刊论文宫外孕与妊娠黄体的经阴道彩色多普勒血流显像及频谱形态分析-
+										中国超声医学杂志
+										-200925(
+										1
+										)附图上传图片添加视频|添加图册相关影像function goUrl(url){
+		  StatVirtualTraffic(document.referrer,window.location,'stat_hdstat_onclick_new_doccomments');
+		  window.open(url,'_blank');
+		 }扩展阅读1宫外孕的致病原因和症状介绍 z2治疗宫外孕最新技术——腹腔镜手术治疗z开放分类展开收起我来补充中医应用科学方剂理血剂科学开放分类[删除][删除][删除][删除][删除]同义词展开收起同义词互动百科的词条（含所附图片）系由网友上传，如果涉嫌侵权，请与客服联系，我们将按照法律之相关规定及时进行处理。未经许可，禁止商业网站等复制、抓取本站内容；合理使用者，请注明来源于www.baike.com。登录后使用互动百科的服务，将会得到个性化的提示和帮助，还有机会和专业认证智愿者沟通。互动百科用户登录注册

@@ -1,0 +1,70 @@
+编辑讨论分享新浪微博微信扫描二维码用手机浏览词条新知社QQ空间0柱果铁线莲开放分类：中草药双子叶植物纲木兰亚纲植物毛茛目毛茛科生物种子植物门自然花类植物药藤本植物被子植物亚门铁线莲属柱果铁线莲，所属植物界，是毛莨目(Ranunculales)、毛茛科(Ranunculaceae)、铁线莲属(Clematis Linn.) 植物。编辑摘要基本信息编辑信息模块中文学名：柱果铁线莲拉丁学名：Clematis uncinata界：植物界族：银莲花族(Anemoneae DC.)、铁线莲亚族门：被子植物门(Magnoliophyta)纲：双子叶植物纲(Magnoliopsida)，又称木兰纲。亚纲：木兰亚纲(Magnoliidae)目：毛莨目(Ranunculales)科：毛茛科(Ranunculaceae)亚科：毛茛亚科(Ranunculoideae Hutch)属：铁线莲属(Clematis Linn.)种：柱果铁线莲命名者及年代：Champion et Bentham分布区域：安徽,福建,甘肃,广东,广西,贵州,湖北,湖南,江苏,江西,陕西,四川,台湾,云南,浙江目录1植物名称2形态特征3【别名】4【来源】5【性味归经】6【功能主治】7【用法用量】8【摘录】1植物名称2形态特征3【别名】4【来源】5【性味归经】6【功能主治】7【用法用量】8【摘录】植物名称/柱果铁线莲编辑柱果铁线莲Clematis meyeniana毛茛科（Ranunculaceae）形态特征/柱果铁线莲编辑藤本；茎和叶均无毛，干时常变黑。叶对生，为羽状复叶；小叶通常5，薄革质，卵形或狭卵形，长达11厘米，宽达4厘米，先端急尖或渐尖，下面被白粉，网脉明显；有时为二回复叶，下部的羽片具3小叶。花序圆锥状，常长过于叶；萼片4，白色，展开，顶端急尖，仅在外面边缘有短绒毛；无花瓣；雄蕊多数，柱果铁线莲无毛，花丝狭条形；子房无毛。瘦果近圆柱状钻形，无毛。自华南至长江中、下游各省区广布，北达陕西南部。生山地疏林中或林边。【别名】/柱果铁线莲编辑铁脚威灵仙、黑木通、一把扇【来源】/柱果铁线莲编辑毛茛科铁线莲属植物柱果铁线莲Clematis uncinata Champ.，以根及叶入药。夏秋采集，分别晒干。【性味归经】/柱果铁线莲编辑辛，温。【功能主治】/柱果铁线莲编辑祛风除湿，舒筋活络，镇痛。根：用于风湿关节痛，牙痛，骨鲠候。叶：外用治外伤出血。【用法用量】/柱果铁线莲编辑根3～5钱，水煎或浸酒服。【摘录】/柱果铁线莲编辑《全国中草药汇编》显示方式：分类详情|分类树中药分类树我要提建议中药，是以中医理论为指导，按中医治疗原则使用的货真质优的药材。包括中药材、中药饮片和中成药等。中药在清朝以前称为本草、生药等。现代所称的生药与中药所指的范围虽有部分重叠但并不相同，不可混淆。中药主要起源于中国，是以中医理论为基础，用于防治疾病的植物，动物、矿物及其加工品，不论产于中国，外国均称中药。中药有着独特的理论体系和应用形式，充分反映了中国自然资源及历史，文化等方面的特点。中药中药材中药材药用部分分类植物药动物药矿物药花类植物药根茎类植..皮类植物药叶类植物药果实和种..全草类植..菌藻类植..树脂类植..藤木类植..柱果铁线莲丁香七叶一枝花下田菊东北铁线莲中国旌节花九里香二歧银莲花共有149个词条1[2][3][4]…[19]下一页立刻创建该分类下还没有词条，欢迎您来创建。与广大同友分享关于“柱果铁线莲”的知识。成千上万的读者会因为您的贡献而受益匪浅。您还可以：申请分类管理员，参与知识体系建设。分类管理员是一个分类的建设者，超着指导用户阅读的作用。所以现责任心是必不可少的。除此之外，只要您对某一领域有着相当的了解或者深厚的兴趣，拥有丰富的知识，并具愿意将自己的知识传递给更多的人，您就是分类管理员最合适的人选。参加有奖任务和更多举相同的人，通过完成某一领域的词条，分享知识聚集在一起。根据您的贡献程度，您将有机会获得积分和信用奖励。我可以用积分和信用干什么？进入百科商城兑换各种精美礼品。中药分类树我要提建议中药中成药中药方剂中药材中药材功效分类中药材药用部分分类植物药动物药矿物药根茎类植物药皮类植物药叶类植物药花类植物药果实和种子类植物药全草类植物药菌藻类植物药(function($,dom){
+	var category_tree_position = ["tableTree_style_category","tree_style_category"];
+	var tree_top_as = $(".classification_style a");
+	tree_top_as.each(function (index, domEle) {
+		  var $self = $(domEle);
+		  var tree_div = $('#'+category_tree_position[$(tree_top_as).index($self)]);
+		  if($.trim(tree_div.text()).length<1){
+			  $self.removeClass().addClass("disabled");
+			}
+	});
+
+	var tree_top_as_exclude = tree_top_as.not(".disabled");
+	$(dom).delegate(".classification_style a[class!='disabled']", 'click', function() {
+		var $self = $(this);
+		var tree_div = $('#'+category_tree_position[tree_top_as.index($self)]);
+		if($self.hasClass('current')){
+			return;
+		}
+		$self.removeClass().addClass("current");
+		tree_div.show();
+		if($self[0].text == "分类树"){
+			  $(".htree").each(function(i, el){
+				var o = $(el), height= o.height();
+				o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+			  });
+		}
+		tree_top_as_exclude.not($self).each(function(){
+				var _this = $(this);
+				_this.removeClass("current");
+			    $('#'+category_tree_position[tree_top_as.index(_this)]).hide();
+		});
+	});
+})(jQuery,document);
+
+
+try{
+	$(document).ready(function(){
+		$('.toggleshow').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).show();
+		});
+		
+		$('.togglehide').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).hide();
+		});
+
+		$('.quizForTreeHref').click(function(){
+		  $('#bootomtiwen').click();
+		});
+		
+		$(".htree").each(function(i, el){
+			var o = $(el), height= o.height();
+			o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+		});
+		
+		$(".categoryAppPannel a[target=_blank]").bind("click", function(){
+  			StatVirtualTraffic(document.referrer, window.location, 'stat_hdstat_onclick_category_tree_app');
+    	});
+	});
+	
+}catch(e){
+	
+}相关文献万方数据期刊论文柱果铁线莲挥发油化学成分分析-
+										安徽农业科学
+										-200836(
+										25
+										)万方数据学位论文黔产威灵仙类药材的品种调查、鉴别及质量评价研究-2009万方数据期刊论文威灵仙与柱果铁线莲体内外的高效液相色谱对比分析-
+										时珍国医国药
+										-200920(
+										9
+										)附图上传图片添加视频|添加图册相关影像开放分类展开收起我来补充中草药双子叶植物纲木兰亚纲植物毛茛目毛茛科生物种子植物门自然花类植物药藤本植物被子植物亚门铁线莲属开放分类[删除][删除][删除][删除][删除][删除][删除][删除][删除][删除][删除][删除][删除]同义词展开收起同义词互动百科的词条（含所附图片）系由网友上传，如果涉嫌侵权，请与客服联系，我们将按照法律之相关规定及时进行处理。未经许可，禁止商业网站等复制、抓取本站内容；合理使用者，请注明来源于www.baike.com。登录后使用互动百科的服务，将会得到个性化的提示和帮助，还有机会和专业认证智愿者沟通。互动百科用户登录注册

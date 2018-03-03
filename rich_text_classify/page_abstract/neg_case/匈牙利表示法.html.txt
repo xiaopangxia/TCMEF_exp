@@ -1,0 +1,1 @@
+匈牙利表示法，Win32asm源程序风格采用匈牙利表示法，是由Microsoft公司的程序设计人员Charles Simonyi首创的。

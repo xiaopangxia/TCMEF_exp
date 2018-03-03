@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0鸡蛋虾仁炒米饭编辑锁定鸡蛋虾仁炒米饭是一道由鸡蛋、过夜米饭、虾仁、胡萝卜等做成的美食。菜    名【鸡蛋虾仁炒米饭】难    度普通目录1原料▪主料▪辅料2做法鸡蛋虾仁炒米饭原料编辑鸡蛋虾仁炒米饭主料鸡蛋、过夜米饭鸡蛋虾仁炒米饭辅料虾仁、胡萝卜鸡蛋虾仁炒米饭做法编辑1.红椒、葱头、胡萝卜、虾仁切成丁。炒锅烧热加入油，待油热后倒入打散的鸡蛋液。2.鸡蛋炒散，盛出。3.炒锅重新加玉米油烧热以后下入虾仁丁煸炒变色。加入胡萝卜丁煸炒一会儿。下葱头和豌豆煸炒。4.加入剩米饭，适量盐。加鸡蛋红椒丁翻炒均匀即可。[1]window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":50069,"fentryTableName":"\u7092\u996d\u79cd\u7c7b","fentryTableType":1,"entryId":2783689,"templateId":0,"entryTitle":"\u7092\u996d\u79cd\u7c7b","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([12466185, rsdataList]);
+        }参考资料1.【鸡蛋虾仁炒米饭】．豆果网[引用日期2013-06-13]词条标签：食品，菜品

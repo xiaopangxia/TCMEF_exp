@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0主石门编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称主石门英文名称main crosscut定　　义连接井底车场和大巷的石门。应用学科煤炭科技（一级学科），煤矿开采（二级学科），井田开拓和采区准备（三级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":34952,"fentryTableName":"\u7164\u77ff\u5f00\u91c7","fentryTableType":1,"entryId":2630323,"templateId":0,"entryTitle":"\u7164\u77ff\u5f00\u91c7","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([8966052, rsdataList]);
+        }词条标签：科学

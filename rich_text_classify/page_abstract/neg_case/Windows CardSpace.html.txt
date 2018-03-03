@@ -1,0 +1,1 @@
+Windows CardSpace，是一组代号为CardSpace的Windows新功能。该组功能提供了一种基于标准的解决方案，用于使用和管理不同的数字标识。

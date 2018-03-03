@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0航向改变试验编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！英语：course change test定义：测定船舶操中等舵角时转向性能的试验。[1]window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35166,"fentryTableName":"\u8239\u8236\u6027\u80fd\u53ca\u5176\u8bd5\u9a8c","fentryTableType":1,"entryId":2654008,"templateId":0,"entryTitle":"\u8239\u8236\u6027\u80fd\u53ca\u5176\u8bd5\u9a8c","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([8974685, rsdataList]);
+        }参考资料1.船舶工程名词审定委员会．船舶工程名词：科学出版社，1998.12词条标签：船舶工程

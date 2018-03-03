@@ -1,0 +1,1 @@
+Calc是OpenOffice.org的套件之一，其功能类似于Microsoft Office™的Excel™。Windows内建一个计算器程序就叫calc.exe，在运行中输入：calc可以直接启动电脑中的计算器程序。可以用来做一些简单的计算，现在该软件已被MicrosoftPowerToysCalculator和Microsoft Math取代。

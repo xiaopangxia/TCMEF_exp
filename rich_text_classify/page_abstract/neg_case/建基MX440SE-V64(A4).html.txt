@@ -1,0 +1,1 @@
+建基MX440SE-V64(A4)由nVIDIA 提供，显卡芯片为GeForce4 MX440SE 。

@@ -1,0 +1,3150 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+
+
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="referrer" content="always" />
+<meta name="description" content="斐波那契数列（Fibonacci sequence），又称黄金分割数列、因数学家列昂纳多·斐波那契（Leonardoda Fibonacci）以兔子繁殖为例子而引入，故又称为“兔子数列”，指的是这样一个数列：1、1、2、3、5、8、13、21、34、……在数学上，斐波纳契数列以如下被以递归的方法定义：F(0)=0，F(1)=1, F(n)=F(n-1)+F(n-2)（n&gt;=2，...">
+<title>斐波那契数列_百度百科</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
+
+<meta name="keywords" content="斐波那契数列 兔子问题 波斐数列 斐波契数列 裴波纳契数列 黄金数列 Fibonacci Sequence 菲波纳契数列 菲波拿契数列 费波那奇数列 菲波那契数列 斐波那契数列定义 斐波那契数列通项公式 斐波那契数列与黄金分割 斐波那契数列特性 斐波那契数列应用 斐波那契数列推广 斐波那契数列相关数学 斐波那契数列斐波那契弧线">
+<meta name="image" content="https://bkssl.bdimg.com/cms/static/baike.png">
+<script type="text/javascript">
+  // 配置 PD 监控。
+  window.alogObjectConfig = {
+    product: '103',
+    page: '103_1',
+    speed: {
+      sample: '0.008'
+    },
+    monkey: {
+      sample: '1',
+      hid: '1533'
+    },
+    exception: { 
+      sample: '0.004'
+    },
+    feature: {
+      sample: '0.004'
+    },
+    csp: {
+      sample: '0.008',
+      'default-src': [
+        {match: '*.baidu.com,*.bdimg.com,localhost', target: 'Accept'},
+        {match: '*', target: 'Accept,Warn'}
+      ]
+    }
+  };
+
+  void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+  void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+<meta name="csrf-token" content="">
+<meta itemprop="dateUpdate" content="2017-12-30 12:17:18" />
+
+<!--[if lte IE 9]>
+<script>
+    (function() {
+      var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
+        i = e.length;
+      while (i--) {
+        document.createElement(e[i]);
+      }
+    })();
+  </script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_2e0b0ff.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common-base_4c062e6.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/userbar-n/userbar-n_5b008b4.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module_d7320c6.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/index_c66d49f.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/announcement/announcement_cba33f4.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/label/label_ca156c6.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/sideShare_2af1cbd.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/video/pageMask/pageMask_ff9a193.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/secondsKnow_073e9d1.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/mainContent_98e3702.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaRelation_ac86a59.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhixin/zhixin_3b0d7a5.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhidaodiversion/zhidaodiversion_aa6efca.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons-n/toolButtons-n_6e90fdd.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons-n/userInfo-n_7e90184.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/searchHeader-n_f9a6e5b.css"/>    
+</head>
+
+<script type="text/javascript">
+    alog('speed.set', 'ht', +new Date);
+</script>
+<script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?55b574651fcae74b0a9f1cf9c8d7c93a";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+<body class="wiki-lemma normal">
+
+
+<div class="header-wrapper pc-header-new">
+<div class="topbar cmn-clearfix">
+<ul class="wgt-userbar" id="j-wgt-userbar">
+<li>
+<a href="http://www.baidu.com/">百度首页</a>
+</li>
+</ul>
+<div class="separator"></div>
+<div class="wiki-common-headTabBar">
+<a href="https://www.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://www.baidu.com/s?ie=utf-8&fr=bks0000&wd=">网页</a>
+<a href="http://news.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&fr=bks0000&ie=utf-8&word=">新闻</a>
+<a href="https://tieba.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=">贴吧</a>
+<a href="https://zhidao.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://zhidao.baidu.com/search?pn=0&&rn=10&lm=0&fr=bks0000&word=">知道</a>
+<a href="http://music.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://music.baidu.com/search?f=ms&ct=134217728&ie=utf-8&rn=&lm=-1&pn=30&fr=bks0000&key=">音乐</a>
+<a href="http://image.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&word=">图片</a>
+<a href="http://v.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://v.baidu.com/v?ct=301989888&rn=20&pn=0&db=0&s=22&ie=utf-8&fr=bks0000&word=">视频</a>
+<a href="http://map.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://map.baidu.com/m?ie=utf-8&fr=bks0000&word=">地图</a>
+<a href="https://wenku.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&fr=bks0000&word=">文库</a>
+<b class="baike">百科</b>
+</div>
+</div>
+<div class="header">
+<div class="layout">
+<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-main cmn-clearfix wgt-searchbar-large">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080011" name="word" type="text" autocomplete="off" autocorrect="off" value="斐波那契数列" /><button id="search" nslog="normal" nslog-type="10080008" type="button">进入词条</button><button id="searchLemma" nslog="normal" nslog-type="10080009" type="button">全站搜索</button><a class="help" href="/help" nslog="normal" nslog-type="10080010" target="_blank">帮助</a>
+</form>
+<form id="searchLemmaForm" action="/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden" />
+<input name="pn" type="hidden" value="0" />
+<input name="rn" type="hidden" value="0" />
+<input name="enc" type="hidden" value="utf8" />
+</form>
+<ul id="suggestion" class="suggestion">
+<div class="sug"></div>
+<li class="extra">
+<span id="close" nslog="normal" nslog-type="10080012">关闭</span>
+</li>
+</ul>
+</div></div>
+</div>
+<div class="declare-wrap" id="J-declare-wrap">
+<div class="declare" id="J-declare">声明：百科词条人人可编辑，词条创建和修改均免费，绝不存在官方及代理商付费代编，请勿上当受骗。<a class="declare-details" target="_blank" href="/common/declaration">详情>></a>
+<div class="close-btn" id="J-declare-close">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navbar-wrapper">
+<div class="wgt-navbar">
+<div class="navbar-bg">
+<div class="navbar-bg-top">
+<div class="navbar-content layout">
+<div class="navbar-content-box">
+<dl class="index ">
+<dt><a href="/">首页</a></dt>
+</dl>
+<dl class="cat ">
+<dt><a>分类</a></dt>
+<dd>
+<div><a href="/art" target="_blank" class="art">艺术</a></div>
+<div><a href="/science" target="_blank" class="technology">科学</a></div>
+<div><a href="/ziran" target="_blank">自然</a></div>
+<div><a href="/wenhua" target="_blank">文化</a></div>
+<div><a href="/dili" target="_blank">地理</a></div>
+<div><a href="/shenghuo" target="_blank">生活</a></div>
+<div><a href="/shehui" target="_blank">社会</a></div>
+<div><a href="/renwu" target="_blank">人物</a></div>
+<div><a href="/jingji" target="_blank">经济</a></div>
+<div><a href="/tiyu" target="_blank">体育</a></div>
+<div><a href="/lishi" target="_blank">历史</a></div>
+</dd>
+</dl>
+<dl class="special ">
+<dt><a>特色百科</a></dt>
+<dd>
+<div><a href="/calendar/" target="_blank">历史上的今天</a></div>
+<div><a href="/museum/" target="_blank">数字博物馆</a></div>
+<div><a href="/item/史记·2016?fr=navbar" target="_blank">史记·2016</a></div>
+<div><a href="/city/" target="_blank">城市百科</a></div>
+<div><a href="/operation/worldwar2" target="_blank">二战百科</a></div>
+<div><a href="/feiyi?fr=dhlfeiyi" target="_blank">非遗百科</a></div>
+</dd>
+</dl>
+<dl class="user" >
+<dt><a>用户</a></dt>
+<dd>
+<div><a href="/kedou/" target="_blank">蝌蚪团</a></div>
+<div><a href="/event/ranmeng/" target="_blank">燃梦计划</a></div>
+<div><a href="/task/" target="_blank">百科任务</a></div>
+<div><a href="/mall/" target="_blank">百科商城</a></div>
+</dd>
+</dl>
+<dl class="cooperation" >
+<dt><a>权威合作</a></dt>
+<dd>
+<div><a href="/operation/cooperation#joint" target="_blank">合作模式</a></div>
+<div><a href="/operation/cooperation#issue" target="_blank">常见问题</a></div>
+<div><a href="/operation/cooperation#connection" target="_blank">联系方式</a></div>
+</dd>
+</dl>
+<dl class="mobile" >
+<dt><a>手机百科</a></dt>
+<dd>
+<div><a href="/m#wap" target="_blank">网页版</a></div>
+</dd>
+</dl>
+<div class="usercenter">
+<div><a href="/usercenter" target="_blank"><em class="cmn-icon cmn-icons cmn-icons_navbar-usercenter"></em>个人中心</a></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="body-wrapper">
+<div class="before-content">
+<div id="lemmaWgt-secondsKnow" class="lemmaWgt-secondsKnow">
+<div class="lemmaWgt-secondsKnow-cnt">
+<div class="layout" style="width: 947px">
+<div class="lemmaWgt-secondsKnow-logo"></div>
+<ul class="lemmaWgt-secondsKnow-gallery">
+<li data-mediaId="mda-gj2sh7aa3n8rwcj5" data-secondId="102456">
+<a href="javascript:;" nslog-type="10002502">
+<img src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D400/sign=d2031fd3f5039245a1b5e00fb795a4a8/faedab64034f78f0e6fb73ed70310a55b3191c3f.jpg" />
+<span class="video-shadow"></span>
+<span class="video-play"><em class="cmn-icon cmn-icons cmn-icons_videoPlayer-play"></em></span>
+<span class="video-title" title="唐家平《费氏数列》">
+<span class="video-title-content">唐家平《费氏数列》</span>
+<span class="video-title-vv"><em class="wiki-lemma-icons wiki-lemma-icons_eye"></em></span>
+</span>
+</a>
+</li>
+<li data-mediaId="mda-heyhu2rvrr1gvrzd" data-secondId="225450">
+<a href="javascript:;" nslog-type="10002502">
+<img src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D400/sign=80723bc7b8b7d0a27bc9059dfbef760d/3b292df5e0fe992591773e253ea85edf8db1714f.jpg" />
+<span class="video-shadow"></span>
+<span class="video-play"><em class="cmn-icon cmn-icons cmn-icons_videoPlayer-play"></em></span>
+<span class="video-title" title="人脑计算速度可以快过计算器？">
+<span class="video-title-content">人脑计算速度可以快过计算器？</span>
+<span class="video-title-vv"><em class="wiki-lemma-icons wiki-lemma-icons_eye"></em></span>
+</span>
+</a>
+</li>
+<li data-mediaId="mda-hkvt8jtud1fxnzqt" data-secondId="362059">
+<a href="javascript:;" nslog-type="10002502">
+<img src="https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D400/sign=c8a3dc318926cffc692abeb289004a7d/f3d3572c11dfa9ecf5f5fcbf69d0f703908fc1bb.jpg" />
+<span class="video-shadow"></span>
+<span class="video-play"><em class="cmn-icon cmn-icons cmn-icons_videoPlayer-play"></em></span>
+<span class="video-title" title="为什么都说眼见不一定为实？">
+<span class="video-title-content">为什么都说眼见不一定为实？</span>
+<span class="video-title-vv"><em class="wiki-lemma-icons wiki-lemma-icons_eye"></em></span>
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="content">
+<div class="personal-content">
+</div>
+<div class="main-content">
+<div class="top-tool">
+<a class="add-sub-icon top-tool-icon" href="javascript:;" title="添加义项" nslog-type="50000101">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_add-subLemma-solid"></em>
+</a>
+<a href="/divideload/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97" title="拆分词条" target="_blank" class="split-icon top-tool-icon" style="display:none;" nslog-type="50000104">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lemma-split"></em>
+</a>
+<div class="top-collect top-tool-icon" nslog="area" nslog-type="50000102">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-solid"></em>
+<span class="collect-text">收藏</span>
+<div class="collect-tip">查看<a href="/uc/favolemma" target="_blank">我的收藏</a></div>
+</div>
+<a href="javascript:void(0);" id="j-top-vote" class="top-vote top-tool-icon" nslog-type="10060801">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-solid"></em>
+<span class="vote-count">0</span>
+<span class="vote-tip">有用+1</span>
+<span class="voted-tip">已投票</span>
+</a><div class="bksharebuttonbox top-share">
+<a class="top-share-icon top-tool-icon" nslog-type="9067">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_share"></em>
+<span class="share-count" id="j-topShareCount">0</span>
+</a>
+<div class="new-top-share" id="top-share">
+<ul class="top-share-list">
+<li class="top-share-item">
+<a class="share-link bds_qzone"  href="javascript:void(0);" nslog-type="10060501">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="share-link bds_tsina" href="javascript:void(0);" nslog-type="10060701">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="bds_wechat"  href="javascript:void(0);" nslog-type="10060401">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="share-link bds_tqq"  href="javascript:void(0);" nslog-type="10060601">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div style="width:0;height:0;clear:both"></div><dl class="lemmaWgt-lemmaTitle lemmaWgt-lemmaTitle-">
+<dd class="lemmaWgt-lemmaTitle-title">
+<h1 >斐波那契数列</h1>
+<a href="javascript:;" class="edit-lemma cmn-btn-hover-blue cmn-btn-28 j-edit-link"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+<a class="lock-lemma" target="_blank" href="/view/10812319.htm" title="锁定"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lock-lemma"></em>锁定</a>
+</dd>
+</dl><div class="promotion-declaration">
+</div><div class="lemma-summary" label-module="lemmaSummary">
+<div class="para" label-module="para"><a target=_blank href="/item/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97">斐波那契数列</a>（Fibonacci sequence），又称<a target=_blank href="/item/%E9%BB%84%E9%87%91%E5%88%86%E5%89%B2/115896" data-lemmaid="115896">黄金分割</a>数列、因<a target=_blank href="/item/%E6%95%B0%E5%AD%A6%E5%AE%B6/1210991" data-lemmaid="1210991">数学家</a>列昂纳多·斐波那契（Leonardoda Fibonacci）以兔子繁殖为例子而引入，故又称为“<a target=_blank href="/item/%E5%85%94%E5%AD%90%E6%95%B0%E5%88%97">兔子数列</a>”，指的是这样一个数列：1、1、2、3、5、8、13、21、34、……在数学上，斐波纳契数列以如下被以<a target=_blank href="/item/%E9%80%92%E5%BD%92">递归</a>的方法定义：F(0)=0，F(1)=1, F(n)=F(n-1)+F(n-2)（n&gt;=2，n∈N*）在现代物理、准晶体结构、化学等领域，斐波纳契数列都有直接的应用，为此，美国数学会从1963年起出版了以《斐波纳契数列季刊》为名的一份数学杂志，用于专门刊载这方面的研究成果。</div>
+</div>
+<div class="configModuleBanner">
+</div><div class="basic-info cmn-clearfix">
+<dl class="basicInfo-block basicInfo-left">
+<dt class="basicInfo-item name">中文名</dt>
+<dd class="basicInfo-item value">
+斐波那契数列
+</dd>
+<dt class="basicInfo-item name">外文名</dt>
+<dd class="basicInfo-item value">
+Fibonacci sequence
+</dd>
+<dt class="basicInfo-item name">别&nbsp;&nbsp;&nbsp;&nbsp;称</dt>
+<dd class="basicInfo-item value">
+黄金分割数列、兔子数列
+</dd>
+<dt class="basicInfo-item name">表达式</dt>
+<dd class="basicInfo-item value">
+F[n]=F[n-1]+F[n-2](n&gt;=2,F[0]=0,F[1]=1)
+</dd>
+</dl><dl class="basicInfo-block basicInfo-right">
+<dt class="basicInfo-item name">提出者</dt>
+<dd class="basicInfo-item value">
+列昂纳多·斐波那契
+</dd>
+<dt class="basicInfo-item name">提出时间</dt>
+<dd class="basicInfo-item value">
+1202年
+</dd>
+<dt class="basicInfo-item name">应用学科</dt>
+<dd class="basicInfo-item value">
+数学
+</dd>
+<dt class="basicInfo-item name">适用领域范围</dt>
+<dd class="basicInfo-item value">
+代数
+</dd>
+<dt class="basicInfo-item name">适用领域范围</dt>
+<dd class="basicInfo-item value">
+黄金分割
+</dd>
+</dl></div>
+<div class="lemmaWgt-lemmaCatalog">
+<div class="lemma-catalog">
+<h2 class="block-title">目录</h2>
+<div class="catalog-list column-4">
+<ol>
+<li class="level1">
+<span class="index">1</span>
+<span class="text"><a href="#1">定义</a></span>
+</li>
+<li class="level1">
+<span class="index">2</span>
+<span class="text"><a href="#2">通项公式</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#2_1">递推公式</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#2_2">通项公式</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#2_3">通项公式推导</a></span>
+</li>
+<li class="level1">
+<span class="index">3</span>
+<span class="text"><a href="#3">与黄金分割</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_1">关系</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_2">证明</a></span>
+</li>
+<li class="level1">
+<span class="index">4</span>
+<span class="text"><a href="#4">特性</a></span>
+</li>
+</ol><ol><li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_1">平方与前后项</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_2">与集合子集</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_3">奇数项求和</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_4">偶数项求和</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_5">平方求和</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_6">隔项关系</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_7">两倍项关系</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_8">其他公式</a></span>
+</li>
+<li class="level1">
+<span class="index">5</span>
+<span class="text"><a href="#5">应用</a></span>
+</li>
+</ol><ol><li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_1">生活斐波那契</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_2">黄金分割</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_3">杨辉三角</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_4">矩形面积</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_5">质数数量</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_6">尾数循环</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_7">自然界中“巧合”</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_8">数字谜题</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_9">影视作品中的斐波那契数列</a></span>
+</li>
+</ol><ol><li class="level1">
+<span class="index">6</span>
+<span class="text"><a href="#6">推广</a></span>
+</li>
+<li class="level1">
+<span class="index">7</span>
+<span class="text"><a href="#7">相关数学</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#7_1">排列组合</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#7_2">兔子繁殖问题</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#7_3">数列与矩阵</a></span>
+</li>
+<li class="level1">
+<span class="index">8</span>
+<span class="text"><a href="#8">斐波那契弧线</a></span>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="anchor-list">
+<a name="1" class="lemma-anchor para-title" ></a>
+<a name="sub816_1" class="lemma-anchor " ></a>
+<a name="定义" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">斐波那契数列</span>定义</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="1" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para"><b>斐波那契数列</b>指的是这样一个数列 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233，377，610，987，1597，2584，4181，6765，10946，17711，28657，46368........</div>
+<div class="para" label-module="para"><div class="lemma-picture text-pic layout-right" style="width:220px; text-indent: 28px; cursor: move; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/99145/0/d439b6003af33a87e4177a3dc75c10385343b59a?fr=lemma&ct=single" target="_blank"
+		title="自然中的斐波那契数列" style="width:220px;height:165px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="http://f.hiphotos.baidu.com/baike/s%3D220/sign=6e602dc7f603918fd3d13ac8613d264b/d439b6003af33a87e4177a3dc75c10385343b59a.jpg"  alt="自然中的斐波那契数列" style="width:220px;height:165px;"/>
+</a>
+<span class="description">
+自然中的斐波那契数列
+</span>
+</div>这个数列从第3项开始，每一项都等于前两项之和。</div>
+<div class="para" label-module="para">斐波那契<a target=_blank href="/item/%E6%95%B0%E5%88%97">数列</a>的定义者，是意大利数学家<a target=_blank href="/item/%E5%88%97%E6%98%82%E7%BA%B3%E5%A4%9A%C2%B7%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91">列昂纳多·斐波那契</a>（Leonardo Fibonacci），生于公元1170年，卒于1250年，籍贯是<a target=_blank href="/item/%E6%AF%94%E8%90%A8">比萨</a>。他被人称作“比萨的<a target=_blank href="/item/%E5%88%97%E6%98%82%E7%BA%B3%E5%A4%9A">列昂纳多</a>”。1202年，他撰写了《算盘全书》（Liber Abacci）一书。他是第一个研究了<a target=_blank href="/item/%E5%8D%B0%E5%BA%A6/121904" data-lemmaid="121904">印度</a>和阿拉伯数学理论的欧洲人。他的父亲被比萨的一家商业团体聘任为外交领事，派驻地点相当于今日的<a target=_blank href="/item/%E9%98%BF%E5%B0%94%E5%8F%8A%E5%88%A9%E4%BA%9A">阿尔及利亚</a>地区，列昂纳多因此得以在一个阿拉伯老师的指导下研究数学。他还曾在<a target=_blank href="/item/%E5%9F%83%E5%8F%8A">埃及</a>、<a target=_blank href="/item/%E5%8F%99%E5%88%A9%E4%BA%9A">叙利亚</a>、希腊、<a target=_blank href="/item/%E8%A5%BF%E8%A5%BF%E9%87%8C">西西里</a>和<a target=_blank href="/item/%E6%99%AE%E7%BD%97%E6%97%BA%E6%96%AF">普罗旺斯</a>等地研究数学。</div><div class="anchor-list">
+<a name="2" class="lemma-anchor para-title" ></a>
+<a name="sub816_2" class="lemma-anchor " ></a>
+<a name="通项公式" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">斐波那契数列</span>通项公式</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="2" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="2_1" class="lemma-anchor para-title" ></a>
+<a name="sub816_2_1" class="lemma-anchor " ></a>
+<a name="递推公式" class="lemma-anchor " ></a>
+<a name="2-1" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>递推公式</h3>
+</div>
+<div class="para" label-module="para">斐波那契数列：1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...</div>
+<div class="para" label-module="para">如果设F(n）为该数列的第n项（n∈N*），那么这句话可以写成如下形式：:F(n)=F(n-1)+F(n-2)</div>
+<div class="para" label-module="para">显然这是一个线性<a target=_blank href="/item/%E9%80%92%E6%8E%A8%E6%95%B0%E5%88%97/9140424" data-lemmaid="9140424">递推数列</a>。</div><div class="anchor-list">
+<a name="2_2" class="lemma-anchor para-title" ></a>
+<a name="sub816_2_2" class="lemma-anchor " ></a>
+<a name="通项公式" class="lemma-anchor " ></a>
+<a name="2-2" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>通项公式</h3>
+</div>
+<div class="para" label-module="para"><div class="layoutblock formula" style="margin-left:2em;width:245px;float: none; display: block; clear: both; margin-left: 2em;">
+<img align="absmiddle" alt="" title="" height="49" width="245" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D245/sign=456a7a09b61bb0518b24b42c037ada77/503d269759ee3d6db9e6f1e046166d224f4adefd.jpg"/>
+</div></div>
+<div class="para" label-module="para">(如上，又称为“比内公式”，是用<a target=_blank href="/item/%E6%97%A0%E7%90%86%E6%95%B0">无理数</a>表示有理数的一个范例。)</div>
+<div class="para" label-module="para"><b>注：此时 </b><div class="layoutinline formula" style="width:210px;display: inline;">
+<img align="absmiddle" alt="" title="" height="15" width="210" src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D210/sign=d590b15eb28f8c54e7d3c22e0a282dee/71cf3bc79f3df8dcabc1f821cb11728b46102885.jpg"/>
+</div> <div class="layoutinline formula" style="width:99px;display: inline;">
+<img align="absmiddle" alt="" title="" height="18" width="99" src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D99/sign=ab723815922bd40746c7dff47b894919/42166d224f4a20a4e4759afa95529822720ed0a0.jpg"/>
+</div></div><div class="anchor-list">
+<a name="2_3" class="lemma-anchor para-title" ></a>
+<a name="sub816_2_3" class="lemma-anchor " ></a>
+<a name="通项公式推导" class="lemma-anchor " ></a>
+<a name="2-3" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>通项公式推导</h3>
+</div>
+<div class="para" label-module="para"><b>方法一：利用特征方程（<a target=_blank href="/item/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/800" data-lemmaid="800">线性代数</a>解法）</b></div>
+<div class="para" label-module="para">线性<a target=_blank href="/item/%E9%80%92%E6%8E%A8%E6%95%B0%E5%88%97">递推数列</a>的<a target=_blank href="/item/%E7%89%B9%E5%BE%81%E6%96%B9%E7%A8%8B">特征方程</a>为：<br/>　　<div class="layoutinline formula" style="width:75px;display: inline;">
+<img align="absmiddle" alt="" title="" height="16" width="75" src="https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D75/sign=ce6769f7aa51f3dec7b2bb6194ee3932/d833c895d143ad4b8262e7fd87025aafa40f06ba.jpg"/>
+</div> <br/>　　解得<br/>　　<div class="layoutinline formula" style="width:87px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="87" src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D87/sign=4d3d3ace7c310a55c024d3f3b745504e/242dd42a2834349bb930ceb8ccea15ce36d3bedd.jpg"/>
+</div> ，<div class="layoutinline formula" style="width:86px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="86" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D86/sign=ad56328bcc177f3e1434f10b71cf6edc/8601a18b87d6277fe2b192052d381f30e924fc68.jpg"/>
+</div> .<br/>　　则<div class="layoutinline formula" style="width:146px;display: inline;">
+<img align="absmiddle" alt="" title="" height="18" width="146" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D146/sign=4445051eb57eca8016053de3a7239712/9c16fdfaaf51f3de42db1a5991eef01f3a2979a6.jpg"/>
+</div> <br/>　　∵<div class="layoutinline formula" style="width:108px;display: inline;">
+<img align="absmiddle" alt="" title="" height="18" width="108" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D108/sign=e9f55ab26981800a6ae58d0e893433d6/8694a4c27d1ed21b36598dd8a86eddc451da3f7e.jpg"/>
+</div> <br/>　　∴<div class="layoutinline formula" style="width:230px;display: inline;">
+<img align="absmiddle" alt="" title="" height="20" width="230" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D230/sign=dc5833024efbfbedd859317c48f1f78e/6f061d950a7b0208fd039ddc67d9f2d3562cc8c1.jpg"/>
+</div> 　 <br/>　　解得<div class="layoutinline formula" style="width:139px;display: inline;">
+<img align="absmiddle" alt="" title="" height="41" width="139" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D139/sign=bd6a62ffb7119313c343fbb35c380c10/e61190ef76c6a7ef2032041bf8faaf51f3de66f3.jpg"/>
+</div> <br/>　　<div class="layoutblock formula" style="margin-left:2em;width:275px;float: none; display: block; clear: both; margin-left: 2em;">
+<img align="absmiddle" alt="" title="" height="49" width="275" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D275/sign=5cae971bbfa1cd1101b675278c13c8b0/ac4bd11373f08202fedde2144efbfbedab641b49.jpg"/>
+</div></div>
+<div class="para" label-module="para"><b>方法二：</b><a target=_blank href="/item/%E5%BE%85%E5%AE%9A%E7%B3%BB%E6%95%B0%E6%B3%95">待定系数法</a>构造<a target=_blank href="/item/%E7%AD%89%E6%AF%94%E6%95%B0%E5%88%97">等比数列</a>1（<a target=_blank href="/item/%E5%88%9D%E7%AD%89%E4%BB%A3%E6%95%B0">初等代数</a>解法）</div>
+<div class="para" label-module="para">设常数<div class="layoutinline formula" style="width:7px;display: inline;">
+<img align="absmiddle" alt="" title="" height="9" width="7" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D9/sign=6eb6b7f8e5fe9925cf0c65603468dc/5bafa40f4bfbfbedfffb99427df0f736afc31f68.jpg"/>
+</div> ，<div class="layoutinline formula" style="width:6px;display: inline;">
+<img align="absmiddle" alt="" title="" height="8" width="6" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D8/sign=e3a9aa43201f95caa2f59f86c949d8/2f738bd4b31c8701d5281ddb227f9e2f0708ff75.jpg"/>
+</div> .</div>
+<div class="para" label-module="para">使得<div class="layoutinline formula" style="width:316px;display: inline;">
+<img align="absmiddle" alt="" title="" height="18" width="316" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D316/sign=d0e8c96bd5160924d825a41ae207359b/b8014a90f603738dcf62a21fb61bb051f819ece7.jpg"/>
+</div></div>
+<div class="para" label-module="para">则<div class="layoutinline formula" style="width:55px;display: inline;">
+<img align="absmiddle" alt="" title="" height="13" width="55" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D55/sign=4d1e52e710ce36d3a60483353bf3f1e8/fc1f4134970a304e33b40ec7d4c8a786c9175c7c.jpg"/>
+</div> ，<div class="layoutinline formula" style="width:49px;display: inline;">
+<img align="absmiddle" alt="" title="" height="13" width="49" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D49/sign=cd487ed0e21190ef05fb93d6cf1b20c2/9f510fb30f2442a7914e5398d443ad4bd113024e.jpg"/>
+</div></div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:36px;display: inline;">
+<img align="absmiddle" alt="" title="" height="13" width="36" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D36/sign=bb75327a3c12b31bc36ccb2f8718a1b9/9213b07eca806538c42f0a2e92dda144ac3482c2.jpg"/>
+</div> 时，有</div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:328px;display: inline;">
+<img align="absmiddle" alt="" title="" height="18" width="328" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D328/sign=24eeb1f8e5fe9925cf0c6f520ca95ee4/7e3e6709c93d70cf25000330fddcd100baa12b10.jpg"/>
+</div></div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:353px;display: inline;">
+<img align="absmiddle" alt="" title="" height="18" width="353" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D353/sign=1cdc171e662762d0843ea2ba93ec0849/359b033b5bb5c9eaa0feabded039b6003af3b3fa.jpg"/>
+</div></div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:353px;display: inline;">
+<img align="absmiddle" alt="" title="" height="18" width="353" src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D353/sign=43c6c92114dfa9ecf92e501251d0f754/242dd42a2834349bb22ec5b8ccea15ce36d3bee7.jpg"/>
+</div></div>
+<div class="para" label-module="para">……</div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:253px;display: inline;">
+<img align="absmiddle" alt="" title="" height="18" width="253" src="https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D253/sign=84890322020828386c0ddb118b98a964/7acb0a46f21fbe09c8956b296e600c338644adc0.jpg"/>
+</div></div>
+<div class="para" label-module="para">联立以上n-2个式子，得：</div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:301px;display: inline;">
+<img align="absmiddle" alt="" title="" height="20" width="301" src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D301/sign=845e5df7aa51f3dec7b2bf64a5eef0ec/c8177f3e6709c93d69879bca9a3df8dcd1005491.jpg"/>
+</div></div>
+<div class="para" label-module="para">∵<div class="layoutinline formula" style="width:57px;display: inline;">
+<img align="absmiddle" alt="" title="" height="13" width="57" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D57/sign=d6f8a2057ef40ad111e4c7e4562c86c5/b90e7bec54e736d1f3ad19359e504fc2d5626955.jpg"/>
+</div> ，<div class="layoutinline formula" style="width:108px;display: inline;">
+<img align="absmiddle" alt="" title="" height="18" width="108" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D108/sign=90135d124434970a4373142fadcbd1c0/38dbb6fd5266d01631e40b15922bd40735fa3509.jpg"/>
+</div></div>
+<div class="para" label-module="para">上式可化简得：</div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:175px;display: inline;">
+<img align="absmiddle" alt="" title="" height="20" width="175" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D175/sign=2f9ad83c0f55b31998f9867276a98286/7af40ad162d9f2d3d775b0d2acec8a136327cca3.jpg"/>
+</div></div>
+<div class="para" label-module="para">那么</div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:175px;display: inline;">
+<img align="absmiddle" alt="" title="" height="20" width="175" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D175/sign=2f9ad83c0f55b31998f9867276a98286/7af40ad162d9f2d3d775b0d2acec8a136327cca3.jpg"/>
+</div></div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:204px;display: inline;">
+<img align="absmiddle" alt="" title="" height="20" width="204" src="https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D204/sign=b64d1116b551f819f525044aeeb44a76/58ee3d6d55fbb2fbcc49cf2f4a4a20a44623dca9.jpg"/>
+</div></div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:287px;display: inline;">
+<img align="absmiddle" alt="" title="" height="20" width="287" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D287/sign=928a0bdef81f4134e4370276121e95c1/80cb39dbb6fd5266e482aa29ae18972bd4073665.jpg"/>
+</div></div>
+<div class="para" label-module="para">……</div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:383px;display: inline;">
+<img align="absmiddle" alt="" title="" height="20" width="383" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D383/sign=fb5ff3439758d109c0e3afbae258ccd0/9345d688d43f879482c9d813d71b0ef41bd53adc.jpg"/>
+</div></div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:336px;display: inline;">
+<img align="absmiddle" alt="" title="" height="17" width="336" src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D336/sign=2767b5355643fbf2c12ca020867eca1e/e4dde71190ef76c646d46b169816fdfaaf51678d.jpg"/>
+</div></div>
+<div class="para" label-module="para">（这是一个以<div class="layoutinline formula" style="width:27px;display: inline;">
+<img align="absmiddle" alt="" title="" height="16" width="27" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D27/sign=4819adf7543d26972ad30f5a54fb98bb/fcfaaf51f3deb48f64a131e3f51f3a292cf578c7.jpg"/>
+</div> 为首项、以<div class="layoutinline formula" style="width:29px;display: inline;">
+<img align="absmiddle" alt="" title="" height="17" width="29" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D29/sign=84bb08395c82b2b7a39f3ecd30addb40/fd039245d688d43fa26b01cf781ed21b0ff43bc8.jpg"/>
+</div> 为末项、<div class="layoutinline formula" style="width:8px;display: inline;">
+<img align="absmiddle" alt="" title="" height="31" width="8" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D31/sign=53bd72328294a4c20e23e12a0ef47972/f603918fa0ec08fad408809a5cee3d6d55fbda87.jpg"/>
+</div> 为公比的<a target=_blank href="/item/%E7%AD%89%E6%AF%94%E6%95%B0%E5%88%97">等比数列</a>的各项的和）。</div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:127px;display: inline;">
+<img align="absmiddle" alt="" title="" height="50" width="127" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D127/sign=f7f3d7c23ec79f3d8be1e0328da0cdbc/0e2442a7d933c895ef8d0a46d41373f08202001f.jpg"/>
+</div></div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:62px;display: inline;">
+<img align="absmiddle" alt="" title="" height="36" width="62" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D62/sign=1df04cc9b24543a9f11bf9ce1f17aca4/c8ea15ce36d3d53918e99dfe3f87e950352ab033.jpg"/>
+</div></div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:55px;display: inline;">
+<img align="absmiddle" alt="" title="" height="13" width="55" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D55/sign=4d1e52e710ce36d3a60483353bf3f1e8/fc1f4134970a304e33b40ec7d4c8a786c9175c7c.jpg"/>
+</div> ，<div class="layoutinline formula" style="width:49px;display: inline;">
+<img align="absmiddle" alt="" title="" height="13" width="49" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D49/sign=cd487ed0e21190ef05fb93d6cf1b20c2/9f510fb30f2442a7914e5398d443ad4bd113024e.jpg"/>
+</div> 的解为<div class="layoutinline formula" style="width:156px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="156" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D156/sign=771dd1fdf236afc30a0c3b608519eb85/6f061d950a7b02080fa6a3dc67d9f2d3572cc8a4.jpg"/>
+</div></div>
+<div class="para" label-module="para">则<div class="layoutinline formula" style="width:246px;display: inline;">
+<img align="absmiddle" alt="" title="" height="46" width="246" src="https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D246/sign=42c5afe59c25bc312f5d069c68df8de7/3ac79f3df8dcd100d591820a778b4710b9122f8f.jpg"/>
+</div></div>
+<div class="para" label-module="para"><b>方法三：</b><a target=_blank href="/item/%E5%BE%85%E5%AE%9A%E7%B3%BB%E6%95%B0%E6%B3%95">待定系数法</a>构造<a target=_blank href="/item/%E7%AD%89%E6%AF%94%E6%95%B0%E5%88%97">等比数列</a>2（初等代数解法）</div>
+<div class="para" label-module="para">设<div class="layoutinline formula" style="width:201px;display: inline;">
+<img align="absmiddle" alt="" title="" height="18" width="201" src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D201/sign=9871ef20c195d143de76e32342f18296/267f9e2f07082838c5e6df37b199a9014c08f12e.jpg"/>
+</div></div>
+<div class="para" label-module="para">得<div class="layoutinline formula" style="width:71px;display: inline;">
+<img align="absmiddle" alt="" title="" height="54" width="71" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D71/sign=9844d7ed9025bc312f5d03995fdf30f0/4afbfbedab64034fcd41c025a6c379310a551d00.jpg"/>
+</div></div>
+<div class="para" label-module="para">构造方程<div class="layoutinline formula" style="width:93px;display: inline;">
+<img align="absmiddle" alt="" title="" height="16" width="93" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D93/sign=367141d5aeefce1bee2bc4c9ae513de1/e7cd7b899e510fb3a9ba75b4d033c895d1430c75.jpg"/>
+</div></div>
+<div class="para" label-module="para">解得<div class="layoutinline formula" style="width:94px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="94" src="https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D94/sign=3912e7b105f431adb8d24f3d4a36d8e9/b812c8fcc3cec3fd77a6a556df88d43f8794277c.jpg"/>
+</div> ，所以</div>
+<div class="para" label-module="para"><div class="layoutblockcenter formula" style="width:359px;float: none; display: block; margin: 0px auto; clear: both;">
+<img align="absmiddle" alt="" title="" height="38" width="359" src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D359/sign=1a25c3e1bb119313c343f9b55c380c10/8435e5dde71190ef3fa09ffcc71b9d16fdfa60bd.jpg"/>
+</div></div>
+<div class="para" label-module="para" style="text-align: center;" ><div class="layoutblockcenter formula" style="width:359px;float: none; display: block; margin: 0px auto; clear: both;">
+<img align="absmiddle" alt="" title="" height="38" width="359" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D359/sign=4608ce3762600c33f479d8cd234c5134/96dda144ad3459829fdce8b105f431adcbef84ba.jpg"/>
+</div></div>
+<div class="para" label-module="para">由(1)(2)式得</div>
+<div class="para" label-module="para"><div class="layoutblockcenter formula" style="width:363px;float: none; display: block; margin: 0px auto; clear: both;">
+<img align="absmiddle" alt="" title="" height="38" width="363" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D363/sign=34c8bd6638adcbef053478009fae2e0e/5d6034a85edf8db12f79f8c60023dd54564e7439.jpg"/>
+</div></div>
+<div class="para" label-module="para" style="text-align: center;" ><div class="layoutblockcenter formula" style="width:363px;float: none; display: block; margin: 0px auto; clear: both;">
+<img align="absmiddle" alt="" title="" height="38" width="363" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D363/sign=9f4ab39a72f40ad111e4c1e5642d1151/1b4c510fd9f9d72af56894bfdd2a2834349bbb00.jpg"/>
+</div></div>
+<div class="para" label-module="para"><div class="layoutblock formula" style="margin-left:2em;width:185px;float: none; display: block; clear: both; margin-left: 2em;">
+<img align="absmiddle" alt="" title="" height="38" width="185" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D185/sign=9ade3f1b21381f309a1989a19c004c67/7acb0a46f21fbe096f92ce3762600c338644adc0.jpg"/>
+</div> 化简可得</div>
+<div class="para" label-module="para" style="text-align: center;" ><div class="layoutblockcenter formula" style="width:223px;float: none; display: block; margin: 0px auto; clear: both;">
+<img align="absmiddle" alt="" title="" height="44" width="223" src="https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D223/sign=c618aecea844ad342abf8085e3a20c08/3b292df5e0fe9925eb0a65733da85edf8db1718a.jpg"/>
+</div></div>
+<div class="para" label-module="para">方法四：母函数法。</div>
+<div class="para" label-module="para">对于斐波那契数列{a<sub>n</sub>}，有a<sub>1</sub>=a<sub>2</sub>=1,a<sub>n</sub>=a<sub>n-1</sub>+a<sub>n-2</sub>(n&gt;2时)</div>
+<div class="para" label-module="para">令S(x)=a<sub>1</sub>x+a<sub>2</sub>x<sup class="normal">2</sup>+……+a<sub>n</sub>x<sup class="normal">n</sup>。</div>
+<div class="para" label-module="para">那么有S(x)*(1-x-x<sup class="normal">2</sup>)=a<sub>1</sub>x+(a<sub>2</sub>-a<sub>1</sub>)x<sup class="normal">2</sup>+……+(a<sub>n</sub>-a<sub>n-1</sub>-a<sub>n-2</sub>)x<sup class="normal">n</sup>=x.</div>
+<div class="para" label-module="para">因此S(x)=<div class="layoutinline formula" style="width:66px;display: inline;">
+<img align="absmiddle" alt="" title="" height="31" width="66" src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D66/sign=1d7ce0960be9390152028e387aec2e5c/1ad5ad6eddc451dae06e545dbcfd5266d11632ef.jpg"/>
+</div>.</div>
+<div class="para" label-module="para">不难证明1-x-x<sup class="normal">2</sup>=-(x+<div class="layoutinline formula" style="width:47px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="47" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D47/sign=dbb6ffdedb09b3deefbfe56fcdbf0430/1f178a82b9014a907bfb1e0ba3773912b21beebb.jpg"/>
+</div>)(x+<div class="layoutinline formula" style="width:47px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="47" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D47/sign=78d8bf9579f08202299290384afb5b4d/8644ebf81a4c510f0c6ab9ac6a59252dd52aa5de.jpg"/>
+</div>)=(1-<div class="layoutinline formula" style="width:47px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="47" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D47/sign=78d8bf9579f08202299290384afb5b4d/8644ebf81a4c510f0c6ab9ac6a59252dd52aa5de.jpg"/>
+</div>*x)(1-<div class="layoutinline formula" style="width:47px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="47" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D47/sign=dbb6ffdedb09b3deefbfe56fcdbf0430/1f178a82b9014a907bfb1e0ba3773912b21beebb.jpg"/>
+</div>*x).</div>
+<div class="para" label-module="para">因此S(x)=<div class="layoutinline formula" style="width:22px;display: inline;">
+<img align="absmiddle" alt="" title="" height="41" width="22" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D41/sign=95b3c78630f33a879a6d011bc75ccdbc/94cad1c8a786c9173fb4168fc33d70cf3ac757d4.jpg"/>
+</div>*[x/(1-<div class="layoutinline formula" style="width:47px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="47" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D47/sign=dbb6ffdedb09b3deefbfe56fcdbf0430/1f178a82b9014a907bfb1e0ba3773912b21beebb.jpg"/>
+</div>*x)-x/(1-<div class="layoutinline formula" style="width:47px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="47" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D47/sign=78d8bf9579f08202299290384afb5b4d/8644ebf81a4c510f0c6ab9ac6a59252dd52aa5de.jpg"/>
+</div>*x)].</div>
+<div class="para" label-module="para">再利用展开式1/(1-x)=1+x+x<sup class="normal">2</sup>+x<sup class="normal">3</sup>+……+x<sup class="normal">n</sup></div>
+<div class="para" label-module="para">于是就可以得S(x)=b<sub>1</sub>x+b<sub>2</sub>x<sup class="normal">2</sup>+……+b<sub>n</sub>x<sup class="normal">n</sup></div>
+<div class="para" label-module="para">其中b<sub>n</sub>=<div class="layoutinline formula" style="width:22px;display: inline;">
+<img align="absmiddle" alt="" title="" height="41" width="22" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D41/sign=95b3c78630f33a879a6d011bc75ccdbc/94cad1c8a786c9173fb4168fc33d70cf3ac757d4.jpg"/>
+</div>*[(<div class="layoutinline formula" style="width:47px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="47" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D47/sign=dbb6ffdedb09b3deefbfe56fcdbf0430/1f178a82b9014a907bfb1e0ba3773912b21beebb.jpg"/>
+</div>)<sup class="normal">n</sup> - (<div class="layoutinline formula" style="width:47px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="47" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D47/sign=78d8bf9579f08202299290384afb5b4d/8644ebf81a4c510f0c6ab9ac6a59252dd52aa5de.jpg"/>
+</div>)<sup class="normal">n</sup>].</div>
+<div class="para" label-module="para">因此可以得到a<sub>n</sub>=b<sub>n</sub>=<div class="layoutinline formula" style="width:22px;display: inline;">
+<img align="absmiddle" alt="" title="" height="41" width="22" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D41/sign=95b3c78630f33a879a6d011bc75ccdbc/94cad1c8a786c9173fb4168fc33d70cf3ac757d4.jpg"/>
+</div>*[(<div class="layoutinline formula" style="width:47px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="47" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D47/sign=dbb6ffdedb09b3deefbfe56fcdbf0430/1f178a82b9014a907bfb1e0ba3773912b21beebb.jpg"/>
+</div>)- (<div class="layoutinline formula" style="width:47px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="47" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D47/sign=78d8bf9579f08202299290384afb5b4d/8644ebf81a4c510f0c6ab9ac6a59252dd52aa5de.jpg"/>
+</div>)]</div><div class="anchor-list">
+<a name="3" class="lemma-anchor para-title" ></a>
+<a name="sub816_3" class="lemma-anchor " ></a>
+<a name="与黄金分割" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">斐波那契数列</span>与黄金分割</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="3" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="3_1" class="lemma-anchor para-title" ></a>
+<a name="sub816_3_1" class="lemma-anchor " ></a>
+<a name="关系" class="lemma-anchor " ></a>
+<a name="3-1" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>关系</h3>
+</div>
+<div class="para" label-module="para">有趣的是，这样一个完全是<a target=_blank href="/item/%E8%87%AA%E7%84%B6%E6%95%B0">自然数</a>的数列，通项公式却是用<a target=_blank href="/item/%E6%97%A0%E7%90%86%E6%95%B0">无理数</a>来表达的。而且当n趋向于无穷大时，前一项与后一项的比值越来越逼近<a target=_blank href="/item/%E9%BB%84%E9%87%91%E5%88%86%E5%89%B2">黄金分割</a>0.618（或者说后一项与前一项的比值小数部分越来越逼近0.618）。</div>
+<div class="para" label-module="para">1÷1=1，1÷2=0.5，2÷3=0.666...，3÷5=0.6，5÷8=0.625…………，55÷89=0.617977……………144÷233=0.618025…46368÷75025=0.6180339886…...</div>
+<div class="para" label-module="para">越到后面，这些比值越接近黄金比.</div><div class="anchor-list">
+<a name="3_2" class="lemma-anchor para-title" ></a>
+<a name="sub816_3_2" class="lemma-anchor " ></a>
+<a name="证明" class="lemma-anchor " ></a>
+<a name="3-2" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>证明</h3>
+</div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:112px;display: inline;">
+<img align="absmiddle" alt="" title="" height="15" width="112" src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D112/sign=20813c782e7f9e2f743519092d31e962/7acb0a46f21fbe09ea694d8a62600c338744ad7d.jpg"/>
+</div></div>
+<div class="para" label-module="para">两边同时除以<div class="layoutinline formula" style="width:29px;display: inline;">
+<img align="absmiddle" alt="" title="" height="15" width="29" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D29/sign=e44895dd82d4b31cf43c93b286d6b808/b3b7d0a20cf431ad654acda74236acaf2fdd9890.jpg"/>
+</div> 得到：</div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:110px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="110" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D110/sign=432cd7ce0533874498c52b7d610ed937/2fdda3cc7cd98d10b4e185af283fb80e7bec9073.jpg"/>
+</div> 。</div>
+<div class="para" label-module="para">若<div class="layoutinline formula" style="width:32px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="32" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D38/sign=3040a406f91f3a295ec8d3c6982534b1/4afbfbedab64034fc4e4c7dea6c379310a551d38.jpg"/>
+</div> 的极限存在，设其极限为x，</div>
+<div class="para" label-module="para">则<div class="layoutinline formula" style="width:185px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="185" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D185/sign=9d07f8c26959252da717190c0199032c/7dd98d1001e9390165c197e672ec54e737d19622.jpg"/>
+</div> 。</div>
+<div class="para" label-module="para">所以<div class="layoutinline formula" style="width:64px;display: inline;">
+<img align="absmiddle" alt="" title="" height="35" width="64" src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D64/sign=face99e945086e066ea83c4f03088b72/a2cc7cd98d1001e97b5611d7b10e7bec55e797fb.jpg"/>
+</div> 。</div>
+<div class="para" label-module="para">由于<div class="layoutinline formula" style="width:35px;display: inline;">
+<img align="absmiddle" alt="" title="" height="13" width="35" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D35/sign=76b89df99a13b07eb9bd560d0dd7c466/f9dcd100baa1cd11ffc168f8b012c8fcc2ce2df6.jpg"/>
+</div></div>
+<div class="para" label-module="para">解得<div class="layoutinline formula" style="width:76px;display: inline;">
+<img align="absmiddle" alt="" title="" height="38" width="76" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D76/sign=0f7a79bc0023dd542573a56ed0090806/0b55b319ebc4b74587c0b2cec6fc1e178b821595.jpg"/>
+</div></div>
+<div class="para" label-module="para">所以极限是黄金分割比。</div><div class="anchor-list">
+<a name="4" class="lemma-anchor para-title" ></a>
+<a name="sub816_4" class="lemma-anchor " ></a>
+<a name="特性" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">斐波那契数列</span>特性</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="4" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="4_1" class="lemma-anchor para-title" ></a>
+<a name="sub816_4_1" class="lemma-anchor " ></a>
+<a name="平方与前后项" class="lemma-anchor " ></a>
+<a name="4-1" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>平方与前后项</h3>
+</div>
+<div class="para" label-module="para">从第二项开始，每个<a target=_blank href="/item/%E5%A5%87%E6%95%B0">奇数</a>项的<a target=_blank href="/item/%E5%B9%B3%E6%96%B9">平方</a>都比前后两项之积多1，每个<a target=_blank href="/item/%E5%81%B6%E6%95%B0">偶数</a>项的平方都比前后两项之积少1。</div>
+<div class="para" label-module="para">如：第二项1的平方比它的前一项1和它的后一项2的积2少1，第三项2的平方比它的前一项1和它的后一项3的积3多1。</div>
+<div class="para" label-module="para">（注：<b>奇数项和偶数项是</b><b>指项数的奇偶</b>，而并不是<a target=_blank href="/item/%E6%8C%87%E6%95%B0">指数</a>列的数字本身的奇偶，比如从数列第二项1开始数，第4项5是奇数，但它是偶数项，如果认为5是奇数项，那就误解题意，怎么都说不通）</div>
+<div class="para" label-module="para"><b>证明</b>经计算可得：[f(n)]^2-f(n-1)f(n+1)=(-1)^(n-1)</div><div class="anchor-list">
+<a name="4_2" class="lemma-anchor para-title" ></a>
+<a name="sub816_4_2" class="lemma-anchor " ></a>
+<a name="与集合子集" class="lemma-anchor " ></a>
+<a name="4-2" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>与集合子集</h3>
+</div>
+<div class="para" label-module="para">斐波那契数列的第n+2项同时也代表了<a target=_blank href="/item/%E9%9B%86%E5%90%88">集合</a>{1,2,...,n}中所有不<a target=_blank href="/item/%E5%8C%85%E5%90%AB">包含</a>相邻正<a target=_blank href="/item/%E6%95%B4%E6%95%B0">整数</a>的<a target=_blank href="/item/%E5%AD%90%E9%9B%86">子集</a>个数。</div><div class="anchor-list">
+<a name="4_3" class="lemma-anchor para-title" ></a>
+<a name="sub816_4_3" class="lemma-anchor " ></a>
+<a name="奇数项求和" class="lemma-anchor " ></a>
+<a name="4-3" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>奇数项求和</h3>
+</div>
+<div class="para" label-module="para"><div class="layoutblockcenter formula" style="width:273px;float: none; display: block; margin: 0px auto; clear: both;">
+<img align="absmiddle" alt="" title="" height="16" width="273" src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D273/sign=684eafbad554564ee165e33e80df9cde/fd039245d688d43fa68e025b751ed21b0ef43b77.jpg"/>
+</div></div><div class="anchor-list">
+<a name="4_4" class="lemma-anchor para-title" ></a>
+<a name="sub816_4_4" class="lemma-anchor " ></a>
+<a name="偶数项求和" class="lemma-anchor " ></a>
+<a name="4-4" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>偶数项求和</h3>
+</div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:253px;display: inline;">
+<img align="absmiddle" alt="" title="" height="16" width="253" src="https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D253/sign=fa327b5d59da81cb4ae684c86167d0a4/8b82b9014a90f60324d10fee3112b31bb051ed32.jpg"/>
+</div></div>
+<ul class="custom_dot para-list list-paddingleft-1"></ul><div class="anchor-list">
+<a name="4_5" class="lemma-anchor para-title" ></a>
+<a name="sub816_4_5" class="lemma-anchor " ></a>
+<a name="平方求和" class="lemma-anchor " ></a>
+<a name="4-5" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>平方求和</h3>
+</div>
+<div class="para" label-module="para"><div class="layoutblockcenter formula" style="width:227px;float: none; display: block; margin: 0px auto; clear: both;">
+<img align="absmiddle" alt="" title="" height="21" width="227" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D227/sign=5ead1ee5d62a283447a631096cb7c92e/a2cc7cd98d1001e907f51af7ba0e7bec55e79778.jpg"/>
+</div></div><div class="anchor-list">
+<a name="4_6" class="lemma-anchor para-title" ></a>
+<a name="sub816_4_6" class="lemma-anchor " ></a>
+<a name="隔项关系" class="lemma-anchor " ></a>
+<a name="4-6" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>隔项关系</h3>
+</div>
+<div class="para" label-module="para">f(2n-2m-2)[f(2n)+f(2n+2)]=f(2m+2)+f(4n-2m) [ n〉m≥-1，且n≥1]</div><div class="anchor-list">
+<a name="4_7" class="lemma-anchor para-title" ></a>
+<a name="sub816_4_7" class="lemma-anchor " ></a>
+<a name="两倍项关系" class="lemma-anchor " ></a>
+<a name="4-7" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>两倍项关系</h3>
+</div>
+<div class="para" label-module="para">f(2n)/f(n)=f(n-1)+f(n+1)</div><div class="anchor-list">
+<a name="4_8" class="lemma-anchor para-title" ></a>
+<a name="sub816_4_8" class="lemma-anchor " ></a>
+<a name="其他公式" class="lemma-anchor " ></a>
+<a name="4-8" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>其他公式</h3>
+</div>
+<div class="para" label-module="para"><div class="layoutblockcenter formula" style="width:148px;float: none; display: block; margin: 0px auto; clear: both;">
+<img align="absmiddle" alt="" title="" height="20" width="148" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D148/sign=0ebf9b27cc1b9d168ec79e65cbdfb4eb/fc1f4134970a304e5d66a902d3c8a786c8175c85.jpg"/>
+</div></div>
+<div class="para" label-module="para" style="text-align: center;" ><div class="layoutblockcenter formula" style="width:311px;float: none; display: block; margin: 0px auto; clear: both;">
+<img align="absmiddle" alt="" title="" height="16" width="311" src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D311/sign=b81b98c749fbfbedd859307e49f1f78e/a8014c086e061d95e8cf3ec079f40ad163d9cab9.jpg"/>
+</div></div><div class="anchor-list">
+<a name="5" class="lemma-anchor para-title" ></a>
+<a name="sub816_5" class="lemma-anchor " ></a>
+<a name="应用" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">斐波那契数列</span>应用</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="5" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="5_1" class="lemma-anchor para-title" ></a>
+<a name="sub816_5_1" class="lemma-anchor " ></a>
+<a name="生活斐波那契" class="lemma-anchor " ></a>
+<a name="5-1" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>生活斐波那契</h3>
+</div>
+<div class="para" label-module="para">斐波那契数列中的斐波那契数会经常出现在我们的眼前——比如松果、凤梨、树叶的排列、某些花朵的花瓣数（典型的有向日葵花瓣），蜂巢，蜻蜓翅膀，超越数e（可以推出更多），<a target=_blank href="/item/%E9%BB%84%E9%87%91%E7%9F%A9%E5%BD%A2">黄金矩形</a>、<a target=_blank href="/item/%E9%BB%84%E9%87%91%E5%88%86%E5%89%B2/115896" data-lemmaid="115896">黄金分割</a>、<a target=_blank href="/item/%E7%AD%89%E8%A7%92%E8%9E%BA%E7%BA%BF">等角螺线</a>，<a target=_blank href="/item/%E5%8D%81%E4%BA%8C%E5%B9%B3%E5%9D%87%E5%BE%8B">十二平均律</a>等。<a class="lemma-album layout-right nslog:10000206" title="合并图册"  href="/pic/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/99145/20488878/472309f790529822caba8c13d1ca7bcb0b46d451?fr=lemma&ct=cover" target="_blank"  style="width:222px;" nslog-type="10000206">
+<div class="album-wrap" style="width:220px;height:165px;">
+<img class="picture" alt="合并图册" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=3eacb69adcb44aed5d4eb9e6831e876a/472309f790529822caba8c13d1ca7bcb0b46d451.jpg" style="width:220px;height:165px;"/>
+</div>
+<div class="description">
+合并图册<span class="number">(2张)</span>
+</div>
+<div class="albumBg">
+<div class="albumBgFir" style="width:214px;"></div>
+<div class="albumBgSec" style="width:208px;"></div>
+</div>
+</a>
+</div>
+<div class="para" label-module="para">斐波那契数与植物花瓣3………………………</div>
+<div class="para" label-module="para">百合和蝴蝶花5……………………</div>
+<div class="para" label-module="para">蓝花耧斗菜、<a target=_blank href="/item/%E9%87%91%E5%87%A4%E8%8A%B1">金凤花</a>、飞燕草、毛茛花8………………………</div>
+<div class="para" label-module="para">翠雀花13………………………</div>
+<div class="para" label-module="para">金盏和玫瑰21……………………</div>
+<div class="para" label-module="para">紫宛34、55、89……………雏菊</div>
+<div class="para" label-module="para">斐波那契数还可以在植物的叶、枝、茎等排列中发现。例如，在<a target=_blank href="/item/%E6%A0%91%E6%9C%A8">树木</a>的枝干上选一片叶子，记其为数0，然后依序点数叶子（假定没有折损），直到到达与那些叶子正对的位置，则其间的叶子数多半是斐波那契数。叶子从一个位置到达下一个正对的位置称为一个循回。叶子在一个循回中<a target=_blank href="/item/%E6%97%8B%E8%BD%AC">旋转</a>的圈数也是斐波那契数。在一个循回中叶子数与叶子旋转圈数的比称为<a target=_blank href="/item/%E5%8F%B6%E5%BA%8F">叶序</a>（源自希腊词，意即叶子的排列）比。多数的叶序比呈现为斐波那契数的比。</div><div class="anchor-list">
+<a name="5_2" class="lemma-anchor para-title" ></a>
+<a name="sub816_5_2" class="lemma-anchor " ></a>
+<a name="黄金分割" class="lemma-anchor " ></a>
+<a name="5-2" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>黄金分割</h3>
+</div>
+<div class="para" label-module="para">随着数列项数的增加，前一项与后一项之比越来越逼近<a target=_blank href="/item/%E9%BB%84%E9%87%91%E5%88%86%E5%89%B2">黄金分割</a>的数值0.6180339887..…</div><div class="anchor-list">
+<a name="5_3" class="lemma-anchor para-title" ></a>
+<a name="sub816_5_3" class="lemma-anchor " ></a>
+<a name="杨辉三角" class="lemma-anchor " ></a>
+<a name="5-3" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>杨辉三角</h3>
+</div>
+<div class="para" label-module="para">将<a target=_blank href="/item/%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92">杨辉三角</a>左对齐，成如图所示排列，将同一斜行的数加起来，即得一数列1、1、2、3、5、8、……</div>
+<div class="para" label-module="para"><div class="lemma-picture text-pic " style="width:220px; float: none; display: block; margin-left: 0px; clear: both;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/99145/0/4afbfbedab64034ff4189f2aaec379310b551dc0?fr=lemma&ct=single" target="_blank"
+		title="" style="width:220px;height:139px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="http://e.hiphotos.baidu.com/baike/s%3D220/sign=5de8d2bdcc11728b342d8b20f8fdc3b3/4afbfbedab64034ff4189f2aaec379310b551dc0.jpg"  alt="" style="width:220px;height:139px;"/>
+</a>
+</div>公式表示如下：</div>
+<div class="para" label-module="para">f⑴=C(0,0)=1。</div>
+<div class="para" label-module="para">f⑵=C(1,0)=1。</div>
+<div class="para" label-module="para">f⑶=C(2,0)+C(1,1)=1+1=2。</div>
+<div class="para" label-module="para">f⑷=C(3,0)+C(2,1)=1+2=3。</div>
+<div class="para" label-module="para">f⑸=C(4,0)+C(3,1)+C(2,2)=1+3+1=5。</div>
+<div class="para" label-module="para">f⑹=C(5,0)+C(4,1)+C(3,2)=1+4+3=8。</div>
+<div class="para" label-module="para">f⑺=C(6,0)+C(5,1)+C(4,2)+C(3,3)=1+5+6+1=13。</div>
+<div class="para" label-module="para">……</div>
+<div class="para" label-module="para">f(n)=C(n-1,0)+C(n-2,1)+…+C(n-1-m,m) (m&lt;=n-1-m)</div><div class="anchor-list">
+<a name="5_4" class="lemma-anchor para-title" ></a>
+<a name="sub816_5_4" class="lemma-anchor " ></a>
+<a name="矩形面积" class="lemma-anchor " ></a>
+<a name="5-4" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>矩形面积</h3>
+</div>
+<div class="para" label-module="para">斐波那契数列与矩形面积的生成相关，由此可以导出一个斐波那契数列的一个性质。</div>
+<div class="para" label-module="para"><div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/99145/0/09fa513d269759eeec770c23bbfb43166d22df37?fr=lemma&ct=single" target="_blank"
+		title="" style="width:220px;height:134px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="http://b.hiphotos.baidu.com/baike/s%3D220/sign=cf0dd35ab0014a90853e41bf99763971/09fa513d269759eeec770c23bbfb43166d22df37.jpg"  alt="" style="width:220px;height:134px;"/>
+</a>
+</div>斐波那契数列前几项的平方和可以看做不同大小的正方形，由于斐波那契的递推公式，它们可以拼成一个大的矩形。这样所有小正方形的面积之和等于大矩形的面积。则可以得到如下的恒等式：</div>
+<div class="para" label-module="para"><div class="layoutblockcenter formula" style="width:180px;float: none; display: block; margin: 0px auto; clear: both;">
+<img align="absmiddle" alt="" title="" height="20" width="180" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D180/sign=05bcca8a9122720e7fcee6f24bca0a3a/a044ad345982b2b7dce9562c38adcbef77099be7.jpg"/>
+</div></div><div class="anchor-list">
+<a name="5_5" class="lemma-anchor para-title" ></a>
+<a name="sub816_5_5" class="lemma-anchor " ></a>
+<a name="质数数量" class="lemma-anchor " ></a>
+<a name="5-5" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>质数数量</h3>
+</div>
+<div class="para" label-module="para">斐波那契数列的整除性与质数生成性</div>
+<div class="para" label-module="para">每3个连续的数中有且只有一个被2整除，</div>
+<div class="para" label-module="para"><div class="lemma-picture text-pic layout-right" style="width:220px; text-indent: 28px; cursor: move; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/99145/0/5882b2b7d0a20cf4db154a0f70094b36adaf995d?fr=lemma&ct=single" target="_blank"
+		title="" style="width:220px;height:137px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="http://c.hiphotos.baidu.com/baike/s%3D220/sign=98b68d13d1ca7bcb797bc02d8e0b6b3f/5882b2b7d0a20cf4db154a0f70094b36adaf995d.jpg"  alt="" style="width:220px;height:137px;"/>
+</a>
+</div>每4个连续的数中有且只有一个被3整除，</div>
+<div class="para" label-module="para">每5个连续的数中有且只有一个被5整除，</div>
+<div class="para" label-module="para">每6个连续的数中有且只有一个被8整除，</div>
+<div class="para" label-module="para">每7个连续的数中有且只有一个被13整除，</div>
+<div class="para" label-module="para">每8个连续的数中有且只有一个被21整除，</div>
+<div class="para" label-module="para">每9个连续的数中有且只有一个被34整除，</div>
+<div class="para" label-module="para">.......</div>
+<div class="para" label-module="para">我们看到第5、7、11、13、17、23位分别是质数：5，13，89，233，1597，28657（第19位不是）</div>
+<div class="para" label-module="para">斐波那契数列的质数无限多吗？</div><div class="anchor-list">
+<a name="5_6" class="lemma-anchor para-title" ></a>
+<a name="sub816_5_6" class="lemma-anchor " ></a>
+<a name="尾数循环" class="lemma-anchor " ></a>
+<a name="5-6" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>尾数循环</h3>
+</div>
+<div class="para" label-module="para">斐波那契数列的个位数：一个60步的循环</div>
+<div class="para" label-module="para">11235,83145,94370,77415,61785.38190,</div>
+<div class="para" label-module="para">99875,27965,16730,33695,49325,72910…</div>
+<div class="para" label-module="para">进一步，斐波那契数列的最后两位数是一个300步的循环，最后三位数是一个1500步的循环，最后四位数是一个15000步的循环，最后五位数是一个150000步的循环。</div><div class="anchor-list">
+<a name="5_7" class="lemma-anchor para-title" ></a>
+<a name="sub816_5_7" class="lemma-anchor " ></a>
+<a name="自然界中“巧合”" class="lemma-anchor " ></a>
+<a name="5-7" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>自然界中“巧合”</h3>
+</div>
+<div class="para" label-module="para">斐波那契数列在自然科学的其他分支，有许多应用。例如，树木的生长，由于新生的枝条，往往需要一段“休息”时间，供自身生长，而后才能萌发新枝。所以，一株树苗在一段间隔，例如一年，以后长出一条新枝；第二年新枝“休息”，老枝依旧萌发；此后，老枝与“休息”过一年的枝同时萌发，当年生的新枝则次年“休息”。这样，一株树木各个年份的枝桠数，便构成斐波那契数列。这个规律，就是生物学上著名的“鲁德维格定律”。</div>
+<div class="para" label-module="para">另外，观察延龄草、野玫瑰、南美血根草、大波斯菊、金凤花、耧斗菜、百合花、蝴蝶花的花瓣，可以发现它们花瓣数目具有斐波那契数：3、5、8、13、21、……</div>
+<div class="para" label-module="para"><div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/99145/0/0d729944d41fed53500ffe2c?fr=lemma&ct=single" target="_blank"
+		title="" style="width:220px;height:179px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="http://h.hiphotos.baidu.com/baike/s%3D220/sign=7577011c738da9774a2f81298050f872/58ee3d6d55fbb2fb7cf19a3d4f4a20a44723dcc3.jpg"  alt="" style="width:220px;height:179px;"/>
+</a>
+</div>其中百合花花瓣数目为3，梅花5瓣，飞燕草8瓣，万寿菊13瓣，向日葵21或34瓣，雏菊有34,55和89三个数目的花瓣。</div>
+<div class="para" label-module="para">斐波那契螺旋：具有13条顺时针旋转和21条逆时针旋转的螺旋的<a target=_blank href="/item/%E8%93%9F">蓟</a>的头部</div>
+<div class="para" label-module="para">这些植物懂得斐波那契数列吗？应该并非如此，它们只是按照自然的规律才进化成这样。这似乎是植物排列种子的“优化方式”，它能使所有种子具有差不多的大小却又疏密得当，不至于在圆心处挤了太多的种子而在圆周处却又稀稀拉拉。叶子的生长方式也是如此，对于许多植物来说，每片叶子从中轴附近生长出来，为了在生长的过程中一直都能最佳地利用<a target=_blank href="/item/%E7%A9%BA%E9%97%B4">空间</a>（要考虑到叶子是一片一片逐渐地生长出来，而不是一下子同时出现的），每片叶子和前一片叶子之间的角度应该是222.5度，这个角度称为“黄金角度”，因为它和整个圆周360度之比是<a target=_blank href="/item/%E9%BB%84%E9%87%91%E5%88%86%E5%89%B2%E6%95%B0">黄金分割数</a>0.618033989……的<a target=_blank href="/item/%E5%80%92%E6%95%B0">倒数</a>，而这种生长方式就决定了斐波那契螺旋的产生。向日葵的种子排列形成的斐波那契螺旋有时能达到89，甚至144条。1992年，两位法国科学家通过对花瓣形成过程的计算机仿真实验，证实了在系统保持最低能量的状态下，花朵会以斐波那契数列长出花瓣。</div><div class="anchor-list">
+<a name="5_8" class="lemma-anchor para-title" ></a>
+<a name="sub816_5_8" class="lemma-anchor " ></a>
+<a name="数字谜题" class="lemma-anchor " ></a>
+<a name="5-8" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>数字谜题</h3>
+</div>
+<div class="para" label-module="para">三角形的三边关系定理和斐波那契数列的一个联系：</div>
+<div class="para" label-module="para">现有长为144cm的铁丝，要截成n小段（n&gt;2），每段的长度不小于1cm，如果其中任意三小段都不能拼成三角形，则n的最大值为多少？</div>
+<div class="para" label-module="para">分析：由于形成三角形的<a target=_blank href="/item/%E5%85%85%E8%A6%81%E6%9D%A1%E4%BB%B6">充要条件</a>是任何两边之和大于第三边，因此不构成三角形的条件就是存在两边之和不超过另一边。截成的铁丝最小为1，因此可以放2个1，第三条<a target=_blank href="/item/%E7%BA%BF%E6%AE%B5">线段</a>就是2（为了使得n最大，因此要使剩下来的铁丝尽可能长，因此每一条线段总是前面的相邻2段之和），依次为：1、1、2、3、5、8、13、21、34、55，以上各数之和为143，与144相差1，因此可以取最后一段为56，这时n达到最大为10。</div>
+<div class="para" label-module="para">我们看到，“每段的长度不小于1”这个条件起了控制全局的作用，正是这个最<a target=_blank href="/item/%E5%B0%8F%E6%95%B0">小数</a>1产生了斐波那契数列，如果把1换成其他数，递推关系保留了，但这个数列消失了。这里，三角形的三边关系定理和斐波那契数列发生了一个联系。</div>
+<div class="para" label-module="para">在这个问题中，144&gt;143，这个143是斐波那契数列的前n项和，我们是把144超出143的部分加到最后的一个数上去，如果加到其他数上，就有3条线段可以构成三角形了。</div><div class="anchor-list">
+<a name="5_9" class="lemma-anchor para-title" ></a>
+<a name="sub816_5_9" class="lemma-anchor " ></a>
+<a name="影视作品中的斐波那契数列" class="lemma-anchor " ></a>
+<a name="5-9" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>影视作品中的斐波那契数列</h3>
+</div>
+<div class="para" label-module="para">斐波那契数列在欧美可谓是尽人皆知，于是在电影这种通俗艺术中也时常出现，比如在风靡一时的《<a target=_blank href="/item/%E8%BE%BE%E8%8A%AC%E5%A5%87%E5%AF%86%E7%A0%81">达芬奇密码</a>》里它就作为一个重要的符号和情节线索出现，在《魔法玩具城》里又是在店主招聘会计时随口问的问题。可见此数列就像黄金分割一样流行。可是虽说叫得上名，多数人也就背过前几个数，并没有深入理解研究。在电视剧中也出现斐波那契数列，比如：日剧《考试之神》第五回，义嗣做全国模拟考试题中的最后一道<a target=_blank href="/item/%E6%95%B0%E5%AD%A6%E9%A2%98">数学题</a>~在FOX热播美剧《<a target=_blank href="/item/Fringe">Fringe</a>》中更是无数次引用，甚至作为全剧宣传海报的设计元素之一。</div><div class="anchor-list">
+<a name="6" class="lemma-anchor para-title" ></a>
+<a name="sub816_6" class="lemma-anchor " ></a>
+<a name="推广" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">斐波那契数列</span>推广</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="6" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para"><b>斐波那契—卢卡斯数列</b></div>
+<div class="para" label-module="para"><a target=_blank href="/item/%E5%8D%A2%E5%8D%A1%E6%96%AF">卢卡斯</a>数列1、3、4、7、11、18…，也具有斐波那契数列同样的性质。（我们可称之为斐波那契—卢卡斯递推：从第三项开始，每一项都等于前两项之和f(n) = f(n-1)+ f(n-2）。</div>
+<div class="para" label-module="para">卢卡斯数列的通项公式为 f(n)=[(1+√5）/2]^n+[(1-√5)/2]^n</div>
+<div class="para" label-module="para">这两个数列还有一种特殊的联系（如下表所示），F（n）*L（n）=F(2n），及L（n）=F（n-1)+F(n+1)</div>
+<table log-set-param="table_view" class="table-view log-set-param"><tr><td><div class="para" label-module="para">n</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">2</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">4</div>
+</td><td><div class="para" label-module="para">5</div>
+</td><td><div class="para" label-module="para">6</div>
+</td><td><div class="para" label-module="para">7</div>
+</td><td><div class="para" label-module="para">8</div>
+</td><td><div class="para" label-module="para">9</div>
+</td><td><div class="para" label-module="para">10</div>
+</td><td><div class="para" label-module="para">…</div>
+</td></tr><tr><td><div class="para" label-module="para">斐波那契数列F(n)</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">2</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">5</div>
+</td><td><div class="para" label-module="para">8</div>
+</td><td><div class="para" label-module="para">13</div>
+</td><td><div class="para" label-module="para">21</div>
+</td><td><div class="para" label-module="para">34</div>
+</td><td><div class="para" label-module="para">55</div>
+</td><td><div class="para" label-module="para">…</div>
+</td></tr><tr><td><div class="para" label-module="para">卢卡斯数列L(n)</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">4</div>
+</td><td><div class="para" label-module="para">7</div>
+</td><td><div class="para" label-module="para">11</div>
+</td><td><div class="para" label-module="para">18</div>
+</td><td><div class="para" label-module="para">29</div>
+</td><td><div class="para" label-module="para">47</div>
+</td><td><div class="para" label-module="para">76</div>
+</td><td><div class="para" label-module="para">123</div>
+</td><td><div class="para" label-module="para">…</div>
+</td></tr><tr><td><div class="para" label-module="para">F(n)*L(n)</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">8</div>
+</td><td><div class="para" label-module="para">21</div>
+</td><td><div class="para" label-module="para">55</div>
+</td><td><div class="para" label-module="para">144</div>
+</td><td><div class="para" label-module="para">377</div>
+</td><td><div class="para" label-module="para">987</div>
+</td><td><div class="para" label-module="para">2584</div>
+</td><td><div class="para" label-module="para">6765</div>
+</td><td><div class="para" label-module="para">…</div>
+</td></tr></table><div class="para" label-module="para">类似的数列还有无限多个，我们称之为<a target=_blank href="/item/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E2%80%94%E5%8D%A2%E5%8D%A1%E6%96%AF%E6%95%B0%E5%88%97">斐波那契—卢卡斯数列</a>。</div>
+<div class="para" label-module="para">如1，4，5，9，14，23…，因为1，4开头，可记作F[1，4]，斐波那契数列就是F[1，1]，卢卡斯数列就是F[1，3]，斐波那契—卢卡斯数列就是F[a，b]。</div>
+<div class="para" label-module="para">斐波那契—卢卡斯数列之间的广泛联系</div>
+<div class="para" label-module="para">①任意两个或两个以上斐波那契—卢卡斯数列之和或差仍然是斐波那契—卢卡斯数列。</div>
+<div class="para" label-module="para">如：F[1,4]n+F[1,3]n=F[2,7]n，F[1,4]n-F[1,3]n=F[0,1]n=F[1,1](n-1），</div>
+<table log-set-param="table_view" class="table-view log-set-param"><tr><td><div class="para" label-module="para">n</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">2</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">4</div>
+</td><td><div class="para" label-module="para">5</div>
+</td><td><div class="para" label-module="para">6</div>
+</td><td><div class="para" label-module="para">7</div>
+</td><td><div class="para" label-module="para">8</div>
+</td><td><div class="para" label-module="para">9</div>
+</td><td><div class="para" label-module="para">10</div>
+</td><td><div class="para" label-module="para">…</div>
+</td></tr><tr><td><div class="para" label-module="para">F[1,4]n</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">4</div>
+</td><td><div class="para" label-module="para">5</div>
+</td><td><div class="para" label-module="para">9</div>
+</td><td><div class="para" label-module="para">14</div>
+</td><td><div class="para" label-module="para">23</div>
+</td><td><div class="para" label-module="para">37</div>
+</td><td><div class="para" label-module="para">60</div>
+</td><td><div class="para" label-module="para">97</div>
+</td><td><div class="para" label-module="para">157</div>
+</td><td><div class="para" label-module="para">…</div>
+</td></tr><tr><td><div class="para" label-module="para">F[1,3]n</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">4</div>
+</td><td><div class="para" label-module="para">7</div>
+</td><td><div class="para" label-module="para">11</div>
+</td><td><div class="para" label-module="para">18</div>
+</td><td><div class="para" label-module="para">29</div>
+</td><td><div class="para" label-module="para">47</div>
+</td><td><div class="para" label-module="para">76</div>
+</td><td><div class="para" label-module="para">123</div>
+</td><td><div class="para" label-module="para">…</div>
+</td></tr><tr><td><div class="para" label-module="para">F[1,4]n-F[1,3]n</div>
+</td><td><div class="para" label-module="para">0</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">2</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">5</div>
+</td><td><div class="para" label-module="para">8</div>
+</td><td><div class="para" label-module="para">13</div>
+</td><td><div class="para" label-module="para">21</div>
+</td><td><div class="para" label-module="para">34</div>
+</td><td><div class="para" label-module="para">…</div>
+</td></tr><tr><td><div class="para" label-module="para">F[1,4]n+F[1,3]n</div>
+</td><td><div class="para" label-module="para">2</div>
+</td><td><div class="para" label-module="para">7</div>
+</td><td><div class="para" label-module="para">9</div>
+</td><td><div class="para" label-module="para">16</div>
+</td><td><div class="para" label-module="para">25</div>
+</td><td><div class="para" label-module="para">41</div>
+</td><td><div class="para" label-module="para">66</div>
+</td><td><div class="para" label-module="para">107</div>
+</td><td><div class="para" label-module="para">173</div>
+</td><td><div class="para" label-module="para">280</div>
+</td><td><div class="para" label-module="para">…</div>
+</td></tr></table><div class="para" label-module="para">②任何一个斐波那契—卢卡斯数列都可以由斐波那契数列的有限项之和获得，如</div>
+<table log-set-param="table_view" class="table-view log-set-param"><tr><td><div class="para" label-module="para">n</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">2</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">4</div>
+</td><td><div class="para" label-module="para">5</div>
+</td><td><div class="para" label-module="para">6</div>
+</td><td><div class="para" label-module="para">7</div>
+</td><td><div class="para" label-module="para">8</div>
+</td><td><div class="para" label-module="para">9</div>
+</td><td><div class="para" label-module="para">10</div>
+</td><td><div class="para" label-module="para">…</div>
+</td></tr><tr><td><div class="para" label-module="para">F[1,1](n)</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">2</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">5</div>
+</td><td><div class="para" label-module="para">8</div>
+</td><td><div class="para" label-module="para">13</div>
+</td><td><div class="para" label-module="para">21</div>
+</td><td><div class="para" label-module="para">34</div>
+</td><td><div class="para" label-module="para">55</div>
+</td><td><div class="para" label-module="para">…</div>
+</td></tr><tr><td><div class="para" label-module="para">F[1,1](n-1)</div>
+</td><td><div class="para" label-module="para">0</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">2</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">5</div>
+</td><td><div class="para" label-module="para">8</div>
+</td><td><div class="para" label-module="para">13</div>
+</td><td><div class="para" label-module="para">21</div>
+</td><td><div class="para" label-module="para">34</div>
+</td><td><div class="para" label-module="para">…</div>
+</td></tr><tr><td><div class="para" label-module="para">F[1,1](n-1)</div>
+</td><td><div class="para" label-module="para">0</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">2</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">5</div>
+</td><td><div class="para" label-module="para">8</div>
+</td><td><div class="para" label-module="para">13</div>
+</td><td><div class="para" label-module="para">21</div>
+</td><td><div class="para" label-module="para">34</div>
+</td><td><div class="para" label-module="para">…</div>
+</td></tr><tr><td><div class="para" label-module="para">F[1,3]n</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">4</div>
+</td><td><div class="para" label-module="para">7</div>
+</td><td><div class="para" label-module="para">11</div>
+</td><td><div class="para" label-module="para">18</div>
+</td><td><div class="para" label-module="para">29</div>
+</td><td><div class="para" label-module="para">47</div>
+</td><td><div class="para" label-module="para">76</div>
+</td><td><div class="para" label-module="para">123</div>
+</td><td><div class="para" label-module="para">…</div>
+</td></tr></table><div class="para" label-module="para">黄金特征与孪生斐波那契—卢卡斯数列</div>
+<div class="para" label-module="para">斐波那契—卢卡斯数列的另一个共同性质：中间项的平方数与前后两项之积的差的绝对值是一个恒值，</div>
+<div class="para" label-module="para">斐波那契数列：|1*1-1*2|=|2*2-1*3|=|3*3-2*5|=|5*5-3*8|=|8*8-5*13|=…=1</div>
+<div class="para" label-module="para">卢卡斯数列：|3*3-1*4|=|4*4-3*7|=…=5</div>
+<div class="para" label-module="para">F[1，4]数列：|4*4-1*5|=11</div>
+<div class="para" label-module="para">F[2，5]数列：|5*5-2*7|=11</div>
+<div class="para" label-module="para">F[2，7]数列：|7*7-2*9|=31</div>
+<div class="para" label-module="para">斐波那契数列这个值是1最小，也就是前后项之比接近<a target=_blank href="/item/%E9%BB%84%E9%87%91%E6%AF%94%E4%BE%8B">黄金比例</a>最快，我们称为黄金特征，黄金特征1的数列只有斐波那契数列，是独生数列。卢卡斯数列的黄金特征是5，也是独生数列。前两项<a target=_blank href="/item/%E4%BA%92%E8%B4%A8">互质</a>的独生数列只有斐波那契数列和卢卡斯数列这两个数列。</div>
+<div class="para" label-module="para">而F[1，4]与F[2，5]的黄金特征都是11，是孪生数列。F[2，7]也有孪生数列：F[3，8]。其他前两项互质的斐波那契—卢卡斯数列都是孪生数列，称为孪生斐波那契—卢卡斯数列。</div>
+<div class="para" label-module="para"><b>广义斐波那契数列</b></div>
+<div class="para" label-module="para">斐波那契数列的黄金特征1，还让我们联想到佩尔数列：1，2，5，12，29，…，也有|2*2-1*5|=|5*5-2*12|=…=1（该类数列的这种<a target=_blank href="/item/%E7%89%B9%E5%BE%81%E5%80%BC">特征值</a>称为勾股特征）。</div>
+<div class="para" label-module="para"><a target=_blank href="/item/%E4%BD%A9%E5%B0%94">佩尔</a>数列Pn的递推规则：P1=1，P2=2，Pn=P(n-2)+2P(n-1).</div>
+<div class="para" label-module="para">据此类推到所有根据前两项导出第三项的通用规则：f(n) = f(n-1) * p + f(n-2) * q，称为广义斐波那契数列。</div>
+<div class="para" label-module="para">当p=1，q=1时，我们得到斐波那契—卢卡斯数列。</div>
+<div class="para" label-module="para">当p=1，q=2时，我们得到佩尔—勾股弦数（跟边长为整数的<a target=_blank href="/item/%E7%9B%B4%E8%A7%92%E4%B8%89%E8%A7%92%E5%BD%A2">直角三角形</a>有关的数列集合）。</div>
+<div class="para" label-module="para">当p=2，q=-1时，我们得到等差数列。其中f1=1，f2=2时，我们得到自然数列1，2，3，4…。自然数列的特征就是每个数的平方与前后两数之积的差为1（等差数列的这种差值称为<a target=_blank href="/item/%E8%87%AA%E7%84%B6%E7%89%B9%E5%BE%81">自然特征</a>）。</div>
+<div class="para" label-module="para">具有类似黄金特征、勾股特征、自然特征的广义——斐波那契数列p=±1。</div>
+<div class="para" label-module="para">当f1=1，f2=2，p=2，q=0时，我们得到<a target=_blank href="/item/%E7%AD%89%E6%AF%94%E6%95%B0%E5%88%97">等比数列</a>1，2，4，8，16……</div><div class="anchor-list">
+<a name="7" class="lemma-anchor para-title" ></a>
+<a name="sub816_7" class="lemma-anchor " ></a>
+<a name="相关数学" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">斐波那契数列</span>相关数学</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="7" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="7_1" class="lemma-anchor para-title" ></a>
+<a name="sub816_7_1" class="lemma-anchor " ></a>
+<a name="排列组合" class="lemma-anchor " ></a>
+<a name="7-1" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>排列组合</h3>
+</div>
+<div class="para" label-module="para">有一段楼梯有10级台阶，规定每一步只能跨一级或两级，要登上第10级台阶有几种不同的走法?</div>
+<div class="para" label-module="para">这就是一个斐波那契数列：登上第一级台阶有一种登法；登上两级台阶，有两种登法；登上三级台阶，有三种登法；登上四级台阶，有五种登法……</div>
+<div class="para" label-module="para">1，2，3，5，8，13……所以，登上十级，有89种走法。</div>
+<div class="para" label-module="para">类似的，一枚均匀的硬币掷10次，问不连续出现正面的可能情形有多少种？</div>
+<div class="para" label-module="para">答案是（1/√5)*{[(1+√5)/2]^(10+2) - [(1-√5)/2]^(10+2)}=144种。</div>
+<div class="para" label-module="para">求递推数列a⑴=1，a(n+1)=1+1/a(n）的<a target=_blank href="/item/%E9%80%9A%E9%A1%B9%E5%85%AC%E5%BC%8F">通项公式</a></div>
+<div class="para" label-module="para">由<a target=_blank href="/item/%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95">数学归纳法</a>可以得到：a(n)=F(n+1)/F(n），将斐波那契数列的通项式代入，化简就得结果。</div><div class="anchor-list">
+<a name="7_2" class="lemma-anchor para-title" ></a>
+<a name="sub816_7_2" class="lemma-anchor " ></a>
+<a name="兔子繁殖问题" class="lemma-anchor " ></a>
+<a name="7-2" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>兔子繁殖问题</h3>
+</div>
+<div class="para" label-module="para">斐波那契数列又因数学家<a target=_blank href="/item/%E5%88%97%E6%98%82%E7%BA%B3%E5%A4%9A%C2%B7%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91">列昂纳多·斐波那契</a>以兔子繁殖为例子而引入，故又称为“<a target=_blank href="/item/%E5%85%94%E5%AD%90%E6%95%B0%E5%88%97">兔子数列</a>”。</div>
+<div class="para" label-module="para">一般而言，兔子在出生两个月后，就有繁殖能力，一对兔子每个月能生出一对小兔子来。如果所有兔子都不死，那么一年以后可以繁殖多少对兔子？</div>
+<div class="para" label-module="para">我们不妨拿新出生的一对小兔子分析一下：</div>
+<div class="para" label-module="para">第一个月小兔子没有繁殖能力，所以还是一对</div>
+<div class="para" label-module="para">两个月后，生下一对小兔对数共有两对</div>
+<div class="para" label-module="para">三个月以后，老兔子又生下一对，因为小兔子还没有繁殖能力，所以一共是三对</div>
+<div class="para" label-module="para">－－－－－－</div>
+<div class="para" label-module="para">依次类推可以列出下表：</div>
+<table log-set-param="table_view" class="table-view log-set-param"><tr><td><div class="para" label-module="para">经过月数</div>
+</td><td><div class="para" label-module="para">0</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">2</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">4</div>
+</td><td><div class="para" label-module="para">5</div>
+</td><td><div class="para" label-module="para">6</div>
+</td><td><div class="para" label-module="para">7</div>
+</td><td><div class="para" label-module="para">8</div>
+</td><td><div class="para" label-module="para">9</div>
+</td><td><div class="para" label-module="para">10</div>
+</td><td><div class="para" label-module="para">11</div>
+</td><td><div class="para" label-module="para">12</div>
+</td></tr><tr><td><div class="para" label-module="para">幼仔对数</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">0</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">2</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">5</div>
+</td><td><div class="para" label-module="para">8</div>
+</td><td><div class="para" label-module="para">13</div>
+</td><td><div class="para" label-module="para">21</div>
+</td><td><div class="para" label-module="para">34</div>
+</td><td><div class="para" label-module="para">55</div>
+</td><td><div class="para" label-module="para">89</div>
+</td></tr><tr><td><div class="para" label-module="para">成兔对数</div>
+</td><td><div class="para" label-module="para">0</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">2</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">5</div>
+</td><td><div class="para" label-module="para">8</div>
+</td><td><div class="para" label-module="para">13</div>
+</td><td><div class="para" label-module="para">21</div>
+</td><td><div class="para" label-module="para">34</div>
+</td><td><div class="para" label-module="para">55</div>
+</td><td><div class="para" label-module="para">89</div>
+</td><td><div class="para" label-module="para">144</div>
+</td></tr><tr><td><div class="para" label-module="para">总体对数</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">1</div>
+</td><td><div class="para" label-module="para">2</div>
+</td><td><div class="para" label-module="para">3</div>
+</td><td><div class="para" label-module="para">5</div>
+</td><td><div class="para" label-module="para">8</div>
+</td><td><div class="para" label-module="para">13</div>
+</td><td><div class="para" label-module="para">21</div>
+</td><td><div class="para" label-module="para">34</div>
+</td><td><div class="para" label-module="para">55</div>
+</td><td><div class="para" label-module="para">89</div>
+</td><td><div class="para" label-module="para">144</div>
+</td><td><div class="para" label-module="para">233</div>
+</td></tr></table><div class="para" label-module="para">幼仔对数=前月成兔对数</div>
+<div class="para" label-module="para">成兔对数=前月成兔对数+前月幼仔对数</div>
+<div class="para" label-module="para">总体对数=本月成兔对数+本月幼仔对数</div>
+<div class="para" label-module="para">可以看出幼仔对数、成兔对数、总体对数都构成了一个数列。这个数列有关十分明显的特点，那是：前面相邻两项之和，构成了后一项。</div>
+<div class="para" label-module="para">这个数列是意大利中世纪数学家斐波那契在&lt;算盘全书&gt;中提出的，这个<a target=_blank href="/item/%E7%BA%A7%E6%95%B0">级数</a>的通项公式，除了具有a(n+2)=an+a(n+1）的性质外，还可以证明通项公式为：an=(1/√5)*{[(1+√5)/2]^n-[(1-√5)/2]^n}（n=1,2,3.....）</div><div class="anchor-list">
+<a name="7_3" class="lemma-anchor para-title" ></a>
+<a name="sub816_7_3" class="lemma-anchor " ></a>
+<a name="数列与矩阵" class="lemma-anchor " ></a>
+<a name="7-3" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">斐波那契数列</span>数列与矩阵</h3>
+</div>
+<div class="para" label-module="para">对于斐波那契数列1、1、2、3、5、8、13、……。有如下定义</div>
+<div class="para" label-module="para">F(n)=F(n-1)+F(n-2)</div>
+<div class="para" label-module="para">F(1)=1</div>
+<div class="para" label-module="para">F(2)=1</div>
+<div class="para" label-module="para">对于以下<a target=_blank href="/item/%E7%9F%A9%E9%98%B5">矩阵</a>乘法</div>
+<div class="para" label-module="para">F(n+1) = 11 F(n)</div>
+<div class="para" label-module="para">F(n) 10 F(n-1)</div>
+<div class="para" label-module="para">它的运算就是右边的矩阵 11乘以矩阵 F(n) 得到：</div>
+<div class="para" label-module="para">10 F(n-1)</div>
+<div class="para" label-module="para">F(n+1)=F(n)+F(n-1)</div>
+<div class="para" label-module="para">F(n)=F(n)</div>
+<div class="para" label-module="para">可见该矩阵的乘法完全符合斐波那契数列的定义</div>
+<div class="para" label-module="para">设矩阵A=1 1 迭代n次可以得到：F(n+1) =A^(n) * F(1)= A^(n)*1</div>
+<div class="para" label-module="para">1 0 F(n) F(0) 0</div>
+<div class="para" label-module="para">这就是斐波那契数列的矩阵乘法定义。</div>
+<div class="para" label-module="para">另矩阵乘法的一个运算法则A^n(n为偶数) = A^(n/2)* A^(n/2)，这样我们通过二分的思想，可以实现对数复杂度的矩阵相乘。</div>
+<div class="para" label-module="para">因此可以用递归的方法求得答案。</div>
+<div class="para" label-module="para"><b>数列值的另一种求法</b>：</div>
+<div class="para" label-module="para">F(n) = [ (( sqrt ( 5 ) + 1 ) / 2) ^ n ]</div>
+<div class="para" label-module="para">其中[ x ]表示取距离 x 最近的整数。</div><div class="anchor-list">
+<a name="8" class="lemma-anchor para-title" ></a>
+<a name="sub816_8" class="lemma-anchor " ></a>
+<a name="斐波那契弧线" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">斐波那契数列</span>斐波那契弧线</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="8" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">斐波那契弧线，也称为斐波那契扇形线。第一，此<a target=_blank href="/item/%E8%B6%8B%E5%8A%BF%E7%BA%BF">趋势线</a>以二个端点为准而画出，例如，最低点反向到最高点线上的两个点。然后通过第二点画出一条“无形的（看不见的）”垂直线。然后，从第一个点画出第三条趋势线：38.2%， 50%和61.8%的无形垂直线交叉。<div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/99145/0/63d0f703918fa0ec5e978378219759ee3d6ddb77?fr=lemma&ct=single" target="_blank"
+		title="" style="width:220px;height:165px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="http://g.hiphotos.baidu.com/baike/s%3D220/sign=e12891ec8526cffc6d2ab8b089004a7d/63d0f703918fa0ec5e978378219759ee3d6ddb77.jpg"  alt="" style="width:220px;height:165px;"/>
+</a>
+</div></div>
+<div class="para" label-module="para">斐波纳契弧线，是潜在的支持点和阻力点水平价格。斐波纳契弧线和斐波纳契扇形线常常在图表里同时绘画出。支持点和阻力点就是由这些线的交汇点得出。</div>
+<div class="para" label-module="para">要注意的是弧线的<a target=_blank href="/item/%E4%BA%A4%E5%8F%89%E7%82%B9/2786463" data-lemmaid="2786463">交叉点</a>和价格曲线会根据图表数值范围而改变，因为弧线是圆周的一部分，它的形成总是一样的。</div>
+<div class="anchor-list">
+<a name="a" class="lemma-anchor a" ></a>
+</div><div class="album-list">
+<div class="header">
+<span class="title">词条图册</span>
+<a class="more-link" href="/pic/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/99145?fr=lemma" target="_blank" nslog-type="10000204">更多图册<em></em></a>
+</div>
+<div class="scroller">
+<div class="list">
+</div>
+</div>
+<div class="footer">
+</div>
+</div>
+</div>
+<div class="side-content">
+<div class="summary-pic">
+<a href="/pic/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/99145/0/a08b87d6277f9e2f7c63b4cf1f30e924b999f3a7?fr=lemma&amp;ct=single" target="_blank" nslog-type="10002401">
+<img src="https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=dc8452ec9d16fdfad86cc1e88cb4eb69/a08b87d6277f9e2f7c63b4cf1f30e924b999f3a7.jpg" />
+<button class="picAlbumBtn"><em></em><span>图集</span></button>
+<div>斐波那契数列图册</div>
+</a>
+</div>
+<div class="lemmaWgt-promotion-vbaike">
+<div class="promotion_title">V百科<a href="/vbaike#gallary" target="_blank">往期回顾</a></div>
+<div class="promotion_viewport">
+<dl>
+</dl>
+<div class="promotion_viewport_pager"></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightPreciseAd" data-lemmaId="99145" data-lemmaTitle="斐波那契数列"></div><div class="lemmaWgt-sideRecommend">
+<a name="zhixinWrap" class="qnAnchor"></a>
+<div class="zhixin-box" id="zhixinWrap" data-source="" data-newLemmaId="99145">
+</div>
+<form id="zhixinErrorForm" class="hidden" action="https://sp2.baidu.com/-uV1bjeh1BF3odCf/index.php/feedback/zx/baikeJC" target="zhixinSubErr" method="post">
+<input class="js-url" name="fb_html_url" type="hidden" />
+<input class="js-query" name="fb_query" type="hidden" />
+<input class="js-title" name="fb_card_title" type="hidden" />
+<input class="js-content" name="fb_content" type="hidden" />
+<input class="js-souceId" name="fb_source_id" type="hidden" />
+</form>
+<iframe id="zhixinSubErr" name="zhixinSubErr" style="display:none" frameborder="0"></iframe>
+</div>
+<div class="zhidao-diversion J-zhidao-diversion">
+</div>
+<div class="lemmaWgt-promotion-slide">
+<div class="promotion_viewport">
+<dl>
+</dl>
+<div class="promotion_viewport_pager"></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightBigAd">
+</div><dl class="side-box lemma-statistics">
+<dt class="title">词条统计</dt>
+<dd class="description">
+<ul>
+<li>浏览次数：<span id="j-lemmaStatistics-pv"></span>次</li>
+<li>编辑次数：359次<a href="/historylist/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97/99145" class="nslog:1021" target="_blank">历史版本</a></li>
+<li>最近更新：<span class="j-modified-time" style="display:none">2017-12-30</span></li>
+<li>创建者：<a class="show-userCard" data-uid="8198410" title="查看此用户资料" target="_blank" href="http://www.baidu.com/p/%E5%90%9E%E4%BA%91" nslog-type="1022">吞云</a></li>
+</ul>
+</dd>
+</dl>
+<div class="side-catalog" style="visibility:hidden">
+<div class="side-bar">
+<em class="circle start"></em>
+<em class="circle end"></em>
+</div>
+<div class="catalog-scroller">
+<dl class="catalog-list">
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#1" class="title-link">
+<span class="text">
+<span class="title-index">1</span>
+<span class="title-link" nslog-type="10002802">定义</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#2" class="title-link">
+<span class="text">
+<span class="title-index">2</span>
+<span class="title-link" nslog-type="10002802">通项公式</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#2_1" class="title-link">
+<span class="text">
+<span class="title-index">2.1</span>
+<span class="title-link" nslog-type="10002802">递推公式</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#2_2" class="title-link">
+<span class="text">
+<span class="title-index">2.2</span>
+<span class="title-link" nslog-type="10002802">通项公式</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#2_3" class="title-link">
+<span class="text">
+<span class="title-index">2.3</span>
+<span class="title-link" nslog-type="10002802">通项公式推导</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#3" class="title-link">
+<span class="text">
+<span class="title-index">3</span>
+<span class="title-link" nslog-type="10002802">与黄金分割</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#3_1" class="title-link">
+<span class="text">
+<span class="title-index">3.1</span>
+<span class="title-link" nslog-type="10002802">关系</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#3_2" class="title-link">
+<span class="text">
+<span class="title-index">3.2</span>
+<span class="title-link" nslog-type="10002802">证明</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#4" class="title-link">
+<span class="text">
+<span class="title-index">4</span>
+<span class="title-link" nslog-type="10002802">特性</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#4_1" class="title-link">
+<span class="text">
+<span class="title-index">4.1</span>
+<span class="title-link" nslog-type="10002802">平方与前后项</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#4_2" class="title-link">
+<span class="text">
+<span class="title-index">4.2</span>
+<span class="title-link" nslog-type="10002802">与集合子集</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#4_3" class="title-link">
+<span class="text">
+<span class="title-index">4.3</span>
+<span class="title-link" nslog-type="10002802">奇数项求和</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#4_4" class="title-link">
+<span class="text">
+<span class="title-index">4.4</span>
+<span class="title-link" nslog-type="10002802">偶数项求和</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#4_5" class="title-link">
+<span class="text">
+<span class="title-index">4.5</span>
+<span class="title-link" nslog-type="10002802">平方求和</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#4_6" class="title-link">
+<span class="text">
+<span class="title-index">4.6</span>
+<span class="title-link" nslog-type="10002802">隔项关系</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#4_7" class="title-link">
+<span class="text">
+<span class="title-index">4.7</span>
+<span class="title-link" nslog-type="10002802">两倍项关系</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#4_8" class="title-link">
+<span class="text">
+<span class="title-index">4.8</span>
+<span class="title-link" nslog-type="10002802">其他公式</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#5" class="title-link">
+<span class="text">
+<span class="title-index">5</span>
+<span class="title-link" nslog-type="10002802">应用</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#5_1" class="title-link">
+<span class="text">
+<span class="title-index">5.1</span>
+<span class="title-link" nslog-type="10002802">生活斐波那契</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_2" class="title-link">
+<span class="text">
+<span class="title-index">5.2</span>
+<span class="title-link" nslog-type="10002802">黄金分割</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_3" class="title-link">
+<span class="text">
+<span class="title-index">5.3</span>
+<span class="title-link" nslog-type="10002802">杨辉三角</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_4" class="title-link">
+<span class="text">
+<span class="title-index">5.4</span>
+<span class="title-link" nslog-type="10002802">矩形面积</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_5" class="title-link">
+<span class="text">
+<span class="title-index">5.5</span>
+<span class="title-link" nslog-type="10002802">质数数量</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_6" class="title-link">
+<span class="text">
+<span class="title-index">5.6</span>
+<span class="title-link" nslog-type="10002802">尾数循环</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_7" class="title-link">
+<span class="text">
+<span class="title-index">5.7</span>
+<span class="title-link" nslog-type="10002802">自然界中“巧合”</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_8" class="title-link">
+<span class="text">
+<span class="title-index">5.8</span>
+<span class="title-link" nslog-type="10002802">数字谜题</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_9" class="title-link">
+<span class="text">
+<span class="title-index">5.9</span>
+<span class="title-link" nslog-type="10002802">影视作品中的斐波那契数列</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#6" class="title-link">
+<span class="text">
+<span class="title-index">6</span>
+<span class="title-link" nslog-type="10002802">推广</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#7" class="title-link">
+<span class="text">
+<span class="title-index">7</span>
+<span class="title-link" nslog-type="10002802">相关数学</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#7_1" class="title-link">
+<span class="text">
+<span class="title-index">7.1</span>
+<span class="title-link" nslog-type="10002802">排列组合</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#7_2" class="title-link">
+<span class="text">
+<span class="title-index">7.2</span>
+<span class="title-link" nslog-type="10002802">兔子繁殖问题</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#7_3" class="title-link">
+<span class="text">
+<span class="title-index">7.3</span>
+<span class="title-link" nslog-type="10002802">数列与矩阵</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#8" class="title-link">
+<span class="text">
+<span class="title-index">8</span>
+<span class="title-link" nslog-type="10002802">斐波那契弧线</span>
+</span>
+</a>
+</dt>
+<a class="arrow" href="javascript:void(0);"></a>
+</dl>
+</div>
+<div class="right-wrap">
+<a class="go-up disable" href="javascript:void(0);"></a>
+<a class="go-down" href="javascript:void(0);"></a>
+</div>
+<div class="bottom-wrap">
+<a class="toggle-button" href="javascript:void(0);" nslog-type="10002803"></a>
+<a class="gotop-button" href="javascript:void(0);" nslog-type="10002804"></a>
+</div>
+</div>
+<div id="side_box_fengchao" class="fengchao side-box" nslog="area" nslog-type="10000902">
+</div>
+<div id="side_box_unionAd" class="unionAd side-box">
+<div class="union-content"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="after-content">
+<div class="fc-guess-like new" id="fc_guess_like_new">
+<span class="logo-du">
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+</span>
+<h6>猜你关注</h6>
+<ul class="cmn-clearfix">
+</ul>
+</div>
+<div class="bottom-promotion" id="bottom-promotion">
+<div id="BOTTOM_PRO_AD"></div>
+</div>
+</div>
+</div>
+
+<div class="wgt-footer-main">
+<div class="content">
+<dl class="fresh">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-fresh"></em>新手上路</dt>
+<dd>
+<div><a target="_blank" href="/usercenter/tasks#guide">成长任务</a></div>
+<div><a target="_blank" href="/help#main01">编辑入门</a></div>
+<div><a target="_blank" href="/help#main06">编辑规则</a></div>
+<div><a target="_blank" href="/help#main05">百科术语</a></div>
+</dd>
+</dl>
+<dl class="question">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-question"></em>我有疑问</dt>
+<dd>
+<div><a target="_blank" href="/wikiui/doubt?lemmaId=99145&fr=lemma"
+            nslog-type="10070001">我要质疑</a></div>
+<div><a target="_blank" href="https://aikefu.baidu.com/?product=bk001" nslog-type="10000003">在线客服</a></div>
+<div><a target="_blank" href="http://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91">参加讨论</a></div>
+<div><a target="_blank" href="/feedback">意见反馈</a></div>
+</dd>
+</dl>
+<dl class="suggestion">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-suggestion"></em>投诉建议</dt>
+<dd>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=1">举报不良信息</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=2">未通过词条申诉</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=6">投诉侵权信息</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=5">封禁查询与解封</a></div>
+</dd>
+</dl>
+</div>
+<div class="copyright">©2018&nbsp;Baidu&nbsp;<a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;|&nbsp;<a href="http://help.baidu.com/question?prod_en=baike&class=89&id=1637" target="_blank">百科协议</a>&nbsp;|&nbsp;<a href="/operation/cooperation" target="_blank">百度百科合作平台</a>&nbsp;|&nbsp;<span>京ICP证030173号&nbsp;</span><img class="copyright-img" width="13" height="16" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/copy_rignt_24.png"></div>
+<p class="recordcode"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" target="_blank"><i class="icon-police"></i>京公网安备11000002000001号</a></p>
+</div>
+
+<div class="lemmaWgt-searchHeader">
+<div class="layout cmn-clearfix">
+<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-simple cmn-clearfix ">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080015" name="word" type="text" autocomplete="off" autocorrect="off" value="斐波那契数列" /><button id="search" nslog="normal" nslog-type="10080013" type="button">进入词条</button>
+</form>
+<form id="searchLemmaForm" action="/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden" />
+<input name="pn" type="hidden" value="0" />
+<input name="rn" type="hidden" value="0" />
+<input name="enc" type="hidden" value="utf8" />
+</form>
+<ul id="suggestion" class="suggestion">
+<div class="sug"></div>
+<li class="extra">
+<span id="close" nslog="normal" nslog-type="10080016">关闭</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="tool-buttons">
+<a class="toolButtons-edit button j-edit-link" href="javascript:;" nslog-type="10010001"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-hollow"></em>编辑</a>
+<a class="toolButtons-collect button" href="javascript:;" nslog-type="10010002"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-hollow"></em><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-solid"></em>收藏</a>
+<a class="toolButtons-vote button top-vote" href="javascript:;" nslog-type="10010003"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-hollow"></em><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-solid"></em><span class="j-tool-btn-vote-num">赞</span></a>
+</div>
+<div class="user-info">
+<a class="user-link unlogin" href="javascript:;" nslog-type="10010008" target="_blank">登录</a>
+</div>
+</div></div>
+<div class="new-bdsharebuttonbox new-side-share" id="side-share">
+<span class="title">分享</span>
+<div class="side-border">
+<div class="triangle"></div>
+<a class="share-link bds_qzone"  href="javascript:void(0);" nslog-type="10060101">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+<a class="share-link bds_tsina" href="javascript:void(0);" nslog-type="10060301">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+<a class="bds_wechat"  href="javascript:void(0);" nslog-type="10060001">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+<a class="share-link bds_tqq"  href="javascript:void(0);" nslog-type="10060201">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</div>
+</div>
+<div class="qrcode-wrapper" id="layer" style="display: none">
+<div class="bd_weixin_popup_header">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+<span>分享到微信朋友圈</span>
+</div>
+<div id="wechat-qrcode-img"></div>
+<div class="bd_weixin_popup_footer">打开微信“扫一扫”即可将网页分享至朋友圈</div>
+</div>
+<div></div><div></div>
+
+</body><script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/js/mod_4302fe0.js"></script>
+<script type="text/javascript">require.resourceMap({"res":{"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/dom.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/dom_717775e.js"},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/class.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/class_cafca1f.js"},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/helper.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/helper_23028b9.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/class.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/dom.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/default-setting.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/default-setting_01d8d6b.js"},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/event-manager.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/event-manager_2727a1b.js"},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/guid.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/guid_6bbbaea.js"},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/instances.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/instances_7dddc6d.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/class.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/dom.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/default-setting.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/event-manager.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/guid.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/helper.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/destroy.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/destroy_6959de6.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/dom.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/helper.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/instances.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-scroll.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-scroll_b7a6463.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/instances.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-geometry.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-geometry_2c0373a.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/class.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/dom.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/helper.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/instances.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-scroll.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/click-rail.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/click-rail_3eff27a.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/helper.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/instances.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-geometry.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-scroll.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/drag-scrollbar.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/drag-scrollbar_324e0f2.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/dom.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/helper.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/instances.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-geometry.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-scroll.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/keyboard.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/keyboard_1180272.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/helper.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/dom.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/instances.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-geometry.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-scroll.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/mouse-wheel.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/mouse-wheel_53033c9.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/instances.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-geometry.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-scroll.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/native-scroll.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/native-scroll_3c4108d.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/instances.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-geometry.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/selection.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/selection_aaa3a54.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/helper.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/instances.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-geometry.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-scroll.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/touch.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/touch_75a2a8d.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/instances.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-geometry.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-scroll.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/initialize.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/initialize_58cc36f.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/class.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/helper.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/instances.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-geometry.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/click-rail.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/drag-scrollbar.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/keyboard.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/mouse-wheel.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/native-scroll.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/selection.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/handler/touch.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update_c58a304.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/dom.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/lib/helper.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/instances.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-geometry.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update-scroll.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/main.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/main_d8498f6.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/destroy.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/initialize.js","wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/plugin/update.js"]},"wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/index.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/index_0021e06.js","deps":["wiki-lemma:widget/lemma_content/configModule/secondsKnow/perfect-scrollbar/src/js/main.js"]},"wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/lemmaInsert.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaInsert_8f518c5.js","pkg":"wiki-lemma:p5","deps":["wiki-common:widget/component/nslog/nslog.js"]},"wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/tangram.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/tangram_459492a.js","pkg":"wiki-lemma:p5"},"wiki-lemma:widget/lemma_content/configModule/zhidaodiversion/zhidaodiversion.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhidaodiversion/zhidaodiversion_d731a14.js","deps":["wiki-common:widget/component/nslog/nslog.js","wiki-common:widget/lib/jquery/jquery.js","wiki-common:widget/lib/jsmart/jsmart.js"]}},"pkg":{"wiki-lemma:p5":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module-lemmaRelation_0aebd7b.js"}}});</script><script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jquery/jquery_1.11.1_dfce600.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jquery/jquery.mousewheel_4fde694.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jquery/jquery_2d56800.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jsmart/PHPJS_2406ddf.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jsmart/jsmart_a7d06a5.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/sparkMD5/sparkMD5_a5502a8.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/swfObject/swfObject_00526c3.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/letvPlayer/letvPlayer_f923883.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common-base_ce9c01b.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/component/userbar-n/userbar-n_8f86b7d.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_3ffa925.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnow/secondsKnow_ef7d046.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhixin/zhixin_58e6342.js"></script>
+<script type="text/javascript">!function(){  var $ = require('wiki-common:widget/lib/jquery/jquery'),
+    userbar = require('wiki-common:widget/component/userbar-n/userbar-n');
+    
+  userbar.buildUserbar($('#j-wgt-userbar'), null);
+}();
+!function(){  require('wiki-common:widget/component/headTabBar/headTabBar');
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      initSearchbar = require('wiki-common:widget/component/searchbar-n/searchbar');  
+    initSearchbar($('.wgt-searchbar-main'));
+  }();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var cookie = require('wiki-common:widget/util/cookie');
+    if (!cookie.get('baikedeclare')) {
+        $('#J-declare-wrap').css('display', 'block');
+    }
+    $('#J-declare-close').on('click', function () {
+        // 用户关闭后，不再显示，这里暂设过期时间为1年
+        cookie.set('baikedeclare', 'showed', {
+            expires: 365 * 60 * 60 * 24 * 1000,
+            path: '/'
+        });
+        $('#J-declare-wrap').css('display', 'none');
+    });
+}();
+!function(){  var $ = require('wiki-common:widget/lib/jquery/jquery');
+
+  var timer = '';
+
+  $('.wgt-navbar').on('mouseenter', 'dl', function() {
+  clearTimeout(timer);
+  timer = setTimeout(function() {
+  $('.wgt-navbar').addClass('wgt-navbar-hover');
+}, 300);
+}).on('mouseleave', function() {
+clearTimeout(timer);
+$('.wgt-navbar').removeClass('wgt-navbar-hover');
+}).on('click', 'a', function() {
+clearTimeout(timer);
+$('.wgt-navbar').removeClass('wgt-navbar-hover');
+});
+}();
+!function(){    require('wiki-lemma:widget/lemma_content/configModule/secondsKnow/secondsKnow')({"secondsKnow":[{"videoSrc":{"type":"baikePlayer","secondKind":"1","secondId":102456,"mid":"mda-gj2sh7aa3n8rwcj5","cover":"https:\/\/gss1.bdstatic.com\/9vo3dSag_xI4khGkpoWK1HF6hhy\/baike\/whfpf%3D685%2C390%2C0\/sign=31699a0d00f79052ef4a147e6acee1f2\/faedab64034f78f0e6fb73ed70310a55b3191c3f.jpg","cover_small":"https:\/\/gss1.bdstatic.com\/9vo3dSag_xI4khGkpoWK1HF6hhy\/baike\/whfpf%3D280%2C150%2C0\/sign=b121d4d4583d26972e865b1d33c680c3\/faedab64034f78f0e6fb73ed70310a55b3191c3f.jpg"},"coverSrc":"faedab64034f78f0e6fb73ed70310a55b3191c3f","title":"\u5510\u5bb6\u5e73\u300a\u8d39\u6c0f\u6570\u5217\u300b","mediaId":"mda-gj2sh7aa3n8rwcj5","secondId":102456},{"videoSrc":{"type":"baikePlayer","secondKind":"1","secondId":225450,"mid":"mda-heyhu2rvrr1gvrzd","cover":"https:\/\/gss1.bdstatic.com\/-vo3dSag_xI4khGkpoWK1HF6hhy\/baike\/whfpf%3D685%2C390%2C0\/sign=fd506b61a118972ba36f538a80f04db1\/3b292df5e0fe992591773e253ea85edf8db1714f.jpg","cover_small":"https:\/\/gss1.bdstatic.com\/-vo3dSag_xI4khGkpoWK1HF6hhy\/baike\/whfpf%3D280%2C150%2C0\/sign=5058b05e04f41bd5da06bbb437e7b3f3\/3b292df5e0fe992591773e253ea85edf8db1714f.jpg"},"coverSrc":"3b292df5e0fe992591773e253ea85edf8db1714f","title":"\u4eba\u8111\u8ba1\u7b97\u901f\u5ea6\u53ef\u4ee5\u5feb\u8fc7\u8ba1\u7b97\u5668\uff1f","mediaId":"mda-heyhu2rvrr1gvrzd","secondId":225450},{"videoSrc":{"type":"baikePlayer","secondKind":"1","secondId":362059,"mid":"mda-hkvt8jtud1fxnzqt","cover":"https:\/\/gss3.bdstatic.com\/7Po3dSag_xI4khGkpoWK1HF6hhy\/baike\/whfpf%3D685%2C390%2C0\/sign=d2d2c61ab9b7d0a27b9c57ddadd24031\/f3d3572c11dfa9ecf5f5fcbf69d0f703908fc1bb.jpg","cover_small":"https:\/\/gss3.bdstatic.com\/7Po3dSag_xI4khGkpoWK1HF6hhy\/baike\/whfpf%3D280%2C150%2C0\/sign=2ca5646ab9119313c716acf003053eef\/f3d3572c11dfa9ecf5f5fcbf69d0f703908fc1bb.jpg"},"coverSrc":"f3d3572c11dfa9ecf5f5fcbf69d0f703908fc1bb","title":"\u4e3a\u4ec0\u4e48\u90fd\u8bf4\u773c\u89c1\u4e0d\u4e00\u5b9a\u4e3a\u5b9e\uff1f","mediaId":"mda-hkvt8jtud1fxnzqt","secondId":362059}],"pageBg":null,"type":"normal"}, 99145, '斐波那契数列');
+}();
+!function(){                var $ = require('wiki-common:widget/lib/jquery/jquery');
+                var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+                // 展现策略
+                rightCheck.editView('99145', function(res) {
+                    if (!res.errno) {
+                        if (res.data.edit) {
+                            $('.lemmaWgt-lemmaTitle .add-subLemma').css('display', 'inline-block');
+                            $('.top-tool .add-sub-icon').css('display', 'inline-block');
+                        }
+                    } else {
+                        if ('1') {
+                            $('.lemmaWgt-lemmaTitle .add-subLemma').css('display', 'inline-block');
+                            $('.top-tool .add-sub-icon').css('display', 'inline-block');
+                        }
+                    }
+                });
+                require('wiki-lemma:widget/basicElement/addSub/addSub.js')({                    lemmaId: '99145',                    lemmaTitle: '斐波那契数列',                    lemmaDesc: '',                    versionId: '125073658',                    subLemmaId: '816'                });
+            }();
+!function(){        var $ = require('wiki-common:widget/lib/jquery/jquery');
+        var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+        // 展现策略
+        rightCheck.editView('99145', function(res) {
+            if (!res.errno) {
+                if (res.data.divide) {
+                    $('.top-tool .split-icon').css('display', 'block');
+                }
+            }
+        });
+    }();
+!function(){    var nslog = require('wiki-common:widget/component/nslog/nslog');
+	require.async(["wiki-lemma:widget/basicElement/collect/collect"],function(collect){
+		collect({
+            newLemmaId:"99145",
+			lemmaId:"816",
+			subLemmaId:"816"
+		});
+	});
+}();
+!function(){    require.async(["wiki-lemma:widget/basicElement/topShare/topShare"],function(topShare){
+        topShare({
+            newLemmaId: '99145'
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.lemmaWgt-lemmaTitle .edit-lemma').css('display', 'inline-block');
+                // 编辑和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .edit-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .edit-lemma').before('<br/><br/>');
+                  }
+                }
+            } else {
+                $('.lemmaWgt-lemmaTitle .lock-lemma').show();
+                // 锁定和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .lock-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .lock-lemma').before('<br/><br/>');
+                  }
+                }
+            }
+        } else {
+            if ('1') {
+                $('.lemmaWgt-lemmaTitle .edit-lemma').css('display', 'inline-block');
+                // 编辑和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .edit-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .edit-lemma').before('<br/><br/>');
+                  }
+                }
+            } else {
+                $('.lemmaWgt-lemmaTitle .lock-lemma').show();
+                // 锁定和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .lock-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .lock-lemma').before('<br/><br/>');
+                  }
+                }
+            }
+        }
+    });
+}();
+!function(){	require('wiki-lemma:widget/lemma_content/mainContent/basicInfo/basicInfo')();
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var nslog = require('wiki-common:widget/component/nslog/nslog');
+    nslog(10002701);
+    $('.lemmaWgt-lemmaCatalog a').on('click', function () {
+           nslog(10002702);
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('99145', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){	require.async(["wiki-common:widget/lib/jquery/jquery","wiki-lemma:widget/lemma_content/mainContent/albumList/albumList","wiki-common:widget/component/nslog/nslog"],function($,AlbumList,nslog){
+		var list=new AlbumList({
+			newLemmaId:"99145",
+			lemmaTitle:"斐波那契数列",
+			lemmaId:"816",
+			subLemmaId:"816",
+			data:{"20488878":{"coverpic":"472309f790529822caba8c13d1ca7bcb0b46d451","desc":"\u5408\u5e76\u56fe\u518c","albumTag":"","height":165,"width":220,"total":2,"coverurl":"http:\/\/a.hiphotos.baidu.com\/baike\/s%3D235\/sign=336033fc8101a18bf4eb154cab2d0761\/472309f790529822caba8c13d1ca7bcb0b46d451.jpg","toppics":[{"src":"472309f790529822caba8c13d1ca7bcb0b46d451","owner":"\u58a9\u58a9\u80d6\u4e4e\u4e4e","desc":"\u5408\u5e76\u56fe\u518c","height":768,"width":1024},{"src":"d019d2bfad3a543918d81f54","owner":"\u58a9\u58a9\u80d6\u4e4e\u4e4e","desc":"\u5408\u5e76\u56fe\u518c","height":445,"width":382}]},"0":{"coverpic":"a08b87d6277f9e2f7c63b4cf1f30e924b999f3a7","width":260,"height":196,"desc":"\u8bcd\u6761\u56fe\u7247","total":8,"coverurl":"http:\/\/d.hiphotos.baidu.com\/baike\/s%3D235\/sign=b3fe4db4ad4bd11300cdb0316faea488\/a08b87d6277f9e2f7c63b4cf1f30e924b999f3a7.jpg"}}
+		});
+		!!window.ScriptLazyLoad && window.ScriptLazyLoad.regist({
+			dom:$('.album-list'),
+			loadFunc:function(){
+				list.load();
+				nslog(1258);
+			},
+			distance:500
+		});
+	});
+}();
+!function(){        require('wiki-lemma:widget/lemma_content/configModule/zhixin/zhixin')(
+            99145,
+            '斐波那契数列'
+        );
+    }();
+!function(){require.async(['wiki-lemma:widget/lemma_content/configModule/zhidaodiversion/zhidaodiversion'],function(app){
+    app.run('99145','斐波那契数列');
+});
+}();
+!function(){    require.async(["wiki-lemma:widget/lemma_content/mainContent/lemmaStatistics/lemmaStatistics"],function(init){
+        init({
+            newLemmaIdEnc:"013e9d86627991966c2a1aa0"
+        });
+    });
+}();
+!function(){	require.async(["wiki-lemma:widget/lemma_content/mainContent/sideCatalog/sideCatalog"],function(SideCatalog){
+		new SideCatalog();
+	});
+}();
+!function(){        require.async(["wiki-lemma:widget/promotion/fengchao/fengchao","wiki-lemma:widget/promotion/unionAd/unionAd"], function (init, unionAd) {
+            init({
+                newLemmaId: "99145",
+                lemmaTitle: "斐波那契数列",
+                encodeLemmaTitle: "%EC%B3%B2%A8%C4%C7%C6%F5%CA%FD%C1%D0",
+                adManager: {"wapRelatedBusiness":1}
+            }, {
+                errFn: unionAd,
+                dom: $('#side_box_unionAd')
+            });
+        });
+    }();
+!function(){        require.async(['wiki-lemma:widget/promotion/guessLike/guessLike'], function (app) {
+            app.init({
+                lemmaTitle: '斐波那契数列',
+                adManager: {"wapRelatedBusiness":1}
+            });
+        });
+    }();
+!function(){            require.async(['wiki-lemma:widget/promotion/bottomAd/bottomAd'], function (init) {
+                init({
+                    sId: 'BOTTOM_PRO_AD',
+                    adManager: {"wapRelatedBusiness":1}
+                });
+            });
+        }();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var Dialog = require("wiki-common:widget/ui/dialog/dialog");
+    var userLogin = require('wiki-common:widget/component/userLogin/userLogin');
+    var unameFiller = require('wiki-common:widget/component/unameFiller/unameFiller');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+            var isEnterprise = false;
+        var enterpriseOwnerUserId = 0;
+    
+    var userId = 0;
+    var editUrl = '/edit/' + encodeURIComponent('斐波那契数列') + '/' + '99145';
+    var pgcUrl = '/enterprise/editpgc?lemmaId=99145';
+
+    userLogin.regist({
+        onLogin: function(user) {
+            userId = user ? user.uid : 0;
+        }
+    });
+
+    function gotoEdit(url, isMidNight) {
+        if (isMidNight) {
+            Dialog.alert({
+                title: '编辑提示',
+                subMsg: '晚23:00至次日8:00，因审核系统例行维护，您提交的版本可能需要较长时间才能通过，望您谅解。',
+                onConfirm: function() {
+                    window.location.href = url;
+                }
+            });
+        } else {
+            window.location.href = url;
+        }    
+    }
+
+    function showChoseEditDialog(pgcCallback, ugcCallback) {
+        new Dialog({
+            title: '编辑提示',
+            subMsg: '<p>您已开通企业百科服务，推荐您直接编辑“官方资料”，官方资料仅限企业百科绑定的百科账号修改，其他用户账号不可修改。</p><p>如果您想修改其他网友编辑的普通词条内容，请注意遵守百科百科编辑规则。<p>',
+            btns: [{
+            key: 'pgc',
+            text: '编辑官方资料'
+            }, {
+            style: 'white',
+            text: '修改普通词条',
+            key: 'ugc'
+            }],
+            onBtnClick: function(btnKey){
+                if (btnKey === 'pgc') {
+                    pgcCallback && pgcCallback();
+                } else if (btnKey === 'ugc') {
+                    ugcCallback && ugcCallback();
+                }
+            }
+        }).show();
+    }
+
+    function checkUserLegal(res) {
+        var legal = false;
+        switch (res.errno) {
+            case 100001:
+                userLogin.showLoginPop();
+                break;
+            case 100006:
+                unameFiller.show();
+                break;
+            default:
+                legal = true;
+        }
+        return true;
+    }
+
+    function checkUgc(res, url) {
+        if (res.errno) {
+            switch (res.errno) {
+                case 100005:
+                    alert('对不起，您目前被封禁');
+                    break;
+                case 110001:
+                    alert('对不起，该词条被锁定');
+                    break;
+                case 110007:
+                    alert('对不起，消歧页无法编辑');
+                    break;
+                case 110005:
+                    Dialog.alert({
+                    title: '编辑提示',
+                    mainMsg: '对不起，您暂时没有权限编辑该词条。',
+                    subMsg: '<p>您好，该词条内容已较丰富，现仅对百科等级达到<b>四级</b>且通过率达到<b>85%</b>的科友开放编辑。</p><p>当您通过努力达到以上要求，就可以参与编辑该词条了。</p><p><img src="https://bkssl.bdimg.com/img/baike/usercenter/growuptask/star.gif" class="star" />参加<a target="_blank" href="/usercenter#guide">成长任务</a>，更快掌握百科编辑技巧，加速升级！</p>'
+                    });
+                    break;
+                case 110008:
+                    Dialog.alert({
+                    title: '编辑提示',
+                    mainMsg: '对不起，您暂时没有权限编辑该词条。',
+                    subMsg: '<p>您好，该词条内容已较丰富，现仅对百科等级达到<b>六级</b>且通过率达到<b>85%</b>的科友开放编辑。</p><p>当您通过努力达到以上要求，就可以参与编辑该词条了。</p><p><img src="https://bkssl.bdimg.com/img/baike/usercenter/growuptask/star.gif" class="star" />参加<a target="_blank" href="/usercenter#guide">成长任务</a>，更快掌握百科编辑技巧，加速升级！</p>'
+                    });
+                    break;
+                case 470001:
+                    alert('系统错误，请刷新重试');
+                    break;
+            }
+        } else {
+            if (!res.data.right.noAudit) {
+                Dialog.alert({
+                    title: '编辑提示',
+                    subMsg: '很抱歉，该词条有其他用户编辑的版本正在提交，您暂时无法编辑。<br/>百科建议您晚些时候再编辑该词条，或者尝试编辑其他的词条。'
+                });
+                return;
+            }
+            gotoEdit(url, res.data.notice.isMidNight);
+        }
+    }
+
+    $(document.body).on('click', '.j-edit-link', function() {
+        var dl = $(this).attr('data-edit-dl');
+        if (dl) {
+            var url = editUrl + '?dl=' + dl;
+        } else {
+            var url = editUrl;
+        }
+
+        rightCheck.preeditCheck('99145', '斐波那契数列', '斐波那契数列', '125073658', '', function(res) {
+            if (!checkUserLegal(res)) {
+                return;
+            }
+            if (isEnterprise && enterpriseOwnerUserId === userId) {
+                showChoseEditDialog(function() {
+                    location.href = pgcUrl;
+                }, function() {
+                    checkUgc(res, url);
+                });
+            } else {
+                checkUgc(res, url);
+            }
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      initSearchbar = require('wiki-common:widget/component/searchbar-n/searchbar');  
+    initSearchbar($('.wgt-searchbar-simple'));
+  }();
+!function(){    require.async(["wiki-lemma:widget/tools/searchHeader/toolButtons-n/toolButtons"],function(init){
+        init({
+            lemmaId:"816",
+            subLemmaId:"816",
+            newLemmaId:"99145"
+        });
+    });
+}();
+!function(){    require('wiki-lemma:widget/tools/searchHeader/toolButtons-n/userInfo')();
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      animation = require('wiki-common:widget/util/animation'),
+      nslog = require('wiki-common:widget/component/nslog/nslog'),
+      initSearchbar = require('wiki-common:widget/component/searchbar/searchbar');
+
+    var isFadeIn = false,
+        isFadeOut = false;
+
+    var fadeInAni, fadeOutAni;
+
+    $(window).on('scroll', function(e) {
+        var scrollTop = $(this).scrollTop();
+
+        if (scrollTop > 200 && !isFadeIn && $('.lemmaWgt-searchHeader').css('display') == 'none') {
+            fadeOutAni && fadeOutAni.stop();
+            fadeInAni = animation({
+                duration: 200,
+                easing: 'linear',
+                onStart: function() {
+                    isFadeOut = false;
+                    isFadeIn = true;
+                    $('.lemmaWgt-searchHeader').css('display', 'block');
+                },
+                onStep: function(progress) {
+                    $('.lemmaWgt-searchHeader').css('opacity', progress)
+                },
+                onComplete: function(progress) {
+                    isFadeIn = false;
+                    nslog(10010007);
+                }
+            });
+        } else if (scrollTop <= 200 && !isFadeOut && $('.lemmaWgt-searchHeader').css('display') == 'block') {
+            fadeInAni && fadeInAni.stop();
+            fadeOutAni = animation({
+                duration: 300,
+                easing: 'linear',
+                onStart: function() {
+                    $('.lemmaWgt-searchHeader #suggestion').hide();
+                    isFadeIn = false;
+                    isFadeOut = true;
+                },
+                onStep: function(progress) {
+                    $('.lemmaWgt-searchHeader').css('opacity', 1 - progress);
+                },
+                onComplete: function(progress) {
+                    isFadeOut = false;
+                    $('.lemmaWgt-searchHeader').css('display', 'none');
+                }
+            });
+        }
+    });
+}();
+!function(){    require('wiki-lemma:widget/tools/newSideShare/qzopensl');
+    require.async(["wiki-lemma:widget/tools/newSideShare/taskSideShare"],function(taskShare){
+        taskShare.init({
+            title: '斐波那契数列',
+            desc: "\u6590\u6ce2\u90a3\u5951\u6570\u5217\uff08Fibonacci sequence\uff09\uff0c\u53c8\u79f0\u9ec4\u91d1\u5206\u5272\u6570\u5217\u3001\u56e0\u6570\u5b66\u5bb6\u5217\u6602\u7eb3\u591a\u00b7\u6590\u6ce2\u90a3\u5951\uff08Leonardoda Fibonacci\uff09\u4ee5\u5154\u5b50\u7e41\u6b96\u4e3a\u4f8b\u5b50\u800c\u5f15\u5165\uff0c\u6545\u53c8\u79f0\u4e3a\u201c\u5154\u5b50\u6570\u5217\u201d\uff0c\u6307\u7684\u662f\u8fd9\u6837\u4e00\u4e2a\u6570\u5217\uff1a1\u30011\u30012\u30013\u30015\u30018\u300113\u300121\u300134\u3001\u2026\u2026\u5728\u6570\u5b66\u4e0a\uff0c\u6590\u6ce2\u7eb3\u5951\u6570\u5217\u4ee5\u5982\u4e0b\u88ab\u4ee5\u9012\u5f52\u7684\u65b9\u6cd5\u5b9a\u4e49\uff1aF(0)=0\uff0cF(1)=1, F(n)=F(n-1)+F(n-2)\uff08n&gt;=2\uff0c",
+            pic: 'http:\/\/d.hiphotos.baidu.com\/baike\/w%3D268\/sign=df64d70cfbedab6474724ac6cf37af81\/a08b87d6277f9e2f7c63b4cf1f30e924b999f3a7.jpg',
+            url: '',
+            qqPic: 'https:\/\/gss3.bdstatic.com\/-Po3dSag_xI4khGkpoWK1HF6hhy\/baike\/whfpf%3D196%2C196%2C50\/sign=6b53cfb4fbf2b211e47bd60eacbd5401\/a08b87d6277f9e2f7c63b4cf1f30e924b999f3a7.jpg',
+            newLemmaId: '99145',
+            lemmaTitle: '斐波那契数列'
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var nslog = require("wiki-common:widget/component/nslog/nslog");
+    var testElem = require('wiki-common:widget/component/testElem/testElem');
+    var cmsModuleLoader = require('wiki-common:widget/component/cmsModuleLoader/cmsModuleLoader');
+
+    function requireAsync() {
+        require.async(['wiki-lemma:widget/tools/announcement/announcement']);
+    }
+
+    cmsModuleLoader('/api/wikiui/getlemmaconfig', [{
+        name: 'announcement',
+        script: 'wiki-lemma:widget/tools/announcement/announcement.js'
+    }]);
+
+    require.async(["wiki-lemma:widget/tools/lazyLoad/lazyLoad"], function(LazyLoad) {
+        new LazyLoad();
+    });
+
+    require.async(['wiki-common:widget/component/nslog/nslog','wiki-common:widget/lib/jquery/jquery'], function(nslog, $) {
+        nslog().setGlobal({
+            lemmaId: "816",
+            newLemmaId: "99145",
+            subLemmaId: "816",
+            lemmaTitle: "斐波那契数列"
+        });
+
+        // 词条页 pv
+        nslog(9322);
+
+        // 新版头部pv（小流量）
+        if ($('.pc-header-new').length > 0) {
+            nslog(9069);
+        }
+
+        // 链接点击 pv
+        var lemmaPageRegExp = new RegExp(/\/subview\/\d+|\/view\/\d+|\/item\//i);
+        $('body').on('mousedown', 'a', function() {
+            var href = $(this).attr('href');
+            if (href && href.indexOf('/') >= 0 && href.indexOf('#') !== 0) {
+                // 链接点击 pv
+                nslog(10000001);
+                if (lemmaPageRegExp.test(href)) {
+                    // 词条页链接点击 pv
+                    nslog(10000002, window.location.href, {
+                        targetTitle: $(this).text()
+                    });
+                }
+            }
+        });
+
+        /****** 词条页站内流转需求统计 start ******/
+        (function () {
+            // 各种统计配置
+            var circulationLinkCfg = {
+                innerLink: [ // 内链
+                    '.para',
+                    '.lemmaWgt-baseInfo-simple-largeMovie',
+                    '.lemmaWgt-baseInfo-simple-largeStar',
+                    '.basic-info .basicInfo-block',
+                    '.lemma-summary',
+                    '.lemmaWgt-lemmaSummary',
+                    '.view-tip-panel',
+                    '.horizontal-module',
+                    '.lemmaWgt-roleIntroduction',
+                    '.dramaSeries .dramaSerialList',
+                    '.module-music',
+                    '.table-view',
+                    '[log-set-param="table_view"]',
+                    '.list-module',
+                    '.cell-module',
+                    '.baseBox .dl-baseinfo', // 配置后台字段
+                    '.pvBtn-box .leadPVBtnWrapper',
+                    '.drama-actor',
+                    '#staffList',
+                    '.starMovieAndTvplay',
+                    '.main_tab:not(.main_tab-defaultTab)' // 除去词条tab外的tab
+                ],
+                relationTable: '.rs-container-foot', // 关系表
+                peopleRelation: '.star-info-block.relations, .lemmaWgt-focusAndRelation', // 人物关系（明星+普通）
+                moduleActors: '.featureBaseInfo .actors, .lemmaWgt-majorActors', // 主要演员、嘉宾、主持人
+                moduleWorks: '.featureBaseInfo .works, .large-feature .works', // 代表作品
+                moduleQuarterly: '.featureBaseInfo .po_quarterly, .mian_quarterly', // 分季介绍
+                rankStar: '.rank-list.stars-rank', // 明星榜
+                rankDrama: '.drama-rank-list', // 电视剧榜
+                specialTopic: '.special-topic', // 专题模块
+                modDetailTable: '#modDetailTable', // 关系表出图
+                chuizhitu: '.chuizhitu', // 垂直化模块
+                polysemantList: '.polysemantList-wrapper' // 义项切换
+            };
+            /****** 连接统计 ******/
+            function clickNslogFn() {
+                for (var k in circulationLinkCfg) {
+                    if (k === 'innerLink') {
+                        // 词条内链到词条页
+                        var tempArr = circulationLinkCfg[k];
+                        for (var i = 0, l = tempArr.length; i < l; i++) {
+                            tempArr[i] += ' a';
+                        }
+                        var sSelector = tempArr.join(', ');
+
+                        $('body').on('mousedown', sSelector, {key: k},function(e) {
+                            var key = e.data.key;
+                            var href = $(this).attr('href');
+                            var tar = $(this).attr('target') || '';
+                            if (href && href.indexOf('/') >= 0 && href.indexOf('#') !== 0
+                            && tar === '_blank' && lemmaPageRegExp.test(href)) {
+                                // 词条页普通内链点击 pv
+                                nslog(10000004, null ,{division: key});
+                            }
+                        });
+                    } else {
+                        // 模块到词条页链接
+                        $(circulationLinkCfg[k]).on('mousedown', 'a', {key: k}, function (e) {
+                            var key = e.data.key;
+                            var href = $(this).attr('href');
+                            if (href && href.indexOf('#') !== 0 && lemmaPageRegExp.test(href)) {
+                                // 词条页配置模块链接点击 pv
+                                nslog(10000004, null, {division: key});
+                            }
+                        });
+                    }
+                }
+            }
+            // 发起统计请求
+            clickNslogFn();
+
+            /****** 各模块展现量pv ******/
+            function checkModuleIsShow() {
+                var result = [];
+                for (var k in circulationLinkCfg) {
+                    if (k !== 'innerLink' && k !== 'relationTable') {
+                        !!$(circulationLinkCfg[k]).html() && result.push(k);
+                    }
+                }
+                if (result.length > 0) {
+                    nslog(10000005, null, {showModules: result.join(',')});
+                }
+            }
+            checkModuleIsShow();
+
+        })();
+        /****** 词条页站内流转需求统计 end ******/
+
+    });
+
+    // 广告接入 wikiad 统一加载
+    // log 词条页广告被拦截情况（此处 log 请求行为）
+    nslog(70000101, window.location.href, {
+        api: 'lemma-ad',
+        action: 'request'
+    });
+    var tags = [];
+    var tagsArray = [];
+    for (var key in tags) {
+        tagsArray.push(tags[key].tagName);
+    }
+    $.ajax({
+        type: 'GET',
+        url: '/api/wikiad/getsquirrels',
+        data: {
+            lemmaId: 99145,
+            tags: tagsArray.join()
+        },
+        cache: false,
+        dataType: 'JSON',
+        success: function (res) {
+            // log 词条页广告被拦截情况（此处 log 请求成功）
+            nslog(70000101, window.location.href, {
+                api: 'lemma-ad',
+                action: 'success'
+            });
+
+            if (!res.errno) {
+                if (res.data[5]) {
+                    require.async(['wiki-lemma:widget/promotion/rightPreciseAd/rightPreciseAd'], function(rightPreciseAd) {
+                        rightPreciseAd(res.data[5]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[5][0].adId,
+                            adTitle: res.data[5][0].name,
+                            adPos: 5
+                        });
+                    });
+                } else if (res.data[1]) {
+                                        require.async(['wiki-lemma:widget/promotion/vbaike/vbaike'], function(vbaike) {
+                        vbaike(res.data[1]);
+                        for(var i in res.data[1]) {
+                            nslog(10002201, location.href, {
+                                adId: res.data[1][i].adId,
+                                adTitle: res.data[1][i].name,
+                                adPos: 1
+                            });
+                        }
+                    });
+                                    }
+                if (res.data[9]) {
+                                        require.async(['wiki-lemma:widget/promotion/rightBigAd/rightBigAd'], function(rightBigAd) {
+                        rightBigAd(res.data[9]);
+                            nslog(10002201, location.href, {
+                                adId: res.data[9][0].adId,
+                                adTitle: res.data[9][0].name,
+                                adPos: 9
+                            });
+                    });
+                                    } else if(res.data[2]) {
+                    require.async(['wiki-lemma:widget/promotion/slide/slide'], function(slide) {
+                        slide(res.data[2]);
+                        for(var i in res.data[2]) {
+                            nslog(10002201, location.href, {
+                                adId: res.data[2][i].adId,
+                                adTitle: res.data[2][i].name,
+                                adPos: 2
+                            });
+                        }
+                    });
+                }
+                if (res.data[3]) {
+                                        require.async(['wiki-lemma:widget/promotion/topAd/topAd'], function(topAd) {
+                        topAd(res.data[3]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[3][0].adId,
+                            adTitle: res.data[3][0].name,
+                            adPos: 3
+                        });
+                    });
+                                    }
+                if (res.data[4]) {
+                                        require.async(['wiki-lemma:widget/promotion/rightAd/rightAd'], function(rightAd) {
+                        rightAd(res.data[4]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[4][0].adId,
+                            adTitle: res.data[4][0].name,
+                            adPos: 4
+                        });
+                    });
+                                    }
+                if (res.data[15]) {
+                    require.async(['wiki-lemma:widget/promotion/banner/banner'], function(banner) {
+                        banner(res.data[15]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[15][0].adId,
+                            adTitle: res.data[15][0].name,
+                            adPos: 15
+                        });
+                    });
+                }
+                if (res.data[16]) {
+                    require.async(['wiki-lemma:widget/promotion/declaration/declaration'], function(declaration) {
+                        declaration(res.data[16]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[16][0].adId,
+                            adTitle: res.data[16][0].name,
+                            adPos: 16
+                        });
+                    })
+                }
+            } else {
+                return;
+            }
+
+            setTimeout(function () {
+                var elemArr = {};
+                res.data[1] && res.data[1].length > 0 && (elemArr['lemma-vbaike-ad'] = $('.lemmaWgt-promotion-vbaike .promotion_viewport a:eq(0) img').get(0));
+                res.data[2] && res.data[2].length > 0 && (elemArr['lemma-slide-ad'] = $('.lemmaWgt-promotion-slide .promotion_viewport a:eq(0) img').get(0));
+                res.data[3] && res.data[3].length > 0 && (elemArr['lemma-navbar-ad'] = {
+                    node: $('.header [nslog-type="10002202"]').get(0),
+                    validations: {
+                        'noBackgroundImage': function() {
+                            return $('.header [nslog-type="10002202"]').css('background-image').indexOf(res.data[3][0].picUrl) < 0
+                        }
+                    }
+                });
+                res.data[4] && res.data[4].length > 0 && (elemArr['lemma-side-ad'] = {
+                    node: $('.right-ad img').get(0),
+                    validations: {
+                        'noBackgroundImage': function() {
+                            return $('.right-ad img').attr('src').indexOf(res.data[4][0].picUrl) < 0
+                        }
+                    }
+                });
+                res.data[15] && res.data[15].length > 0 && (elemArr['lemma-configModule-banner'] = $('.configModuleBanner').get(0));
+                res.data[16] && res.data[16].length > 0 && (elemArr['lemma-configModule-declaration'] = $('.lemmaWgt-declaration').get(0));
+
+                testElem.log(elemArr, 70000102);
+            }, 1000);
+        },
+        error: function () {
+            // log 词条页广告被拦截情况（此处 log 请求失败）
+            nslog(70000101, window.location.href, {
+                api: 'lemma-ad',
+                action: 'error'
+            });
+        }
+    });
+
+    // 设置分享内容
+    window.BKShare.setCommon({
+        bdText: "\u3010\u6590\u6ce2\u90a3\u5951\u6570\u5217_\u767e\u5ea6\u767e\u79d1\u3011\u6590\u6ce2\u90a3\u5951\u6570\u5217\uff08Fibonacci sequence\uff09\uff0c\u53c8\u79f0\u9ec4\u91d1\u5206\u5272\u6570\u5217\u3001\u56e0\u6570\u5b66\u5bb6\u5217\u6602\u7eb3\u591a\u00b7\u6590\u6ce2\u90a3\u5951\uff08Leonardoda Fibonacci\uff09\u4ee5\u5154\u5b50\u7e41\u6b96\u4e3a\u4f8b\u5b50\u800c\u5f15\u5165\uff0c\u6545\u53c8\u79f0\u4e3a\u201c\u5154\u5b50\u6570\u5217\u201d\uff0c\u6307\u7684\u662f\u8fd9\u6837\u4e00\u4e2a\u6570\u5217\uff1a1\u30011\u30012\u30013\u30015\u30018\u300113\u300121\u300134\u3001\u2026\u2026\u5728\u6570\u5b66\u4e0a\uff0c\u6590\u6ce2\u7eb3\u5951\u6570\u5217\u4ee5\u5982\u4e0b\u88ab\u4ee5\u9012\u5f52\u7684\u65b9\u6cd5\u5b9a\u4e49\uff1aF(0)=0\uff0cF(1)=1, F(n)=F(n-1)+F(n-2)\uff08n&gt;=2\uff0c.....\uff08\u5206\u4eab\u81ea@\u767e\u5ea6\u767e\u79d1\uff09",
+        bdDesc: '',
+        bdUrl: 'http:\/\/baike.baidu.com\/item\/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97\/99145',
+        bdPic: '',
+        onBeforeClick: function (){
+            $('.bdshare_dialog_box').hide();
+        }
+    });
+
+    // 底部投诉带入当前页面 url
+    var map = [1, 2, 6, 5];
+    $('.wgt-footer-main .suggestion').find('a').each(function(i) {
+        $(this).attr('href', 'http://help.baidu.com/newadd?word=%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97' + '&&submit_link=' + encodeURIComponent(window.location.href) + '&prod_id=10&category=' + map[i]);
+    });
+
+    // 为超出预设内容的表格添加table-responsive控制
+    $('.main-content').find('table').each(function(index) {
+        var $that = $(this);
+        if ($that.width() > 790) {
+            $that.wrap('<div class="table-responsive"></div>');
+        }
+    });
+}();
+!function(){      require('wiki-common:widget/component/psLink/psLink');
+    }();</script>
+<script type="text/javascript">
+  var Hunter = window.Hunter || {};
+  Hunter.userConfig = Hunter.userConfig || [];
+  </script>
+<script type="text/javascript" src="https://gss0.baidu.com/70cFsjip0QIZ8tyhnq/hunter/baike.js?st=17546" defer></script><script type="text/javascript">
+  // DOM Ready时，统计用户可操作时间。
+  alog('speed.set', 'drt', +new Date);
+
+  void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+</script>
+</html>

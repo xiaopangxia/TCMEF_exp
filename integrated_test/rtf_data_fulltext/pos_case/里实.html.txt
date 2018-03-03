@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0里实编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称里实英文名称interior excess定　　义指外邪入里化热，结于胃肠而阳明腑实，或体内寒凝、气滞、血瘀、食滞、虫积、停痰、留饮等，邪盛而正未虚的病理变化。应用学科中医药学（一级学科），中医基础理论（二级学科），病机（三级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35428,"fentryTableName":"\u4e2d\u533b\u57fa\u7840\u7406\u8bba","fentryTableType":1,"entryId":2670619,"templateId":0,"entryTitle":"\u4e2d\u533b\u57fa\u7840\u7406\u8bba","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([3874881, rsdataList]);
+        }

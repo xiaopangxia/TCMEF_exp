@@ -1,0 +1,1 @@
+cyrkbd32.exe是用西里尔入门套件中的相关进程，同Fingertip Software, Inc出品。

@@ -1,0 +1,1 @@
+Altium Designer Winter 09 提供了唯一一款统一的应用方案，其综合电子产品一体化开发所需的所有必须技术和功能。Altium Designer Winter 09 在单一设计环境中集成板级和FPGA系统设计、基于FPGA和分立处理器的嵌入式软件开发以及PCB版图设计、编辑和制造。并集成了现代设计数据管理功能,使得Altium Designer Winter 09成为电子产品开发的完整解决方案－一个既满足当前，也满足未来开发需求的解决方案。

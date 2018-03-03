@@ -1,0 +1,1 @@
+Proxy.Win32.Agent.if描述：clt.exe是Trojan-Proxy.Win32.Agent.if木马相关程序，建议立即删除。出品者： 未知N/A属于： Trojan-Proxy.Win32.Agent.if。

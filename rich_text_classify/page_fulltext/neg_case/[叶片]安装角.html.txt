@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0[叶片]安装角编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！对于涡轮机械，叶片进口安装角指的是进口处的叶片翼型骨线的切线与圆周方向的夹角对于涡轮机械，叶片进口安装角指的是进口处的叶片翼型骨线的切线与圆周方向的夹角；叶片出口安装角指骨线在出水边处的切线与圆周方向的夹角。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35409,"fentryTableName":"\u53ef\u518d\u751f\u80fd\u6e90","fentryTableType":1,"entryId":2673175,"templateId":0,"entryTitle":"\u53ef\u518d\u751f\u80fd\u6e90","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([8975360, rsdataList]);
+        }

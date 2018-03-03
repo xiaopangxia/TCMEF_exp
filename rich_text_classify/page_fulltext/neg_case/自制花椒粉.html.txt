@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0自制花椒粉编辑锁定自制花椒粉，是一种在家自制的调料粉，制作原料主要是干红花椒。菜    名自制花椒粉难    度普通目录1原料2做法自制花椒粉原料编辑干红花椒自制花椒粉做法编辑1.干花椒在钢精锅内炒出香味，有噼啪声音即可，关火，纳凉后放大的砧板上。凉后的花椒很脆，容易碾碎2.用干净的白纸铺在花椒上，擀面杖用力擀压，反复多次，收拢又擀压，直至大部分成粉末状。3.用网晒过滤几次，粉末装入玻璃罐内。剩余的再用舂舂一下，网晒再过滤下，最后就剩下一些白色的壳，可以不要，也可拿来下次做菜前油炸后，就丢弃。[1]window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":50111,"fentryTableName":"\u9171\u6c41\u4f50\u6599","fentryTableType":1,"entryId":2785311,"templateId":0,"entryTitle":"\u9171\u6c41\u4f50\u6599","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([12457844, rsdataList]);
+        }参考资料1.自制花椒粉．豆果网[引用日期2013-05-28]词条标签：生活

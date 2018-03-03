@@ -1,0 +1,1 @@
+《OpenQ》是一个在非windows平台上实现 QQ 聊天的尝试，目前它是基于 Gaim 的 QQ 插件。

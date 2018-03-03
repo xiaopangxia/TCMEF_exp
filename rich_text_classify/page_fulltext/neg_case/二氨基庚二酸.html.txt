@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0二氨基庚二酸编辑锁定1949年沃克（E.Work）从白喉菌（白喉棒杆菌）的水解物中发现的一种氨基酸。[1-2]中文名二氨基庚二酸外文名meso-2,6-diaminopimelic acid发现时间1949年发明人伊丽莎白 沃克（E.work）内消旋-2,6-二氨基庚二酸 meso-2,6-diaminopimelic acid根据调查，除革兰氏阳性球菌及某种链霉菌外，广泛存在于几乎所有的真细菌（古细菌未发现含有）。其含量相当于全细胞干重的0.02—0.2%，在细胞内，存在于可溶性组分及细胞壁组分等处。此外，在结核菌的可溶性蛋白质部分、抗原性脂多糖以及从枯草芽孢杆菌的芽孢提取的细胞外肽中也有所发现。其天然物无光学活性，为内消旋体。据证明，它的生物学机能除形成稳定的细胞壁组成成分之外，在某些细菌来说（大肠杆菌、产气杆菌），通过二氨基二庚酸脱羧酶的作用，脱羧后生成赖氨酸，成为赖氨酸生物合成的前体物质。进行生物合成时，从天冬氨酸半醛和丙酮酸首先形成吡啶羧酸，接着开环后再引入一个氨基。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35335,"fentryTableName":"\u65b0\u9648\u4ee3\u8c22","fentryTableType":1,"entryId":2683134,"templateId":0,"entryTitle":"\u65b0\u9648\u4ee3\u8c22","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([827907, rsdataList]);
+        }参考资料1.吴栢桦 ，  郜金荣 ，  浦秋文 ，  汤运昌 ，  张珈敏，蒋达和．大肠杆菌细胞水解液中的二氨基庚二酸：微生物学通报，19812.Elizabeth work．The isolation of alpha epsilon-Diaminopimelic acid from Corynebacterium diphtheriae and Mycobacterium tuberculosis：《Biochemical Journal》，1951词条标签：非生物，学科，医学，化学

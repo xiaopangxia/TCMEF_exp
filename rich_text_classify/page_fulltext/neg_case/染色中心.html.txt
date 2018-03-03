@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0染色中心编辑锁定染色中心是染色后的果蝇唾腺染色体在显微镜下显示的深色部分，位于整个唾腺染色体的中部，是许多异染色质聚集在一起形成的结构。它实际上是由果蝇第一对染色体的一端与第二对、第三对染色体中部的着丝粒部位相聚集而形成的一个深色中心。中文名染色中心位    于整个唾腺染色体的中部表    现显微镜下显示的深色部分组    成异染色质目录1形成2结构染色中心形成编辑在果蝇唾液染色体形成时，染色体着丝粒和近着丝粒的异染色区聚在一起，形成染色中心。所有染色体都连接在这一点，其本质是由每一条染色体的着丝粒结合在一起染色中心结构编辑染色中心是染色后的果蝇唾腺染色体在显微镜下显示的深色部分，位于整个唾腺染色体的中部，是许多异染色质聚集在一起形成的结构。起而形成的异染色质块。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":34966,"fentryTableName":"\u7ec6\u80de\u9057\u4f20\u5b66","fentryTableType":1,"entryId":2628106,"templateId":0,"entryTitle":"\u7ec6\u80de\u9057\u4f20\u5b66","isManual":0,"isExpand":1},{"fentryTableId":35010,"fentryTableName":"\u7ec6\u80de\u9057\u4f20","fentryTableType":1,"entryId":2633571,"templateId":0,"entryTitle":"\u7ec6\u80de\u9057\u4f20","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([593882, rsdataList]);
+        }

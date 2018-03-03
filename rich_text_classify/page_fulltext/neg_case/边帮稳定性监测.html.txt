@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0边帮稳定性监测编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称边帮稳定性监测英文名称slope stability monitoring定　　义为判断边帮稳定性、研究边帮移动和滑动规律而进行的观测工作。应用学科煤炭科技（一级学科），煤炭矿山测量（二级学科），矿山工程测量（三级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":34936,"fentryTableName":"\u7164\u70ad\u77ff\u5c71\u6d4b\u91cf","fentryTableType":1,"entryId":2630968,"templateId":0,"entryTitle":"\u7164\u70ad\u77ff\u5c71\u6d4b\u91cf","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([8965964, rsdataList]);
+        }

@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0[ěr guō]耳郭编辑锁定耳郭，外耳的一部分，主要由软骨构成，有收集声波的作用。中文名耳郭拼    音ěr guō释    义】：外耳的一部分，又    称耳廓【词语】：耳郭【注音】：ěr guō【释义】：外耳的一部分，主要由软骨构成，有收集声波的作用。也叫耳郭（图见〖耳朵 〗）位于头部两侧，前凹后凸，利于收集声波。耳郭的上方大部分以弹性软骨为支架，覆以皮肤构成，皮下组织少，富含血管和神经，感觉敏锐；下方的小部分富含结缔组织和脂肪，柔软而无软骨，称为耳垂，曾是临床上取末梢血进行化验的常用部位，但因操作不便而被弃用。耳郭穴位丰富，中医科常行耳针或局部穴位贴药法治疗某些疾病。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35428,"fentryTableName":"\u4e2d\u533b\u57fa\u7840\u7406\u8bba","fentryTableType":1,"entryId":2670619,"templateId":0,"entryTitle":"\u4e2d\u533b\u57fa\u7840\u7406\u8bba","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([1214710, rsdataList]);
+        }词条标签：非生物，生物物种，字词

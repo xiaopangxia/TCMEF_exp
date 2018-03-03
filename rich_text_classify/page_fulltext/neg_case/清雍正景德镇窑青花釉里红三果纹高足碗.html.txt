@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0清雍正景德镇窑青花釉里红三果纹高足碗编辑锁定清雍正景德镇窑青花釉里红三果纹高足碗为清雍正年间的陶瓷器。高11.6厘米，口径16.6厘米，足径4.7厘米。现收藏于上海博物馆。还原放大缩小藏品信息（上海博物馆）【名称】清雍正景德镇窑青花釉里红三果纹高足碗【类别】瓷器【年代】清雍正年间【文物原属】【文物现状】现藏上海博物馆【简介】高11.6厘米，口径16.6厘米，足径4.7厘米。此碗造型、纹样均系仿明永乐、宣德制品而成，但细部仍带有鲜明的本朝特征。器身青花和釉里红均很鲜艳，表明这一时期青花釉里红的烧造技术已达炉火纯青的程度。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":12707,"fentryTableName":"\u4e0a\u6d77\u535a\u7269\u9986","fentryTableType":2,"entryId":2384057,"templateId":12705,"entryTitle":"\u4e0a\u6d77\u535a\u7269\u9986","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([7822620, rsdataList]);
+        }

@@ -1,0 +1,1 @@
+BlackMagic DeckLink HD Plus是一款多媒体视频，视频输入格式为10Bit无压缩。

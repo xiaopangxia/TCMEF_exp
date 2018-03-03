@@ -1,0 +1,1 @@
+PatchGuard就是Windows Vista的内核保护系统，防止任何非授权软件试图“修改”Windows内核，也就是说，Vista内核的新型金钟罩。

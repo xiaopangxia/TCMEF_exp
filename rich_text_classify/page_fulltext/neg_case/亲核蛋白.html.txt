@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0亲核蛋白编辑锁定亲核蛋白是生物学上的名词,通常把在细胞质内合成,然后输人到核内发挥功能作用的一类蛋白质称为亲核蛋白质。中文名亲核蛋白外文名karyophilic protein类    型蛋白属    性蛋白质分子性    质亲核亲核蛋白（karyophilic protein）：是指在细胞质内合成后，需要或能够进入细胞核内发挥功能的一类蛋白质。 核定位序列（核定位信号，NLS）：亲核蛋白一般都含有特殊的氨基酸序列，这些内含的短肽保证了整个蛋白质能够通过核孔复合体转运到细胞核内，这段具有“定向”、“定位”作用的序列被称为核定位序列。 核输出信号（NES）：作为核内物质输出细胞核的信号，帮助核内某些分子迅速通过核孔进入细胞质，位于核内合成然后被运输到细胞质工作的分子中。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":34932,"fentryTableName":"\u7ec6\u80de\u5316\u5b66","fentryTableType":1,"entryId":2631990,"templateId":0,"entryTitle":"\u7ec6\u80de\u5316\u5b66","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([2123419, rsdataList]);
+        }

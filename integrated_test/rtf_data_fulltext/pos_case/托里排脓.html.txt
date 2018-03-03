@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0托里排脓编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称托里排脓英文名称expelling pathogens by strengthening vital qi and expelling pus定　　义用具有补益内托、托毒外出、排除脓液作用的方药治疗脓毒证的治法。应用学科中医药学（一级学科），治疗学（二级学科），内治法（三级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35434,"fentryTableName":"\u6cbb\u7597\u5b66","fentryTableType":1,"entryId":2669557,"templateId":0,"entryTitle":"\u6cbb\u7597\u5b66","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([3875682, rsdataList]);
+        }词条标签：科学

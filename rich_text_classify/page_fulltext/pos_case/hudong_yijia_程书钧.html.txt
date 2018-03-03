@@ -1,0 +1,62 @@
+编辑讨论分享新浪微博微信扫描二维码用手机浏览词条新知社QQ空间0程书钧开放分类：中国中医学家中国工程院院士人物医学家数学物理部院士程书钧中国工程院院士,国家"973"肿瘤项目首席科学家.编辑摘要基本信息编辑信息模块中文名：程书钧籍贯：江西省玉山县出生地：江西省玉山县民族：汉国籍：中国职业：科学 科学家毕业院校：北京医学院政党：中国共产党目录1简介1简介简介/程书钧编辑程书钧， 男， 1939年12月生于江西省玉山县。中国工程院院士。1962年北京医学院医疗系毕业，1965年协和医大研究生毕业。1978年至1981年在法国国家肿瘤研究所进修遗传毒理学，1986年至1987年在美国俄亥俄医学院做访问学者，92年、96年分别在荷兰肿瘤研究所和美国MD Anderson肿瘤中心短期工作。现任中国环境诱变剂学会理事长，中国抗癌协会副理事长，中国医学科学院和中国协和医大学术委员会执行委员，"癌变、畸变、突变"杂志主编，国家"973"肿瘤项目首席科学家，北京市科委肿瘤重大专项首席专家，第十届全国政协委员。主要从事肿瘤病因、环境致癌和抗致癌物研究；人上皮细胞无血清培养；人肺癌变分子机理和肿瘤分子标志谱研究。在国内举办过多次相关的国际会议。已获得两项国际专利，两项国内专利。1999年当选卫中国工程院院士。显示方式：分类详情|分类树应用数学我要提建议应用数学思考将抽象的数学工具运用在解答科学、工商业及其他领域上之现实问题。应用数学数学物理流体力学数值分析最优化概率论统计学金融数学数理经济学生物数学运筹学控制论数学物理..数学物理程书钧崔尔杰崔崑常文瑞承淡安曹天钦曹文宣曹本熹共有35个词条1[2][3][4][5]下一页立刻创建该分类下还没有词条，欢迎您来创建。与广大同友分享关于“程书钧”的知识。成千上万的读者会因为您的贡献而受益匪浅。您还可以：申请分类管理员，参与知识体系建设。分类管理员是一个分类的建设者，超着指导用户阅读的作用。所以现责任心是必不可少的。除此之外，只要您对某一领域有着相当的了解或者深厚的兴趣，拥有丰富的知识，并具愿意将自己的知识传递给更多的人，您就是分类管理员最合适的人选。参加有奖任务和更多举相同的人，通过完成某一领域的词条，分享知识聚集在一起。根据您的贡献程度，您将有机会获得积分和信用奖励。我可以用积分和信用干什么？进入百科商城兑换各种精美礼品。应用数学我要提建议应用数学数学物理流体力学数值分析最优化数学物理专家数学物理(function($,dom){
+	var category_tree_position = ["tableTree_style_category","tree_style_category"];
+	var tree_top_as = $(".classification_style a");
+	tree_top_as.each(function (index, domEle) {
+		  var $self = $(domEle);
+		  var tree_div = $('#'+category_tree_position[$(tree_top_as).index($self)]);
+		  if($.trim(tree_div.text()).length<1){
+			  $self.removeClass().addClass("disabled");
+			}
+	});
+
+	var tree_top_as_exclude = tree_top_as.not(".disabled");
+	$(dom).delegate(".classification_style a[class!='disabled']", 'click', function() {
+		var $self = $(this);
+		var tree_div = $('#'+category_tree_position[tree_top_as.index($self)]);
+		if($self.hasClass('current')){
+			return;
+		}
+		$self.removeClass().addClass("current");
+		tree_div.show();
+		if($self[0].text == "分类树"){
+			  $(".htree").each(function(i, el){
+				var o = $(el), height= o.height();
+				o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+			  });
+		}
+		tree_top_as_exclude.not($self).each(function(){
+				var _this = $(this);
+				_this.removeClass("current");
+			    $('#'+category_tree_position[tree_top_as.index(_this)]).hide();
+		});
+	});
+})(jQuery,document);
+
+
+try{
+	$(document).ready(function(){
+		$('.toggleshow').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).show();
+		});
+		
+		$('.togglehide').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).hide();
+		});
+
+		$('.quizForTreeHref').click(function(){
+		  $('#bootomtiwen').click();
+		});
+		
+		$(".htree").each(function(i, el){
+			var o = $(el), height= o.height();
+			o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+		});
+		
+		$(".categoryAppPannel a[target=_blank]").bind("click", function(){
+  			StatVirtualTraffic(document.referrer, window.location, 'stat_hdstat_onclick_category_tree_app');
+    	});
+	});
+	
+}catch(e){
+	
+}中国工程院医药卫生学部院士>>>进入技术百科于维汉于德泉巴德年王士雯王正国王永炎王红阳王忠诚王威琪王振义王琳芳王澍寰卢世璧史轶蘩石学敏刘玉清刘彤华刘志红刘昌孝刘耕陶刘德培刘耀孙燕安静娴庄辉朱晓东池志强汤钊猷阮长耿吴天一吴阶平吴咸中吴德昌张心湜张运张伯礼张金哲张涤生李大鹏李兰娟李连达李春岩李载平李瑞麟杨胜利沈倍奋沈家祥沈渔邨肖培根肖碧莲邱贵兴邱蔚六陆道培陈亚珠陈君石陈志南陈香美陈洪铎陈赛娟陈肇隆陈冀胜陈灏珠周后元周宏灏范上达郑树森侯云德侯惠民俞永新俞梦孙姚新生洪涛胡之璧胡亚美赵铠郝希山钟世镇钟南山闻玉梅项坤三唐希灿夏家辉桑国卫秦伯益翁心植袁国勇郭应禄顾玉东顾健人高守一高润霖盛志勇彭司勋曾溢滔程书钧程莘农葛宝丰谢立信曹雪涛程天民黄志强黄翠芬甄永苏樊代明黎介寿黎磊石戴尅戎程京丁健付小兵廖万清吴以岭杨宝峰周良辅附图上传图片添加视频|添加图册相关影像开放分类展开收起我来补充中国中医学家中国工程院院士人物医学家数学物理部院士开放分类[删除][删除][删除][删除][删除]同义词展开收起同义词互动百科的词条（含所附图片）系由网友上传，如果涉嫌侵权，请与客服联系，我们将按照法律之相关规定及时进行处理。未经许可，禁止商业网站等复制、抓取本站内容；合理使用者，请注明来源于www.baike.com。登录后使用互动百科的服务，将会得到个性化的提示和帮助，还有机会和专业认证智愿者沟通。互动百科用户登录注册

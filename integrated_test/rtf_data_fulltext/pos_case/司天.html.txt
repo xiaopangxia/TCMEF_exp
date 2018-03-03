@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0[sī tiān]司天编辑锁定司天，运气术语。见《素问·至真要大论》等篇。司，主持、掌管；天，气候、天象。在运气学说中，司天象征在上，主上半年的运气情况。中文名司天司天，运气术语。见《素问·至真要大论》等篇。司，主持、掌管；天，气候、天象。在运气学说中，司天象征在上，主上半年的运气情况。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35428,"fentryTableName":"\u4e2d\u533b\u57fa\u7840\u7406\u8bba","fentryTableType":1,"entryId":2670619,"templateId":0,"entryTitle":"\u4e2d\u533b\u57fa\u7840\u7406\u8bba","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([1005219, rsdataList]);
+        }词条标签：学科，医学术语，专有名词

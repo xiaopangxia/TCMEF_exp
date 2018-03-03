@@ -1,0 +1,29 @@
+"backend: !!python/unicode 'tensorflow'\nclass_name: Sequential\nconfig:\n- class_name:\
+  \ Dense\n  config:\n    activation: relu\n    activity_regularizer: null\n    batch_input_shape:\
+  \ !!python/tuple [null, 50]\n    bias_constraint: null\n    bias_initializer:\n\
+  \      class_name: Zeros\n      config: {}\n    bias_regularizer: null\n    dtype:\
+  \ float32\n    kernel_constraint: null\n    kernel_initializer:\n      class_name:\
+  \ VarianceScaling\n      config: {distribution: uniform, mode: fan_avg, scale: 1.0,\
+  \ seed: null}\n    kernel_regularizer: null\n    name: dense_117\n    trainable:\
+  \ true\n    units: 25\n    use_bias: true\n- class_name: Dropout\n  config: {name:\
+  \ dropout_59, noise_shape: null, rate: 0.5, seed: null, trainable: true}\n- class_name:\
+  \ Dense\n  config:\n    activation: relu\n    activity_regularizer: null\n    bias_constraint:\
+  \ null\n    bias_initializer:\n      class_name: Zeros\n      config: {}\n    bias_regularizer:\
+  \ null\n    kernel_constraint: null\n    kernel_initializer:\n      class_name:\
+  \ VarianceScaling\n      config: {distribution: uniform, mode: fan_avg, scale: 1.0,\
+  \ seed: null}\n    kernel_regularizer: null\n    name: dense_118\n    trainable:\
+  \ true\n    units: 12\n    use_bias: true\n- class_name: Dropout\n  config: {name:\
+  \ dropout_60, noise_shape: null, rate: 0.5, seed: null, trainable: true}\n- class_name:\
+  \ Dense\n  config:\n    activation: relu\n    activity_regularizer: null\n    bias_constraint:\
+  \ null\n    bias_initializer:\n      class_name: Zeros\n      config: {}\n    bias_regularizer:\
+  \ null\n    kernel_constraint: null\n    kernel_initializer:\n      class_name:\
+  \ VarianceScaling\n      config: {distribution: uniform, mode: fan_avg, scale: 1.0,\
+  \ seed: null}\n    kernel_regularizer: null\n    name: dense_119\n    trainable:\
+  \ true\n    units: 6\n    use_bias: true\n- class_name: Dense\n  config:\n    activation:\
+  \ linear\n    activity_regularizer: null\n    bias_constraint: null\n    bias_initializer:\n\
+  \      class_name: Zeros\n      config: {}\n    bias_regularizer: null\n    kernel_constraint:\
+  \ null\n    kernel_initializer:\n      class_name: VarianceScaling\n      config:\
+  \ {distribution: uniform, mode: fan_avg, scale: 1.0, seed: null}\n    kernel_regularizer:\
+  \ null\n    name: dense_120\n    trainable: true\n    units: 1\n    use_bias: true\n\
+  - class_name: Activation\n  config: {activation: sigmoid, name: activation_30, trainable:\
+  \ true}\nkeras_version: 2.1.2\n"

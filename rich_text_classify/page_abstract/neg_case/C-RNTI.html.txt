@@ -1,0 +1,1 @@
+CellRadioNetworkTemporaryIdentifier--小区无线网络临时标识，由基站分配给UE的一个动态标识，唯一标识了一个小区空口下的UE，只有处于连接态下的UE，C-RNTI才有效。

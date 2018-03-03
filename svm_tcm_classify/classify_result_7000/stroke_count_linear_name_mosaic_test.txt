@@ -1,0 +1,60 @@
+             precision    recall  f1-score   support
+
+        neg     0.8938    0.4940    0.6363      1500
+   pos_case     0.6504    0.9413    0.7693      1500
+
+avg / total     0.7721    0.7177    0.7028      3000
+             precision    recall  f1-score   support
+
+        neg     0.8734    0.5013    0.6370      1500
+   pos_case     0.6503    0.9273    0.7645      1500
+
+avg / total     0.7619    0.7143    0.7008      3000
+             precision    recall  f1-score   support
+
+        neg     0.8586    0.5220    0.6493      1500
+   pos_case     0.6566    0.9140    0.7642      1500
+
+avg / total     0.7576    0.7180    0.7067      3000
+             precision    recall  f1-score   support
+
+        neg     0.8493    0.5073    0.6352      1500
+   pos_case     0.6488    0.9100    0.7575      1500
+
+avg / total     0.7490    0.7087    0.6964      3000
+             precision    recall  f1-score   support
+
+        neg     0.8411    0.5433    0.6602      1500
+   pos_case     0.6627    0.8973    0.7624      1500
+
+avg / total     0.7519    0.7203    0.7113      3000
+             precision    recall  f1-score   support
+
+        neg     0.7898    0.5387    0.6405      1500
+   pos_case     0.6500    0.8567    0.7391      1500
+
+avg / total     0.7199    0.6977    0.6898      3000
+             precision    recall  f1-score   support
+
+        neg     0.7919    0.5480    0.6478      1500
+   pos_case     0.6544    0.8560    0.7418      1500
+
+avg / total     0.7232    0.7020    0.6948      3000
+             precision    recall  f1-score   support
+
+        neg     0.7706    0.5620    0.6500      1500
+   pos_case     0.6553    0.8327    0.7334      1500
+
+avg / total     0.7129    0.6973    0.6917      3000
+             precision    recall  f1-score   support
+
+        neg     0.7671    0.5600    0.6474      1500
+   pos_case     0.6535    0.8300    0.7313      1500
+
+avg / total     0.7103    0.6950    0.6893      3000
+             precision    recall  f1-score   support
+
+        neg     0.7265    0.6040    0.6596      1500
+   pos_case     0.6612    0.7727    0.7126      1500
+
+avg / total     0.6938    0.6883    0.6861      3000

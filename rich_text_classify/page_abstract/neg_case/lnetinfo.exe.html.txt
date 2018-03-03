@@ -1,0 +1,1 @@
+lnetinfo.exe是一款木马相关程序，详细名称为Trojan-Downloader.Win32.Delf.ahs。

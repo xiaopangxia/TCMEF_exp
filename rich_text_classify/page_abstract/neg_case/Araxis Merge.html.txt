@@ -1,0 +1,1 @@
+Araxis Merge是一个可视化的文件比较、合并和同步的软件。能够进行版本和质量控制，创建 HTML 或是 XML 报告。能够方便的被软件工程师和 web 站点开发者使用快速精确地比较、了解和联合不同版本的源文件；进行版本和质量控制，创建 HTML 或是 XML 报告。[1]Araxis Merge获得了美国IT杂志Dr. Dobb's颁发的Jolt Awards 2013 Jolt生产力奖。[2]

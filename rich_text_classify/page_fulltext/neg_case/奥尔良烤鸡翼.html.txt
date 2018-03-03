@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0奥尔良烤鸡翼编辑锁定奥尔良烤鸡翼是以鸡翼、奥尔良烤鸡淹料、灯笼辣椒酱为主材的一道美食。菜    名奥尔良烤鸡翼难    度普通目录1原料2做法3小贴士奥尔良烤鸡翼原料编辑鸡翼、奥尔良烤鸡淹料、灯笼辣椒酱奥尔良烤鸡翼做法编辑1.奥尔良烤翅淹料，料鸡翼。2.搅拌，然后淹它一个晚上。3.然后第二天的晚上，把鸡翼放在烤架上。4.正面烤200度20分钟，反面烤200度10分钟。5.完成后的成果。奥尔良烤鸡翼小贴士编辑1.记得要淹鸡翼一个晚上喔。[1]词条图册更多图册window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":50197,"fentryTableName":"\u79bd\u7c7b\u83dc\u54c1","fentryTableType":1,"entryId":2789439,"templateId":0,"entryTitle":"\u79bd\u7c7b\u83dc\u54c1","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([12450726, rsdataList]);
+        }参考资料1.奥尔良烤鸡翼．豆果网[引用日期2013-12-08]词条标签：食品，菜品

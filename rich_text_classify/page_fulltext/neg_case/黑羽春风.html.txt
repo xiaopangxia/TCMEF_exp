@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0黑羽春风编辑锁定黑羽春风是《网球王子》中的虚拟角色，六角中学3年A组学生，是一个很活跃的人。中文名黑羽春风配    音大黑和广登场作品《网球王子》生    日9月29号（天秤座）性    别男血    型A型身    高184cm体    重73kg擅用手腕右性    格活跃目录1角色设定2角色技能黑羽春风角色设定编辑擅用手腕：右绝招：爆裂式网球（与桃城的网球打法相近）五围：速度3 力量4 体力3 技术3 精神力3 总和16喜欢的食物：烤蜀黍（玉米）爱好：去海边玩家庭构成：父、母、弟、两只狗父亲的职业：公司职员（制造业）得意科目：数学、体育喜欢的颜色：红色喜欢的类型：高兴的人生活中：黑羽看起来也是一个很活跃的人，呵呵，每次看到他受不了天根的冷笑话用脚踹他的时候就想笑，特别是在迹部的礼物中，看到天根讲冷笑话时暴走的样子，很可爱~黑羽春风角色技能编辑1：プロネーションサーブ（译：职业民族发球）2：トルネードボレー （译：龙卷风截击）[1]window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":3739,"fentryTableName":"\u7f51\u7403\u738b\u5b50","fentryTableType":0,"entryId":61544,"templateId":375,"entryTitle":"\u7f51\u7403\u738b\u5b50","isManual":0,"isExpand":1},{"fentryTableId":10638,"fentryTableName":"\u7f51\u7403\u738b\u5b50 \u4e3b\u8981\u4eba\u7269","fentryTableType":1,"entryId":61500,"templateId":0,"entryTitle":"\u7f51\u7403\u738b\u5b50","isManual":0,"isExpand":1},{"fentryTableId":37621,"fentryTableName":"\u65b0\u7f51\u7403\u738b\u5b50\u00b7\u4eba\u7269","fentryTableType":2,"entryId":2393003,"templateId":37619,"entryTitle":"\u65b0\u7f51\u7403\u738b\u5b50","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([440455, rsdataList]);
+        }参考资料1.《网球王子全人物出招》词条标签：动漫形象，人物

@@ -1,0 +1,74 @@
+编辑讨论分享新浪微博微信扫描二维码用手机浏览词条新知社QQ空间0新加香薷饮开放分类：中医中医古代名方应用科学方剂温里剂祛暑剂科学香薷散与新加香薷饮，两者均以辛温之香薷、厚朴祛暑解表，散寒化湿。但香薷散药性偏温，主治暑令感寒夹湿之证，必见恶寒无汗者；而新加香薷饮则药性偏凉，主治暑温兼湿，虽亦恶寒无汗，但有口渴面赤。是当有别。编辑摘要基本信息编辑信息模块中文名：新加香薷饮目录1方剂组成2基本内容3对比1方剂组成2基本内容3对比方剂组成/新加香薷饮编辑香薷6克（二钱），银花9克（三钱），鲜扁豆花9克（三钱），厚朴6克（二钱），连翘6克（二钱）。基本内容/新加香薷饮编辑【方剂速记法】银香连豆厚朴。想象：尹香莲逗厚朴；解：银花、 香薷、 连翘 、 扁豆花、 厚朴。【用法】水煎服（水五杯，煮取两杯，先服一杯，得汗，止后服，不汗再服，服尽不汗，再作服）【主治】暑温初起，复感风寒。证见恶寒发热，无汗，心烦面赤，口渴，苔白，脉右洪大左反小者。对比/新加香薷饮编辑香薷散与新加香薷饮，两者均以辛温之香薷、厚朴祛暑解表，散寒化湿。但香薷散药性偏温，主治暑令感寒夹湿之证，必见恶寒无汗者；而新加香薷饮则药性偏凉，主治暑温兼湿，虽亦恶寒无汗，但有口渴面赤。是当有别。显示方式：分类详情|分类树中药分类树我要提建议中药，是以中医理论为指导，按中医治疗原则使用的货真质优的药材。包括中药材、中药饮片和中成药等。中药在清朝以前称为本草、生药等。现代所称的生药与中药所指的范围虽有部分重叠但并不相同，不可混淆。中药主要起源于中国，是以中医理论为基础，用于防治疾病的植物，动物、矿物及其加工品，不论产于中国，外国均称中药。中药有着独特的理论体系和应用形式，充分反映了中国自然资源及历史，文化等方面的特点。中药中药方剂中成药中药材温里剂解表剂泻下剂和解剂清热剂祛暑剂理血剂补益剂固涩剂安神剂开窍剂理气剂治风剂治燥剂祛湿剂祛痰剂消导剂驱虫剂涌吐剂新加香薷饮冬地三黄汤加减银翘散化斑汤半夏秫米茶复脉汤大定风珠宣白承气汤共有21个词条1[2][3]下一页立刻创建该分类下还没有词条，欢迎您来创建。与广大同友分享关于“新加香薷饮”的知识。成千上万的读者会因为您的贡献而受益匪浅。您还可以：申请分类管理员，参与知识体系建设。分类管理员是一个分类的建设者，超着指导用户阅读的作用。所以现责任心是必不可少的。除此之外，只要您对某一领域有着相当的了解或者深厚的兴趣，拥有丰富的知识，并具愿意将自己的知识传递给更多的人，您就是分类管理员最合适的人选。参加有奖任务和更多举相同的人，通过完成某一领域的词条，分享知识聚集在一起。根据您的贡献程度，您将有机会获得积分和信用奖励。我可以用积分和信用干什么？进入百科商城兑换各种精美礼品。新加香薷饮还属于分类：中药分类树中药分类树我要提建议中药中药方剂中成药中药材温里剂解表剂泻下剂和解剂清热剂祛暑剂理血剂补益剂固涩剂安神剂开窍剂理气剂治风剂治燥剂祛湿剂祛痰剂消导剂驱虫剂涌吐剂中药分类树我要提建议中药中药方剂中成药中药材祛暑剂解表剂泻下剂和解剂清热剂温里剂理血剂补益剂固涩剂安神剂开窍剂理气剂治风剂治燥剂祛湿剂祛痰剂消导剂驱虫剂涌吐剂(function($,dom){
+	var category_tree_position = ["tableTree_style_category","tree_style_category"];
+	var tree_top_as = $(".classification_style a");
+	tree_top_as.each(function (index, domEle) {
+		  var $self = $(domEle);
+		  var tree_div = $('#'+category_tree_position[$(tree_top_as).index($self)]);
+		  if($.trim(tree_div.text()).length<1){
+			  $self.removeClass().addClass("disabled");
+			}
+	});
+
+	var tree_top_as_exclude = tree_top_as.not(".disabled");
+	$(dom).delegate(".classification_style a[class!='disabled']", 'click', function() {
+		var $self = $(this);
+		var tree_div = $('#'+category_tree_position[tree_top_as.index($self)]);
+		if($self.hasClass('current')){
+			return;
+		}
+		$self.removeClass().addClass("current");
+		tree_div.show();
+		if($self[0].text == "分类树"){
+			  $(".htree").each(function(i, el){
+				var o = $(el), height= o.height();
+				o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+			  });
+		}
+		tree_top_as_exclude.not($self).each(function(){
+				var _this = $(this);
+				_this.removeClass("current");
+			    $('#'+category_tree_position[tree_top_as.index(_this)]).hide();
+		});
+	});
+})(jQuery,document);
+
+
+try{
+	$(document).ready(function(){
+		$('.toggleshow').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).show();
+		});
+		
+		$('.togglehide').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).hide();
+		});
+
+		$('.quizForTreeHref').click(function(){
+		  $('#bootomtiwen').click();
+		});
+		
+		$(".htree").each(function(i, el){
+			var o = $(el), height= o.height();
+			o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+		});
+		
+		$(".categoryAppPannel a[target=_blank]").bind("click", function(){
+  			StatVirtualTraffic(document.referrer, window.location, 'stat_hdstat_onclick_category_tree_app');
+    	});
+	});
+	
+}catch(e){
+	
+}相关文献万方数据期刊论文3种解表方法抗流感病毒甲1型作用的实验研究-
+										新中医
+										-200436(
+										1
+										)万方数据期刊论文新加香薷饮及其组方药物抗甲1型流感病毒作用的比较研究-
+										湖南中医药大学学报
+										-201030(
+										1
+										)万方数据期刊论文新加香薷饮加减治疗小儿外感发热暑湿证疗效观察-
+										中国中医急症
+										-200918(
+										7
+										)附图上传图片添加视频|添加图册相关影像开放分类展开收起我来补充中医中医古代名方应用科学方剂温里剂祛暑剂科学开放分类[删除][删除][删除][删除][删除][删除][删除]同义词展开收起同义词互动百科的词条（含所附图片）系由网友上传，如果涉嫌侵权，请与客服联系，我们将按照法律之相关规定及时进行处理。未经许可，禁止商业网站等复制、抓取本站内容；合理使用者，请注明来源于www.baike.com。登录后使用互动百科的服务，将会得到个性化的提示和帮助，还有机会和专业认证智愿者沟通。互动百科用户登录注册

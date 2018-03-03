@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0底栖[生物]群落编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称底栖[生物]群落英文名称benthic community;bottom community定　　义水域底上、底内和接近底上的动植物构成的生物群落。应用学科生态学（一级学科），水域生态学（二级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35214,"fentryTableName":"\u6c34\u57df\u751f\u6001\u5b66","fentryTableType":1,"entryId":2659641,"templateId":0,"entryTitle":"\u6c34\u57df\u751f\u6001\u5b66","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([8966487, rsdataList]);
+        }

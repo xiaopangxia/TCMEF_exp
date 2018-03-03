@@ -1,0 +1,63 @@
+编辑讨论分享新浪微博微信扫描二维码用手机浏览词条新知社QQ空间0地苏木开放分类：中药中药学植物药活血化瘀药地苏木 -为金星蕨科植物披针新月蕨的根茎及全草。性味,苦涩，凉。功用主治,
+散瘀血，除湿。治跌打腰痛，血凝气滞。编辑摘要基本信息编辑信息模块中文名：地苏木本词条内容尚未完善，欢迎各位编辑词条，贡献自己的专业知识！目录1地苏木2正文3异名4来源5植物形态6采集7性味8功用主治9用法与用量10配图11相关连接1地苏木2正文3异名4来源5植物形态6采集7性味8功用主治9用法与用量10配图11相关连接地苏木/地苏木编辑正文/地苏木编辑地苏木(《四川常用中草药》)异名/地苏木编辑过山龙、蕨萁钻石黄、鸡血莲(《四川常用中草药》)，散血莲、凤尾七(《贵州药植目录》)。来源/地苏木编辑为金星蕨科植物披针新月蕨的根茎及全草。植物形态/地苏木编辑披针新月蕨多年生草本，高70～130厘米.根状茎长而横走，粗壮，坚硬，径达1厘米，黑褐色，有纵槽沟。纤维根黑褐色，密被棕色柔毛。羽状复叶，远生；叶柄粗壮，长15～25厘米，稻秆色；叶片披针形或矩圆状披针形，长40～80厘米，宽18～30厘米，纸质；羽片6～9对，互生，长线形至狭线状披针形，长15～30厘米，先端渐尖，边缘有浅锯齿，基部广楔形，有短柄，侧脉羽状，细脉7～9对。孢子囊群圆形，近侧脉着生排成两行；无囊群盖；孢子两面形。生于中山以下的沟中阴湿地或山林下。分布云南、贵州、四川、湖北、湖南、江西及广东、广西等地。采集/地苏木编辑秋季采收。性味/地苏木编辑《四川常用中草药》："苦涩，凉。"功用主治/地苏木编辑①《四川常用中草药》："散瘀血，除湿。治跌打腰痛，血凝气滞。"②《贵州药植目录》："治劳伤，痢疾。"用法与用量/地苏木编辑内服：煎汤，3～6钱；或浸酒。配图/地苏木编辑相关连接/地苏木编辑显示方式：分类详情|分类树中药分类树我要提建议中药，是以中医理论为指导，按中医治疗原则使用的货真质优的药材。包括中药材、中药饮片和中成药等。中药在清朝以前称为本草、生药等。现代所称的生药与中药所指的范围虽有部分重叠但并不相同，不可混淆。中药主要起源于中国，是以中医理论为基础，用于防治疾病的植物，动物、矿物及其加工品，不论产于中国，外国均称中药。中药有着独特的理论体系和应用形式，充分反映了中国自然资源及历史，文化等方面的特点。中药中药材中药材功..中药材药..活血化瘀药解表药清热药泻下药化湿药温里药理气药补益药安神药收涩药消食药驱虫药止血药开窍药涌吐药祛风湿药利水渗湿药平肝熄风药化痰止咳..攻毒杀虫..拔毒化腐..地苏木一味药根七里香三叶藤橘丽斑芫青九牯牛云南山梅花元宝草共有99个词条1[2][3][4]…[13]下一页立刻创建该分类下还没有词条，欢迎您来创建。与广大同友分享关于“地苏木”的知识。成千上万的读者会因为您的贡献而受益匪浅。您还可以：申请分类管理员，参与知识体系建设。分类管理员是一个分类的建设者，超着指导用户阅读的作用。所以现责任心是必不可少的。除此之外，只要您对某一领域有着相当的了解或者深厚的兴趣，拥有丰富的知识，并具愿意将自己的知识传递给更多的人，您就是分类管理员最合适的人选。参加有奖任务和更多举相同的人，通过完成某一领域的词条，分享知识聚集在一起。根据您的贡献程度，您将有机会获得积分和信用奖励。我可以用积分和信用干什么？进入百科商城兑换各种精美礼品。中药分类树我要提建议中药中药材中成药中药方剂中药材功效分类中药材药用部分分类活血化瘀药解表药清热药泻下药化湿药温里药理气药补益药安神药收涩药消食药驱虫药止血药开窍药涌吐药祛风湿药利水渗湿药平肝熄风药化痰止咳平喘药攻毒杀虫止痒药拔毒化腐生肌药(function($,dom){
+	var category_tree_position = ["tableTree_style_category","tree_style_category"];
+	var tree_top_as = $(".classification_style a");
+	tree_top_as.each(function (index, domEle) {
+		  var $self = $(domEle);
+		  var tree_div = $('#'+category_tree_position[$(tree_top_as).index($self)]);
+		  if($.trim(tree_div.text()).length<1){
+			  $self.removeClass().addClass("disabled");
+			}
+	});
+
+	var tree_top_as_exclude = tree_top_as.not(".disabled");
+	$(dom).delegate(".classification_style a[class!='disabled']", 'click', function() {
+		var $self = $(this);
+		var tree_div = $('#'+category_tree_position[tree_top_as.index($self)]);
+		if($self.hasClass('current')){
+			return;
+		}
+		$self.removeClass().addClass("current");
+		tree_div.show();
+		if($self[0].text == "分类树"){
+			  $(".htree").each(function(i, el){
+				var o = $(el), height= o.height();
+				o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+			  });
+		}
+		tree_top_as_exclude.not($self).each(function(){
+				var _this = $(this);
+				_this.removeClass("current");
+			    $('#'+category_tree_position[tree_top_as.index(_this)]).hide();
+		});
+	});
+})(jQuery,document);
+
+
+try{
+	$(document).ready(function(){
+		$('.toggleshow').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).show();
+		});
+		
+		$('.togglehide').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).hide();
+		});
+
+		$('.quizForTreeHref').click(function(){
+		  $('#bootomtiwen').click();
+		});
+		
+		$(".htree").each(function(i, el){
+			var o = $(el), height= o.height();
+			o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+		});
+		
+		$(".categoryAppPannel a[target=_blank]").bind("click", function(){
+  			StatVirtualTraffic(document.referrer, window.location, 'stat_hdstat_onclick_category_tree_app');
+    	});
+	});
+	
+}catch(e){
+	
+}附图上传图片添加视频|添加图册相关影像开放分类展开收起我来补充中药中药学植物药活血化瘀药开放分类[删除][删除][删除][删除]同义词展开收起同义词互动百科的词条（含所附图片）系由网友上传，如果涉嫌侵权，请与客服联系，我们将按照法律之相关规定及时进行处理。未经许可，禁止商业网站等复制、抓取本站内容；合理使用者，请注明来源于www.baike.com。登录后使用互动百科的服务，将会得到个性化的提示和帮助，还有机会和专业认证智愿者沟通。互动百科用户登录注册

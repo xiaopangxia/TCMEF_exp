@@ -1,0 +1,1898 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+
+
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="referrer" content="always" />
+<meta name="description" content="可制造性，亦被各方称为协同式或同时性工程（concurrent or simultaneous engineering）或是可生产性或生产线之设计（design for productivity or assembly）相较于由研发工程师建立自己的设计原型（prototype），然后在未经前线生产工人的意见下将之送到生产部门组装线上的传统制造方式来说享有非常大的优势。另外，...">
+<title>可制造性设计_百度百科</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
+
+<meta name="keywords" content="可制造性设计 可设计性 可制造性设计(DFM) 可制造性设计概述 可制造性设计核心 可制造性设计过程方法 可制造性设计DFM 可制造性设计意义 可制造性设计可行性研究报告 可制造性设计常见问题及解决方案 可制造性设计其他相关">
+<meta name="image" content="https://bkssl.bdimg.com/cms/static/baike.png">
+<script type="text/javascript">
+  // 配置 PD 监控。
+  window.alogObjectConfig = {
+    product: '103',
+    page: '103_1',
+    speed: {
+      sample: '0.008'
+    },
+    monkey: {
+      sample: '1',
+      hid: '1533'
+    },
+    exception: { 
+      sample: '0.004'
+    },
+    feature: {
+      sample: '0.004'
+    },
+    csp: {
+      sample: '0.008',
+      'default-src': [
+        {match: '*.baidu.com,*.bdimg.com,localhost', target: 'Accept'},
+        {match: '*', target: 'Accept,Warn'}
+      ]
+    }
+  };
+
+  void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+  void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+<meta name="csrf-token" content="">
+<meta itemprop="dateUpdate" content="2017-04-05 17:07:53" />
+
+<!--[if lte IE 9]>
+<script>
+    (function() {
+      var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
+        i = e.length;
+      while (i--) {
+        document.createElement(e[i]);
+      }
+    })();
+  </script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_2e0b0ff.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common-base_4c062e6.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/userbar-n/userbar-n_5b008b4.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module_d7320c6.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/announcement/announcement_cba33f4.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/label/label_ca156c6.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/sideShare_2af1cbd.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/video/pageMask/pageMask_ff9a193.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/mainContent_98e3702.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaRelation_ac86a59.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhixin/zhixin_3b0d7a5.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons-n/toolButtons-n_6e90fdd.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons-n/userInfo-n_7e90184.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/searchHeader-n_f9a6e5b.css"/>    
+</head>
+
+<script type="text/javascript">
+    alog('speed.set', 'ht', +new Date);
+</script>
+<script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?55b574651fcae74b0a9f1cf9c8d7c93a";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+<body class="wiki-lemma normal">
+
+
+<div class="header-wrapper pc-header-new">
+<div class="topbar cmn-clearfix">
+<ul class="wgt-userbar" id="j-wgt-userbar">
+<li>
+<a href="http://www.baidu.com/">百度首页</a>
+</li>
+</ul>
+<div class="separator"></div>
+<div class="wiki-common-headTabBar">
+<a href="https://www.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://www.baidu.com/s?ie=utf-8&fr=bks0000&wd=">网页</a>
+<a href="http://news.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&fr=bks0000&ie=utf-8&word=">新闻</a>
+<a href="https://tieba.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=">贴吧</a>
+<a href="https://zhidao.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://zhidao.baidu.com/search?pn=0&&rn=10&lm=0&fr=bks0000&word=">知道</a>
+<a href="http://music.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://music.baidu.com/search?f=ms&ct=134217728&ie=utf-8&rn=&lm=-1&pn=30&fr=bks0000&key=">音乐</a>
+<a href="http://image.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&word=">图片</a>
+<a href="http://v.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://v.baidu.com/v?ct=301989888&rn=20&pn=0&db=0&s=22&ie=utf-8&fr=bks0000&word=">视频</a>
+<a href="http://map.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://map.baidu.com/m?ie=utf-8&fr=bks0000&word=">地图</a>
+<a href="https://wenku.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&fr=bks0000&word=">文库</a>
+<b class="baike">百科</b>
+</div>
+</div>
+<div class="header">
+<div class="layout">
+<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-main cmn-clearfix wgt-searchbar-large">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080011" name="word" type="text" autocomplete="off" autocorrect="off" value="可制造性设计" /><button id="search" nslog="normal" nslog-type="10080008" type="button">进入词条</button><button id="searchLemma" nslog="normal" nslog-type="10080009" type="button">全站搜索</button><a class="help" href="/help" nslog="normal" nslog-type="10080010" target="_blank">帮助</a>
+</form>
+<form id="searchLemmaForm" action="/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden" />
+<input name="pn" type="hidden" value="0" />
+<input name="rn" type="hidden" value="0" />
+<input name="enc" type="hidden" value="utf8" />
+</form>
+<ul id="suggestion" class="suggestion">
+<div class="sug"></div>
+<li class="extra">
+<span id="close" nslog="normal" nslog-type="10080012">关闭</span>
+</li>
+</ul>
+</div></div>
+</div>
+<div class="declare-wrap" id="J-declare-wrap">
+<div class="declare" id="J-declare">声明：百科词条人人可编辑，词条创建和修改均免费，绝不存在官方及代理商付费代编，请勿上当受骗。<a class="declare-details" target="_blank" href="/common/declaration">详情>></a>
+<div class="close-btn" id="J-declare-close">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navbar-wrapper">
+<div class="wgt-navbar">
+<div class="navbar-bg">
+<div class="navbar-bg-top">
+<div class="navbar-content layout">
+<div class="navbar-content-box">
+<dl class="index ">
+<dt><a href="/">首页</a></dt>
+</dl>
+<dl class="cat ">
+<dt><a>分类</a></dt>
+<dd>
+<div><a href="/art" target="_blank" class="art">艺术</a></div>
+<div><a href="/science" target="_blank" class="technology">科学</a></div>
+<div><a href="/ziran" target="_blank">自然</a></div>
+<div><a href="/wenhua" target="_blank">文化</a></div>
+<div><a href="/dili" target="_blank">地理</a></div>
+<div><a href="/shenghuo" target="_blank">生活</a></div>
+<div><a href="/shehui" target="_blank">社会</a></div>
+<div><a href="/renwu" target="_blank">人物</a></div>
+<div><a href="/jingji" target="_blank">经济</a></div>
+<div><a href="/tiyu" target="_blank">体育</a></div>
+<div><a href="/lishi" target="_blank">历史</a></div>
+</dd>
+</dl>
+<dl class="special ">
+<dt><a>特色百科</a></dt>
+<dd>
+<div><a href="/calendar/" target="_blank">历史上的今天</a></div>
+<div><a href="/museum/" target="_blank">数字博物馆</a></div>
+<div><a href="/item/史记·2016?fr=navbar" target="_blank">史记·2016</a></div>
+<div><a href="/city/" target="_blank">城市百科</a></div>
+<div><a href="/operation/worldwar2" target="_blank">二战百科</a></div>
+<div><a href="/feiyi?fr=dhlfeiyi" target="_blank">非遗百科</a></div>
+</dd>
+</dl>
+<dl class="user" >
+<dt><a>用户</a></dt>
+<dd>
+<div><a href="/kedou/" target="_blank">蝌蚪团</a></div>
+<div><a href="/event/ranmeng/" target="_blank">燃梦计划</a></div>
+<div><a href="/task/" target="_blank">百科任务</a></div>
+<div><a href="/mall/" target="_blank">百科商城</a></div>
+</dd>
+</dl>
+<dl class="cooperation" >
+<dt><a>权威合作</a></dt>
+<dd>
+<div><a href="/operation/cooperation#joint" target="_blank">合作模式</a></div>
+<div><a href="/operation/cooperation#issue" target="_blank">常见问题</a></div>
+<div><a href="/operation/cooperation#connection" target="_blank">联系方式</a></div>
+</dd>
+</dl>
+<dl class="mobile" >
+<dt><a>手机百科</a></dt>
+<dd>
+<div><a href="/m#wap" target="_blank">网页版</a></div>
+</dd>
+</dl>
+<div class="usercenter">
+<div><a href="/usercenter" target="_blank"><em class="cmn-icon cmn-icons cmn-icons_navbar-usercenter"></em>个人中心</a></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="body-wrapper">
+<div class="before-content">
+</div>
+<div class="content-wrapper">
+<div class="content">
+<div class="personal-content">
+</div>
+<div class="main-content">
+<div class="top-tool">
+<a class="add-sub-icon top-tool-icon" href="javascript:;" title="添加义项" nslog-type="50000101">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_add-subLemma-solid"></em>
+</a>
+<a href="/divideload/%E5%8F%AF%E5%88%B6%E9%80%A0%E6%80%A7%E8%AE%BE%E8%AE%A1" title="拆分词条" target="_blank" class="split-icon top-tool-icon" style="display:none;" nslog-type="50000104">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lemma-split"></em>
+</a>
+<div class="top-collect top-tool-icon" nslog="area" nslog-type="50000102">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-solid"></em>
+<span class="collect-text">收藏</span>
+<div class="collect-tip">查看<a href="/uc/favolemma" target="_blank">我的收藏</a></div>
+</div>
+<a href="javascript:void(0);" id="j-top-vote" class="top-vote top-tool-icon" nslog-type="10060801">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-solid"></em>
+<span class="vote-count">0</span>
+<span class="vote-tip">有用+1</span>
+<span class="voted-tip">已投票</span>
+</a><div class="bksharebuttonbox top-share">
+<a class="top-share-icon top-tool-icon" nslog-type="9067">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_share"></em>
+<span class="share-count" id="j-topShareCount">0</span>
+</a>
+<div class="new-top-share" id="top-share">
+<ul class="top-share-list">
+<li class="top-share-item">
+<a class="share-link bds_qzone"  href="javascript:void(0);" nslog-type="10060501">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="share-link bds_tsina" href="javascript:void(0);" nslog-type="10060701">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="bds_wechat"  href="javascript:void(0);" nslog-type="10060401">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="share-link bds_tqq"  href="javascript:void(0);" nslog-type="10060601">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div style="width:0;height:0;clear:both"></div><dl class="lemmaWgt-lemmaTitle lemmaWgt-lemmaTitle-">
+<dd class="lemmaWgt-lemmaTitle-title">
+<h1 >可制造性设计</h1>
+<a href="javascript:;" class="edit-lemma cmn-btn-hover-blue cmn-btn-28 j-edit-link"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+<a class="lock-lemma" target="_blank" href="/view/10812319.htm" title="锁定"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lock-lemma"></em>锁定</a>
+</dd>
+</dl><div class="promotion-declaration">
+</div><div class="lemma-summary" label-module="lemmaSummary">
+<div class="para" label-module="para">可制造性，亦被各方称为协同式或同时性工程（concurrent or simultaneous engineering）或是可生产性或生产线之设计（design for productivity or assembly）相较于由研发工程师建立自己的设计原型（prototype），然后在未经前线生产<a target=_blank href="/item/%E5%B7%A5%E4%BA%BA/19777" data-lemmaid="19777">工人</a>的意见下将之送到生产部门组装线上的传统制造方式来说享有非常大的优势。另外，一个可制造性团队的成员包括设计者、制造工程师：行销代表、财务经理、研发人员、原料供应商及其他计划利益相关者（包括客户）。因为包含来自各方人士，也有助于加速计划的完成并且可以避免传统生产方式会碰到的延迟。</div>
+</div>
+<div class="configModuleBanner">
+</div><div class="basic-info cmn-clearfix">
+<dl class="basicInfo-block basicInfo-left">
+<dt class="basicInfo-item name">中文名</dt>
+<dd class="basicInfo-item value">
+可制造性设计
+</dd>
+</dl><dl class="basicInfo-block basicInfo-right">
+<dt class="basicInfo-item name">外文名</dt>
+<dd class="basicInfo-item value">
+Design for Manufacturing，DFM
+</dd>
+</dl></div>
+<div class="lemmaWgt-lemmaCatalog">
+<div class="lemma-catalog">
+<h2 class="block-title">目录</h2>
+<div class="catalog-list column-3">
+<ol>
+<li class="level1">
+<span class="index">1</span>
+<span class="text"><a href="#1">概述</a></span>
+</li>
+<li class="level1">
+<span class="index">2</span>
+<span class="text"><a href="#2">核心</a></span>
+</li>
+<li class="level1">
+<span class="index">3</span>
+<span class="text"><a href="#3">过程方法</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_1">寻求建立DFM规范</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_2">建立DFM检查表</a></span>
+</li>
+</ol><ol><li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_3">DFM报告</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_4">DFM测试</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_5">DFM分析评价</a></span>
+</li>
+<li class="level1">
+<span class="index">4</span>
+<span class="text"><a href="#4">DFM</a></span>
+</li>
+<li class="level1">
+<span class="index">5</span>
+<span class="text"><a href="#5">意义</a></span>
+</li>
+</ol><ol><li class="level1">
+<span class="index">6</span>
+<span class="text"><a href="#6">可行性研究报告</a></span>
+</li>
+<li class="level1">
+<span class="index">7</span>
+<span class="text"><a href="#7">常见问题及解决方案</a></span>
+</li>
+<li class="level1">
+<span class="index">8</span>
+<span class="text"><a href="#8">其他相关</a></span>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="anchor-list">
+<a name="1" class="lemma-anchor para-title" ></a>
+<a name="sub3225028_1" class="lemma-anchor " ></a>
+<a name="概述" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">可制造性设计</span>概述</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="1" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">可制造性设计（Design for Manufacturing，DFM），它主要是研究产品本身的物理特征与制造系统各部分之间的相互关系，并把它用于产品<a target=_blank href="/item/%E8%AE%BE%E8%AE%A1">设计</a>中，以便将整个制造系统融合在一起进行总体优化，使之更规范，以便降低成本，缩短生产时间，提高产品可制造性和工作效率。</div><div class="anchor-list">
+<a name="2" class="lemma-anchor para-title" ></a>
+<a name="sub3225028_2" class="lemma-anchor " ></a>
+<a name="核心" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">可制造性设计</span>核心</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="2" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">可制造性设计的核心是在不影响产品功能的前提下，从产品的初步规划到产品的投入生产的整个<a target=_blank href="/item/%E8%AE%BE%E8%AE%A1">设计</a>过程进行参与，使之标准化、简单化，让<a target=_blank href="/item/%E8%AE%BE%E8%AE%A1">设计</a>利于生产及使用。减少整个产品的制造成本（特别是元器件和加工工艺方面）。减化工艺流程，选择高通过率的工艺，标准元器件，选择减少模具及工具的复杂性及其成本。</div><div class="anchor-list">
+<a name="3" class="lemma-anchor para-title" ></a>
+<a name="sub3225028_3" class="lemma-anchor " ></a>
+<a name="过程方法" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">可制造性设计</span>过程方法</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="3" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">引入可制造性设计，首先要认识到它的必要性，特别是生产和设计部门这两方面的领导更要确信DFM的必要。只有这样，才能使设计人员考虑的不只是功能实现这一首要目标，还要兼顾生产制造方面的问题。这就是讲，不管你设计的产品功能再完美、再先进，但不能顺利制造生产或要花费巨额制造成本来生产，这样就会造成产品成本上升、销售困难、失去市场。</div>
+<div class="para" label-module="para">其次，统一设计部门和生产部门之前的信息，建立有效的沟通机制。这样设计人员就能在设计的同时考虑生产过程，使自己的设计利于生产制造。</div>
+<div class="para" label-module="para">第三，选择有丰富生产经验的人员参与设计，对设计成果进行可制造方面的测试和评估，辅助设计人员工作。最后，安排合理的时间给设计人员，以及DFM工程师到生产第一线了解生产工艺流程及生产设备，了解生产中的问题。以便更好、更系统地改善自己的设计。</div><div class="anchor-list">
+<a name="3_1" class="lemma-anchor para-title" ></a>
+<a name="sub3225028_3_1" class="lemma-anchor " ></a>
+<a name="寻求建立DFM规范" class="lemma-anchor " ></a>
+<a name="3-1" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">可制造性设计</span>寻求建立DFM规范</h3>
+</div>
+<div class="para" label-module="para">DFM文件应结合本公司的生产设计特点、工艺水平、设备硬件能力、产品特点等进行合理的制订。这样，在进行设计时，选择组装技术就要考虑当前和未来工厂的生产能力。从工业造型创意设计方面做出独特的思路，根据人体工程学原理设计出合理又实用的产品。这些文件可以是很简单的一些条款，进而也可以是一部复杂而全面的设计手册。另外，文件必须根据公司生产发展进行适时维护，以使其能更准确地符合当前设计及生产需求。</div><div class="anchor-list">
+<a name="3_2" class="lemma-anchor para-title" ></a>
+<a name="sub3225028_3_2" class="lemma-anchor " ></a>
+<a name="建立DFM检查表" class="lemma-anchor " ></a>
+<a name="3-2" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">可制造性设计</span>建立DFM检查表</h3>
+</div>
+<div class="para" label-module="para">在对产品设计进行策划的同时，根据公司DFM规范文件建立DFM检查表。检查表是便于系统、全面地分析产品设计的工具，其应包括检查项目、关键环节的处理等。从内容上讲主要包含以下信息：</div>
+<div class="para" label-module="para">a． 产品信息、数据（如电路原理图、PCB图、组装图、CAD结构文件等内容）。</div>
+<div class="para" label-module="para">b． 选择生产制造的大致加工流程：AI、SMT、波峰焊、手焊等。</div>
+<div class="para" label-module="para">c． PCB尺寸及布局。</div>
+<div class="para" label-module="para">d． 元器件的选择和焊盘、通孔设计。</div>
+<div class="para" label-module="para">e． 生产适用工艺边、定位孔及基准点的设计。</div>
+<div class="para" label-module="para">f． 执行机械组装的各项要求。</div><div class="anchor-list">
+<a name="3_3" class="lemma-anchor para-title" ></a>
+<a name="sub3225028_3_3" class="lemma-anchor " ></a>
+<a name="DFM报告" class="lemma-anchor " ></a>
+<a name="3-3" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">可制造性设计</span>DFM报告</h3>
+</div>
+<div class="para" label-module="para">DFM报告是反映整个设计过程中所发现的问题。这个类似于ISO9001中的审核报告，主要是根据DFM规范文件及检查表，开具设计中的不合格项。其内容必须直观明了，要列出不合格理由，甚者可以给出更正结果要求。其报告是随时性的，贯穿于整个设计过程。</div><div class="anchor-list">
+<a name="3_4" class="lemma-anchor para-title" ></a>
+<a name="sub3225028_3_4" class="lemma-anchor " ></a>
+<a name="DFM测试" class="lemma-anchor " ></a>
+<a name="3-4" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">可制造性设计</span>DFM测试</h3>
+</div>
+<div class="para" label-module="para">进行 DFM设计的结果，会对生产组装影响多大，起到了什么样的作用。这就要通过DFM测试来进行证实。DFM测试是由设计测试人员使用与公司生产模式相似的生产工艺来建立设计的样品，这有时可能需要生产人员的帮助，测试必须迅速准确并做出测试报告，这样可以使设计者马上更正所测试出来的任何问题，加快设计周期。</div><div class="anchor-list">
+<a name="3_5" class="lemma-anchor para-title" ></a>
+<a name="sub3225028_3_5" class="lemma-anchor " ></a>
+<a name="DFM分析评价" class="lemma-anchor " ></a>
+<a name="3-5" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">可制造性设计</span>DFM分析评价</h3>
+</div>
+<div class="para" label-module="para">这个过程相当于总结评审。一方面评价产品设计的DFM可靠程度，另一方面可以将非DFM设计的生产制造与进行过DFM 设计的生产制造进行模拟比较。从生产质量、效率、成本等方面分析。得出做DFM的成本节约量，这个对在制订年度生产目标及资金预算上起到参考资料的作用，另一方面也可以增强领导者实施DFM的决心。</div><div class="anchor-list">
+<a name="4" class="lemma-anchor para-title" ></a>
+<a name="sub3225028_4" class="lemma-anchor " ></a>
+<a name="DFM" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">可制造性设计</span>DFM</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="4" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">DFM不是单纯的一项技术，从某种意义上，它更象一种思想，包含在产品实现的各个环节中。</div>
+<div class="para" label-module="para">PCB设计<sup>[1]</sup><a class="sup-anchor" name="ref_[1]_3225028">&nbsp;</a>
+，作为设计从逻辑到物理实现的最重要过程，DFM设计是一个不可回避的重要方面。在PCB设计上，我们所说的DFM主要包括:器件选择、PCB物理参数选择和PCB设计细节方面等。<sup>[2]</sup><a class="sup-anchor" name="ref_[2]_3225028">&nbsp;</a>
+</div>
+<div class="para" label-module="para">一般来说，器件选择主要是指选择采购，加工，维修等方面综合起来比较有利的器件。如:尽量采用SOP器件，而不采用BGA器件；采用器件pitch大的器件，不采用细间距的器件；尽量采用常规器件，而不用特殊器件等。器件的DFM选择，作为PCB设计人员需要和采购工程师、硬件工程师、工艺工程师等协商决定。</div>
+<div class="para" label-module="para">PCB设计的物理参数这个主要环节主要是由PCB设计人员来确定了。主要包括：板厚孔径比、线宽间距、层叠设计、焊盘孔径等的设置。这要求PCB设计人员必需深入了解PCB的制造工艺和制造方法，了解大多数板厂的加工参数，然后结合单板的实际情况来进行物理参数的设定，尽量增加PCB生产的工艺窗口，采用最成熟的加工工艺和参数，降低加工难度，提高成品率，减少后期PCB制作的成本和周期，即“不能杀鸡使用牛刀”也不能“杀牛使用鸡刀”。</div>
+<div class="para" label-module="para">在PCB设计细节上很多的情况就和设计工程师的水平和经验有很大的关系了。如:器件的摆放位置，间距，走线的处理，铜皮的处理等。这些参数需要长时间多项目的积累才能得到。一般来说，专业的设计由于接触到更多的要求PCB板厂和焊接加工厂，所以一般他们的设计参数能符合绝大多数板厂的要求，而不是仅符合某个厂的特定成本要求。</div><div class="anchor-list">
+<a name="5" class="lemma-anchor para-title" ></a>
+<a name="sub3225028_5" class="lemma-anchor " ></a>
+<a name="意义" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">可制造性设计</span>意义</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="5" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para"><b>降低成本、提高产品竞争力</b></div>
+<div class="para" label-module="para">低成本、高产出是所有公司永恒的追求目标。通过实施DFM规范，可有效地利用公司资源，低成本、高质量、高效率地制造出产品。如果产品的设计不符合公司生产特点，可制造性差，即就要花费更多的人力、物力、财力才能达到目的。同时还要付出延缓交货，甚者失去市场的沉重代价。</div>
+<div class="para" label-module="para"><b>优化生产过程，提高生产效率</b></div>
+<div class="para" label-module="para">DFM把设计部门和生产部门有机地联系起来，达到信息互递的目的，使设计开发与生产准备能协调起来、。统一标准，易实现自动化，提高生产效率。同时也可以实现生产测试设备的标准化，减少生产测试设备的重复投入。</div>
+<div class="para" label-module="para"><b>利于技术转移，加强公司协作</b></div>
+<div class="para" label-module="para">现在很多企业受生产规模的限制，大量的工作需外加工来进行，通过实施DFM，可以使加工单位与需加工单位之间制造技术平稳转移，快速地组织生产。可制造性设计的通用性，可以使企业产品实现全球化生产。</div>
+<div class="para" label-module="para"><b>新产品开发及测试的基础</b></div>
+<div class="para" label-module="para">没有适当的DFM规范来控制产品的设计，在产品开发的后期，甚至在大批量生产阶段才发现这样或那样的组装问题，此时想通过设计更改来修正，无疑会增加开发成本并延长产品生产周期。所以新品开发除了要注重功能第一之外，DFM也是很重要的。</div>
+<div class="para" label-module="para"><b>适合电子组装工艺新技术</b></div>
+<div class="para" label-module="para">现在，电子组装工艺新技术的发展日趋复杂，为了抢占市场，降低成本，公司开发一定要使用最新最快的组装工艺技术，通过DFM规范化，才能跟上其发展的脚步。</div><div class="anchor-list">
+<a name="6" class="lemma-anchor para-title" ></a>
+<a name="sub3225028_6" class="lemma-anchor " ></a>
+<a name="可行性研究报告" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">可制造性设计</span>可行性研究报告</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="6" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">可行性研究报告是在招商引资、投资合作、政府立项、银行贷款等领域常用的专业文档，主要对项目实施的可能性、有效性、如何实施、相关技术方案及财务效果进行具体、深入、细致的技术论证和经济评价，以求确定一个在技术上合理、经济上合算的最优方案和最佳时机而写的书面报告。</div>
+<div class="para" label-module="para">（1)<b>用于企业融资、对外招商合作的可行性研究报告</b>。</div>
+<div class="para" label-module="para">这类研究报告通常要求市场分析准确、投资方案合理、并提供竞争分析、营销计划、管理方案、技术研发等实际运作方案</div>
+<div class="para" label-module="para">(2)<b>用于国家发展和改革委（以前的计委）立项的可行性研究报告、项目建议书、项目申请报告。</b></div>
+<div class="para" label-module="para">该文件是根据《中华人民共和国行政许可法》和《国务院对确需保留的行政审批项目设定行政许可的决定》而编写，是大型基础设施项目立项的基础文件，发改委根据可研报告进行核准、备案或批复，决定某个项目是否实施。另外医药企业在申请相关证书时也需要编写可行性研究报告。</div>
+<div class="para" label-module="para">(3)<b>用于银行贷款的可行性研究报告。</b></div>
+<div class="para" label-module="para">商业银行在贷款前进行风险评估时，需要项目方出具详细的可行性研究报告,对于国家开发银行等国内银行，若该报告由甲级资格单位出具，通常不需要再组织专家评审,部分银行的贷款可行性研究报告不需要资格，但要求融资方案合理，分析正确，信息全面。另外在申请国家的相关政策支持资金 、工商注册时往往也需要编写可研报告，该文件类似用于银行贷款的可研。</div>
+<div class="para" label-module="para">(4)<b>用于境外投资项目核准的可行性研究报告</b><b>、项目申请报告。</b></div>
+<div class="para" label-module="para">企业在实施走出去战略，对国外矿产资源和其他产业投资时，需要编写可行性研究报告或项目申请报告、报给国家发展和改革委或省发改委，需要申请中国进出口银行境外投资重点项目信贷支持时，也需要可行性研究报告和项目申请报告，详细规定&gt;&gt;。</div>
+<div class="para" label-module="para">(5)<b>用于企业上市的可行性研究报告。</b></div>
+<div class="para" label-module="para">这类可行性报告通常需要出具国家发改委的甲级工程咨询资格。</div>
+<div class="para" label-module="para">(6)<b>用于申请政府资金（发改委资金、科技部资金、农业部资金）的可行性研究报告。</b></div>
+<div class="para" label-module="para">这类可行性报告通常需要出具国家发改委的甲级工程咨询资格</div><div class="anchor-list">
+<a name="7" class="lemma-anchor para-title" ></a>
+<a name="sub3225028_7" class="lemma-anchor " ></a>
+<a name="常见问题及解决方案" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">可制造性设计</span>常见问题及解决方案</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="7" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para"><b>一、在设计多层次板时，内层孔到导体的间距设计太小，不能满足生产厂家的制程能力。</b></div>
+<div class="para" label-module="para"><b>后果</b>：</div>
+<div class="para" label-module="para">造成内层短路。</div>
+<div class="para" label-module="para"><b>原因</b>：</div>
+<div class="para" label-module="para">1、设计时未考虑各项补偿因素。</div>
+<div class="para" label-module="para">2、设计时控制线路的边缘距（air gap）。</div>
+<div class="para" label-module="para"><b>解决方案</b>：</div>
+<div class="para" label-module="para">1、在设计内层孔到导体的间距时，应当考虑孔径补偿对间距的影响，一般孔径补偿大小为0.1MM，单边增加了2MIL.</div>
+<div class="para" label-module="para">2、测量间距时应以线路的边到孔边来测量。</div>
+<div class="para" label-module="para"><b>二、孔焊盘（环宽）设计不够大，布线时没有考虑安全间距设置过小及螺丝孔到线或到铜皮的距离。</b></div>
+<div class="para" label-module="para"><b>后果</b>：</div>
+<div class="para" label-module="para">制造商在工程处理文件时无法修改，需要重新修改文件，降低了文件处理速度，也容易造成开短路现象。</div>
+<div class="para" label-module="para"><b>解决方案</b>：</div>
+<div class="para" label-module="para">1、设计文件时器件孔外径比内径最少大20MIL，过孔外径比内径最少大8MIL。</div>
+<div class="para" label-module="para">2、设计时考虑螺丝孔到线或到铜皮的距离保证12MIL以上，布线时可以在螺丝孔对应的地方的KEET OUT层画个比孔大12MIL以上的圆圈以防走线间距过近。</div>
+<div class="para" label-module="para"><b>三、电地短路：电地短路对印制板来说是一个很严重的缺陷。</b></div>
+<div class="para" label-module="para"><b>原因</b>：</div>
+<div class="para" label-module="para">1、自定义的器件库SMT钻孔未删除。</div>
+<div class="para" label-module="para">2、定位孔隔离环设计不够大。</div>
+<div class="para" label-module="para">3、设计更改后未重新对电地进行处理（内层以负片的形式设计，网络无法检查）。</div>
+<div class="para" label-module="para">4、高频板手工加过孔时未对照其它层。</div>
+<div class="para" label-module="para"><b>解决方法</b>：</div>
+<div class="para" label-module="para">1、设计时对自定义同类型的元件进行确认，将贴片的孔设计为0；</div>
+<div class="para" label-module="para">2、设计时控制定位孔的隔离环宽度在15MIL以上；</div>
+<div class="para" label-module="para">3、更改了外层的孔位一定要对内层重新铺铜；</div>
+<div class="para" label-module="para">4、高频板在加边缘过孔时过孔设计网络属性，不同设计属性的， 一定要打开其它层进行对照；</div>
+<div class="para" label-module="para">5、设计完成后进行DRC检查。</div>
+<div class="para" label-module="para"><b>四、内层开路：内层开路是一个无法补救的缺陷。</b></div>
+<div class="para" label-module="para"><b>原因</b>：</div>
+<div class="para" label-module="para">1、内层孤岛，主要在内层以负片设计时，隔离盘太大，隔离盘围住了散热盘，使之与外无法连接。</div>
+<div class="para" label-module="para">2、隔离线设计时经过散热焊盘的孔，造成孔内无铜</div>
+<div class="para" label-module="para">3、隔离区过小，中间有隔离盘造成开路</div>
+<div class="para" label-module="para">4、内层线路离板边太近，叠边时造成开路。</div>
+<div class="para" label-module="para"><b>解决方法</b>：</div>
+<div class="para" label-module="para">1、设计时对过孔的放置时考虑位置的合理性。</div>
+<div class="para" label-module="para">2、设计时对隔离线的设计避开散热盘。</div>
+<div class="para" label-module="para">3、将隔离区放大，保证网络连接8MIL以上。</div>
+<div class="para" label-module="para">4、设计时不要将线条、孔、梅花焊盘太近板边，内层设计0.5MM以外，外层0.3-0.4MM以外。</div>
+<div class="para" label-module="para"><b>五、设计时对一些修改后残留下来的断线未进行去除。</b></div>
+<div class="para" label-module="para"><b>后果</b>：</div>
+<div class="para" label-module="para">影响后端制造商在工程制作对PCB的通断判定，造成进度延误。</div>
+<div class="para" label-module="para"><b>解决方案</b>：</div>
+<div class="para" label-module="para">1、设计时尽量避免断线头的产生。</div>
+<div class="para" label-module="para">2、对一些特意保留的断线头进行书面的说明。</div>
+<div class="para" label-module="para"><b>六、铺铜设计时，文件大面积铺铜时使用的线条D码太小，还有将铜面铺成网格状时，将网格间距设计过小。</b></div>
+<div class="para" label-module="para"><b>后果</b>：</div>
+<div class="para" label-module="para">造成数据量大，操作速度缓慢，增加生产难度与影响产品外观。</div>
+<div class="para" label-module="para"><b>解决方案</b>：</div>
+<div class="para" label-module="para">1、铺铜时尽量选用8-10MIL的线来铺及避免重复铺铜。</div>
+<div class="para" label-module="para">2、铺网格时将网格间距最小设成8*8MIL，即8MIL的线，8MIL的间距。</div>
+<div class="para" label-module="para">3、尽量不要用填充块来铺铜。</div>
+<div class="para" label-module="para"><b>七、槽孔漏制作与孔属性制作错误</b></div>
+<div class="para" label-module="para"><b>原因</b>：</div>
+<div class="para" label-module="para">1、设计孔层时，未对相对应的孔给予属性定义，特别是安装孔的设置。</div>
+<div class="para" label-module="para">2、槽孔的设计未设计在孔层上面或分孔图上，而设计在KEEPOUT层。</div>
+<div class="para" label-module="para">3、槽孔的标识与指示放置在无用层上。</div>
+<div class="para" label-module="para"><b>解决方案</b>：</div>
+<div class="para" label-module="para">1、孔设计时，对相应的孔给予属性定义，特别是安装孔与槽孔。</div>
+<div class="para" label-module="para">2、槽孔的设计防止放在KEEPOUT层。</div>
+<div class="para" label-module="para">3、对需标注的槽孔指示，尽量放置在分孔图层，指示清晰。</div>
+<div class="para" label-module="para">（特别注意PROTER与POWERPCB在槽孔设计的特殊性。）</div>
+<div class="para" label-module="para"><b>八、机械加工问题：板外型、槽、非金属化孔的形状、尺寸错误。</b></div>
+<div class="para" label-module="para"><b>原因</b>：</div>
+<div class="para" label-module="para">1、禁止布线层（Keep Out) 与机械层的混用（Mechanical Layers)。</div>
+<div class="para" label-module="para">2、图形尺寸与标注不一致。</div>
+<div class="para" label-module="para">3、V_CUT存在拐弯设计。</div>
+<div class="para" label-module="para">4、公差标注不合理。</div>
+<div class="para" label-module="para"><b>解决方法</b>：</div>
+<div class="para" label-module="para">1、按功能正确使用层； 不要将PROTER与POWERPCB层设计定义混合。</div>
+<div class="para" label-module="para">2、图形尺寸与标注保持一致，提供正确的机械加工图纸。</div>
+<div class="para" label-module="para">3、V_CUT时保证V_CUT线为水平直线。</div>
+<div class="para" label-module="para">4、公差标注对超出常规要求的，应尽量单独指示。</div>
+<div class="para" label-module="para">5、对特殊外形要求的订单，尽量以书面的方式说明。</div>
+<div class="para" label-module="para">九、非金属化孔制作要求不明确，在钻孔刀具表要求做NPTH孔，但实际文件中又有电气连接，要求PTH孔，但在机械加工层相对应位置又画出圈圈，难以判断应以哪个为准。</div>
+<div class="para" label-module="para"><b>原因</b>：</div>
+<div class="para" label-module="para">1、设计方面的特殊要求</div>
+<div class="para" label-module="para">2、设计时对供应商的判定标准不清晰。</div>
+<div class="para" label-module="para"><b>解决方法</b>：</div>
+<div class="para" label-module="para">1、在钻孔刀具表正确标注NPTH，在线路层不放置焊盘或做挖空处理。</div>
+<div class="para" label-module="para">2、提供清淅明朗的机械加工艺图。</div>
+<div class="para" label-module="para">3、在书面中特殊注明。</div>
+<div class="para" label-module="para">4、多与制造商组织技术交流。</div>
+<div class="para" label-module="para">十、阻焊漏开窗：在线路板制作中偶然会出现IC脚、SMT以及相类似元件的散热块没有开窗的现象，测试点与器件孔未开窗等。</div>
+<div class="para" label-module="para"><b>原因</b>：</div>
+<div class="para" label-module="para">1、设计时PAD与VIA混淆；</div>
+<div class="para" label-module="para">2、设计时采用FILL元素填充，未在Solder masks加比线路层填充块大8MIL的FILL；</div>
+<div class="para" label-module="para">3、将应在Solder mask加的填充块加到了Paste masks层；</div>
+<div class="para" label-module="para">4、设计环境设置不当，（如设计时应将阻焊加大2-4MIL,误设计为减小)。</div>
+<div class="para" label-module="para"><b>解决方法</b>：</div>
+<div class="para" label-module="para">1、对孔的属性定义严格执行相关标准，以免阻焊制作过孔与器件孔无法区分。</div>
+<div class="para" label-module="para">2、对测试点的设置应单独起一个焊盘，避免与过孔相同的D码。</div>
+<div class="para" label-module="para">3、在提供GERBER文件时进行文件处理，提供GTP与GBP。</div>
+<div class="para" label-module="para">4、设计时对将需要散热与焊接的大块铜区，手工加上阻焊。</div>
+<div class="para" label-module="para">5、设计时严格执行层的放置规定，设置正确的设计环境。</div><div class="anchor-list">
+<a name="8" class="lemma-anchor para-title" ></a>
+<a name="sub3225028_8" class="lemma-anchor " ></a>
+<a name="其他相关" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">可制造性设计</span>其他相关</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="8" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para"><b>可制造性设计——医疗电子必须面对的问题</b></div>
+<div class="para" label-module="para">在日前召开的第三届中国国际医疗电子技术大会（CMET2010）中，来自香港应用科技研究院的梁立慧博士为参会嘉宾带来了用于整合保健电子及消费性电子的先进封装技术，以及一种可以让工程师在制造之前发现设计问题的虚拟环境技术。</div>
+<div class="para" label-module="para">“在CMET2010这两天的会议中，我们学到了很多关于微型化、智能化、柔性化以及模块化方面的技术，而我们现在要做的是将这些技术整合到一起，最终实现无处不在的医疗保健电子。”梁立慧博士在演讲中介绍，“比如我们研究院就设计出一款理想中的概念型产品——智能胶布，它看起来很像一个创口贴，但是通过集成 不同功能的模块可以实现不同的功能，如心电、血压、血糖、血氧之类数据的检测。”不过梁立慧也表示，如果要将上述概念产品变成现实，需要产业链中多个方面 的通力合作，如需要用到柔性PCB技术、柔性显示技术、微型元器件技术、POP以及裸晶的封装技术等等，另外还必须考虑到系统级封装的可靠性设计。</div>
+<div class="para" label-module="para">为 解决上述可制造性设计问题，香港应用科技研究院推出一种先进封装的虚拟制造和虚拟测试的技术。据梁博士的同事谢斌博士介绍，在设计一些新的产品时，可能会 产生很多意料之外的制造性问题。如果设计的不是很理想，或者各种材料的匹配不是很好，在后续的批量生产制造过程中会造成很多问题。如果这些问题等到批量生产时才发现，前面设计工程花费的大量人力、物力就等于白白浪费掉了，这对当前的工业界来说几乎是不可接受的。因此香港应用科技研究院把整个的工艺过程和大 量的实验进行了虚拟化，将其集成到了一套软件当中，工程师在设计产品时只需要将封装的设计参数：如几何尺寸、材料、工艺参数等等输入进去，软件就马上可以反馈出这个设计可能会有什么样的制造问题，会有什么可靠性的问题，这样就可以通过这套软件来反复修改。从而实现在不做任何实际生产的条件下，尽量保证设计 是没有制造性问题。</div>
+<dl class="lemma-reference collapse nslog-area log-set-param" data-nslog-type="2" log-set-param="ext_reference">
+<dt class="reference-title">参考资料</dt>
+<dd class="reference-list-wrap">
+<ul class="reference-list">
+<li class="reference-item " id="reference-[1]-3225028-wrap">
+<span class="index">1.</span>
+<a class="gotop anchor"  name="refIndex_1_3225028" id="refIndex_1_3225028" title="向上跳转" href="#ref_[1]_3225028">&nbsp;&nbsp;</a>
+<a rel="nofollow" href="/redirect/1122P09fetPb2fyAqLflAr33n5GvoLvgWLIjk0ihIVR9dAkRlD8rWhDPxMP1AzpRl0_C2KuJC-qPbS0VaRIzvqU" target="_blank" class="text">PCB设计<span class="linkout">&nbsp;</span></a>
+<span class="site">．一博科技</span><span>&#91;引用日期2012-11-19&#93;</span></li><li class="reference-item " id="reference-[2]-3225028-wrap">
+<span class="index">2.</span>
+<a class="gotop anchor"  name="refIndex_2_3225028" id="refIndex_2_3225028" title="向上跳转" href="#ref_[2]_3225028">&nbsp;&nbsp;</a>
+<a rel="nofollow" href="/redirect/53eeBSn7MHb1ZmXlH_6q4S1U0q3MAOcwytQu5q_3_JWRsimeoJrJYdey-fALf_u1NV-osQKg97Bep9-3FdFv53RtJTIexhs" target="_blank" class="text">DFM的真正含义<span class="linkout">&nbsp;</span></a>
+<span class="site">．一博科技</span><span>&#91;引用日期2012-11-19&#93;</span></li></ul>
+</dd>
+</dl>
+<div id="open-tag">
+<div class="open-tag-title">词条标签：</div>
+<dd id="open-tag-item">
+<span class="taglist">
+科技术语
+</span>
+，<span class="taglist">
+科学
+</span>
+</dd>
+<div class="open-tag-collapse" id="open-tag-collapse"></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="side-content">
+<div class="summary-pic">
+<a href="/pic/%E5%8F%AF%E5%88%B6%E9%80%A0%E6%80%A7%E8%AE%BE%E8%AE%A1/7885417/0/9dc3cf58418e6bbe800a18d5?fr=lemma&amp;ct=single" target="_blank" nslog-type="10002401">
+<img src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=3e2ab76ef81986184147e88272d6494e/f2deb48f8c5494ee7d2e3d162df5e0fe99257eb4.jpg" />
+<button class="picAlbumBtn"><em></em><span>图集</span></button>
+<div>可制造性设计图册</div>
+</a>
+</div>
+<div class="lemmaWgt-promotion-vbaike">
+<div class="promotion_title">V百科<a href="/vbaike#gallary" target="_blank">往期回顾</a></div>
+<div class="promotion_viewport">
+<dl>
+</dl>
+<div class="promotion_viewport_pager"></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightPreciseAd" data-lemmaId="7885417" data-lemmaTitle="可制造性设计"></div><div class="lemmaWgt-sideRecommend">
+<a name="zhixinWrap" class="qnAnchor"></a>
+<div class="zhixin-box" id="zhixinWrap" data-source="" data-newLemmaId="7885417">
+</div>
+<form id="zhixinErrorForm" class="hidden" action="https://sp2.baidu.com/-uV1bjeh1BF3odCf/index.php/feedback/zx/baikeJC" target="zhixinSubErr" method="post">
+<input class="js-url" name="fb_html_url" type="hidden" />
+<input class="js-query" name="fb_query" type="hidden" />
+<input class="js-title" name="fb_card_title" type="hidden" />
+<input class="js-content" name="fb_content" type="hidden" />
+<input class="js-souceId" name="fb_source_id" type="hidden" />
+</form>
+<iframe id="zhixinSubErr" name="zhixinSubErr" style="display:none" frameborder="0"></iframe>
+</div>
+<div class="lemmaWgt-promotion-slide">
+<div class="promotion_viewport">
+<dl>
+</dl>
+<div class="promotion_viewport_pager"></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightBigAd">
+</div><dl class="side-box lemma-statistics">
+<dt class="title">词条统计</dt>
+<dd class="description">
+<ul>
+<li>浏览次数：<span id="j-lemmaStatistics-pv"></span>次</li>
+<li>编辑次数：28次<a href="/historylist/%E5%8F%AF%E5%88%B6%E9%80%A0%E6%80%A7%E8%AE%BE%E8%AE%A1/7885417" class="nslog:1021" target="_blank">历史版本</a></li>
+<li>最近更新：<span class="j-modified-time" style="display:none">2017-04-05</span></li>
+<li>创建者：<a class="show-userCard" data-uid="157971647" title="查看此用户资料" target="_blank" href="http://www.baidu.com/p/%E6%88%91%E6%98%AF%E5%8A%A0%E7%99%BE%E5%8A%9B" nslog-type="1022">我是加百力</a></li>
+</ul>
+</dd>
+</dl>
+<div class="side-catalog" style="visibility:hidden">
+<div class="side-bar">
+<em class="circle start"></em>
+<em class="circle end"></em>
+</div>
+<div class="catalog-scroller">
+<dl class="catalog-list">
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#1" class="title-link">
+<span class="text">
+<span class="title-index">1</span>
+<span class="title-link" nslog-type="10002802">概述</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#2" class="title-link">
+<span class="text">
+<span class="title-index">2</span>
+<span class="title-link" nslog-type="10002802">核心</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#3" class="title-link">
+<span class="text">
+<span class="title-index">3</span>
+<span class="title-link" nslog-type="10002802">过程方法</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#3_1" class="title-link">
+<span class="text">
+<span class="title-index">3.1</span>
+<span class="title-link" nslog-type="10002802">寻求建立DFM规范</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#3_2" class="title-link">
+<span class="text">
+<span class="title-index">3.2</span>
+<span class="title-link" nslog-type="10002802">建立DFM检查表</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#3_3" class="title-link">
+<span class="text">
+<span class="title-index">3.3</span>
+<span class="title-link" nslog-type="10002802">DFM报告</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#3_4" class="title-link">
+<span class="text">
+<span class="title-index">3.4</span>
+<span class="title-link" nslog-type="10002802">DFM测试</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#3_5" class="title-link">
+<span class="text">
+<span class="title-index">3.5</span>
+<span class="title-link" nslog-type="10002802">DFM分析评价</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#4" class="title-link">
+<span class="text">
+<span class="title-index">4</span>
+<span class="title-link" nslog-type="10002802">DFM</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#5" class="title-link">
+<span class="text">
+<span class="title-index">5</span>
+<span class="title-link" nslog-type="10002802">意义</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#6" class="title-link">
+<span class="text">
+<span class="title-index">6</span>
+<span class="title-link" nslog-type="10002802">可行性研究报告</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#7" class="title-link">
+<span class="text">
+<span class="title-index">7</span>
+<span class="title-link" nslog-type="10002802">常见问题及解决方案</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#8" class="title-link">
+<span class="text">
+<span class="title-index">8</span>
+<span class="title-link" nslog-type="10002802">其他相关</span>
+</span>
+</a>
+</dt>
+<a class="arrow" href="javascript:void(0);"></a>
+</dl>
+</div>
+<div class="right-wrap">
+<a class="go-up disable" href="javascript:void(0);"></a>
+<a class="go-down" href="javascript:void(0);"></a>
+</div>
+<div class="bottom-wrap">
+<a class="toggle-button" href="javascript:void(0);" nslog-type="10002803"></a>
+<a class="gotop-button" href="javascript:void(0);" nslog-type="10002804"></a>
+</div>
+</div>
+<div id="side_box_fengchao" class="fengchao side-box" nslog="area" nslog-type="10000902">
+</div>
+<div id="side_box_unionAd" class="unionAd side-box">
+<div class="union-content"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="after-content">
+<div class="fc-guess-like new" id="fc_guess_like_new">
+<span class="logo-du">
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+</span>
+<h6>猜你关注</h6>
+<ul class="cmn-clearfix">
+</ul>
+</div>
+<div class="bottom-promotion" id="bottom-promotion">
+<div id="BOTTOM_PRO_AD"></div>
+</div>
+</div>
+</div>
+
+<div class="wgt-footer-main">
+<div class="content">
+<dl class="fresh">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-fresh"></em>新手上路</dt>
+<dd>
+<div><a target="_blank" href="/usercenter/tasks#guide">成长任务</a></div>
+<div><a target="_blank" href="/help#main01">编辑入门</a></div>
+<div><a target="_blank" href="/help#main06">编辑规则</a></div>
+<div><a target="_blank" href="/help#main05">百科术语</a></div>
+</dd>
+</dl>
+<dl class="question">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-question"></em>我有疑问</dt>
+<dd>
+<div><a target="_blank" href="/wikiui/doubt?lemmaId=7885417&fr=lemma"
+            nslog-type="10070001">我要质疑</a></div>
+<div><a target="_blank" href="https://aikefu.baidu.com/?product=bk001" nslog-type="10000003">在线客服</a></div>
+<div><a target="_blank" href="http://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91">参加讨论</a></div>
+<div><a target="_blank" href="/feedback">意见反馈</a></div>
+</dd>
+</dl>
+<dl class="suggestion">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-suggestion"></em>投诉建议</dt>
+<dd>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=1">举报不良信息</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=2">未通过词条申诉</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=6">投诉侵权信息</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=5">封禁查询与解封</a></div>
+</dd>
+</dl>
+</div>
+<div class="copyright">©2018&nbsp;Baidu&nbsp;<a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;|&nbsp;<a href="http://help.baidu.com/question?prod_en=baike&class=89&id=1637" target="_blank">百科协议</a>&nbsp;|&nbsp;<a href="/operation/cooperation" target="_blank">百度百科合作平台</a>&nbsp;|&nbsp;<span>京ICP证030173号&nbsp;</span><img class="copyright-img" width="13" height="16" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/copy_rignt_24.png"></div>
+<p class="recordcode"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" target="_blank"><i class="icon-police"></i>京公网安备11000002000001号</a></p>
+</div>
+
+<div class="lemmaWgt-searchHeader">
+<div class="layout cmn-clearfix">
+<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-simple cmn-clearfix ">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080015" name="word" type="text" autocomplete="off" autocorrect="off" value="可制造性设计" /><button id="search" nslog="normal" nslog-type="10080013" type="button">进入词条</button>
+</form>
+<form id="searchLemmaForm" action="/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden" />
+<input name="pn" type="hidden" value="0" />
+<input name="rn" type="hidden" value="0" />
+<input name="enc" type="hidden" value="utf8" />
+</form>
+<ul id="suggestion" class="suggestion">
+<div class="sug"></div>
+<li class="extra">
+<span id="close" nslog="normal" nslog-type="10080016">关闭</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="tool-buttons">
+<a class="toolButtons-edit button j-edit-link" href="javascript:;" nslog-type="10010001"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-hollow"></em>编辑</a>
+<a class="toolButtons-collect button" href="javascript:;" nslog-type="10010002"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-hollow"></em><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-solid"></em>收藏</a>
+<a class="toolButtons-vote button top-vote" href="javascript:;" nslog-type="10010003"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-hollow"></em><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-solid"></em><span class="j-tool-btn-vote-num">赞</span></a>
+</div>
+<div class="user-info">
+<a class="user-link unlogin" href="javascript:;" nslog-type="10010008" target="_blank">登录</a>
+</div>
+</div></div>
+<div class="new-bdsharebuttonbox new-side-share" id="side-share">
+<span class="title">分享</span>
+<div class="side-border">
+<div class="triangle"></div>
+<a class="share-link bds_qzone"  href="javascript:void(0);" nslog-type="10060101">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+<a class="share-link bds_tsina" href="javascript:void(0);" nslog-type="10060301">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+<a class="bds_wechat"  href="javascript:void(0);" nslog-type="10060001">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+<a class="share-link bds_tqq"  href="javascript:void(0);" nslog-type="10060201">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</div>
+</div>
+<div class="qrcode-wrapper" id="layer" style="display: none">
+<div class="bd_weixin_popup_header">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+<span>分享到微信朋友圈</span>
+</div>
+<div id="wechat-qrcode-img"></div>
+<div class="bd_weixin_popup_footer">打开微信“扫一扫”即可将网页分享至朋友圈</div>
+</div>
+<div></div><div></div>
+
+</body><script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/js/mod_4302fe0.js"></script>
+<script type="text/javascript">require.resourceMap({"res":{"wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/lemmaInsert.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaInsert_8f518c5.js","pkg":"wiki-lemma:p5","deps":["wiki-common:widget/component/nslog/nslog.js"]},"wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/tangram.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/tangram_459492a.js","pkg":"wiki-lemma:p5"},"wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip_16a3e9d.js","deps":["wiki-common:widget/lib/jquery/jquery.js","wiki-common:widget/util/string.js"]}},"pkg":{"wiki-lemma:p5":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module-lemmaRelation_0aebd7b.js"}}});</script><script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jquery/jquery_1.11.1_dfce600.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jquery/jquery.mousewheel_4fde694.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jquery/jquery_2d56800.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jsmart/PHPJS_2406ddf.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jsmart/jsmart_a7d06a5.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/sparkMD5/sparkMD5_a5502a8.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/swfObject/swfObject_00526c3.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/letvPlayer/letvPlayer_f923883.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common-base_ce9c01b.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/component/userbar-n/userbar-n_8f86b7d.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_3ffa925.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhixin/zhixin_58e6342.js"></script>
+<script type="text/javascript">!function(){  var $ = require('wiki-common:widget/lib/jquery/jquery'),
+    userbar = require('wiki-common:widget/component/userbar-n/userbar-n');
+    
+  userbar.buildUserbar($('#j-wgt-userbar'), null);
+}();
+!function(){  require('wiki-common:widget/component/headTabBar/headTabBar');
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      initSearchbar = require('wiki-common:widget/component/searchbar-n/searchbar');  
+    initSearchbar($('.wgt-searchbar-main'));
+  }();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var cookie = require('wiki-common:widget/util/cookie');
+    if (!cookie.get('baikedeclare')) {
+        $('#J-declare-wrap').css('display', 'block');
+    }
+    $('#J-declare-close').on('click', function () {
+        // 用户关闭后，不再显示，这里暂设过期时间为1年
+        cookie.set('baikedeclare', 'showed', {
+            expires: 365 * 60 * 60 * 24 * 1000,
+            path: '/'
+        });
+        $('#J-declare-wrap').css('display', 'none');
+    });
+}();
+!function(){  var $ = require('wiki-common:widget/lib/jquery/jquery');
+
+  var timer = '';
+
+  $('.wgt-navbar').on('mouseenter', 'dl', function() {
+  clearTimeout(timer);
+  timer = setTimeout(function() {
+  $('.wgt-navbar').addClass('wgt-navbar-hover');
+}, 300);
+}).on('mouseleave', function() {
+clearTimeout(timer);
+$('.wgt-navbar').removeClass('wgt-navbar-hover');
+}).on('click', 'a', function() {
+clearTimeout(timer);
+$('.wgt-navbar').removeClass('wgt-navbar-hover');
+});
+}();
+!function(){                var $ = require('wiki-common:widget/lib/jquery/jquery');
+                var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+                // 展现策略
+                rightCheck.editView('7885417', function(res) {
+                    if (!res.errno) {
+                        if (res.data.edit) {
+                            $('.lemmaWgt-lemmaTitle .add-subLemma').css('display', 'inline-block');
+                            $('.top-tool .add-sub-icon').css('display', 'inline-block');
+                        }
+                    } else {
+                        if ('1') {
+                            $('.lemmaWgt-lemmaTitle .add-subLemma').css('display', 'inline-block');
+                            $('.top-tool .add-sub-icon').css('display', 'inline-block');
+                        }
+                    }
+                });
+                require('wiki-lemma:widget/basicElement/addSub/addSub.js')({                    lemmaId: '7885417',                    lemmaTitle: '可制造性设计',                    lemmaDesc: '',                    versionId: '117726470',                    subLemmaId: '3225028'                });
+            }();
+!function(){        var $ = require('wiki-common:widget/lib/jquery/jquery');
+        var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+        // 展现策略
+        rightCheck.editView('7885417', function(res) {
+            if (!res.errno) {
+                if (res.data.divide) {
+                    $('.top-tool .split-icon').css('display', 'block');
+                }
+            }
+        });
+    }();
+!function(){    var nslog = require('wiki-common:widget/component/nslog/nslog');
+	require.async(["wiki-lemma:widget/basicElement/collect/collect"],function(collect){
+		collect({
+            newLemmaId:"7885417",
+			lemmaId:"3225028",
+			subLemmaId:"3225028"
+		});
+	});
+}();
+!function(){    require.async(["wiki-lemma:widget/basicElement/topShare/topShare"],function(topShare){
+        topShare({
+            newLemmaId: '7885417'
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('7885417', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.lemmaWgt-lemmaTitle .edit-lemma').css('display', 'inline-block');
+                // 编辑和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .edit-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .edit-lemma').before('<br/><br/>');
+                  }
+                }
+            } else {
+                $('.lemmaWgt-lemmaTitle .lock-lemma').show();
+                // 锁定和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .lock-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .lock-lemma').before('<br/><br/>');
+                  }
+                }
+            }
+        } else {
+            if ('1') {
+                $('.lemmaWgt-lemmaTitle .edit-lemma').css('display', 'inline-block');
+                // 编辑和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .edit-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .edit-lemma').before('<br/><br/>');
+                  }
+                }
+            } else {
+                $('.lemmaWgt-lemmaTitle .lock-lemma').show();
+                // 锁定和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .lock-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .lock-lemma').before('<br/><br/>');
+                  }
+                }
+            }
+        }
+    });
+}();
+!function(){	require('wiki-lemma:widget/lemma_content/mainContent/basicInfo/basicInfo')();
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var nslog = require('wiki-common:widget/component/nslog/nslog');
+    nslog(10002701);
+    $('.lemmaWgt-lemmaCatalog a').on('click', function () {
+           nslog(10002702);
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('7885417', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('7885417', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('7885417', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('7885417', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('7885417', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('7885417', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('7885417', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('7885417', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('7885417', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('7885417', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('7885417', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('7885417', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('7885417', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){		require.async(["wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReference","wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip"],function(Reference,ReferenceTip){
+			new Reference({
+				subLemmaId:"3225028"
+			});
+			new ReferenceTip({
+				subLemmaId:"3225028"
+			});
+		});
+	}();
+!function(){        require.async(["wiki-common:widget/lib/jquery/jquery"],function($){
+            function openTagToggle(node) {
+                if ($(node).hasClass("collapse")) {
+                    $(node).removeClass("collapse");
+                    $("#open-tag").css("height", '22px');
+                } else {
+                    $(node).addClass("collapse");
+                    $("#open-tag").css("height", $("#open-tag-item").css("height"));
+                }
+            }
+            if (parseInt($("#open-tag-item").css("height")) <= 30) {
+                $('#open-tag-collapse').hide();
+            }
+            $("#open-tag-collapse").on("click", function () {
+                openTagToggle($("#open-tag")[0]);
+            });
+        });
+    }();
+!function(){        require('wiki-lemma:widget/lemma_content/configModule/zhixin/zhixin')(
+            7885417,
+            '可制造性设计'
+        );
+    }();
+!function(){    require.async(["wiki-lemma:widget/lemma_content/mainContent/lemmaStatistics/lemmaStatistics"],function(init){
+        init({
+            newLemmaIdEnc:"7225f0f42edf513da39a73f0"
+        });
+    });
+}();
+!function(){	require.async(["wiki-lemma:widget/lemma_content/mainContent/sideCatalog/sideCatalog"],function(SideCatalog){
+		new SideCatalog();
+	});
+}();
+!function(){        require.async(["wiki-lemma:widget/promotion/fengchao/fengchao","wiki-lemma:widget/promotion/unionAd/unionAd"], function (init, unionAd) {
+            init({
+                newLemmaId: "7885417",
+                lemmaTitle: "可制造性设计",
+                encodeLemmaTitle: "%BF%C9%D6%C6%D4%EC%D0%D4%C9%E8%BC%C6",
+                adManager: {"wapRelatedBusiness":1}
+            }, {
+                errFn: unionAd,
+                dom: $('#side_box_unionAd')
+            });
+        });
+    }();
+!function(){        require.async(['wiki-lemma:widget/promotion/guessLike/guessLike'], function (app) {
+            app.init({
+                lemmaTitle: '可制造性设计',
+                adManager: {"wapRelatedBusiness":1}
+            });
+        });
+    }();
+!function(){            require.async(['wiki-lemma:widget/promotion/bottomAd/bottomAd'], function (init) {
+                init({
+                    sId: 'BOTTOM_PRO_AD',
+                    adManager: {"wapRelatedBusiness":1}
+                });
+            });
+        }();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var Dialog = require("wiki-common:widget/ui/dialog/dialog");
+    var userLogin = require('wiki-common:widget/component/userLogin/userLogin');
+    var unameFiller = require('wiki-common:widget/component/unameFiller/unameFiller');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+            var isEnterprise = false;
+        var enterpriseOwnerUserId = 0;
+    
+    var userId = 0;
+    var editUrl = '/edit/' + encodeURIComponent('可制造性设计') + '/' + '7885417';
+    var pgcUrl = '/enterprise/editpgc?lemmaId=7885417';
+
+    userLogin.regist({
+        onLogin: function(user) {
+            userId = user ? user.uid : 0;
+        }
+    });
+
+    function gotoEdit(url, isMidNight) {
+        if (isMidNight) {
+            Dialog.alert({
+                title: '编辑提示',
+                subMsg: '晚23:00至次日8:00，因审核系统例行维护，您提交的版本可能需要较长时间才能通过，望您谅解。',
+                onConfirm: function() {
+                    window.location.href = url;
+                }
+            });
+        } else {
+            window.location.href = url;
+        }    
+    }
+
+    function showChoseEditDialog(pgcCallback, ugcCallback) {
+        new Dialog({
+            title: '编辑提示',
+            subMsg: '<p>您已开通企业百科服务，推荐您直接编辑“官方资料”，官方资料仅限企业百科绑定的百科账号修改，其他用户账号不可修改。</p><p>如果您想修改其他网友编辑的普通词条内容，请注意遵守百科百科编辑规则。<p>',
+            btns: [{
+            key: 'pgc',
+            text: '编辑官方资料'
+            }, {
+            style: 'white',
+            text: '修改普通词条',
+            key: 'ugc'
+            }],
+            onBtnClick: function(btnKey){
+                if (btnKey === 'pgc') {
+                    pgcCallback && pgcCallback();
+                } else if (btnKey === 'ugc') {
+                    ugcCallback && ugcCallback();
+                }
+            }
+        }).show();
+    }
+
+    function checkUserLegal(res) {
+        var legal = false;
+        switch (res.errno) {
+            case 100001:
+                userLogin.showLoginPop();
+                break;
+            case 100006:
+                unameFiller.show();
+                break;
+            default:
+                legal = true;
+        }
+        return true;
+    }
+
+    function checkUgc(res, url) {
+        if (res.errno) {
+            switch (res.errno) {
+                case 100005:
+                    alert('对不起，您目前被封禁');
+                    break;
+                case 110001:
+                    alert('对不起，该词条被锁定');
+                    break;
+                case 110007:
+                    alert('对不起，消歧页无法编辑');
+                    break;
+                case 110005:
+                    Dialog.alert({
+                    title: '编辑提示',
+                    mainMsg: '对不起，您暂时没有权限编辑该词条。',
+                    subMsg: '<p>您好，该词条内容已较丰富，现仅对百科等级达到<b>四级</b>且通过率达到<b>85%</b>的科友开放编辑。</p><p>当您通过努力达到以上要求，就可以参与编辑该词条了。</p><p><img src="https://bkssl.bdimg.com/img/baike/usercenter/growuptask/star.gif" class="star" />参加<a target="_blank" href="/usercenter#guide">成长任务</a>，更快掌握百科编辑技巧，加速升级！</p>'
+                    });
+                    break;
+                case 110008:
+                    Dialog.alert({
+                    title: '编辑提示',
+                    mainMsg: '对不起，您暂时没有权限编辑该词条。',
+                    subMsg: '<p>您好，该词条内容已较丰富，现仅对百科等级达到<b>六级</b>且通过率达到<b>85%</b>的科友开放编辑。</p><p>当您通过努力达到以上要求，就可以参与编辑该词条了。</p><p><img src="https://bkssl.bdimg.com/img/baike/usercenter/growuptask/star.gif" class="star" />参加<a target="_blank" href="/usercenter#guide">成长任务</a>，更快掌握百科编辑技巧，加速升级！</p>'
+                    });
+                    break;
+                case 470001:
+                    alert('系统错误，请刷新重试');
+                    break;
+            }
+        } else {
+            if (!res.data.right.noAudit) {
+                Dialog.alert({
+                    title: '编辑提示',
+                    subMsg: '很抱歉，该词条有其他用户编辑的版本正在提交，您暂时无法编辑。<br/>百科建议您晚些时候再编辑该词条，或者尝试编辑其他的词条。'
+                });
+                return;
+            }
+            gotoEdit(url, res.data.notice.isMidNight);
+        }
+    }
+
+    $(document.body).on('click', '.j-edit-link', function() {
+        var dl = $(this).attr('data-edit-dl');
+        if (dl) {
+            var url = editUrl + '?dl=' + dl;
+        } else {
+            var url = editUrl;
+        }
+
+        rightCheck.preeditCheck('7885417', '可制造性设计', '可制造性设计', '117726470', '', function(res) {
+            if (!checkUserLegal(res)) {
+                return;
+            }
+            if (isEnterprise && enterpriseOwnerUserId === userId) {
+                showChoseEditDialog(function() {
+                    location.href = pgcUrl;
+                }, function() {
+                    checkUgc(res, url);
+                });
+            } else {
+                checkUgc(res, url);
+            }
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      initSearchbar = require('wiki-common:widget/component/searchbar-n/searchbar');  
+    initSearchbar($('.wgt-searchbar-simple'));
+  }();
+!function(){    require.async(["wiki-lemma:widget/tools/searchHeader/toolButtons-n/toolButtons"],function(init){
+        init({
+            lemmaId:"3225028",
+            subLemmaId:"3225028",
+            newLemmaId:"7885417"
+        });
+    });
+}();
+!function(){    require('wiki-lemma:widget/tools/searchHeader/toolButtons-n/userInfo')();
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      animation = require('wiki-common:widget/util/animation'),
+      nslog = require('wiki-common:widget/component/nslog/nslog'),
+      initSearchbar = require('wiki-common:widget/component/searchbar/searchbar');
+
+    var isFadeIn = false,
+        isFadeOut = false;
+
+    var fadeInAni, fadeOutAni;
+
+    $(window).on('scroll', function(e) {
+        var scrollTop = $(this).scrollTop();
+
+        if (scrollTop > 200 && !isFadeIn && $('.lemmaWgt-searchHeader').css('display') == 'none') {
+            fadeOutAni && fadeOutAni.stop();
+            fadeInAni = animation({
+                duration: 200,
+                easing: 'linear',
+                onStart: function() {
+                    isFadeOut = false;
+                    isFadeIn = true;
+                    $('.lemmaWgt-searchHeader').css('display', 'block');
+                },
+                onStep: function(progress) {
+                    $('.lemmaWgt-searchHeader').css('opacity', progress)
+                },
+                onComplete: function(progress) {
+                    isFadeIn = false;
+                    nslog(10010007);
+                }
+            });
+        } else if (scrollTop <= 200 && !isFadeOut && $('.lemmaWgt-searchHeader').css('display') == 'block') {
+            fadeInAni && fadeInAni.stop();
+            fadeOutAni = animation({
+                duration: 300,
+                easing: 'linear',
+                onStart: function() {
+                    $('.lemmaWgt-searchHeader #suggestion').hide();
+                    isFadeIn = false;
+                    isFadeOut = true;
+                },
+                onStep: function(progress) {
+                    $('.lemmaWgt-searchHeader').css('opacity', 1 - progress);
+                },
+                onComplete: function(progress) {
+                    isFadeOut = false;
+                    $('.lemmaWgt-searchHeader').css('display', 'none');
+                }
+            });
+        }
+    });
+}();
+!function(){    require('wiki-lemma:widget/tools/newSideShare/qzopensl');
+    require.async(["wiki-lemma:widget/tools/newSideShare/taskSideShare"],function(taskShare){
+        taskShare.init({
+            title: '可制造性设计',
+            desc: "\u53ef\u5236\u9020\u6027\uff0c\u4ea6\u88ab\u5404\u65b9\u79f0\u4e3a\u534f\u540c\u5f0f\u6216\u540c\u65f6\u6027\u5de5\u7a0b\uff08concurrent or simultaneous engineering\uff09\u6216\u662f\u53ef\u751f\u4ea7\u6027\u6216\u751f\u4ea7\u7ebf\u4e4b\u8bbe\u8ba1\uff08design for productivity or assembly\uff09\u76f8\u8f83\u4e8e\u7531\u7814\u53d1\u5de5\u7a0b\u5e08\u5efa\u7acb\u81ea\u5df1\u7684\u8bbe\u8ba1\u539f\u578b\uff08prototype\uff09\uff0c\u7136\u540e\u5728\u672a\u7ecf\u524d\u7ebf\u751f\u4ea7\u5de5\u4eba\u7684\u610f\u89c1\u4e0b\u5c06\u4e4b\u9001\u5230\u751f\u4ea7\u90e8\u95e8\u7ec4\u88c5\u7ebf\u4e0a\u7684\u4f20\u7edf\u5236\u9020\u65b9\u5f0f\u6765\u8bf4\u4eab\u6709\u975e\u5e38\u5927\u7684\u4f18\u52bf\u3002\u53e6\u5916\uff0c",
+            pic: 'https:\/\/gss1.bdstatic.com\/-vo3dSag_xI4khGkpoWK1HF6hhy\/baike\/w%3D268\/sign=d4b3b588d0a20cf44690f9d94e094b0c\/f2deb48f8c5494ee7d2e3d162df5e0fe99257eb4.jpg',
+            url: '',
+            qqPic: 'https:\/\/gss1.bdstatic.com\/-vo3dSag_xI4khGkpoWK1HF6hhy\/baike\/pic\/item\/f2deb48f8c5494ee7d2e3d162df5e0fe99257eb4.jpg',
+            newLemmaId: '7885417',
+            lemmaTitle: '可制造性设计'
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var nslog = require("wiki-common:widget/component/nslog/nslog");
+    var testElem = require('wiki-common:widget/component/testElem/testElem');
+    var cmsModuleLoader = require('wiki-common:widget/component/cmsModuleLoader/cmsModuleLoader');
+
+    function requireAsync() {
+        require.async(['wiki-lemma:widget/tools/announcement/announcement']);
+    }
+
+    cmsModuleLoader('/api/wikiui/getlemmaconfig', [{
+        name: 'announcement',
+        script: 'wiki-lemma:widget/tools/announcement/announcement.js'
+    }]);
+
+    require.async(["wiki-lemma:widget/tools/lazyLoad/lazyLoad"], function(LazyLoad) {
+        new LazyLoad();
+    });
+
+    require.async(['wiki-common:widget/component/nslog/nslog','wiki-common:widget/lib/jquery/jquery'], function(nslog, $) {
+        nslog().setGlobal({
+            lemmaId: "3225028",
+            newLemmaId: "7885417",
+            subLemmaId: "3225028",
+            lemmaTitle: "可制造性设计"
+        });
+
+        // 词条页 pv
+        nslog(9322);
+
+        // 新版头部pv（小流量）
+        if ($('.pc-header-new').length > 0) {
+            nslog(9069);
+        }
+
+        // 链接点击 pv
+        var lemmaPageRegExp = new RegExp(/\/subview\/\d+|\/view\/\d+|\/item\//i);
+        $('body').on('mousedown', 'a', function() {
+            var href = $(this).attr('href');
+            if (href && href.indexOf('/') >= 0 && href.indexOf('#') !== 0) {
+                // 链接点击 pv
+                nslog(10000001);
+                if (lemmaPageRegExp.test(href)) {
+                    // 词条页链接点击 pv
+                    nslog(10000002, window.location.href, {
+                        targetTitle: $(this).text()
+                    });
+                }
+            }
+        });
+
+        /****** 词条页站内流转需求统计 start ******/
+        (function () {
+            // 各种统计配置
+            var circulationLinkCfg = {
+                innerLink: [ // 内链
+                    '.para',
+                    '.lemmaWgt-baseInfo-simple-largeMovie',
+                    '.lemmaWgt-baseInfo-simple-largeStar',
+                    '.basic-info .basicInfo-block',
+                    '.lemma-summary',
+                    '.lemmaWgt-lemmaSummary',
+                    '.view-tip-panel',
+                    '.horizontal-module',
+                    '.lemmaWgt-roleIntroduction',
+                    '.dramaSeries .dramaSerialList',
+                    '.module-music',
+                    '.table-view',
+                    '[log-set-param="table_view"]',
+                    '.list-module',
+                    '.cell-module',
+                    '.baseBox .dl-baseinfo', // 配置后台字段
+                    '.pvBtn-box .leadPVBtnWrapper',
+                    '.drama-actor',
+                    '#staffList',
+                    '.starMovieAndTvplay',
+                    '.main_tab:not(.main_tab-defaultTab)' // 除去词条tab外的tab
+                ],
+                relationTable: '.rs-container-foot', // 关系表
+                peopleRelation: '.star-info-block.relations, .lemmaWgt-focusAndRelation', // 人物关系（明星+普通）
+                moduleActors: '.featureBaseInfo .actors, .lemmaWgt-majorActors', // 主要演员、嘉宾、主持人
+                moduleWorks: '.featureBaseInfo .works, .large-feature .works', // 代表作品
+                moduleQuarterly: '.featureBaseInfo .po_quarterly, .mian_quarterly', // 分季介绍
+                rankStar: '.rank-list.stars-rank', // 明星榜
+                rankDrama: '.drama-rank-list', // 电视剧榜
+                specialTopic: '.special-topic', // 专题模块
+                modDetailTable: '#modDetailTable', // 关系表出图
+                chuizhitu: '.chuizhitu', // 垂直化模块
+                polysemantList: '.polysemantList-wrapper' // 义项切换
+            };
+            /****** 连接统计 ******/
+            function clickNslogFn() {
+                for (var k in circulationLinkCfg) {
+                    if (k === 'innerLink') {
+                        // 词条内链到词条页
+                        var tempArr = circulationLinkCfg[k];
+                        for (var i = 0, l = tempArr.length; i < l; i++) {
+                            tempArr[i] += ' a';
+                        }
+                        var sSelector = tempArr.join(', ');
+
+                        $('body').on('mousedown', sSelector, {key: k},function(e) {
+                            var key = e.data.key;
+                            var href = $(this).attr('href');
+                            var tar = $(this).attr('target') || '';
+                            if (href && href.indexOf('/') >= 0 && href.indexOf('#') !== 0
+                            && tar === '_blank' && lemmaPageRegExp.test(href)) {
+                                // 词条页普通内链点击 pv
+                                nslog(10000004, null ,{division: key});
+                            }
+                        });
+                    } else {
+                        // 模块到词条页链接
+                        $(circulationLinkCfg[k]).on('mousedown', 'a', {key: k}, function (e) {
+                            var key = e.data.key;
+                            var href = $(this).attr('href');
+                            if (href && href.indexOf('#') !== 0 && lemmaPageRegExp.test(href)) {
+                                // 词条页配置模块链接点击 pv
+                                nslog(10000004, null, {division: key});
+                            }
+                        });
+                    }
+                }
+            }
+            // 发起统计请求
+            clickNslogFn();
+
+            /****** 各模块展现量pv ******/
+            function checkModuleIsShow() {
+                var result = [];
+                for (var k in circulationLinkCfg) {
+                    if (k !== 'innerLink' && k !== 'relationTable') {
+                        !!$(circulationLinkCfg[k]).html() && result.push(k);
+                    }
+                }
+                if (result.length > 0) {
+                    nslog(10000005, null, {showModules: result.join(',')});
+                }
+            }
+            checkModuleIsShow();
+
+        })();
+        /****** 词条页站内流转需求统计 end ******/
+
+    });
+
+    // 广告接入 wikiad 统一加载
+    // log 词条页广告被拦截情况（此处 log 请求行为）
+    nslog(70000101, window.location.href, {
+        api: 'lemma-ad',
+        action: 'request'
+    });
+    var tags = {"1":{"tagId":0,"tagName":"\u79d1\u6280\u672f\u8bed"},"0":{"tagId":0,"tagName":"\u79d1\u5b66"}};
+    var tagsArray = [];
+    for (var key in tags) {
+        tagsArray.push(tags[key].tagName);
+    }
+    $.ajax({
+        type: 'GET',
+        url: '/api/wikiad/getsquirrels',
+        data: {
+            lemmaId: 7885417,
+            tags: tagsArray.join()
+        },
+        cache: false,
+        dataType: 'JSON',
+        success: function (res) {
+            // log 词条页广告被拦截情况（此处 log 请求成功）
+            nslog(70000101, window.location.href, {
+                api: 'lemma-ad',
+                action: 'success'
+            });
+
+            if (!res.errno) {
+                if (res.data[5]) {
+                    require.async(['wiki-lemma:widget/promotion/rightPreciseAd/rightPreciseAd'], function(rightPreciseAd) {
+                        rightPreciseAd(res.data[5]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[5][0].adId,
+                            adTitle: res.data[5][0].name,
+                            adPos: 5
+                        });
+                    });
+                } else if (res.data[1]) {
+                                        require.async(['wiki-lemma:widget/promotion/vbaike/vbaike'], function(vbaike) {
+                        vbaike(res.data[1]);
+                        for(var i in res.data[1]) {
+                            nslog(10002201, location.href, {
+                                adId: res.data[1][i].adId,
+                                adTitle: res.data[1][i].name,
+                                adPos: 1
+                            });
+                        }
+                    });
+                                    }
+                if (res.data[9]) {
+                                        require.async(['wiki-lemma:widget/promotion/rightBigAd/rightBigAd'], function(rightBigAd) {
+                        rightBigAd(res.data[9]);
+                            nslog(10002201, location.href, {
+                                adId: res.data[9][0].adId,
+                                adTitle: res.data[9][0].name,
+                                adPos: 9
+                            });
+                    });
+                                    } else if(res.data[2]) {
+                    require.async(['wiki-lemma:widget/promotion/slide/slide'], function(slide) {
+                        slide(res.data[2]);
+                        for(var i in res.data[2]) {
+                            nslog(10002201, location.href, {
+                                adId: res.data[2][i].adId,
+                                adTitle: res.data[2][i].name,
+                                adPos: 2
+                            });
+                        }
+                    });
+                }
+                if (res.data[3]) {
+                                        require.async(['wiki-lemma:widget/promotion/topAd/topAd'], function(topAd) {
+                        topAd(res.data[3]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[3][0].adId,
+                            adTitle: res.data[3][0].name,
+                            adPos: 3
+                        });
+                    });
+                                    }
+                if (res.data[4]) {
+                                        require.async(['wiki-lemma:widget/promotion/rightAd/rightAd'], function(rightAd) {
+                        rightAd(res.data[4]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[4][0].adId,
+                            adTitle: res.data[4][0].name,
+                            adPos: 4
+                        });
+                    });
+                                    }
+                if (res.data[15]) {
+                    require.async(['wiki-lemma:widget/promotion/banner/banner'], function(banner) {
+                        banner(res.data[15]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[15][0].adId,
+                            adTitle: res.data[15][0].name,
+                            adPos: 15
+                        });
+                    });
+                }
+                if (res.data[16]) {
+                    require.async(['wiki-lemma:widget/promotion/declaration/declaration'], function(declaration) {
+                        declaration(res.data[16]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[16][0].adId,
+                            adTitle: res.data[16][0].name,
+                            adPos: 16
+                        });
+                    })
+                }
+            } else {
+                return;
+            }
+
+            setTimeout(function () {
+                var elemArr = {};
+                res.data[1] && res.data[1].length > 0 && (elemArr['lemma-vbaike-ad'] = $('.lemmaWgt-promotion-vbaike .promotion_viewport a:eq(0) img').get(0));
+                res.data[2] && res.data[2].length > 0 && (elemArr['lemma-slide-ad'] = $('.lemmaWgt-promotion-slide .promotion_viewport a:eq(0) img').get(0));
+                res.data[3] && res.data[3].length > 0 && (elemArr['lemma-navbar-ad'] = {
+                    node: $('.header [nslog-type="10002202"]').get(0),
+                    validations: {
+                        'noBackgroundImage': function() {
+                            return $('.header [nslog-type="10002202"]').css('background-image').indexOf(res.data[3][0].picUrl) < 0
+                        }
+                    }
+                });
+                res.data[4] && res.data[4].length > 0 && (elemArr['lemma-side-ad'] = {
+                    node: $('.right-ad img').get(0),
+                    validations: {
+                        'noBackgroundImage': function() {
+                            return $('.right-ad img').attr('src').indexOf(res.data[4][0].picUrl) < 0
+                        }
+                    }
+                });
+                res.data[15] && res.data[15].length > 0 && (elemArr['lemma-configModule-banner'] = $('.configModuleBanner').get(0));
+                res.data[16] && res.data[16].length > 0 && (elemArr['lemma-configModule-declaration'] = $('.lemmaWgt-declaration').get(0));
+
+                testElem.log(elemArr, 70000102);
+            }, 1000);
+        },
+        error: function () {
+            // log 词条页广告被拦截情况（此处 log 请求失败）
+            nslog(70000101, window.location.href, {
+                api: 'lemma-ad',
+                action: 'error'
+            });
+        }
+    });
+
+    // 设置分享内容
+    window.BKShare.setCommon({
+        bdText: "\u3010\u53ef\u5236\u9020\u6027\u8bbe\u8ba1_\u767e\u5ea6\u767e\u79d1\u3011\u53ef\u5236\u9020\u6027\uff0c\u4ea6\u88ab\u5404\u65b9\u79f0\u4e3a\u534f\u540c\u5f0f\u6216\u540c\u65f6\u6027\u5de5\u7a0b\uff08concurrent or simultaneous engineering\uff09\u6216\u662f\u53ef\u751f\u4ea7\u6027\u6216\u751f\u4ea7\u7ebf\u4e4b\u8bbe\u8ba1\uff08design for productivity or assembly\uff09\u76f8\u8f83\u4e8e\u7531\u7814\u53d1\u5de5\u7a0b\u5e08\u5efa\u7acb\u81ea\u5df1\u7684\u8bbe\u8ba1\u539f\u578b\uff08prototype\uff09\uff0c\u7136\u540e\u5728\u672a\u7ecf\u524d\u7ebf\u751f\u4ea7\u5de5\u4eba\u7684\u610f\u89c1\u4e0b\u5c06\u4e4b\u9001\u5230\u751f\u4ea7\u90e8\u95e8\u7ec4\u88c5\u7ebf\u4e0a\u7684\u4f20\u7edf\u5236\u9020\u65b9\u5f0f\u6765\u8bf4\u4eab\u6709\u975e\u5e38\u5927\u7684\u4f18\u52bf\u3002\u53e6\u5916\uff0c.....\uff08\u5206\u4eab\u81ea@\u767e\u5ea6\u767e\u79d1\uff09",
+        bdDesc: '',
+        bdUrl: 'http:\/\/baike.baidu.com\/item\/%E5%8F%AF%E5%88%B6%E9%80%A0%E6%80%A7%E8%AE%BE%E8%AE%A1\/7885417',
+        bdPic: '',
+        onBeforeClick: function (){
+            $('.bdshare_dialog_box').hide();
+        }
+    });
+
+    // 底部投诉带入当前页面 url
+    var map = [1, 2, 6, 5];
+    $('.wgt-footer-main .suggestion').find('a').each(function(i) {
+        $(this).attr('href', 'http://help.baidu.com/newadd?word=%E5%8F%AF%E5%88%B6%E9%80%A0%E6%80%A7%E8%AE%BE%E8%AE%A1' + '&&submit_link=' + encodeURIComponent(window.location.href) + '&prod_id=10&category=' + map[i]);
+    });
+
+    // 为超出预设内容的表格添加table-responsive控制
+    $('.main-content').find('table').each(function(index) {
+        var $that = $(this);
+        if ($that.width() > 790) {
+            $that.wrap('<div class="table-responsive"></div>');
+        }
+    });
+}();
+!function(){      require('wiki-common:widget/component/psLink/psLink');
+    }();</script>
+<script type="text/javascript">
+  var Hunter = window.Hunter || {};
+  Hunter.userConfig = Hunter.userConfig || [];
+  </script>
+<script type="text/javascript" src="https://gss0.baidu.com/70cFsjip0QIZ8tyhnq/hunter/baike.js?st=17546" defer></script><script type="text/javascript">
+  // DOM Ready时，统计用户可操作时间。
+  alog('speed.set', 'drt', +new Date);
+
+  void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+</script>
+</html>

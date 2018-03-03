@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0串珠洞穴编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称串珠洞穴英文名称catenulate hole定　　义沟床部位发育的数个跌穴的地下部位由一条穴道贯通而形成。应用学科土壤学（一级学科），土壤侵蚀与水土保持（二级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":34834,"fentryTableName":"\u571f\u58e4\u4fb5\u8680\u4e0e\u6c34\u571f\u4fdd\u6301","fentryTableType":1,"entryId":2623305,"templateId":0,"entryTitle":"\u571f\u58e4\u4fb5\u8680\u4e0e\u6c34\u571f\u4fdd\u6301","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([8972068, rsdataList]);
+        }

@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0克雷泰伊编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！克雷泰伊（法语：Créteil），又名“克雷特伊”，是法国法兰西岛大区马恩河谷省的省会城市，位于巴黎东南部郊区，面积11.43平方公里，人口82,154人（1999年）。18世纪初，这里开始建设住宅。在历史上采石业曾十分兴盛。巴黎地铁8号线在这里有4个车站。克雷泰伊克雷泰伊在巴黎东南郊马恩河左岸。国家公路交会点。有金属加工工业。有建于十二和十三世纪的教堂。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":30519,"fentryTableName":"\u6cd5\u56fd\u5404\u7701\u9996\u5e9c","fentryTableType":1,"entryId":2564241,"templateId":0,"entryTitle":"\u6cd5\u56fd\u5404\u7701\u9996\u5e9c","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([796451, rsdataList]);
+        }词条标签：社会，外国行政区划，地点

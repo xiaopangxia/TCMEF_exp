@@ -1,0 +1,1 @@
+Windows Media Player是微软公司出品的一款免费的播放器，属于Microsoft Windows的一个组件，通常简称"WMP"，支持通过插件增强功能。通过 Windows Media Player，计算机将变身为你的媒体工具。刻录、翻录、同步、流媒体传送、观看、倾听…尽情享用。

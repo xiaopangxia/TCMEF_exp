@@ -1,0 +1,1 @@
+SATA II是芯片巨头Intel英特尔与硬盘巨头Seagate希捷在SATA的基础上发展起来的，其主要特征是外部传输率从SATA的150MB/s进一步提高到了300MB/s，

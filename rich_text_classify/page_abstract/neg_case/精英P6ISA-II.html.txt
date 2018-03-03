@@ -1,0 +1,1 @@
+CPU描述：Intel Pentium III FC-PGA/Celeron FC-PGA 533A，566及>566MHz处理器

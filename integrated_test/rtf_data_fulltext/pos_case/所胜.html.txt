@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0所胜编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！胜，与“克”通。　在五行相克关系中，“我克”者为所胜。如“木克土”，又称土为木所胜。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35428,"fentryTableName":"\u4e2d\u533b\u57fa\u7840\u7406\u8bba","fentryTableType":1,"entryId":2670619,"templateId":0,"entryTitle":"\u4e2d\u533b\u57fa\u7840\u7406\u8bba","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([629605, rsdataList]);
+        }词条标签：文化

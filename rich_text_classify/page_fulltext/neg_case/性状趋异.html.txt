@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0性状趋异编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称性状趋异英文名称character divergence定　　义在地理位置上重叠分布的两个物种在某性状上表现出明显差异的现象。应用学科遗传学（一级学科），群体、数量遗传学（二级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":34902,"fentryTableName":"\u7fa4\u4f53\u3001\u6570\u91cf\u9057\u4f20\u5b66","fentryTableType":1,"entryId":2627920,"templateId":0,"entryTitle":"\u7fa4\u4f53\u3001\u6570\u91cf\u9057\u4f20\u5b66","isManual":0,"isExpand":1},{"fentryTableId":35154,"fentryTableName":"\u8fdb\u5316\u751f\u6001\u5b66","fentryTableType":1,"entryId":2655850,"templateId":0,"entryTitle":"\u8fdb\u5316\u751f\u6001\u5b66","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([3849063, rsdataList]);
+        }

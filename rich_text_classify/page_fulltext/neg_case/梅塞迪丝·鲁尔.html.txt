@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0梅塞迪丝·鲁尔编辑锁定梅塞迪丝·鲁尔，演员。代表作品为《寡妇特工》《天涯沦落两心知》等。曾获1992年第64届奥斯卡金像奖最佳女配角。中文名梅塞迪丝·鲁尔外文名Mercedes J. Ruehl星    座双鱼座出生地美国,纽约,皇后区出生日期1948-02-28职    业演员主要成就《女孩不哭》《天使回归线》目录1获奖影片2出演影片梅塞迪丝·鲁尔获奖影片编辑1993年 Boston Film Festival Film Excellence Award1992年 芝加哥影评人协会奖 最佳女配角天涯沦落两心知(1991)1992年 土星奖 最佳女配角梅塞迪丝·鲁尔出演影片编辑天使回归线 (2009)妈妈16岁 （2005）明星伙伴（2004）女孩不哭，女孩别哭灵异妙探欢乐一家亲（1993）天才一族（1990）查令十字街84号（1987）法律与秩序（1990）词条图册更多图册window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":10468,"fentryTableName":"\u5965\u65af\u5361\u91d1\u50cf\u5956","fentryTableType":2,"entryId":60236,"templateId":10466,"entryTitle":"\u5965\u65af\u5361\u91d1\u50cf\u5956","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([2389043, rsdataList]);
+        }词条标签：人物

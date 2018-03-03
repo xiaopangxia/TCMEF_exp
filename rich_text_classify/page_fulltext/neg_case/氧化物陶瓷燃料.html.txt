@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0氧化物陶瓷燃料编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称氧化物陶瓷燃料英文名称ceramic oxide fuel定　　义可裂变核素的氧化物烧结成的燃料。可分为铀或钚的单一氧化物燃料以及铀与钚(或钍与铀)的同种氧化物互熔混合物燃料。它们的熔点高、热和辐照稳定性好、与包壳及冷却剂相容性好，但导热性差。应用学科电力（一级学科），核电（二级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35389,"fentryTableName":"\u6838\u7535","fentryTableType":1,"entryId":2676123,"templateId":0,"entryTitle":"\u6838\u7535","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([3825205, rsdataList]);
+        }

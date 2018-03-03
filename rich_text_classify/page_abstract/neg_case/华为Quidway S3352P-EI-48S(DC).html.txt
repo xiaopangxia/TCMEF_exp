@@ -1,0 +1,1 @@
+华为Quidway S3352P-EI-48S(DC)是一款接入交换机，设置有48个100Base-FX SFP端口，2个100/1000Base-X SFP端口，2个1000Base-X SFP端口，背板带宽为64Gbps，包转发率为13.2Mpps。[1]

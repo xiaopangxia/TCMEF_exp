@@ -1,0 +1,1 @@
+MANIFEST.MF：这个 manifest 文件定义了与扩展和包相关的数据。单词“manifest”的意思是“显示”

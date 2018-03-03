@@ -1,0 +1,138 @@
+             precision    recall  f1-score   support
+
+        neg     0.9854    0.9000    0.9408       300
+        pos     0.9296    0.9900    0.9588       400
+
+avg / total     0.9535    0.9514    0.9511       700
+             precision    recall  f1-score   support
+
+        neg     0.9707    0.9125    0.9407       800
+        pos     0.8438    0.9450    0.8915       400
+
+avg / total     0.9284    0.9233    0.9243      1200
+             precision    recall  f1-score   support
+
+        neg     0.9673    0.9331    0.9499      1300
+        pos     0.8049    0.8975    0.8487       400
+
+avg / total     0.9291    0.9247    0.9261      1700
+             precision    recall  f1-score   support
+
+        neg     0.9461    0.9744    0.9600      1800
+        pos     0.8671    0.7500    0.8043       400
+
+avg / total     0.9317    0.9336    0.9317      2200
+             precision    recall  f1-score   support
+
+        neg     0.9364    0.9865    0.9608      2300
+        pos     0.8881    0.6150    0.7267       400
+
+avg / total     0.9293    0.9315    0.9261      2700
+             precision    recall  f1-score   support
+
+        neg     0.9404    0.9861    0.9627      2800
+        pos     0.8523    0.5625    0.6777       400
+
+avg / total     0.9294    0.9331    0.9271      3200
+             precision    recall  f1-score   support
+
+        neg     0.9481    0.9900    0.9686      3300
+        pos     0.8701    0.5525    0.6758       400
+
+avg / total     0.9396    0.9427    0.9369      3700
+             precision    recall  f1-score   support
+
+        neg     0.9510    0.9911    0.9706      3800
+        pos     0.8583    0.5150    0.6438       400
+
+avg / total     0.9422    0.9457    0.9395      4200
+             precision    recall  f1-score   support
+
+        neg     0.9542    0.9937    0.9736      4300
+        pos     0.8784    0.4875    0.6270       400
+
+avg / total     0.9478    0.9506    0.9441      4700
+             precision    recall  f1-score   support
+
+        neg     0.9570    0.9933    0.9749      4800
+        pos     0.8532    0.4650    0.6019       400
+
+avg / total     0.9491    0.9527    0.9462      5200
+             precision    recall  f1-score   support
+
+        neg     0.9603    0.9942    0.9769      5300
+        pos     0.8545    0.4550    0.5938       400
+
+avg / total     0.9528    0.9563    0.9500      5700
+             precision    recall  f1-score   support
+
+        neg     0.9636    0.9940    0.9785      5800
+        pos     0.8387    0.4550    0.5900       400
+
+avg / total     0.9555    0.9592    0.9535      6200
+             precision    recall  f1-score   support
+
+        neg     0.9658    0.9943    0.9798      6300
+        pos     0.8318    0.4450    0.5798       400
+
+avg / total     0.9578    0.9615    0.9559      6700
+             precision    recall  f1-score   support
+
+        neg     0.9677    0.9949    0.9811      6800
+        pos     0.8325    0.4350    0.5714       400
+
+avg / total     0.9602    0.9637    0.9583      7200
+             precision    recall  f1-score   support
+
+        neg     0.9691    0.9956    0.9822      7300
+        pos     0.8400    0.4200    0.5600       400
+
+avg / total     0.9624    0.9657    0.9602      7700
+             precision    recall  f1-score   support
+
+        neg     0.9708    0.9959    0.9832      7800
+        pos     0.8384    0.4150    0.5552       400
+
+avg / total     0.9643    0.9676    0.9623      8200
+             precision    recall  f1-score   support
+
+        neg     0.9721    0.9964    0.9841      8300
+        pos     0.8446    0.4075    0.5497       400
+
+avg / total     0.9663    0.9693    0.9641      8700
+             precision    recall  f1-score   support
+
+        neg     0.9721    0.9977    0.9847      8800
+        pos     0.8810    0.3700    0.5211       400
+
+avg / total     0.9681    0.9704    0.9646      9200
+             precision    recall  f1-score   support
+
+        neg     0.9723    0.9973    0.9847      9300
+        pos     0.8447    0.3400    0.4848       400
+
+avg / total     0.9671    0.9702    0.9640      9700
+             precision    recall  f1-score   support
+
+        neg     0.9729    0.9975    0.9850      9523
+        pos     0.8491    0.3375    0.4830       400
+
+avg / total     0.9679    0.9709    0.9648      9923
+             precision    recall  f1-score   support
+
+        neg     0.9729    0.9975    0.9850      9523
+        pos     0.8491    0.3375    0.4830       400
+
+avg / total     0.9679    0.9709    0.9648      9923
+             precision    recall  f1-score   support
+
+        neg     0.9729    0.9975    0.9850      9523
+        pos     0.8491    0.3375    0.4830       400
+
+avg / total     0.9679    0.9709    0.9648      9923
+             precision    recall  f1-score   support
+
+        neg     0.9729    0.9975    0.9850      9523
+        pos     0.8491    0.3375    0.4830       400
+
+avg / total     0.9679    0.9709    0.9648      9923

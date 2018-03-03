@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0正射投影仪编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！正射投影仪是应用分带纠正的原理，将中心投影的航摄像片变换成地面正投影像片和制作正射投影影像地图的仪器。中文名称正射投影仪英文名称orthoprojector定　　义应用分带纠正的原理，将中心投影的航摄像片变换成地面正投影像片和制作正射投影影像地图的仪器。应用学科机械工程（一级学科），光学仪器（二级学科），航测和遥感仪器-航测仪器（三级学科）以上内容由全国科学技术名词审定委员会审定公布英文名称：orthoprojector应用学科机械工程（一级学科），光学仪器（二级学科），航测和遥感仪器-航测仪器（三级学科）window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":34862,"fentryTableName":"\u6d4b\u7ed8\u4eea\u5668","fentryTableType":1,"entryId":2620281,"templateId":0,"entryTitle":"\u6d4b\u7ed8\u4eea\u5668","isManual":0,"isExpand":1},{"fentryTableId":35124,"fentryTableName":"\u5149\u5b66\u4eea\u5668","fentryTableType":1,"entryId":2647985,"templateId":0,"entryTitle":"\u5149\u5b66\u4eea\u5668","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([3811378, rsdataList]);
+        }词条标签：生活

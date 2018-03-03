@@ -1,0 +1,62 @@
+编辑讨论分享新浪微博微信扫描二维码用手机浏览词条新知社QQ空间0羽叶山蚂蝗开放分类：中药材功效分类双子叶植物纲山蚂蝗属生物种子植物门自然蔷薇亚纲被子植物亚门解表药豆目豆科羽叶山蚂蝗为双子叶植物药豆科植物羽叶山蚂蝗的全株或根，内服使用，具有疏散风热、清热利尿的功效。编辑摘要基本信息编辑信息模块中文学名：羽叶山蚂蝗界：植物界门：种子植物门亚门：被子植物亚门亚纲：蔷薇亚纲属：山蚂蝗属目录1药品介绍2补充说明1药品介绍2补充说明药品介绍/羽叶山蚂蝗编辑点击查看大图Name:Desmodium oldhamii Oliv.别名;:藤甘草科属:豆科（Leguminosae）、山蚂蝗属（introduce）小灌木，高1-1.5米。枝条有稜，近无毛。羽状复叶，长可达25厘米；小叶5-7，披针形或矩圆状披针形，长4-10厘米，宽2-4厘米，先端渐尖，基部楔形，两面疏生短柔毛。圆锥花序顶生，疏松，花序轴密生黄色短柔毛；花萼钟状，长约2.5毫米，萼齿三角形；花冠粉红色，长7毫米；子房有柄。荚果长约2-3厘米，有两个荚节；荚节半菱形，长约1厘米，宽约5毫米，子房柄长约6-8毫米。 分布于吉林、陕西、四川、湖北、湖南、江西、福建、浙江、江苏；朝鲜，日本也有。生山谷、沟边、林中或林边。根及全株药用，能祛风活血、利尿、杀虫。补充说明/羽叶山蚂蝗编辑【药 名】：羽叶山蚂蝗【来 源】：为双子叶植物药豆科植物羽叶山蚂蝗的全株或根。【功 效】：疏散风热、清热利尿。【主 治】：用于风热表证及温病初起，用于水肿、小便不利、脚气浮肿等症。【性味归经】：辛，寒。入肺、肾二经。【用法用量】：内服：水煎服， 12一15克。【别 名】：羽叶山绿豆(《中国高等植物图鉴》)【动植物资源分布】：分布于吉林、辽宁、陕西、江苏、浙江、江西、福建、湖北、湖南、四川。【考 证】：始载于《中国主要植物图说一豆科》。显示方式：分类详情|分类树中药分类树我要提建议中药，是以中医理论为指导，按中医治疗原则使用的货真质优的药材。包括中药材、中药饮片和中成药等。中药在清朝以前称为本草、生药等。现代所称的生药与中药所指的范围虽有部分重叠但并不相同，不可混淆。中药主要起源于中国，是以中医理论为基础，用于防治疾病的植物，动物、矿物及其加工品，不论产于中国，外国均称中药。中药有着独特的理论体系和应用形式，充分反映了中国自然资源及历史，文化等方面的特点。中药中药材中药材功..中药材药..解表药清热药泻下药化湿药温里药理气药补益药安神药收涩药消食药驱虫药止血药开窍药涌吐药祛风湿药利水渗湿药活血化瘀药平肝熄风药化痰止咳..攻毒杀虫..拔毒化腐..羽叶山蚂蝗两色乌头丽江假露珠草云防风五色梅倒挂牛倒挂铁角蕨全绿橐吾共有104个词条1[2][3][4]…[13]下一页立刻创建该分类下还没有词条，欢迎您来创建。与广大同友分享关于“羽叶山蚂蝗”的知识。成千上万的读者会因为您的贡献而受益匪浅。您还可以：申请分类管理员，参与知识体系建设。分类管理员是一个分类的建设者，超着指导用户阅读的作用。所以现责任心是必不可少的。除此之外，只要您对某一领域有着相当的了解或者深厚的兴趣，拥有丰富的知识，并具愿意将自己的知识传递给更多的人，您就是分类管理员最合适的人选。参加有奖任务和更多举相同的人，通过完成某一领域的词条，分享知识聚集在一起。根据您的贡献程度，您将有机会获得积分和信用奖励。我可以用积分和信用干什么？进入百科商城兑换各种精美礼品。中药分类树我要提建议中药中药材中成药中药方剂中药材功效分类中药材药用部分分类解表药清热药泻下药化湿药温里药理气药补益药安神药收涩药消食药驱虫药止血药开窍药涌吐药祛风湿药利水渗湿药活血化瘀药平肝熄风药化痰止咳平喘药攻毒杀虫止痒药拔毒化腐生肌药(function($,dom){
+	var category_tree_position = ["tableTree_style_category","tree_style_category"];
+	var tree_top_as = $(".classification_style a");
+	tree_top_as.each(function (index, domEle) {
+		  var $self = $(domEle);
+		  var tree_div = $('#'+category_tree_position[$(tree_top_as).index($self)]);
+		  if($.trim(tree_div.text()).length<1){
+			  $self.removeClass().addClass("disabled");
+			}
+	});
+
+	var tree_top_as_exclude = tree_top_as.not(".disabled");
+	$(dom).delegate(".classification_style a[class!='disabled']", 'click', function() {
+		var $self = $(this);
+		var tree_div = $('#'+category_tree_position[tree_top_as.index($self)]);
+		if($self.hasClass('current')){
+			return;
+		}
+		$self.removeClass().addClass("current");
+		tree_div.show();
+		if($self[0].text == "分类树"){
+			  $(".htree").each(function(i, el){
+				var o = $(el), height= o.height();
+				o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+			  });
+		}
+		tree_top_as_exclude.not($self).each(function(){
+				var _this = $(this);
+				_this.removeClass("current");
+			    $('#'+category_tree_position[tree_top_as.index(_this)]).hide();
+		});
+	});
+})(jQuery,document);
+
+
+try{
+	$(document).ready(function(){
+		$('.toggleshow').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).show();
+		});
+		
+		$('.togglehide').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).hide();
+		});
+
+		$('.quizForTreeHref').click(function(){
+		  $('#bootomtiwen').click();
+		});
+		
+		$(".htree").each(function(i, el){
+			var o = $(el), height= o.height();
+			o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+		});
+		
+		$(".categoryAppPannel a[target=_blank]").bind("click", function(){
+  			StatVirtualTraffic(document.referrer, window.location, 'stat_hdstat_onclick_category_tree_app');
+    	});
+	});
+	
+}catch(e){
+	
+}附图上传图片添加视频|添加图册相关影像开放分类展开收起我来补充中药材功效分类双子叶植物纲山蚂蝗属生物种子植物门自然蔷薇亚纲被子植物亚门解表药豆目豆科开放分类[删除][删除][删除][删除][删除][删除][删除][删除][删除][删除][删除]同义词展开收起同义词互动百科的词条（含所附图片）系由网友上传，如果涉嫌侵权，请与客服联系，我们将按照法律之相关规定及时进行处理。未经许可，禁止商业网站等复制、抓取本站内容；合理使用者，请注明来源于www.baike.com。登录后使用互动百科的服务，将会得到个性化的提示和帮助，还有机会和专业认证智愿者沟通。互动百科用户登录注册

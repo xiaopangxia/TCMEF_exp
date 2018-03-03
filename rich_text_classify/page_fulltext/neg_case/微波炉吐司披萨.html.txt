@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0微波炉吐司披萨编辑锁定微波炉吐司披萨，用吐司、火腿、切打芝士、洋葱、番茄酱等佐料制作而成的食物。菜    名微波炉吐司披萨难    度普通目录1原料▪主料▪辅料2做法微波炉吐司披萨原料编辑微波炉吐司披萨主料吐司、火腿、切打芝士微波炉吐司披萨辅料洋葱、番茄酱微波炉吐司披萨做法编辑1.火腿切片 洋葱和芝士切碎2.切片抹上一层番茄酱 也可以依各人口味抹上喜欢的酱3.铺上火腿 撒上洋葱和芝士4.微波炉四分钟就完成了~闻着实在太香忍不住咬了一口 非常好吃哦[1]词条图册更多图册window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":50205,"fentryTableName":"\u897f\u9910","fentryTableType":1,"entryId":2790696,"templateId":0,"entryTitle":"\u897f\u9910","isManual":0,"isExpand":1},{"fentryTableId":50227,"fentryTableName":"\u4e3b\u98df","fentryTableType":1,"entryId":2793006,"templateId":0,"entryTitle":"\u4e3b\u98df","isManual":0,"isExpand":1},{"fentryTableId":50233,"fentryTableName":"\u70e4\u5236\u98df\u54c1","fentryTableType":1,"entryId":2791231,"templateId":0,"entryTitle":"\u70e4\u5236\u98df\u54c1","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([12451686, rsdataList]);
+        }参考资料1.微波炉吐司披萨．豆果网[引用日期2013-06-27]词条标签：生活

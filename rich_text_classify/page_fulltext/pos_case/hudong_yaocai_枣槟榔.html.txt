@@ -1,0 +1,68 @@
+编辑讨论分享新浪微博微信扫描二维码用手机浏览词条新知社QQ空间0枣槟榔开放分类：中药植物草药枣槟榔是为棕榈科植物槟榔的未成熟果实。编辑摘要目录1概述2药品简述3用药禁忌4药材1概述2药品简述3用药禁忌4药材概述/枣槟榔编辑枣槟榔槟榔，乔木，高10-18m；不分枝，叶脱落后形成明显的环纹。羽状复叶，丛生于茎顶端，长1.3-2m，光滑，叶轴三棱形；小叶片披针状线或线形，长30-70cm，宽2.5-6cm ，基部较狭，顶端小叶愈合，有不规则分裂。花序着生于最下一叶的基部，有佛焰苞状大苞片，长倒卵形，长达40cm，光滑，花序多分枝；花单性同株；雄花小，多数，无柄，紧贴分枝上部，通常单生，很少对生，萼片3，厚而细小，花瓣3，卵状长圆形，长5-6mm，雄蕊6，花丝短小，退化雌蕊3，丝状；雌花较大而少，无梗，着生于花序轴或分枝基部，萼片3，长圆状卵形，长12-15mm。坚果卵圆形或长圆形，长5-6cm，花萼和花瓣宿存，熟时红色。每年开花2次，花期3-8月，冬花不结果；果期12月至翌年6月[1]。药品简述/枣槟榔编辑枣槟榔药名：枣槟榔功效分类：收敛药。科属分类：棕榈科。别名：枣儿槟榔、槟榔干、枣儿槟、壳槟榔。性味：《饮片新参》："甘微苦涩。"功能：消食，醒酒，宽胸腹，止呕恶。主治：消痰止咳。治胸膈闷滞，呕吐，作通经药、收敛药。用法用量：内服：煎汤，1.5～3钱；或研末作散剂。资源分布：主产广东，广西亦产药材基源：为棕榈科植物槟榔的未成熟果实。采收储藏：冬季采下未成熟之槟榔果实，放木甑内，隔水蒸透(约4小时)，用半干湿柴烧烟熏干；或用水煮3～4小时，再烘干，称榔软干。2～3月如上法采摘加工的称榔硬干。用药禁忌/枣槟榔编辑中虚气弱者忌服。药材/枣槟榔编辑1、榔软干：呈长椭圆形，长5～6厘米，宽2厘米，外表深棕色至近黑色，有密纵皱纹，微带光润，果实之一端残存果柄及宿萼；将其剖开，内有不成熟的种子1枚，呈红褐色，瘦长，有皱纹，嗅之有香气。2、榔硬干：外形与榔软干相似，惟圆径稍大，宽3～4厘米；种子亦稍圆大而硬，香气微弱。以上两种均以圆个、皱纹细、长身、褐色者为佳。显示方式：分类详情|分类树中药分类树我要提建议中药，是以中医理论为指导，按中医治疗原则使用的货真质优的药材。包括中药材、中药饮片和中成药等。中药在清朝以前称为本草、生药等。现代所称的生药与中药所指的范围虽有部分重叠但并不相同，不可混淆。中药主要起源于中国，是以中医理论为基础，用于防治疾病的植物，动物、矿物及其加工品，不论产于中国，外国均称中药。中药有着独特的理论体系和应用形式，充分反映了中国自然资源及历史，文化等方面的特点。中药中药材中药材功..中药材药..攻毒杀虫..解表药清热药泻下药化湿药温里药理气药补益药安神药收涩药消食药驱虫药止血药开窍药涌吐药祛风湿药利水渗湿药活血化瘀药平肝熄风药化痰止咳..拔毒化腐..枣槟榔丽江牛皮消丽江翠雀花土瓜狼毒土荆皮大风子油对叶豆无斑雨蛙共有29个词条1[2][3][4]下一页立刻创建该分类下还没有词条，欢迎您来创建。与广大同友分享关于“枣槟榔”的知识。成千上万的读者会因为您的贡献而受益匪浅。您还可以：申请分类管理员，参与知识体系建设。分类管理员是一个分类的建设者，超着指导用户阅读的作用。所以现责任心是必不可少的。除此之外，只要您对某一领域有着相当的了解或者深厚的兴趣，拥有丰富的知识，并具愿意将自己的知识传递给更多的人，您就是分类管理员最合适的人选。参加有奖任务和更多举相同的人，通过完成某一领域的词条，分享知识聚集在一起。根据您的贡献程度，您将有机会获得积分和信用奖励。我可以用积分和信用干什么？进入百科商城兑换各种精美礼品。中药分类树我要提建议中药中药材中成药中药方剂中药材功效分类中药材药用部分分类攻毒杀虫止痒药解表药清热药泻下药化湿药温里药理气药补益药安神药收涩药消食药驱虫药止血药开窍药涌吐药祛风湿药利水渗湿药活血化瘀药平肝熄风药化痰止咳平喘药拔毒化腐生肌药(function($,dom){
+	var category_tree_position = ["tableTree_style_category","tree_style_category"];
+	var tree_top_as = $(".classification_style a");
+	tree_top_as.each(function (index, domEle) {
+		  var $self = $(domEle);
+		  var tree_div = $('#'+category_tree_position[$(tree_top_as).index($self)]);
+		  if($.trim(tree_div.text()).length<1){
+			  $self.removeClass().addClass("disabled");
+			}
+	});
+
+	var tree_top_as_exclude = tree_top_as.not(".disabled");
+	$(dom).delegate(".classification_style a[class!='disabled']", 'click', function() {
+		var $self = $(this);
+		var tree_div = $('#'+category_tree_position[tree_top_as.index($self)]);
+		if($self.hasClass('current')){
+			return;
+		}
+		$self.removeClass().addClass("current");
+		tree_div.show();
+		if($self[0].text == "分类树"){
+			  $(".htree").each(function(i, el){
+				var o = $(el), height= o.height();
+				o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+			  });
+		}
+		tree_top_as_exclude.not($self).each(function(){
+				var _this = $(this);
+				_this.removeClass("current");
+			    $('#'+category_tree_position[tree_top_as.index(_this)]).hide();
+		});
+	});
+})(jQuery,document);
+
+
+try{
+	$(document).ready(function(){
+		$('.toggleshow').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).show();
+		});
+		
+		$('.togglehide').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).hide();
+		});
+
+		$('.quizForTreeHref').click(function(){
+		  $('#bootomtiwen').click();
+		});
+		
+		$(".htree").each(function(i, el){
+			var o = $(el), height= o.height();
+			o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+		});
+		
+		$(".categoryAppPannel a[target=_blank]").bind("click", function(){
+  			StatVirtualTraffic(document.referrer, window.location, 'stat_hdstat_onclick_category_tree_app');
+    	});
+	});
+	
+}catch(e){
+	
+}附图上传图片添加视频|添加图册相关影像function goUrl(url){
+			  if(url == "" || url.length == 0){
+			  	return;
+			  }
+			  StatVirtualTraffic(document.referrer,window.location,'stat_hdstat_onclick_new_doccomments');
+			  window.open(url,'_blank');
+			 }参考资料[1]^http://www.zhong-yao.net/shu/56726.htm引用日期：2011-11-06开放分类展开收起我来补充中药植物草药开放分类[删除][删除][删除]同义词展开收起枣儿槟榔槟榔干枣儿槟壳槟榔同义词[删除][删除][删除][删除]互动百科的词条（含所附图片）系由网友上传，如果涉嫌侵权，请与客服联系，我们将按照法律之相关规定及时进行处理。未经许可，禁止商业网站等复制、抓取本站内容；合理使用者，请注明来源于www.baike.com。登录后使用互动百科的服务，将会得到个性化的提示和帮助，还有机会和专业认证智愿者沟通。互动百科用户登录注册

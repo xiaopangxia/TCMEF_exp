@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0季节性湖泊编辑锁定季节性湖泊（ephemeral lake）是指季节性积水的湖泊。在雨季降水多时，积水成湖，而在旱季或特殊干旱年份时干涸的湖泊。中文名称季节性湖泊英文名称ephemeral lake定　　义季节性积水的湖泊。在雨季降水多时，积水成湖，而在旱季或特殊干旱年份时干涸的湖泊。应用学科地理学（一级学科），水文学（二级学科）以上内容由全国科学技术名词审定委员会审定公布中文名季节性湖泊外文名ephemeral lake季节性湖泊是指季节性积水的湖泊。在雨季降水多时，积水成湖，而在旱季或特殊干旱年份时干涸的湖泊。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35454,"fentryTableName":"\u6c34\u6587\u5b66","fentryTableType":1,"entryId":2335484,"templateId":0,"entryTitle":"\u6c34\u6587\u5b66","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([3815711, rsdataList]);
+        }

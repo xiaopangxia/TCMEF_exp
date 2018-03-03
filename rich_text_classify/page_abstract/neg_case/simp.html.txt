@@ -1,0 +1,1 @@
+固体各向同性材料惩罚模型 （SIMP：Solid Isotropic Material with Penalization）是一种常用的密度-刚度插值模型。

@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0燃气轮机应急运行编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称  燃气轮机应急运行英文名称  gasturbineemergencyoperation中文名称：燃气轮机应急运行；英文名称：gasturbineemergencyoperation；定义1：燃气轮机在紧急情况下的运行。此种运行方式一般年运行时间500?h，...window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35371,"fentryTableName":"\u6c7d\u8f6e\u673a\u3001\u71c3\u6c14\u8f6e\u673a","fentryTableType":1,"entryId":2678198,"templateId":0,"entryTitle":"\u6c7d\u8f6e\u673a\u3001\u71c3\u6c14\u8f6e\u673a","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([8975217, rsdataList]);
+        }

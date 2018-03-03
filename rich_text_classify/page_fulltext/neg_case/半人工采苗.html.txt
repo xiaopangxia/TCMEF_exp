@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0半人工采苗编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称半人工采苗英文名称semi-artificial collection of seedling定　　义在贝、藻类繁殖季节，向自然海区人工投放采苗器，使贝类幼体附着变态或人工采孢子放回海中萌发、生长的一种获得养殖苗种的方法。应用学科水产学（一级学科），水产养殖学（二级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35198,"fentryTableName":"\u6c34\u4ea7\u517b\u6b96\u5b66","fentryTableType":1,"entryId":2387650,"templateId":0,"entryTitle":"\u6c34\u4ea7\u517b\u6b96\u5b66","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([3868468, rsdataList]);
+        }词条标签：科学

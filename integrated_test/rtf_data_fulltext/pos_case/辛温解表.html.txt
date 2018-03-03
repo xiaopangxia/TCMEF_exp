@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0辛温解表编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！治疗学术语。指用性味辛温的药物发散风寒，解除表证的治法。适用于风寒表证及风湿、风水兼有表邪者。以恶寒重，发热轻，无汗，头身痛，苔薄白，脉浮紧为主症。常用药物有麻黄、桂枝、紫苏、荆芥、羌活、防风、白芷、细辛、藁本等。代表方剂有麻黄汤、桂枝汤、香苏散等。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35434,"fentryTableName":"\u6cbb\u7597\u5b66","fentryTableType":1,"entryId":2669557,"templateId":0,"entryTitle":"\u6cbb\u7597\u5b66","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([663030, rsdataList]);
+        }词条标签：疾病症状，疾病，医学

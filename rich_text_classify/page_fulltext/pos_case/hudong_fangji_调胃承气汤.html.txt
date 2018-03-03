@@ -1,0 +1,74 @@
+编辑讨论分享新浪微博微信扫描二维码用手机浏览词条新知社QQ空间0调胃承气汤开放分类：中医中医古代名方应用科学方剂泻下剂科学药品方中药仅三味，然配伍惬当：大黄苦寒以泄热通便，荡涤肠胃；芒硝咸寒以泻下除热，软坚润燥；以炙甘草调和大黄、芒硝攻下泄热之方，使之和缓。邹澍云本方其所以名「调胃承气」，其承气之功皆在于大黄。本方与大、小承气汤相比，泻下导滞之方弱，尤适于症轻而体弱者。由于本方能调和肠胃，承顺胃气，驱除肠胃积热，使胃气得和，气机相接，从而诸证蠲除，故名「调胃承气汤」。编辑摘要基本信息编辑信息模块中文名：调胃承气汤目录1调胃承气汤2来源3组成4用法5功用6主治7禁忌8方论1调胃承气汤2来源3组成4用法5功用6主治7禁忌8方论调胃承气汤/调胃承气汤编辑正文调胃承气汤来源/调胃承气汤编辑《伤寒论》。组成/调胃承气汤编辑大黄12克(去皮，清酒洗) 甘草6克(炙) 芒消15克用法/调胃承气汤编辑上三味，以水600毫升，先煮大黄，甘草，取200毫升，去滓，纳芒消，更上火微煮令沸。少少温服之。功用/调胃承气汤编辑缓下热结。主治/调胃承气汤编辑阳明病胃肠燥热。蒸蒸发热，口渴便秘，腹满拒按，舌苔正黄，脉滑数；亦用于肠胃热盛而见发斑吐衄，口齿咽喉肿痛，中消，疮疡等。禁忌/调胃承气汤编辑虚寒性便闭忌用。方论/调胃承气汤编辑方中大黄苦寒，泻火通结为君，芒消咸寒，软坚润燥为臣，甘草甘缓和中，益气养胃，以缓消，黄之苦泄，使药力缓缓下行为佐。燥热得解，胃气自和，故名调胃承气汤。显示方式：分类详情|分类树中药分类树我要提建议中药，是以中医理论为指导，按中医治疗原则使用的货真质优的药材。包括中药材、中药饮片和中成药等。中药在清朝以前称为本草、生药等。现代所称的生药与中药所指的范围虽有部分重叠但并不相同，不可混淆。中药主要起源于中国，是以中医理论为基础，用于防治疾病的植物，动物、矿物及其加工品，不论产于中国，外国均称中药。中药有着独特的理论体系和应用形式，充分反映了中国自然资源及历史，文化等方面的特点。中药中药方剂中成药中药材泻下剂解表剂和解剂清热剂祛暑剂温里剂理血剂补益剂固涩剂安神剂开窍剂理气剂治风剂治燥剂祛湿剂祛痰剂消导剂驱虫剂涌吐剂调胃承气汤三物备急丸五仁丸十枣汤增液承气汤大承气汤大陷胸汤大黄牡丹汤共有21个词条1[2][3]下一页立刻创建该分类下还没有词条，欢迎您来创建。与广大同友分享关于“调胃承气汤”的知识。成千上万的读者会因为您的贡献而受益匪浅。您还可以：申请分类管理员，参与知识体系建设。分类管理员是一个分类的建设者，超着指导用户阅读的作用。所以现责任心是必不可少的。除此之外，只要您对某一领域有着相当的了解或者深厚的兴趣，拥有丰富的知识，并具愿意将自己的知识传递给更多的人，您就是分类管理员最合适的人选。参加有奖任务和更多举相同的人，通过完成某一领域的词条，分享知识聚集在一起。根据您的贡献程度，您将有机会获得积分和信用奖励。我可以用积分和信用干什么？进入百科商城兑换各种精美礼品。中药分类树我要提建议中药中药方剂中成药中药材泻下剂解表剂和解剂清热剂祛暑剂温里剂理血剂补益剂固涩剂安神剂开窍剂理气剂治风剂治燥剂祛湿剂祛痰剂消导剂驱虫剂涌吐剂(function($,dom){
+	var category_tree_position = ["tableTree_style_category","tree_style_category"];
+	var tree_top_as = $(".classification_style a");
+	tree_top_as.each(function (index, domEle) {
+		  var $self = $(domEle);
+		  var tree_div = $('#'+category_tree_position[$(tree_top_as).index($self)]);
+		  if($.trim(tree_div.text()).length<1){
+			  $self.removeClass().addClass("disabled");
+			}
+	});
+
+	var tree_top_as_exclude = tree_top_as.not(".disabled");
+	$(dom).delegate(".classification_style a[class!='disabled']", 'click', function() {
+		var $self = $(this);
+		var tree_div = $('#'+category_tree_position[tree_top_as.index($self)]);
+		if($self.hasClass('current')){
+			return;
+		}
+		$self.removeClass().addClass("current");
+		tree_div.show();
+		if($self[0].text == "分类树"){
+			  $(".htree").each(function(i, el){
+				var o = $(el), height= o.height();
+				o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+			  });
+		}
+		tree_top_as_exclude.not($self).each(function(){
+				var _this = $(this);
+				_this.removeClass("current");
+			    $('#'+category_tree_position[tree_top_as.index(_this)]).hide();
+		});
+	});
+})(jQuery,document);
+
+
+try{
+	$(document).ready(function(){
+		$('.toggleshow').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).show();
+		});
+		
+		$('.togglehide').click(function(){
+		   $(this).closest(".classification").find("div").eq(1).hide();
+		});
+
+		$('.quizForTreeHref').click(function(){
+		  $('#bootomtiwen').click();
+		});
+		
+		$(".htree").each(function(i, el){
+			var o = $(el), height= o.height();
+			o.css('overflowY', ( height < 350 ) ? 'hidden':'scroll');
+		});
+		
+		$(".categoryAppPannel a[target=_blank]").bind("click", function(){
+  			StatVirtualTraffic(document.referrer, window.location, 'stat_hdstat_onclick_category_tree_app');
+    	});
+	});
+	
+}catch(e){
+	
+}相关文献万方数据期刊论文血府逐瘀汤合调胃承气汤治疗急性下壁、正后壁心肌梗塞48例-
+										陕西中医
+										-200526(
+										7
+										)万方数据期刊论文调胃承气汤对家兔内毒素血症的解毒作用-
+										中药新药与临床药理
+										-199910(
+										6
+										)万方数据期刊论文中西医结合治疗中风急性期40例临床研究-
+										江苏中医药
+										-201244(
+										1
+										)附图上传图片添加视频|添加图册相关影像开放分类展开收起我来补充中医中医古代名方应用科学方剂泻下剂科学药品开放分类[删除][删除][删除][删除][删除][删除][删除]同义词展开收起同义词互动百科的词条（含所附图片）系由网友上传，如果涉嫌侵权，请与客服联系，我们将按照法律之相关规定及时进行处理。未经许可，禁止商业网站等复制、抓取本站内容；合理使用者，请注明来源于www.baike.com。登录后使用互动百科的服务，将会得到个性化的提示和帮助，还有机会和专业认证智愿者沟通。互动百科用户登录注册

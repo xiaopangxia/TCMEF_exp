@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0回复[突变]体编辑锁定本词条缺少信息栏、名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！中文名称回复[突变]体英文名称revertant定　　义恢复野生型表型的突变体。应用学科遗传学（一级学科），经典遗传学（二级学科）以上内容由全国科学技术名词审定委员会审定公布window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":34904,"fentryTableName":"\u7ecf\u5178\u9057\u4f20\u5b66","fentryTableType":1,"entryId":2627514,"templateId":0,"entryTitle":"\u7ecf\u5178\u9057\u4f20\u5b66","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([8972236, rsdataList]);
+        }

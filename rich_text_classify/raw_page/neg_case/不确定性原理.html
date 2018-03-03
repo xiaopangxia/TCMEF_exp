@@ -1,0 +1,2291 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+
+
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="referrer" content="always" />
+<meta name="description" content="不确定性原理（Uncertainty principle）是由海森堡于1927年提出，这个理论是说，你不可能同时知道一个粒子的位置和它的速度，粒子位置的不确定性，必然大于或等于普朗克常数（Planck constant）除于4π（ΔxΔp≥h/4π），这表明微观世界的粒子行为与宏观物质很不一样。此外，不确定原理涉及很多深刻的哲学...">
+<title>不确定性原理_百度百科</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
+
+<meta name="keywords" content="不确定性原理 不确定条件 测不准定律 海森堡测不准定律 测不准关系 不确定关系 海森堡不确定性原理 Uncertainty principle 海森堡测不准原理 海森堡不定性原理 不确定原理 测不准原理 测不准定理 不确定性原理定律定义 不确定性原理定律影响 不确定性原理发展简史 不确定性原理理论背景 不确定性原理霍金观点">
+<meta name="image" content="https://bkssl.bdimg.com/cms/static/baike.png">
+<script type="text/javascript">
+  // 配置 PD 监控。
+  window.alogObjectConfig = {
+    product: '103',
+    page: '103_1',
+    speed: {
+      sample: '0.008'
+    },
+    monkey: {
+      sample: '1',
+      hid: '1533'
+    },
+    exception: { 
+      sample: '0.004'
+    },
+    feature: {
+      sample: '0.004'
+    },
+    csp: {
+      sample: '0.008',
+      'default-src': [
+        {match: '*.baidu.com,*.bdimg.com,localhost', target: 'Accept'},
+        {match: '*', target: 'Accept,Warn'}
+      ]
+    }
+  };
+
+  void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+  void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+<meta name="csrf-token" content="">
+<meta itemprop="dateUpdate" content="2017-10-01 23:15:42" />
+
+<!--[if lte IE 9]>
+<script>
+    (function() {
+      var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
+        i = e.length;
+      while (i--) {
+        document.createElement(e[i]);
+      }
+    })();
+  </script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_2e0b0ff.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common-base_4c062e6.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-common/widget/component/userbar-n/userbar-n_5b008b4.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module_d7320c6.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/announcement/announcement_cba33f4.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/label/label_ca156c6.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/newSideShare/sideShare_2af1cbd.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/video/pageMask/pageMask_ff9a193.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/mainContent_98e3702.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaRelation_ac86a59.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/professional/professional_054b270.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhixin/zhixin_3b0d7a5.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhidaodiversion/zhidaodiversion_aa6efca.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/sideAuth/sideAuth_c13d91a.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons-n/toolButtons-n_6e90fdd.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/toolButtons-n/userInfo-n_7e90184.css"/><link rel="stylesheet" type="text/css" href="https://bkssl.bdimg.com/static/wiki-lemma/widget/tools/searchHeader/searchHeader-n_f9a6e5b.css"/>    
+</head>
+
+<script type="text/javascript">
+    alog('speed.set', 'ht', +new Date);
+</script>
+<script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?55b574651fcae74b0a9f1cf9c8d7c93a";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+<body class="wiki-lemma normal">
+
+
+<div class="header-wrapper pc-header-new">
+<div class="topbar cmn-clearfix">
+<ul class="wgt-userbar" id="j-wgt-userbar">
+<li>
+<a href="http://www.baidu.com/">百度首页</a>
+</li>
+</ul>
+<div class="separator"></div>
+<div class="wiki-common-headTabBar">
+<a href="https://www.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://www.baidu.com/s?ie=utf-8&fr=bks0000&wd=">网页</a>
+<a href="http://news.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://news.baidu.com/ns?tn=news&cl=2&rn=20&ct=1&fr=bks0000&ie=utf-8&word=">新闻</a>
+<a href="https://tieba.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=">贴吧</a>
+<a href="https://zhidao.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://zhidao.baidu.com/search?pn=0&&rn=10&lm=0&fr=bks0000&word=">知道</a>
+<a href="http://music.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://music.baidu.com/search?f=ms&ct=134217728&ie=utf-8&rn=&lm=-1&pn=30&fr=bks0000&key=">音乐</a>
+<a href="http://image.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&word=">图片</a>
+<a href="http://v.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://v.baidu.com/v?ct=301989888&rn=20&pn=0&db=0&s=22&ie=utf-8&fr=bks0000&word=">视频</a>
+<a href="http://map.baidu.com/" nslog="normal" nslog-type="10600112" data-href="http://map.baidu.com/m?ie=utf-8&fr=bks0000&word=">地图</a>
+<a href="https://wenku.baidu.com/" nslog="normal" nslog-type="10600112" data-href="https://wenku.baidu.com/search?lm=0&od=0&ie=utf-8&fr=bks0000&word=">文库</a>
+<b class="baike">百科</b>
+</div>
+</div>
+<div class="header">
+<div class="layout">
+<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-main cmn-clearfix wgt-searchbar-large">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080011" name="word" type="text" autocomplete="off" autocorrect="off" value="不确定性原理" /><button id="search" nslog="normal" nslog-type="10080008" type="button">进入词条</button><button id="searchLemma" nslog="normal" nslog-type="10080009" type="button">全站搜索</button><a class="help" href="/help" nslog="normal" nslog-type="10080010" target="_blank">帮助</a>
+</form>
+<form id="searchLemmaForm" action="/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden" />
+<input name="pn" type="hidden" value="0" />
+<input name="rn" type="hidden" value="0" />
+<input name="enc" type="hidden" value="utf8" />
+</form>
+<ul id="suggestion" class="suggestion">
+<div class="sug"></div>
+<li class="extra">
+<span id="close" nslog="normal" nslog-type="10080012">关闭</span>
+</li>
+</ul>
+</div></div>
+</div>
+<div class="declare-wrap" id="J-declare-wrap">
+<div class="declare" id="J-declare">声明：百科词条人人可编辑，词条创建和修改均免费，绝不存在官方及代理商付费代编，请勿上当受骗。<a class="declare-details" target="_blank" href="/common/declaration">详情>></a>
+<div class="close-btn" id="J-declare-close">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navbar-wrapper">
+<div class="wgt-navbar">
+<div class="navbar-bg">
+<div class="navbar-bg-top">
+<div class="navbar-content layout">
+<div class="navbar-content-box">
+<dl class="index ">
+<dt><a href="/">首页</a></dt>
+</dl>
+<dl class="cat ">
+<dt><a>分类</a></dt>
+<dd>
+<div><a href="/art" target="_blank" class="art">艺术</a></div>
+<div><a href="/science" target="_blank" class="technology">科学</a></div>
+<div><a href="/ziran" target="_blank">自然</a></div>
+<div><a href="/wenhua" target="_blank">文化</a></div>
+<div><a href="/dili" target="_blank">地理</a></div>
+<div><a href="/shenghuo" target="_blank">生活</a></div>
+<div><a href="/shehui" target="_blank">社会</a></div>
+<div><a href="/renwu" target="_blank">人物</a></div>
+<div><a href="/jingji" target="_blank">经济</a></div>
+<div><a href="/tiyu" target="_blank">体育</a></div>
+<div><a href="/lishi" target="_blank">历史</a></div>
+</dd>
+</dl>
+<dl class="special ">
+<dt><a>特色百科</a></dt>
+<dd>
+<div><a href="/calendar/" target="_blank">历史上的今天</a></div>
+<div><a href="/museum/" target="_blank">数字博物馆</a></div>
+<div><a href="/item/史记·2016?fr=navbar" target="_blank">史记·2016</a></div>
+<div><a href="/city/" target="_blank">城市百科</a></div>
+<div><a href="/operation/worldwar2" target="_blank">二战百科</a></div>
+<div><a href="/feiyi?fr=dhlfeiyi" target="_blank">非遗百科</a></div>
+</dd>
+</dl>
+<dl class="user" >
+<dt><a>用户</a></dt>
+<dd>
+<div><a href="/kedou/" target="_blank">蝌蚪团</a></div>
+<div><a href="/event/ranmeng/" target="_blank">燃梦计划</a></div>
+<div><a href="/task/" target="_blank">百科任务</a></div>
+<div><a href="/mall/" target="_blank">百科商城</a></div>
+</dd>
+</dl>
+<dl class="cooperation" >
+<dt><a>权威合作</a></dt>
+<dd>
+<div><a href="/operation/cooperation#joint" target="_blank">合作模式</a></div>
+<div><a href="/operation/cooperation#issue" target="_blank">常见问题</a></div>
+<div><a href="/operation/cooperation#connection" target="_blank">联系方式</a></div>
+</dd>
+</dl>
+<dl class="mobile" >
+<dt><a>手机百科</a></dt>
+<dd>
+<div><a href="/m#wap" target="_blank">网页版</a></div>
+</dd>
+</dl>
+<div class="usercenter">
+<div><a href="/usercenter" target="_blank"><em class="cmn-icon cmn-icons cmn-icons_navbar-usercenter"></em>个人中心</a></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="body-wrapper">
+<div class="before-content">
+</div>
+<div class="content-wrapper">
+<div class="content">
+<div class="personal-content">
+</div>
+<div class="main-content">
+<a class="posterFlag expert-icon " href="javascript:;" title="权威专家认证词条"></a>
+<div class="top-tool">
+<a class="add-sub-icon top-tool-icon" href="javascript:;" title="添加义项" nslog-type="50000101">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_add-subLemma-solid"></em>
+</a>
+<a href="/divideload/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%8E%9F%E7%90%86" title="拆分词条" target="_blank" class="split-icon top-tool-icon" style="display:none;" nslog-type="50000104">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lemma-split"></em>
+</a>
+<div class="top-collect top-tool-icon" nslog="area" nslog-type="50000102">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-solid"></em>
+<span class="collect-text">收藏</span>
+<div class="collect-tip">查看<a href="/uc/favolemma" target="_blank">我的收藏</a></div>
+</div>
+<a href="javascript:void(0);" id="j-top-vote" class="top-vote top-tool-icon" nslog-type="10060801">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-solid"></em>
+<span class="vote-count">0</span>
+<span class="vote-tip">有用+1</span>
+<span class="voted-tip">已投票</span>
+</a><div class="bksharebuttonbox top-share">
+<a class="top-share-icon top-tool-icon" nslog-type="9067">
+<em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_share"></em>
+<span class="share-count" id="j-topShareCount">0</span>
+</a>
+<div class="new-top-share" id="top-share">
+<ul class="top-share-list">
+<li class="top-share-item">
+<a class="share-link bds_qzone"  href="javascript:void(0);" nslog-type="10060501">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="share-link bds_tsina" href="javascript:void(0);" nslog-type="10060701">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="bds_wechat"  href="javascript:void(0);" nslog-type="10060401">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+</li>
+<li class="top-share-item">
+<a class="share-link bds_tqq"  href="javascript:void(0);" nslog-type="10060601">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div style="width:0;height:0;clear:both"></div><dl class="lemmaWgt-lemmaTitle lemmaWgt-lemmaTitle-">
+<dd class="lemmaWgt-lemmaTitle-title">
+<h1 >不确定性原理</h1>
+<a href="javascript:;" class="edit-lemma cmn-btn-hover-blue cmn-btn-28 j-edit-link"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+<a class="lock-lemma" target="_blank" href="/view/10812319.htm" title="锁定"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_lock-lemma"></em>锁定</a>
+</dd>
+</dl><div class="authorityListPrompt">
+<div class="main-content-zj">
+本词条由<a href="http://www.cast.org.cn" target="_blank" class="nslog:7175">“科普中国”百科科学词条编写与应用工作项目</a>
+审核
+。</div>
+</div>
+<div class="promotion-declaration">
+</div><div class="lemma-summary" label-module="lemmaSummary">
+<div class="para" label-module="para">不确定性原理（Uncertainty principle）是由<a target=_blank href="/item/%E6%B5%B7%E6%A3%AE%E5%A0%A1">海森堡</a>于1927年提出，这个理论是说，你不可能同时知道一个粒子的位置和它的速度，粒子位置的不确定性，必然大于或等于<a target=_blank href="/item/%E6%99%AE%E6%9C%97%E5%85%8B%E5%B8%B8%E6%95%B0/812256" data-lemmaid="812256">普朗克常数</a>（Planck constant）除于4π（ΔxΔp≥h/4π），这表明微观世界的粒子行为与宏观物质很不一样。此外，不确定原理涉及很多深刻的哲学问题，用海森堡自己的话说：“在因果律的陈述中，即‘若确切地知道现在，就能预见未来’，所得出的并不是结论，而是前提。我们不能知道现在的所有细节，是一种原则性的事情。”</div>
+</div>
+<div class="configModuleBanner">
+</div><div class="basic-info cmn-clearfix">
+<dl class="basicInfo-block basicInfo-left">
+<dt class="basicInfo-item name">中文名</dt>
+<dd class="basicInfo-item value">
+不确定性原理
+</dd>
+<dt class="basicInfo-item name">外文名</dt>
+<dd class="basicInfo-item value">
+Uncertainty principle
+</dd>
+<dt class="basicInfo-item name">别&nbsp;&nbsp;&nbsp;&nbsp;称</dt>
+<dd class="basicInfo-item value">
+测不准原理；不确定原理
+</dd>
+<dt class="basicInfo-item name">表达式</dt>
+<dd class="basicInfo-item value">
+ΔxΔp≥h/4π
+</dd>
+</dl><dl class="basicInfo-block basicInfo-right">
+<dt class="basicInfo-item name">提出者</dt>
+<dd class="basicInfo-item value">
+维尔纳·海森堡（Werner Heisenberg）
+</dd>
+<dt class="basicInfo-item name">提出时间</dt>
+<dd class="basicInfo-item value">
+1927年
+</dd>
+<dt class="basicInfo-item name">应用学科</dt>
+<dd class="basicInfo-item value">
+<a target=_blank href="/item/%E7%89%A9%E7%90%86/127205" data-lemmaid="127205">物理</a>
+</dd>
+<dt class="basicInfo-item name">适用领域范围</dt>
+<dd class="basicInfo-item value">
+量子力学
+</dd>
+</dl></div>
+<div class="lemmaWgt-lemmaCatalog">
+<div class="lemma-catalog">
+<h2 class="block-title">目录</h2>
+<div class="catalog-list column-4">
+<ol>
+<li class="level1">
+<span class="index">1</span>
+<span class="text"><a href="#1">定律定义</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#1_1">不确定性原理</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#1_2">简介</a></span>
+</li>
+<li class="level1">
+<span class="index">2</span>
+<span class="text"><a href="#2">定律影响</a></span>
+</li>
+<li class="level1">
+<span class="index">3</span>
+<span class="text"><a href="#3">发展简史</a></span>
+</li>
+</ol><ol><li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_1">旧量子论</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_2">质疑</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_3">现代不等式</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#3_4">名称</a></span>
+</li>
+<li class="level1">
+<span class="index">4</span>
+<span class="text"><a href="#4">理论背景</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_1">海森堡</a></span>
+</li>
+</ol><ol><li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_2">与玻尔的辩论</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#4_3">玻尔理论</a></span>
+</li>
+<li class="level1">
+<span class="index">5</span>
+<span class="text"><a href="#5">霍金观点</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_1">决定论</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_2">宿命论</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_3">量子假设</a></span>
+</li>
+</ol><ol><li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_4">量子假设意义</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_5">影响</a></span>
+</li>
+<li class="level2">
+<span class="index">▪</span>
+<span class="text"><a href="#5_6">量子力学</a></span>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="anchor-list">
+<a name="1" class="lemma-anchor para-title" ></a>
+<a name="sub24947_1" class="lemma-anchor " ></a>
+<a name="定律定义" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">不确定性原理</span>定律定义</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="1" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="1_1" class="lemma-anchor para-title" ></a>
+<a name="sub24947_1_1" class="lemma-anchor " ></a>
+<a name="不确定性原理" class="lemma-anchor " ></a>
+<a name="1-1" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>不确定性原理</h3>
+</div>
+<div class="para" label-module="para">德国物理学家海森堡1927年提出的不确定性原理是<a target=_blank href="/item/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/131692" data-lemmaid="131692">量子力学</a>的产物<sup>[1]</sup><a class="sup-anchor" name="ref_[1]_24947">&nbsp;</a>
+。这项原则陈述了精确确定一个粒子，例如原子周围的电子的位置和动量是有限制<sup>[1]</sup><a class="sup-anchor" name="ref_[1]_24947">&nbsp;</a>
+。这个不确定性来自两个因素，首先测量某东西的行为将会不可避免地扰乱那个事物，从而改变它的<a target=_blank href="/item/%E7%8A%B6%E6%80%81/33204" data-lemmaid="33204">状态</a>；其次，因为量子世界不是具体的，但基于概率，精确确定一个粒子状态存在更深刻更根本的限制<sup>[1]</sup><a class="sup-anchor" name="ref_[1]_24947">&nbsp;</a>
+。</div>
+<div class="para" label-module="para"><a target=_blank href="/item/%E6%B5%B7%E6%A3%AE%E5%A0%A1">海森堡</a>测不准原理是通过一些实验来论证的。设想用一个<a target=_blank href="/item/%CE%B3%E5%B0%84%E7%BA%BF">γ射线</a>显微镜来观察一个电子的坐标，因为γ射线显微镜的分辨本领受到波长λ的限制，所用光的波长λ越短，显微镜的分辨率越高，从而测定电子坐标不确定的程度<div class="layoutinline formula" style="width:20px;display: inline;">
+<img align="absmiddle" alt="" title="" height="16" width="20" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D20/sign=8529155fb951f819f525044adab4bf2d/64380cd7912397dd1d7f0b705082b2b7d0a28744.jpg"/>
+</div> 就越小，所以<div class="layoutinline formula" style="width:49px;display: inline;">
+<img align="absmiddle" alt="" title="" height="17" width="49" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D49/sign=ef2c5da9a264034f0bcdc30faec35551/6159252dd42a2834904ca57f52b5c9ea14cebfd8.jpg"/>
+</div> 。但另一方面，光照射到电子，可以看成是光量子和电子的碰撞，波长λ越短，光量子的动量就越大，所以有<div class="layoutinline formula" style="width:53px;display: inline;">
+<img align="absmiddle" alt="" title="" height="35" width="53" src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D53/sign=730d2c576a2762d0843ea4bca1ec9e54/d4628535e5dde7114a0ed082aeefce1b9c1661e2.jpg"/>
+</div> 。</div>
+<div class="para" label-module="para">再比如，用将光照到一个粒子上的方式来测量一个粒子的位置和速度，一部分光波被此粒子散射开来，由此指明其位置。但人们不可能将粒子的位置确定到比光的两个波峰之间的距离更小的程度，所以为了精确测定粒子的位置，必须用短波长的光。</div>
+<div class="para" label-module="para">但<a target=_blank href="/item/%E6%99%AE%E6%9C%97%E5%85%8B/2173" data-lemmaid="2173">普朗克</a>的量子假设，人们不能用任意小量的光：人们至少要用一个光量子。这量子会扰动粒子，并以一种不能预见的方式改变粒子的速度。</div>
+<div class="para" label-module="para">所以，简单来说，就是如果要想测定一个量子的精确位置的话，那么就需要用波长尽量短的波，这样的话，对这个量子的扰动也会越大，对它的速度测量也会越不精确；如果想要精确测量一个量子的速度，那就要用波长较长的波，那就不能精确测定它的位置<sup>[2]</sup><a class="sup-anchor" name="ref_[2]_24947">&nbsp;</a>
+<a name="ref_2"></a>。</div>
+<div class="para" label-module="para">于是，经过一番推理计算，海森堡得出：△q△p≥<i>ħ/2</i>（<i>ħ=h/2π</i>）。<a target=_blank href="/item/%E6%B5%B7%E6%A3%AE%E5%A0%A1">海森堡</a>写道：“在位置被测定的一瞬，即当光子正被电子偏转时，电子的动量发生一个不连续的变化，因此，在确知电子位置的瞬间，关于它的动量我们就只能知道相应于其不连续变化的大小的程度。于是，位置测定得越准确，动量的测定就越不准确，反之亦然。”<sup>[2]</sup><a class="sup-anchor" name="ref_[2]_24947">&nbsp;</a>
+<a name="ref_2"></a></div>
+<div class="para" label-module="para">海森堡还通过对确定<a target=_blank href="/item/%E5%8E%9F%E5%AD%90%E7%A3%81%E7%9F%A9">原子磁矩</a>的<a target=_blank href="/item/%E6%96%AF%E7%89%B9%E6%81%A9-%E7%9B%96%E6%8B%89%E8%B5%AB%E5%AE%9E%E9%AA%8C">斯特恩-盖拉赫实验</a>的分析证明，<a target=_blank href="/item/%E5%8E%9F%E5%AD%90/420269" data-lemmaid="420269">原子</a>穿过偏转所费的时间△T越长，能量测量中的不确定性△E就越小。再加上德布罗意关系λ=h/p，海森伯得到△E△T≥h/4π，并且作出结论：“能量的准确测定如何，只有靠相应的对时间的测不准量才能得到。”</div><div class="anchor-list">
+<a name="1_2" class="lemma-anchor para-title" ></a>
+<a name="sub24947_1_2" class="lemma-anchor " ></a>
+<a name="简介" class="lemma-anchor " ></a>
+<a name="1-2" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>简介</h3>
+</div>
+<div class="para" label-module="para">在<a target=_blank href="/item/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6">量子力学</a>里，<b>不确定性原理</b>（Uncertainty principle）表明，粒子的位置与<a target=_blank href="/item/%E5%8A%A8%E9%87%8F">动量</a>不可同时被确定，位置的不确定性与动量的不确定性遵守不等式<div class="layoutinline formula" style="width:83px;display: inline;">
+<img align="absmiddle" alt="" title="" height="37" width="83" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D83/sign=f10cd996dd2a60595610ec192834fa20/9d82d158ccbf6c81200919b7b63eb13533fa40b6.jpg"/>
+</div></div>
+<div class="para" label-module="para">其中，h 是<a target=_blank href="/item/%E6%99%AE%E6%9C%97%E5%85%8B%E5%B8%B8%E6%95%B0">普朗克常数</a>。</div>
+<div class="para" label-module="para"><a target=_blank href="/item/%E7%BB%B4%E5%B0%94%E7%BA%B3%C2%B7%E6%B5%B7%E6%A3%AE%E5%A0%A1">维尔纳·海森堡</a>于1927年发表论文给出这原理的原本启发式论述，因此这原理又称为“海森堡不确定性原理”。根据海森堡的表述，测量这动作不可避免的搅扰了被测量粒子的运动状态，因此产生不确定性。同年稍后，厄尔·肯纳德（Earl Kennard）给出另一种表述。隔年，<a target=_blank href="/item/%E8%B5%AB%E5%B0%94%E6%9B%BC%C2%B7%E5%A4%96%E5%B0%94">赫尔曼·外尔</a>也独立获得这结果。按照肯纳德的表述，位置的不确定性与动量的不确定性是粒子的秉性，无法同时压抑至低于某极限关系式，与测量的动作无关。这样，对于不确定性原理，有两种完全不同的表述。追根究柢，这两种表述等价，可以从其中任意一种表述推导出另一种表述。<sup>[3]</sup><a class="sup-anchor" name="ref_[3]_24947">&nbsp;</a>
+</div>
+<div class="para" label-module="para">长久以来，不确定性原理与另一种类似的物理效应（称为<a target=_blank href="/item/%E8%A7%82%E5%AF%9F%E8%80%85%E6%95%88%E5%BA%94">观察者效应</a>）时常会被混淆在一起。观察者效应指出，对于系统的测量不可避免地会影响到这系统。为了解释量子不确定性，海森堡的表述所援用的是量子层级的观察者效应。之后，物理学者渐渐发觉，肯纳德的表述所涉及的不确定性原理是所有类波系统的内秉性质，它之所以会出现于量子力学完全是因为量子物体的<a target=_blank href="/item/%E6%B3%A2%E7%B2%92%E4%BA%8C%E8%B1%A1%E6%80%A7">波粒二象性</a>，它实际表现出量子系统的基础性质，而不是对于当今科技实验观测能力的定量评估。在这里特别强调，测量不是只有实验观察者参与的过程，而是经典物体与量子物体之间的相互作用，不论是否有任何观察者参与这过程。</div>
+<div class="para" label-module="para">类似的不确定性关系式也存在于能量和时间、<a target=_blank href="/item/%E8%A7%92%E5%8A%A8%E9%87%8F">角动量</a>和角度等物理量之间。由于不确定性原理是量子力学的重要结果，很多一般实验都时常会涉及到关于它的一些问题。有些实验会特别检验这原理或类似的原理。例如，检验发生于<a target=_blank href="/item/%E8%B6%85%E5%AF%BC">超导</a>系统或<a target=_blank href="/item/%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6">量子光学</a>系统的“数字－相位不确定性原理”。对于不确定性原理的相关研究可以用来发展引力波干涉仪所需要的低噪声科技。<sup>[4]</sup><a class="sup-anchor" name="ref_[4]_24947">&nbsp;</a>
+<a name="ref_4"></a></div><div class="anchor-list">
+<a name="2" class="lemma-anchor para-title" ></a>
+<a name="sub24947_2" class="lemma-anchor " ></a>
+<a name="定律影响" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">不确定性原理</span>定律影响</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="2" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="para" label-module="para">该原理表明：一个<a target=_blank href="/item/%E5%BE%AE%E8%A7%82%E7%B2%92%E5%AD%90">微观粒子</a>的某些<a target=_blank href="/item/%E7%89%A9%E7%90%86%E9%87%8F">物理量</a>（如位置和<a target=_blank href="/item/%E5%8A%A8%E9%87%8F">动量</a>，或<a target=_blank href="/item/%E6%96%B9%E4%BD%8D%E8%A7%92">方位角</a>与<a target=_blank href="/item/%E5%8A%A8%E9%87%8F%E7%9F%A9">动量矩</a>，还有时间和能量等），不可能同时具有确定的数值，其中一个量越确定，另一个量的不确定程度就越大。测量一对<a target=_blank href="/item/%E5%85%B1%E8%BD%AD%E9%87%8F">共轭量</a>的误差（标准差）的乘积必然大于常数h/4π（h是<a target=_blank href="/item/%E6%99%AE%E6%9C%97%E5%85%8B%E5%B8%B8%E6%95%B0">普朗克常数</a>）是海森堡在1927年首先提出的，它反映了微观粒子运动的基本规律——以共轭量为自变量的<a target=_blank href="/item/%E6%A6%82%E7%8E%87">概率</a>幅函数（<a target=_blank href="/item/%E6%B3%A2%E5%87%BD%E6%95%B0">波函数</a>）构成<a target=_blank href="/item/%E5%82%85%E7%AB%8B%E5%8F%B6%E5%8F%98%E6%8D%A2">傅立叶变换</a>对；以及量子力学的基本关系（<div class="layoutinline formula" style="width:102px;display: inline;">
+<img align="absmiddle" alt="" title="" height="18" width="102" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D102/sign=02438c703d9b033b2888f8da27cf3620/55e736d12f2eb9384d39eb86dc628535e5dd6f6a.jpg"/>
+</div> ），是物理学中又一条重要原理。<sup>[5]</sup><a class="sup-anchor" name="ref_[5]_24947">&nbsp;</a>
+<a name="ref_5"></a></div><div class="anchor-list">
+<a name="3" class="lemma-anchor para-title" ></a>
+<a name="sub24947_3" class="lemma-anchor " ></a>
+<a name="发展简史" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">不确定性原理</span>发展简史</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="3" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="3_1" class="lemma-anchor para-title" ></a>
+<a name="sub24947_3_1" class="lemma-anchor " ></a>
+<a name="旧量子论" class="lemma-anchor " ></a>
+<a name="3-1" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>旧量子论</h3>
+</div>
+<div class="para" label-module="para">紧跟在汉斯·克拉默斯（Hans Kramers）的开拓工作之后，1925年6月，<a target=_blank href="/item/%E7%BB%B4%E5%B0%94%E7%BA%B3%C2%B7%E6%B5%B7%E6%A3%AE%E5%A0%A1">维尔纳·海森堡</a>发表论文《运动与机械关系的量子理论重新诠释》（Quantum-Theoretical Re-interpretation of Kinematic and Mechanical Relations），创立了矩阵力学。<a target=_blank href="/item/%E6%97%A7%E9%87%8F%E5%AD%90%E8%AE%BA">旧量子论</a>渐渐式微，现代量子力学正式开启。矩阵力学大胆地假设，关于运动的经典概念不适用于量子层级。在原子里的电子并不是运动于明确的轨道，而是模糊不清，无法观察到的轨域；其对于时间的傅里叶变换只涉及从量子跃迁中观察到的离散频率。</div>
+<div class="para" label-module="para">海森堡在论文里提出，只有在实验里能够观察到的物理量才具有物理意义，才可以用理论描述其物理行为，其它都是无稽之谈。因此，他避开任何涉及粒子运动轨道的详细计算，例如，粒子随着时间而改变的确切运动位置。因为，这运动轨道是无法直接观察到的。替代地，他专注于研究电子跃迁时，所发射的光的离散频率和强度。他计算出代表位置与动量的无限矩阵。这些矩阵能够正确地预测电子跃迁所发射出光波的强度。</div>
+<div class="para" label-module="para">同年6月，海森堡的上司马克斯·玻恩，在阅读了海森堡交给他发表的论文后，发觉了位置与<a target=_blank href="/item/%E5%8A%A8%E9%87%8F">动量</a>无限矩阵有一个很显著的关系──它们不互相对易。这关系称为正则对易关系，以方程表示为：</div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:138px;display: inline;">
+<img align="absmiddle" alt="" title="" height="18" width="138" src="https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D138/sign=b039ab7b1630e924cba4983274086e66/0df3d7ca7bcb0a46452e3d4a6263f6246b60afb1.jpg"/>
+</div></div>
+<div class="para" label-module="para">在那时，物理学者还没能清楚地了解这重要的结果，他们无法给予合理的诠释。<sup>[4]</sup><a class="sup-anchor" name="ref_[4]_24947">&nbsp;</a>
+<a name="ref_4"></a></div><div class="anchor-list">
+<a name="3_2" class="lemma-anchor para-title" ></a>
+<a name="sub24947_3_2" class="lemma-anchor " ></a>
+<a name="质疑" class="lemma-anchor " ></a>
+<a name="3-2" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>质疑</h3>
+</div>
+<div class="para" label-module="para"><b>小泽不等式及其验证</b></div>
+<div class="para" label-module="para">随着科技进步，20世纪80年代以来，有声音开始指出该定律并不是万能的。日本<a target=_blank href="/item/%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%A4%A7%E5%AD%A6">名古屋大学</a>教授<a target=_blank href="/item/%E5%B0%8F%E6%B3%BD%E6%AD%A3%E7%9B%B4">小泽正直</a>在2003年提出“小泽不等式”，认为“测不准原理”可能有其缺陷所在。为此，其科研团队对与构成原子的中子“自转”倾向相关的两个值进行了精密测量，并成功测出超过所谓“极限”的两个值的精度，使得小泽不等式获得成立，同时也证明了与“测不准原理”之间存在矛盾。</div>
+<div class="para" label-module="para">日本名古屋大学教授小泽正直和奥地利维也纳工科大学副教授长谷川祐司的科研团队通过实验发现，大约在80年前提出的用来解释微观世界中量子力学的基本定律“测不准原理”有其缺陷所在。该发现在全世界尚属首次。这个发现成果被称作是应面向高速密码通信技术应用和教科书改换的形势所迫，于2012年1月15日在英国科学杂志《自然物理学》（电子版）上发表。<sup>[5]</sup><a class="sup-anchor" name="ref_[5]_24947">&nbsp;</a>
+<a name="ref_5"></a></div>
+<div class="para" label-module="para"><b>弱测量技术</b></div>
+<div class="para" label-module="para"><a target=_blank href="/item/%E5%A4%9A%E4%BC%A6%E5%A4%9A%E5%A4%A7%E5%AD%A6">多伦多大学</a>（the University of Toronto）量子光学研究小组的李·罗泽马（Lee Rozema）设计了一种测量物理性质的仪器，其研究成果发表在2012年9月7日当周的《物理评论通讯》（Physical Review Letters）周刊上。</div>
+<div class="para" label-module="para">为了达到这个目标，需要在光子进入仪器前进行测量，但是这个过程也会造成干扰。为了解决这个问题，罗泽马及其同事使用一种弱测量技术（weak measurement），让所测对象受到的干扰微乎其微，每个光子进入仪器前，研究人员对其弱测量，然后再用仪器测量，之后对比两个结果。发现造成的干扰不像海森贝格原理中推断的那么大。</div>
+<div class="para" label-module="para">这一发现是对海森贝格理论的挑战。2010年，澳大利亚<a target=_blank href="/item/%E6%A0%BC%E9%87%8C%E8%8F%B2%E6%96%AF%E5%A4%A7%E5%AD%A6">格里菲斯大学</a>（Griffith University）科学家伦德（A.P. Lund）和怀斯曼（Howard Wiseman）发现弱测量可以应用于测量量子体系，然而还需要一个微型量子计算机，但这种计算机很难生产出来。罗泽马的实验包括应用弱测量和通过“簇态量子计算”技术简化量子计算过程，把这两者结合，找到了在实验室测试伦德和怀斯曼观点的方法。</div><div class="anchor-list">
+<a name="3_3" class="lemma-anchor para-title" ></a>
+<a name="sub24947_3_3" class="lemma-anchor " ></a>
+<a name="现代不等式" class="lemma-anchor " ></a>
+<a name="3-3" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>现代不等式</h3>
+</div>
+<div class="para" label-module="para">海森堡与玻尔共同讨论问题</div>
+<div class="para" label-module="para">1926年，海森堡任聘为哥本哈根大学尼尔斯·玻尔研究所的讲师，帮尼尔斯·玻尔做研究。在那里，海森堡表述出不确定性原理，从而为后来知名为哥本哈根诠释奠定了的坚固的基础。海森堡证明，对易关系可以推导出不确定性，或者，使用玻尔的术语，互补性：不能同时观测任意两个不对易的变量；更准确地知道其中一个变量，则必定更不准确地知道另外一个变量。</div>
+<div class="para" label-module="para">在他著名的1927年论文里， 海森堡写出以下公式</div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:69px;display: inline;">
+<img align="absmiddle" alt="" title="" height="18" width="69" src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D69/sign=62587c409b45d688a702b1ada5c27c9c/562c11dfa9ec8a13c282e293fe03918fa0ecc02d.jpg"/>
+</div></div>
+<div class="para" label-module="para">这公式给出了任何位置测量所造成的最小无法避免的动量不确定值。虽然他提到，这公式可以从对易关系导引出来，他并没有写出相关数学理论，也没有给予和确切的定义。他只给出了几个案例（高斯波包）的合理估算。 在海森堡的芝加哥讲义里，他又进一步改善了这关系式：</div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:72px;display: inline;">
+<img align="absmiddle" alt="" title="" height="35" width="72" src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D72/sign=0f091c4a72ec54e745ec181cb9382a29/50da81cb39dbb6fd7c5074520024ab18972b37be.jpg"/>
+</div></div>
+<div class="para" label-module="para">1927年厄尔·肯纳德（Earl Kennard）首先证明了现代不等式：</div>
+<div class="para" label-module="para"><div class="layoutinline formula" style="width:72px;display: inline;">
+<img align="absmiddle" alt="" title="" height="35" width="72" src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D72/sign=f73ef9b703d162d981ee601e11df8529/203fb80e7bec54e7c3e7ad6db0389b504fc26abe.jpg"/>
+</div></div>
+<div class="para" label-module="para">其中，<div class="layoutinline formula" style="width:21px;display: inline;">
+<img align="absmiddle" alt="" title="" height="12" width="21" src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D21/sign=3f4f35064aa98226bcc12c268b82abfd/3bf33a87e950352a12d7927b5a43fbf2b2118b0b.jpg"/>
+</div> 是位置标准差，<div class="layoutinline formula" style="width:21px;display: inline;">
+<img align="absmiddle" alt="" title="" height="16" width="21" src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D21/sign=8f6a648e72899e517c8e3d1543a74581/7acb0a46f21fbe09d1f3746762600c338744ad10.jpg"/>
+</div> 是动量标准差，<div class="layoutinline formula" style="width:9px;display: inline;">
+<img align="absmiddle" alt="" title="" height="13" width="9" src="https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D13/sign=f9a3f9b703d162d981ee661f10df85a3/b8389b504fc2d5627e9e679eee1190ef76c66c2b.jpg"/>
+</div> 是约化普朗克常数。</div>
+<div class="para" label-module="para">1929年，霍华德·罗伯森（Howard Robertson）给出怎样从对易关系求出不确定关系式。</div><div class="anchor-list">
+<a name="3_4" class="lemma-anchor para-title" ></a>
+<a name="sub24947_3_4" class="lemma-anchor " ></a>
+<a name="名称" class="lemma-anchor " ></a>
+<a name="3-4" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>名称</h3>
+</div>
+<div class="para" label-module="para">有很久一段时间，不确定性原理被称为“测不准原理”，但实际而言，对于类波系统内秉的性质，不确定性原理与测量准确不准确并没有直接关系（请查阅本条目稍前关于<a target=_blank href="/item/%E8%A7%82%E5%AF%9F%E8%80%85%E6%95%88%E5%BA%94">观察者效应</a>的内容），因此，该译名并未正确表达出这原理的内涵。另外，英语称此原理为“Uncertainty Principle”，直译为“不确定性原理”，并没有“测不准原理”这种说法，其他语言与英语的情况类似，除中文外，并无“测不准原理”一词。现今，在中国大陆的教科书中，该原理的正式译名也已改为“不确定性关系”（Uncertainty Relation）。</div><div class="anchor-list">
+<a name="4" class="lemma-anchor para-title" ></a>
+<a name="sub24947_4" class="lemma-anchor " ></a>
+<a name="理论背景" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">不确定性原理</span>理论背景</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="4" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="4_1" class="lemma-anchor para-title" ></a>
+<a name="sub24947_4_1" class="lemma-anchor " ></a>
+<a name="海森堡" class="lemma-anchor " ></a>
+<a name="4-1" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>海森堡</h3>
+</div>
+<div class="para" label-module="para"><div class="lemma-picture text-pic layout-right" style="width:149px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%8E%9F%E7%90%86/473553/0/d1a20cf431adcbef6fac13a0aeaf2edda2cc9fff?fr=lemma&ct=single" target="_blank"
+		title="海森堡" style="width:149px;height:220px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=ce6f235d0846f21fcd345951c6256b31/d1a20cf431adcbef6fac13a0aeaf2edda2cc9fff.jpg"  alt="海森堡" style="width:149px;height:220px;"/>
+</a>
+<span class="description">
+海森堡
+</span>
+</div><a target=_blank href="/item/%E6%B5%B7%E6%A3%AE%E5%A0%A1">海森堡</a>在创立<a target=_blank href="/item/%E7%9F%A9%E9%98%B5%E5%8A%9B%E5%AD%A6">矩阵力学</a>时，对形象化的图象采取否定态度。但他在表述中仍然需要使用“坐标”、“速度”之类的词汇，当然这些词汇已经不再等同于经典理论中的那些词汇。可是，究竟应该怎样理解这些词汇新的物理意义呢？海森堡抓住<a target=_blank href="/item/%E4%BA%91%E5%AE%A4">云室</a>实验中观察电子径迹的问题进行思考。他试图用矩阵力学为电子径迹作出数学表述，可是没有成功。这使海森堡陷入困境。他反复考虑，意识到关键在于电子轨道的提法本身有问题。人们看到的径迹并不是电子的真正轨道，而是水滴串形成的雾迹，水滴远比电子大，所以人们也许只能观察到一系列电子的不确定的位置，而不是电子的准确轨道。因此，在量子力学中，一个电子只能以一定的<a target=_blank href="/item/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7">不确定性</a>处于某一位置，同时也只能以一定的不确定性具有某一速度。可以把这些不确定性限制在最小的范围内，但不能等于零。这就是海森堡对不确定性最初的思考。据海森伯晚年回忆，<a target=_blank href="/item/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6">爱因斯坦</a>1926年的一次谈话启发了他。爱因斯坦和海森堡讨论可不可以考虑电子轨道时，曾质问过海森堡：“难道说你是认真相信只有可观察量才应当进入物理理论吗？”对此海森堡答复说：“你处理<a target=_blank href="/item/%E7%9B%B8%E5%AF%B9%E8%AE%BA">相对论</a>不正是这样的吗？你曾强调过绝对时间是不许可的，仅仅是因为绝对时间是不能被观察的。”爱因斯坦承认这一点，但是又说：“一个人把实际观察到的东西记在心里，会有启发性帮助的……在原则上试图单靠可观察量来建立理论，那是完全错误的。实际上恰恰相反，是理论决定我们能够观察到的东西……只有理论，即只有关于<a target=_blank href="/item/%E8%87%AA%E7%84%B6%E8%A7%84%E5%BE%8B">自然规律</a>的知识，才能使我们从感觉印象推论出基本现象。”<sup>[6]</sup><a class="sup-anchor" name="ref_[6]_24947">&nbsp;</a>
+</div>
+<div class="para" label-module="para">海森堡在1927年的论文一开头就说：“如果谁想要阐明‘一个物体的位置’（例如一个电子的位置）这个短语的意义，那么他就要描述一个能够测量‘电子位置’的实验，否则这个短语就根本没有意义。”海森堡在谈到诸如位置与动量，或能量与时间这样一些正则共轭量的不确定关系时，说：“这种不确定性正是量子力学中出现统计关系的根本原因。”</div><div class="anchor-list">
+<a name="4_2" class="lemma-anchor para-title" ></a>
+<a name="sub24947_4_2" class="lemma-anchor " ></a>
+<a name="与玻尔的辩论" class="lemma-anchor " ></a>
+<a name="4-2" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>与玻尔的辩论</h3>
+</div>
+<div class="para" label-module="para">海森堡的测不准原理得到了<a target=_blank href="/item/%E7%8E%BB%E5%B0%94">玻尔</a>的支持，但玻尔不同意他的推理方式，认为他建立<a target=_blank href="/item/%E6%B5%8B%E4%B8%8D%E5%87%86%E5%85%B3%E7%B3%BB">测不准关系</a>所用的基本概念有问题。双方发生过激烈的争论。玻尔的观点是测不准关系的基础在于<a target=_blank href="/item/%E6%B3%A2%E7%B2%92%E4%BA%8C%E8%B1%A1%E6%80%A7">波粒二象性</a>，他说：“这才是问题的核心。”而海森堡说：“我们已经有了一个贯彻一致的数学推理方式，它把观察到的一切告诉了人们。在自然界中没有什么东西是这个数学推理方式不能描述的。”玻尔则说：“完备的物理解释应当绝对地高于数学形式体系。”</div><div class="anchor-list">
+<a name="4_3" class="lemma-anchor para-title" ></a>
+<a name="sub24947_4_3" class="lemma-anchor " ></a>
+<a name="玻尔理论" class="lemma-anchor " ></a>
+<a name="4-3" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>玻尔理论</h3>
+</div>
+<div class="para" label-module="para">玻尔更着重于从哲学上考虑问题。1927年玻尔作了《量子公设和原子理论的新进展》的演讲，提出著名的<a target=_blank href="/item/%E4%BA%92%E8%A1%A5%E5%8E%9F%E7%90%86">互补原理</a>。他指出，在物理理论中，平常大家总是认为可以不必干涉所研究的对象，就可以观测该对象，但从<a target=_blank href="/item/%E9%87%8F%E5%AD%90%E7%90%86%E8%AE%BA">量子理论</a>看来却不可能，因为对原子体系的任何观测，都将涉及所观测的对象在观测过程中已经有所改变，因此不可能有单一的定义，平常所谓的因果性不复存在。对经典理论来说是互相排斥的不同性质，在量子理论中却成了互相补充的一些侧面。<a target=_blank href="/item/%E6%B3%A2%E7%B2%92%E4%BA%8C%E8%B1%A1%E6%80%A7">波粒二象性</a>正是互补性的一个重要表现。测不准原理和其它量子力学结论也可从这里得到解释。</div><div class="anchor-list">
+<a name="5" class="lemma-anchor para-title" ></a>
+<a name="sub24947_5" class="lemma-anchor " ></a>
+<a name="霍金观点" class="lemma-anchor " ></a>
+</div><div class="para-title level-2" label-module="para-title">
+<h2 class="title-text"><span class="title-prefix">不确定性原理</span>霍金观点</h2>
+<a class="edit-icon j-edit-link" data-edit-dl="5" href="javascript:;"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-lemma"></em>编辑</a>
+</div>
+<div class="anchor-list">
+<a name="5_1" class="lemma-anchor para-title" ></a>
+<a name="sub24947_5_1" class="lemma-anchor " ></a>
+<a name="决定论" class="lemma-anchor " ></a>
+<a name="5-1" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>决定论</h3>
+</div>
+<div class="para" label-module="para">科学理论，特别是牛顿引力论的成功，使得法国科学家<a target=_blank href="/item/%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E4%BE%AF%E7%88%B5">拉普拉斯侯爵</a>在19世纪初论断，宇宙是完全被决定的。他认为存在一组科学定律，只要我们完全知道宇宙在某一时刻的状态，我们便能依此预言宇宙中将会发生的任一事件。例如，假定我们知道某一个时刻的太阳和行星的位置和速度，则可用牛顿定律计算出在任何其他时刻的太阳系的状态。这种情形下的宿命论是显而易见的，拉普拉斯进一步假定存在着某些定律，它们类似地制约其他每一件东西，包括人类的行为。&lt;续编：不确定原理实质是对因果论的一种更加肯定，可想而知，任何一种在微小的观测都可以使对象的状态发生改变，从而使原对象的体系进入一个新的状态量，而在未对其干扰前他的状态量却会沿着一个自身作用的方向发展，（当然它的方向对我们来说是不确定的，这个不确定实质是对于我们的观测而言的。），干扰（观测）却使他开始了一个“新的纪元”，而这个干扰结果对于对象而言却是确定的，它会使对象开始一个新状态，当然，这个新的结果又会作用于其他体系，从而影响整个宇宙。简言之可以这么说：由于你的一个喷嚏，使气流发生强运动，通过气流之间力的作用，最终使美国的一朵云达到了降水的条件，由于你的一个喷嚏，使美国降了一场雨！而没有你的喷嚏，那个云的运动也是一定的，降水就不可能了。所谓蝴蝶效应，其实也是这个道理，蝴蝶在太平洋那边扇了下翅膀，另一边可能因此刮起台风。</div>
+<div class="para" label-module="para">妄想通过物理定律推算未来事件的努力是可笑的，从计算机学来看，这种推算是一种无限递归，终止递归的条件是得到未来某一时刻的状态，但算法需要知道自己得出结果后计算者对环境的影响（必须考虑）因而陷入递归，因为终止条件是无法达成的，故算法无法完成。从可行性来看，我们生活的世界好比一台400mips的电脑环境，它是不可能模拟出一台500mips的虚拟机的。故未来不可知。</div><div class="anchor-list">
+<a name="5_2" class="lemma-anchor para-title" ></a>
+<a name="sub24947_5_2" class="lemma-anchor " ></a>
+<a name="宿命论" class="lemma-anchor " ></a>
+<a name="5-2" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>宿命论</h3>
+</div>
+<div class="para" label-module="para">很多人强烈地抵制这种科学决定论，他们感到这侵犯了“上帝”或神秘力量干涉世界的自由，直到20世纪初，这种观念仍被认为是科学的标准假定。这种信念必须被抛弃的一个最初的征兆，它是由英国科学家瑞利勋爵和詹姆斯·金斯爵士所做的计算，他们指出一个热的物体——例如恒星——必须以无限大的速率辐射出能量。按照当时我们所相信的定律，一个热体必须在所有的频段同等地发出电磁波（诸如无线电波、可见光或X射线）。例如，一个热体在1万亿赫兹到2万亿赫兹频率之间发出和在2万亿赫兹到3万亿赫兹频率之间同样能量的波。而既然波的频谱是无限的，这意味着辐射出的总能量必须是无限的。</div><div class="anchor-list">
+<a name="5_3" class="lemma-anchor para-title" ></a>
+<a name="sub24947_5_3" class="lemma-anchor " ></a>
+<a name="量子假设" class="lemma-anchor " ></a>
+<a name="5-3" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>量子假设</h3>
+</div>
+<div class="para" label-module="para">为了避免这显然荒谬的结果，德国科学家马克斯·普郎克在1900年提出，光波、X射线和其他波不能以任意的速率辐射，而必须以某种称为量子的形式发射。并且，每个量子具有确定的能量，波的频率越高，其能量越大。这样，在足够高的频率下，辐射单独量子所需要的能量比所能得到的还要多。因此，在高频下辐射被减少了，物体丧失能量的速率变成有限的了。</div><div class="anchor-list">
+<a name="5_4" class="lemma-anchor para-title" ></a>
+<a name="sub24947_5_4" class="lemma-anchor " ></a>
+<a name="量子假设意义" class="lemma-anchor " ></a>
+<a name="5-4" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>量子假设意义</h3>
+</div>
+<div class="para" label-module="para"><a target=_blank href="/item/%E9%87%8F%E5%AD%90%E5%81%87%E8%AE%BE">量子假设</a>可以非常好地解释所观测到的热体的发射率，直到1926年另一个德国科学家威纳·海森堡提出著名的不确定性原理之后，它对宿命论的含义才被意识到。为了预言一个粒子未来的位置和速度，人们必须能准确地测量它现时的位置和速度。显而易见的办法是将光照到这粒子上，一部分光波被此粒子散射开来，由此指明它的位置。然而，人们不可能将粒子的位置确定到比光的两个波峰之间距离更小的程度，所以必须用短波长的光来测量粒子的位置。由普朗克的量子假设，人们不能用任意少的光的数量，至少要用一个光量子。这量子会扰动这粒子，并以一种不能预见的方式改变粒子的速度。而且，位置测量得越准确，所需的波长就越短，单独量子的能量就越大，这样粒子的速度就被扰动得越厉害。换言之，你对粒子的位置测量得越准确，你对速度的测量就越不准确，反之亦然。海森堡指出，粒子位置的不确定性乘上粒子质量再乘以速度的不确定性不能小于一个确定量——<a target=_blank href="/item/%E6%99%AE%E6%9C%97%E5%85%8B%E5%B8%B8%E6%95%B0">普朗克常数</a>。并且，这个极限既不依赖于测量粒子位置和速度的方法，也不依赖于粒子的种类。海森堡不确定性原理是世界的一个基本的不可回避的性质。</div><div class="anchor-list">
+<a name="5_5" class="lemma-anchor para-title" ></a>
+<a name="sub24947_5_5" class="lemma-anchor " ></a>
+<a name="影响" class="lemma-anchor " ></a>
+<a name="5-5" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>影响</h3>
+</div>
+<div class="para" label-module="para">不确定性原理对我们世界观有非常深远的影响。甚至到了50多年之后，它还不为许多哲学家所鉴赏，仍然是许多争议的主题。不确定性原理使拉普拉斯科学理论，即一个完全确定性的宇宙模型的梦想寿终正寝：如果人们甚至不能准确地测量宇宙当前的状态，那么就肯定不能准确地预言将来的事件（否认观察者可以确定未来）！但客观来说宇宙当前的状态是确定的无疑（承认客观未来的确定性）。我们仍然可以想像，对于一些超自然的生物，存在一组完全地决定事件的定律，这些生物能够不干扰宇宙地观测它的状态。然而，对于我们这些芸芸众生而言，这样的宇宙模型并没有太多的兴趣，因为对于我们这些观察者来说未来的确是不可预知的。看来，最好是采用称为奥铿剃刀的经济学原理，将理论中不能被观测到的所有特征都割除掉。20世纪20年代。在不确定性原理的基础上，海森堡、厄文·薛定谔和保尔·狄拉克运用这种手段将力学重新表达成称为量子力学的新理论。在此理论中，粒子不再有分别被很好定义的、能被同时观测的位置和速度，而代之以位置和速度的结合物的量子态。</div><div class="anchor-list">
+<a name="5_6" class="lemma-anchor para-title" ></a>
+<a name="sub24947_5_6" class="lemma-anchor " ></a>
+<a name="量子力学" class="lemma-anchor " ></a>
+<a name="5-6" class="lemma-anchor " ></a>
+</div><div class="para-title level-3" label-module="para-title">
+<h3 class="title-text"><span class="title-prefix">不确定性原理</span>量子力学</h3>
+</div>
+<div class="para" label-module="para">一般而言，<a target=_blank href="/item/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6">量子力学</a>并不对一次观测预言一个单独的确定结果。代之，它预言一组不同的可能发生的结<div class="lemma-picture text-pic layout-right" style="width:220px; float: right;">
+<a class="image-link" nslog-type="9317" 
+			href="/pic/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%8E%9F%E7%90%86/473553/0/5d212aa83a56a9f5ca130c6a?fr=lemma&ct=single" target="_blank"
+		title="量子力学中的不确定性原理" style="width:220px;height:135px;">
+<img  class="lazy-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF9fX1AAAA0VQI3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==" data-src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D220/sign=3f3cedae15ce36d3a60484320af23a24/4ec2d5628535e5dd8398b4ab76c6a7efce1b6209.jpg"  alt="量子力学中的不确定性原理" style="width:220px;height:135px;"/>
+</a>
+<span class="description">
+量子力学中的不确定性原理
+</span>
+</div>果，并告诉我们每个结果出现的概率。也就是说，如果我们对大量的类似的系统作同样的测量，每一个系统以同样的方式起始，我们将会找到测量的结果为A出现一定的次数，为B出现另一不同的次数等等。人们可以预言结果为A或B的出现的次数的近似值，但不能对个别测量的特定结果作出预言。因而量子力学为科学引进了不可避免的非预见性或偶然性。尽管爱因斯坦在发展这些观念时起了很大作用，但他非常强烈地反对这些。他之所以得到诺贝尔奖就是因为对量子理论的贡献。即使这样，他也从不接受宇宙受机遇控制的观点；他的感觉可表达成他著名的断言：“上帝不玩弄骰子。”然而，大多数其他科学家愿意接受量子力学，因为它和实验符合得很完美。它的的确确成为一个极其成功的理论，并成为几乎所有现代科学技术的基础。它制约着晶体管和集成电路的行为，而这些正是电子设备诸如电视、计算机的基本元件。它并且是现代化学和生物学的基础。物理科学未让量子力学进入的唯一领域是引力和宇宙的大尺度结构。</div>
+<div class="rs-container-foot">
+<a name="rs-1"></a>
+<a name="rs_24947_6719" class="anchor-2"></a>
+<div id="rs-container-24947-6719" class="rslazy rs-container" lazy-init="lemmars.tableAction(baidu.g('rs-24947-6719'))"></div>
+<a name="rs_24947_6721" class="anchor-2"></a>
+<div id="rs-container-24947-6721" class="rslazy rs-container" lazy-init="lemmars.tableAction(baidu.g('rs-24947-6721'))"></div>
+</div><script type="text/javascript">
+        window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":6719,"fentryTableName":"\u91cf\u5b50\u529b\u5b66","fentryTableType":1,"entryId":118330,"templateId":0,"entryTitle":"\u91cf\u5b50\u529b\u5b66","isManual":0,"isExpand":1},{"fentryTableId":6721,"fentryTableName":"\u529b\u5b66","fentryTableType":1,"entryId":2335895,"templateId":0,"entryTitle":"\u529b\u5b66","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([24947, rsdataList]);
+        }
+    </script>
+<dl class="lemma-reference collapse nslog-area log-set-param" data-nslog-type="2" log-set-param="ext_reference">
+<dt class="reference-title">参考资料</dt>
+<dd class="reference-list-wrap">
+<ul class="reference-list">
+<li class="reference-item " id="reference-[1]-24947-wrap">
+<span class="index">1.</span>
+<a class="gotop anchor"  name="refIndex_1_24947" id="refIndex_1_24947" title="向上跳转" href="#ref_[1]_24947">&nbsp;&nbsp;</a>
+<a rel="nofollow" href="/redirect/0419fyA2ptIbWQCFiGnrHGOqJ-z5PZ9ZqM_cfmCF5lkr0cEiOFk8stzyudjMgC5lE22YYdGAPOy-4V5Y_kIH5O8J9tXayFDcJf6-yPpBJL-g2fg2_Ag_m9ORX9ka5fA" target="_blank" class="text">盘点现代物理学七大经典问题:薛定谔的猫<span class="linkout">&nbsp;</span></a>
+<span class="site">．凤凰网</span><span>．2012-09-24</span><span>&#91;引用日期2015-02-03&#93;</span></li><li class="reference-item " id="reference-[2]-24947-wrap">
+<span class="index">2.</span>
+<a class="gotop anchor"  name="refIndex_2_24947" id="refIndex_2_24947" title="向上跳转" href="#ref_[2]_24947">&nbsp;&nbsp;</a>
+<span>史蒂芬·霍金</span><span class="text">．《果壳总的宇宙》</span><span>：湖南科学技术出版社</span><span>，2014年3月第1板第24次</span><span>：42～43页</span></li><li class="reference-item " id="reference-[3]-24947-wrap">
+<span class="index">3.</span>
+<a class="gotop anchor"  name="refIndex_3_24947" id="refIndex_3_24947" title="向上跳转" href="#ref_[3]_24947">&nbsp;&nbsp;</a>
+<span class="text">Vladimir B. Braginsky; Farid Ya Khalili. Quantum Measurement. Cambridge University Press. 25 May 1995. </span>
+</li><li class="reference-item " id="reference-[4]-24947-wrap">
+<span class="index">4.</span>
+<a class="gotop anchor"  name="refIndex_4_24947" id="refIndex_4_24947" title="向上跳转" href="#ref_[4]_24947">&nbsp;&nbsp;</a>
+<span class="text">Caves, Carlton, Quantum-mechanical noise in an interferometer, Phys. Rev. D. 1981, 23: 1693–1708,</span>
+</li><li class="reference-item " id="reference-[5]-24947-wrap">
+<span class="index">5.</span>
+<a class="gotop anchor"  name="refIndex_5_24947" id="refIndex_5_24947" title="向上跳转" href="#ref_[5]_24947">&nbsp;&nbsp;</a>
+<span>曾谨言</span><span class="text">．量子力学</span><span>：科学出版社</span><span>，2007</span></li><li class="reference-item " id="reference-[6]-24947-wrap">
+<span class="index">6.</span>
+<a class="gotop anchor"  name="refIndex_6_24947" id="refIndex_6_24947" title="向上跳转" href="#ref_[6]_24947">&nbsp;&nbsp;</a>
+<span class="text">W. Heisenberg, Über quantentheoretishe Umdeutung kinematisher und mechanischer Beziehungen, Zeitschrift für Physik, 33, 879-893, 1925 (received July 29, 1925). [English translation in: B. L. van der Waerden, editor, Sources of Quantum Mechanics (Dover Publications, 1968)</span>
+</li></ul>
+</dd>
+</dl>
+</div>
+<div class="side-content">
+<div class="summary-pic">
+<a href="/pic/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%8E%9F%E7%90%86/473553/0/8326cffc1e178a82f6adfbd8f403738da977e831?fr=lemma&amp;ct=single" target="_blank" nslog-type="10002401">
+<img src="https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=617112847ed98d1076d40b371904df33/8326cffc1e178a82f6adfbd8f403738da977e831.jpg" />
+<button class="picAlbumBtn"><em></em><span>图集</span></button>
+<div>不确定性原理图册</div>
+</a>
+</div>
+<div class="professional-con">
+<div class="professional-header">
+<div style="background-image: url('https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D50/sign=a88888073f7adab43dd01b438ad4bcdd/b3119313b07eca8035a902c8982397dda1448374.jpg')">
+<h2 title="科普中国">科普中国</h2>
+<p title="致力于权威的科学传播">致力于权威的科学传播</p>
+</div>
+</div>
+<div class="professional-content">
+<div class="professional-title professional-clearfix">
+<h3>本词条认证专家为</h3>
+</div>
+<div class="professional-list" id="professional_list">
+<div class="professional-list-slider J-slider">
+<ul>
+<li class="professional-clearfix">
+<a
+                                                                href="/science/auditorcenter?uk=1ad42f4e&fromModule=professional"
+                                                                target="_blank">
+<div class="pro-line"></div>
+<div class="pro-content">
+<div class="pro-content-title professional-clearfix">
+<h4>尚轶伦</h4>
+<span>副教授</span><i>审核</i></div>
+<p title="同济大学数学科学学院">同济大学数学科学学院</p>
+</div>
+</a>
+</li>
+</div>
+</div>
+</div>
+</div>
+<div class="lemmaWgt-promotion-vbaike">
+<div class="promotion_title">V百科<a href="/vbaike#gallary" target="_blank">往期回顾</a></div>
+<div class="promotion_viewport">
+<dl>
+</dl>
+<div class="promotion_viewport_pager"></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightPreciseAd" data-lemmaId="473553" data-lemmaTitle="不确定性原理"></div><div class="lemmaWgt-sideRecommend">
+<a name="zhixinWrap" class="qnAnchor"></a>
+<div class="zhixin-box" id="zhixinWrap" data-source="" data-newLemmaId="473553">
+</div>
+<form id="zhixinErrorForm" class="hidden" action="https://sp2.baidu.com/-uV1bjeh1BF3odCf/index.php/feedback/zx/baikeJC" target="zhixinSubErr" method="post">
+<input class="js-url" name="fb_html_url" type="hidden" />
+<input class="js-query" name="fb_query" type="hidden" />
+<input class="js-title" name="fb_card_title" type="hidden" />
+<input class="js-content" name="fb_content" type="hidden" />
+<input class="js-souceId" name="fb_source_id" type="hidden" />
+</form>
+<iframe id="zhixinSubErr" name="zhixinSubErr" style="display:none" frameborder="0"></iframe>
+</div>
+<div class="zhidao-diversion J-zhidao-diversion">
+</div>
+<div class="lemmaWgt-promotion-slide">
+<div class="promotion_viewport">
+<dl>
+</dl>
+<div class="promotion_viewport_pager"></div>
+</div>
+</div><div class="lemmaWgt-promotion-rightBigAd">
+</div><div id="side-auth">
+<div id="authEdit" class="side-box">
+<dl>
+<dt class="sidetitle">权威合作编辑</dt>
+<dd class="side-auth-content">
+<div class="side-auth-img">
+<a href="http://www.cast.org.cn/" target="_blank" class="nslog:7075" id="authOrgRightEditPic">
+<img style="display: none" onload="this.style.width = '50px';this.style.display='';" src="https://baike.baidu.com/cms/rc/QQ%E5%9B%BE%E7%89%8720141121003618.jpg" alt="权威编辑" title="权威编辑"/>
+</a>
+</div>
+<div class="side-auth-info">
+<p class="auth-info-name">
+<a href="http://www.cast.org.cn/" nslog-type="7075" target="_blank" id="authOrgRightEdit">“科普中国”百科科学词条编写与应用工作项目</a>
+</p>
+<span id="authDetail">
+“科普中国”是为我国科普信息化建设塑造的全...
+</span>
+</div>
+<div class="clear"></div>
+</dd>
+<dd class="authVersion">
+<span style="">
+<a class="whatIs" align="absmiddle" href="javascript:void(0);"></a><a href=" http://baike.bdimg.com/cms/static/cooperation/content.pdf" target="_blank" nslog-type="36" class="link-toggle" id="whatIsAuthEdit">什么是权威编辑</a>
+</span>
+<span class="divisionLine"></span>
+<a href="/history/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%8E%9F%E7%90%86/122834371" class="nslog:37" target="_blank" id="authEditVersion">查看编辑版本</a>
+</dd>
+</dl>
+</div>
+</div><dl class="side-box lemma-statistics">
+<dt class="title">词条统计</dt>
+<dd class="description">
+<ul>
+<li>浏览次数：<span id="j-lemmaStatistics-pv"></span>次</li>
+<li>编辑次数：135次<a href="/historylist/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%8E%9F%E7%90%86/473553" class="nslog:1021" target="_blank">历史版本</a></li>
+<li>最近更新：<span class="j-modified-time" style="display:none">2017-10-01</span></li>
+<li>创建者：<a class="show-userCard" data-uid="13089976" title="查看此用户资料" target="_blank" href="http://www.baidu.com/p/d5yuansu" nslog-type="1022">d5yuansu</a></li>
+</ul>
+</dd>
+</dl>
+<div class="side-box" id="pro-contributors">
+<dl>
+<dt class="title">词条贡献榜</dt>
+<dd id="contri-div">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="topuser f12">
+<tr><td colspan="3" class="contri-type"><b>突出贡献者：</b></td></tr>
+<tr>
+<td width="22">
+</td>
+<th width="150"><a title="查看此用户资料" class="usercard show-userCard" data-uid="53492337" username="王影川" target="_blank" href="http://www.baidu.com/p/%E7%8E%8B%E5%BD%B1%E5%B7%9D?from=wk">王影川</a></th>
+<td align="right">
+<a target="_blank" href="http://baike.baidu.com/view/12878522.htm"><img align="absmiddle" alt="初级优质" title="初级优质" src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaContributors/resource/img/hq_e14e477.png" width="13" height="18"></a>
+</td>
+</tr>
+<tr><td style="border-bottom: 1px dashed #ccc;height:7px;" colspan="3"></td></tr>
+<tr><td style="height: 7px;" colspan="3"></td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="side-catalog" style="visibility:hidden">
+<div class="side-bar">
+<em class="circle start"></em>
+<em class="circle end"></em>
+</div>
+<div class="catalog-scroller">
+<dl class="catalog-list">
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#1" class="title-link">
+<span class="text">
+<span class="title-index">1</span>
+<span class="title-link" nslog-type="10002802">定律定义</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#1_1" class="title-link">
+<span class="text">
+<span class="title-index">1.1</span>
+<span class="title-link" nslog-type="10002802">不确定性原理</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#1_2" class="title-link">
+<span class="text">
+<span class="title-index">1.2</span>
+<span class="title-link" nslog-type="10002802">简介</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#2" class="title-link">
+<span class="text">
+<span class="title-index">2</span>
+<span class="title-link" nslog-type="10002802">定律影响</span>
+</span>
+</a>
+</dt>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#3" class="title-link">
+<span class="text">
+<span class="title-index">3</span>
+<span class="title-link" nslog-type="10002802">发展简史</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#3_1" class="title-link">
+<span class="text">
+<span class="title-index">3.1</span>
+<span class="title-link" nslog-type="10002802">旧量子论</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#3_2" class="title-link">
+<span class="text">
+<span class="title-index">3.2</span>
+<span class="title-link" nslog-type="10002802">质疑</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#3_3" class="title-link">
+<span class="text">
+<span class="title-index">3.3</span>
+<span class="title-link" nslog-type="10002802">现代不等式</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#3_4" class="title-link">
+<span class="text">
+<span class="title-index">3.4</span>
+<span class="title-link" nslog-type="10002802">名称</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#4" class="title-link">
+<span class="text">
+<span class="title-index">4</span>
+<span class="title-link" nslog-type="10002802">理论背景</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#4_1" class="title-link">
+<span class="text">
+<span class="title-index">4.1</span>
+<span class="title-link" nslog-type="10002802">海森堡</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#4_2" class="title-link">
+<span class="text">
+<span class="title-index">4.2</span>
+<span class="title-link" nslog-type="10002802">与玻尔的辩论</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#4_3" class="title-link">
+<span class="text">
+<span class="title-index">4.3</span>
+<span class="title-link" nslog-type="10002802">玻尔理论</span>
+</span>
+</a>
+</dd>
+<dt class="catalog-title level1">
+<em class="pointer"></em>
+<a href="#5" class="title-link">
+<span class="text">
+<span class="title-index">5</span>
+<span class="title-link" nslog-type="10002802">霍金观点</span>
+</span>
+</a>
+</dt>
+<dd class="catalog-title level2">
+<a href="#5_1" class="title-link">
+<span class="text">
+<span class="title-index">5.1</span>
+<span class="title-link" nslog-type="10002802">决定论</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_2" class="title-link">
+<span class="text">
+<span class="title-index">5.2</span>
+<span class="title-link" nslog-type="10002802">宿命论</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_3" class="title-link">
+<span class="text">
+<span class="title-index">5.3</span>
+<span class="title-link" nslog-type="10002802">量子假设</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_4" class="title-link">
+<span class="text">
+<span class="title-index">5.4</span>
+<span class="title-link" nslog-type="10002802">量子假设意义</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_5" class="title-link">
+<span class="text">
+<span class="title-index">5.5</span>
+<span class="title-link" nslog-type="10002802">影响</span>
+</span>
+</a>
+</dd>
+<dd class="catalog-title level2">
+<a href="#5_6" class="title-link">
+<span class="text">
+<span class="title-index">5.6</span>
+<span class="title-link" nslog-type="10002802">量子力学</span>
+</span>
+</a>
+</dd>
+<a class="arrow" href="javascript:void(0);"></a>
+</dl>
+</div>
+<div class="right-wrap">
+<a class="go-up disable" href="javascript:void(0);"></a>
+<a class="go-down" href="javascript:void(0);"></a>
+</div>
+<div class="bottom-wrap">
+<a class="toggle-button" href="javascript:void(0);" nslog-type="10002803"></a>
+<a class="gotop-button" href="javascript:void(0);" nslog-type="10002804"></a>
+</div>
+</div>
+<div id="side_box_fengchao" class="fengchao side-box" nslog="area" nslog-type="10000902">
+</div>
+<div id="side_box_unionAd" class="unionAd side-box">
+<div class="union-content"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="after-content">
+<div class="fc-guess-like new" id="fc_guess_like_new">
+<span class="logo-du">
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+</span>
+<h6>猜你关注</h6>
+<ul class="cmn-clearfix">
+</ul>
+</div>
+<div class="bottom-promotion" id="bottom-promotion">
+<div id="BOTTOM_PRO_AD"></div>
+</div>
+</div>
+</div>
+
+<div class="wgt-footer-main">
+<div class="content">
+<dl class="fresh">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-fresh"></em>新手上路</dt>
+<dd>
+<div><a target="_blank" href="/usercenter/tasks#guide">成长任务</a></div>
+<div><a target="_blank" href="/help#main01">编辑入门</a></div>
+<div><a target="_blank" href="/help#main06">编辑规则</a></div>
+<div><a target="_blank" href="/help#main05">百科术语</a></div>
+</dd>
+</dl>
+<dl class="question">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-question"></em>我有疑问</dt>
+<dd>
+<div><a target="_blank" href="/wikiui/doubt?lemmaId=473553&fr=lemma"
+            nslog-type="10070001">我要质疑</a></div>
+<div><a target="_blank" href="https://aikefu.baidu.com/?product=bk001" nslog-type="10000003">在线客服</a></div>
+<div><a target="_blank" href="http://tieba.baidu.com/f?ie=utf-8&fr=bks0000&kw=%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91">参加讨论</a></div>
+<div><a target="_blank" href="/feedback">意见反馈</a></div>
+</dd>
+</dl>
+<dl class="suggestion">
+<dt><em class="cmn-icon cmn-icons cmn-icons_footer-suggestion"></em>投诉建议</dt>
+<dd>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=1">举报不良信息</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=2">未通过词条申诉</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=6">投诉侵权信息</a></div>
+<div><a target="_blank" href="http://help.baidu.com/newadd?prod_id=10&category=5">封禁查询与解封</a></div>
+</dd>
+</dl>
+</div>
+<div class="copyright">©2018&nbsp;Baidu&nbsp;<a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;|&nbsp;<a href="http://help.baidu.com/question?prod_en=baike&class=89&id=1637" target="_blank">百科协议</a>&nbsp;|&nbsp;<a href="/operation/cooperation" target="_blank">百度百科合作平台</a>&nbsp;|&nbsp;<span>京ICP证030173号&nbsp;</span><img class="copyright-img" width="13" height="16" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/copy_rignt_24.png"></div>
+<p class="recordcode"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" target="_blank"><i class="icon-police"></i>京公网安备11000002000001号</a></p>
+</div>
+
+<div class="lemmaWgt-searchHeader">
+<div class="layout cmn-clearfix">
+<div class="wgt-searchbar wgt-searchbar-new wgt-searchbar-simple cmn-clearfix ">
+<div class="logo-container">
+<a class="logo cmn-inline-block" title="到百科首页" href="/">
+<span class="cmn-baike-logo">
+<em class="cmn-icon cmn-icons cmn-icons_logo-bai"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-du"></em>
+<em class="cmn-icon cmn-icons cmn-icons_logo-baike"></em>
+</span>
+</a>
+</div>
+<div class="search">
+<div class="form">
+<form id="searchForm" action="/search/word" method="GET" target="_self">
+<input id="query" nslog="normal" nslog-type="10080015" name="word" type="text" autocomplete="off" autocorrect="off" value="不确定性原理" /><button id="search" nslog="normal" nslog-type="10080013" type="button">进入词条</button>
+</form>
+<form id="searchLemmaForm" action="/search" method="GET" target="_self">
+<input id="searchLemmaQuery" name="word" type="hidden" />
+<input name="pn" type="hidden" value="0" />
+<input name="rn" type="hidden" value="0" />
+<input name="enc" type="hidden" value="utf8" />
+</form>
+<ul id="suggestion" class="suggestion">
+<div class="sug"></div>
+<li class="extra">
+<span id="close" nslog="normal" nslog-type="10080016">关闭</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="tool-buttons">
+<a class="toolButtons-edit button j-edit-link" href="javascript:;" nslog-type="10010001"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_edit-hollow"></em>编辑</a>
+<a class="toolButtons-collect button" href="javascript:;" nslog-type="10010002"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-hollow"></em><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_star-solid"></em>收藏</a>
+<a class="toolButtons-vote button top-vote" href="javascript:;" nslog-type="10010003"><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-hollow"></em><em class="cmn-icon wiki-lemma-icons wiki-lemma-icons_zan-solid"></em><span class="j-tool-btn-vote-num">赞</span></a>
+</div>
+<div class="user-info">
+<a class="user-link unlogin" href="javascript:;" nslog-type="10010008" target="_blank">登录</a>
+</div>
+</div></div>
+<div class="new-bdsharebuttonbox new-side-share" id="side-share">
+<span class="title">分享</span>
+<div class="side-border">
+<div class="triangle"></div>
+<a class="share-link bds_qzone"  href="javascript:void(0);" nslog-type="10060101">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qzone"></em>
+</a>
+<a class="share-link bds_tsina" href="javascript:void(0);" nslog-type="10060301">
+<em class="cmn-icon cmn-icons cmn-icons_logo-sina-weibo"></em>
+</a>
+<a class="bds_wechat"  href="javascript:void(0);" nslog-type="10060001">
+<em class="cmn-icon cmn-icons cmn-icons_logo-wechat"></em>
+</a>
+<a class="share-link bds_tqq"  href="javascript:void(0);" nslog-type="10060201">
+<em class="cmn-icon cmn-icons cmn-icons_logo-qq"></em>
+</a>
+</div>
+</div>
+<div class="qrcode-wrapper" id="layer" style="display: none">
+<div class="bd_weixin_popup_header">
+<em class="cmn-icon cmn-icons cmn-icons_close"></em>
+<span>分享到微信朋友圈</span>
+</div>
+<div id="wechat-qrcode-img"></div>
+<div class="bd_weixin_popup_footer">打开微信“扫一扫”即可将网页分享至朋友圈</div>
+</div>
+<div></div><div></div>
+
+</body><script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/js/mod_4302fe0.js"></script>
+<script type="text/javascript">require.resourceMap({"res":{"wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/lemmaInsert.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/lemmaInsert_8f518c5.js","pkg":"wiki-lemma:p5","deps":["wiki-common:widget/component/nslog/nslog.js"]},"wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/tangram.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaRelation/tangram_459492a.js","pkg":"wiki-lemma:p5"},"wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip_16a3e9d.js","deps":["wiki-common:widget/lib/jquery/jquery.js","wiki-common:widget/util/string.js"]},"wiki-lemma:widget/lemma_content/configModule/zhidaodiversion/zhidaodiversion.js":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhidaodiversion/zhidaodiversion_d731a14.js","deps":["wiki-common:widget/component/nslog/nslog.js","wiki-common:widget/lib/jquery/jquery.js","wiki-common:widget/lib/jsmart/jsmart.js"]}},"pkg":{"wiki-lemma:p5":{"url":"https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma-module-lemmaRelation_0aebd7b.js"}}});</script><script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jquery/jquery_1.11.1_dfce600.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jquery/jquery.mousewheel_4fde694.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jquery/jquery_2d56800.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jsmart/PHPJS_2406ddf.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/jsmart/jsmart_a7d06a5.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/sparkMD5/sparkMD5_a5502a8.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/swfObject/swfObject_00526c3.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/lib/letvPlayer/letvPlayer_f923883.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/pkg/wiki-common-base_ce9c01b.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-common/widget/component/userbar-n/userbar-n_8f86b7d.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-lemma/pkg/wiki-lemma_3ffa925.js"></script>
+<script type="text/javascript" src="https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/zhixin/zhixin_58e6342.js"></script>
+<script type="text/javascript">!function(){  var $ = require('wiki-common:widget/lib/jquery/jquery'),
+    userbar = require('wiki-common:widget/component/userbar-n/userbar-n');
+    
+  userbar.buildUserbar($('#j-wgt-userbar'), null);
+}();
+!function(){  require('wiki-common:widget/component/headTabBar/headTabBar');
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      initSearchbar = require('wiki-common:widget/component/searchbar-n/searchbar');  
+    initSearchbar($('.wgt-searchbar-main'));
+  }();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var cookie = require('wiki-common:widget/util/cookie');
+    if (!cookie.get('baikedeclare')) {
+        $('#J-declare-wrap').css('display', 'block');
+    }
+    $('#J-declare-close').on('click', function () {
+        // 用户关闭后，不再显示，这里暂设过期时间为1年
+        cookie.set('baikedeclare', 'showed', {
+            expires: 365 * 60 * 60 * 24 * 1000,
+            path: '/'
+        });
+        $('#J-declare-wrap').css('display', 'none');
+    });
+}();
+!function(){  var $ = require('wiki-common:widget/lib/jquery/jquery');
+
+  var timer = '';
+
+  $('.wgt-navbar').on('mouseenter', 'dl', function() {
+  clearTimeout(timer);
+  timer = setTimeout(function() {
+  $('.wgt-navbar').addClass('wgt-navbar-hover');
+}, 300);
+}).on('mouseleave', function() {
+clearTimeout(timer);
+$('.wgt-navbar').removeClass('wgt-navbar-hover');
+}).on('click', 'a', function() {
+clearTimeout(timer);
+$('.wgt-navbar').removeClass('wgt-navbar-hover');
+});
+}();
+!function(){                var $ = require('wiki-common:widget/lib/jquery/jquery');
+                var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+                // 展现策略
+                rightCheck.editView('473553', function(res) {
+                    if (!res.errno) {
+                        if (res.data.edit) {
+                            $('.lemmaWgt-lemmaTitle .add-subLemma').css('display', 'inline-block');
+                            $('.top-tool .add-sub-icon').css('display', 'inline-block');
+                        }
+                    } else {
+                        if ('1') {
+                            $('.lemmaWgt-lemmaTitle .add-subLemma').css('display', 'inline-block');
+                            $('.top-tool .add-sub-icon').css('display', 'inline-block');
+                        }
+                    }
+                });
+                require('wiki-lemma:widget/basicElement/addSub/addSub.js')({                    lemmaId: '473553',                    lemmaTitle: '不确定性原理',                    lemmaDesc: '',                    versionId: '122834371',                    subLemmaId: '24947'                });
+            }();
+!function(){        var $ = require('wiki-common:widget/lib/jquery/jquery');
+        var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+        // 展现策略
+        rightCheck.editView('473553', function(res) {
+            if (!res.errno) {
+                if (res.data.divide) {
+                    $('.top-tool .split-icon').css('display', 'block');
+                }
+            }
+        });
+    }();
+!function(){    var nslog = require('wiki-common:widget/component/nslog/nslog');
+	require.async(["wiki-lemma:widget/basicElement/collect/collect"],function(collect){
+		collect({
+            newLemmaId:"473553",
+			lemmaId:"24947",
+			subLemmaId:"24947"
+		});
+	});
+}();
+!function(){    require.async(["wiki-lemma:widget/basicElement/topShare/topShare"],function(topShare){
+        topShare({
+            newLemmaId: '473553'
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.lemmaWgt-lemmaTitle .edit-lemma').css('display', 'inline-block');
+                // 编辑和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .edit-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .edit-lemma').before('<br/><br/>');
+                  }
+                }
+            } else {
+                $('.lemmaWgt-lemmaTitle .lock-lemma').show();
+                // 锁定和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .lock-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .lock-lemma').before('<br/><br/>');
+                  }
+                }
+            }
+        } else {
+            if ('1') {
+                $('.lemmaWgt-lemmaTitle .edit-lemma').css('display', 'inline-block');
+                // 编辑和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .edit-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .edit-lemma').before('<br/><br/>');
+                  }
+                }
+            } else {
+                $('.lemmaWgt-lemmaTitle .lock-lemma').show();
+                // 锁定和申请本人实名验证保证同一行展示
+                if ($('.lemmaWgt-lemmaTitle .personal').length > 0) {
+                  if ($('.lemmaWgt-lemmaTitle .lock-lemma').offset().left > $('.lemmaWgt-lemmaTitle .personal').offset().left) {
+                    $('.lemmaWgt-lemmaTitle .lock-lemma').before('<br/><br/>');
+                  }
+                }
+            }
+        }
+    });
+}();
+!function(){	require('wiki-lemma:widget/lemma_content/mainContent/basicInfo/basicInfo')();
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var nslog = require('wiki-common:widget/component/nslog/nslog');
+    nslog(10002701);
+    $('.lemmaWgt-lemmaCatalog a').on('click', function () {
+           nslog(10002702);
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+    // 展现策略
+    rightCheck.editView('473553', function(res) {
+        if (!res.errno) {
+            if (res.data.edit) {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        } else {
+            if ('1') {
+                $('.para-title .edit-icon').css('display', 'block');
+            }
+        }
+    });
+}();
+!function(){        require.async(['wiki-lemma:widget/lemma_content/mainContent/lemmaRelation/lemmaInsert'], function(init) {
+            init({ // 关系化统计需求--传参  shangwenbin
+                lemmaId: "24947",
+                newLemmaId: "473553",
+                subLemmaId: "24947",
+                lemmaTitle: "不确定性原理"
+            });
+        });
+    }();
+!function(){		require.async(["wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReference","wiki-lemma:widget/lemma_content/mainContent/lemmaReference/lemmaReferenceTip/lemmaReferenceTip"],function(Reference,ReferenceTip){
+			new Reference({
+				subLemmaId:"24947"
+			});
+			new ReferenceTip({
+				subLemmaId:"24947"
+			});
+		});
+	}();
+!function(){    var $ = require("wiki-common:widget/lib/jquery/jquery");
+    
+    var slider = {
+        init: function() {
+            this.control = $("#professional_control");
+            this.prev = this.control.find(".J-prev");
+            this.next = this.control.find(".J-next");
+            this.el = $("#professional_list");
+            this.view = this.el.find(".J-slider");
+            this.items = this.view.find("ul");
+            this.itemWidth = this.items.eq(0).innerWidth();
+            this.initStatus();
+            this.bindEvents();
+        },
+        initStatus: function() {
+            this.view.css({
+                width: this.items.length*this.itemWidth+"px",
+                position: "absolute"
+            });
+            this.setHeight(0);
+            if ( this.items.length < 2 ) return;
+            this.changeControllers(0);
+        },
+        bindEvents: function() {
+            var self = this, index = 0;
+            if ( this.items.length < 2 ) return;
+            this.next.on("click", function() {
+                if ( self.items.length-1 === index ) return;
+                index++;
+                self.setHeight(index);
+                self.goAni(index);
+                self.changeControllers(index);
+            });
+            this.prev.on("click", function() {
+                if ( index == 0 ) return;
+                index--;
+                self.setHeight(index);
+                self.goAni(index);
+                self.changeControllers(index);
+            });
+        },
+        setHeight: function(index) {
+            this.el.height( this.items.eq(index).innerHeight() );
+        },
+        goAni: function(index) {
+            this.view.animate({
+                left: index === 0 ? 0 : "-"+this.itemWidth*index+"px"
+            });
+        },
+        changeControllers: function(index) {
+            var disabledClass = "pro-control-disable";
+            this.prev.removeClass(disabledClass);
+            this.next.removeClass(disabledClass);
+            if ( index === 0 ) {
+                this.prev.addClass(disabledClass);
+            } else if ( index === this.items.length-1 ) {
+                this.next.addClass(disabledClass);
+            }
+        }
+    };
+    slider.init();
+}();
+!function(){        require('wiki-lemma:widget/lemma_content/configModule/zhixin/zhixin')(
+            473553,
+            '不确定性原理'
+        );
+    }();
+!function(){require.async(['wiki-lemma:widget/lemma_content/configModule/zhidaodiversion/zhidaodiversion'],function(app){
+    app.run('473553','不确定性原理');
+});
+}();
+!function(){    require.async(["wiki-lemma:widget/lemma_content/mainContent/lemmaStatistics/lemmaStatistics"],function(init){
+        init({
+            newLemmaIdEnc:"06a4e94fff294b81ede8841e"
+        });
+    });
+}();
+!function(){    var userCard = require('wiki-common:widget/component/userCard/userCard');
+    userCard({
+        host: '#pro-contributors .show-userCard',
+        left: -26
+    });    
+}();
+!function(){	require.async(["wiki-lemma:widget/lemma_content/mainContent/sideCatalog/sideCatalog"],function(SideCatalog){
+		new SideCatalog();
+	});
+}();
+!function(){        require.async(["wiki-lemma:widget/promotion/fengchao/fengchao","wiki-lemma:widget/promotion/unionAd/unionAd"], function (init, unionAd) {
+            init({
+                newLemmaId: "473553",
+                lemmaTitle: "不确定性原理",
+                encodeLemmaTitle: "%B2%BB%C8%B7%B6%A8%D0%D4%D4%AD%C0%ED",
+                adManager: null
+            }, {
+                errFn: unionAd,
+                dom: $('#side_box_unionAd')
+            });
+        });
+    }();
+!function(){        require.async(['wiki-lemma:widget/promotion/guessLike/guessLike'], function (app) {
+            app.init({
+                lemmaTitle: '不确定性原理',
+                adManager: null
+            });
+        });
+    }();
+!function(){            require.async(['wiki-lemma:widget/promotion/bottomAd/bottomAd'], function (init) {
+                init({
+                    sId: 'BOTTOM_PRO_AD',
+                    adManager: null
+                });
+            });
+        }();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var Dialog = require("wiki-common:widget/ui/dialog/dialog");
+    var userLogin = require('wiki-common:widget/component/userLogin/userLogin');
+    var unameFiller = require('wiki-common:widget/component/unameFiller/unameFiller');
+    var rightCheck = require('wiki-lemma:widget/tools/rightCheck/rightCheck');
+
+            var isEnterprise = false;
+        var enterpriseOwnerUserId = 0;
+    
+    var userId = 0;
+    var editUrl = '/edit/' + encodeURIComponent('不确定性原理') + '/' + '473553';
+    var pgcUrl = '/enterprise/editpgc?lemmaId=473553';
+
+    userLogin.regist({
+        onLogin: function(user) {
+            userId = user ? user.uid : 0;
+        }
+    });
+
+    function gotoEdit(url, isMidNight) {
+        if (isMidNight) {
+            Dialog.alert({
+                title: '编辑提示',
+                subMsg: '晚23:00至次日8:00，因审核系统例行维护，您提交的版本可能需要较长时间才能通过，望您谅解。',
+                onConfirm: function() {
+                    window.location.href = url;
+                }
+            });
+        } else {
+            window.location.href = url;
+        }    
+    }
+
+    function showChoseEditDialog(pgcCallback, ugcCallback) {
+        new Dialog({
+            title: '编辑提示',
+            subMsg: '<p>您已开通企业百科服务，推荐您直接编辑“官方资料”，官方资料仅限企业百科绑定的百科账号修改，其他用户账号不可修改。</p><p>如果您想修改其他网友编辑的普通词条内容，请注意遵守百科百科编辑规则。<p>',
+            btns: [{
+            key: 'pgc',
+            text: '编辑官方资料'
+            }, {
+            style: 'white',
+            text: '修改普通词条',
+            key: 'ugc'
+            }],
+            onBtnClick: function(btnKey){
+                if (btnKey === 'pgc') {
+                    pgcCallback && pgcCallback();
+                } else if (btnKey === 'ugc') {
+                    ugcCallback && ugcCallback();
+                }
+            }
+        }).show();
+    }
+
+    function checkUserLegal(res) {
+        var legal = false;
+        switch (res.errno) {
+            case 100001:
+                userLogin.showLoginPop();
+                break;
+            case 100006:
+                unameFiller.show();
+                break;
+            default:
+                legal = true;
+        }
+        return true;
+    }
+
+    function checkUgc(res, url) {
+        if (res.errno) {
+            switch (res.errno) {
+                case 100005:
+                    alert('对不起，您目前被封禁');
+                    break;
+                case 110001:
+                    alert('对不起，该词条被锁定');
+                    break;
+                case 110007:
+                    alert('对不起，消歧页无法编辑');
+                    break;
+                case 110005:
+                    Dialog.alert({
+                    title: '编辑提示',
+                    mainMsg: '对不起，您暂时没有权限编辑该词条。',
+                    subMsg: '<p>您好，该词条内容已较丰富，现仅对百科等级达到<b>四级</b>且通过率达到<b>85%</b>的科友开放编辑。</p><p>当您通过努力达到以上要求，就可以参与编辑该词条了。</p><p><img src="https://bkssl.bdimg.com/img/baike/usercenter/growuptask/star.gif" class="star" />参加<a target="_blank" href="/usercenter#guide">成长任务</a>，更快掌握百科编辑技巧，加速升级！</p>'
+                    });
+                    break;
+                case 110008:
+                    Dialog.alert({
+                    title: '编辑提示',
+                    mainMsg: '对不起，您暂时没有权限编辑该词条。',
+                    subMsg: '<p>您好，该词条内容已较丰富，现仅对百科等级达到<b>六级</b>且通过率达到<b>85%</b>的科友开放编辑。</p><p>当您通过努力达到以上要求，就可以参与编辑该词条了。</p><p><img src="https://bkssl.bdimg.com/img/baike/usercenter/growuptask/star.gif" class="star" />参加<a target="_blank" href="/usercenter#guide">成长任务</a>，更快掌握百科编辑技巧，加速升级！</p>'
+                    });
+                    break;
+                case 470001:
+                    alert('系统错误，请刷新重试');
+                    break;
+            }
+        } else {
+            if (!res.data.right.noAudit) {
+                Dialog.alert({
+                    title: '编辑提示',
+                    subMsg: '很抱歉，该词条有其他用户编辑的版本正在提交，您暂时无法编辑。<br/>百科建议您晚些时候再编辑该词条，或者尝试编辑其他的词条。'
+                });
+                return;
+            }
+            gotoEdit(url, res.data.notice.isMidNight);
+        }
+    }
+
+    $(document.body).on('click', '.j-edit-link', function() {
+        var dl = $(this).attr('data-edit-dl');
+        if (dl) {
+            var url = editUrl + '?dl=' + dl;
+        } else {
+            var url = editUrl;
+        }
+
+        rightCheck.preeditCheck('473553', '不确定性原理', '不确定性原理', '122834371', '', function(res) {
+            if (!checkUserLegal(res)) {
+                return;
+            }
+            if (isEnterprise && enterpriseOwnerUserId === userId) {
+                showChoseEditDialog(function() {
+                    location.href = pgcUrl;
+                }, function() {
+                    checkUgc(res, url);
+                });
+            } else {
+                checkUgc(res, url);
+            }
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      initSearchbar = require('wiki-common:widget/component/searchbar-n/searchbar');  
+    initSearchbar($('.wgt-searchbar-simple'));
+  }();
+!function(){    require.async(["wiki-lemma:widget/tools/searchHeader/toolButtons-n/toolButtons"],function(init){
+        init({
+            lemmaId:"24947",
+            subLemmaId:"24947",
+            newLemmaId:"473553"
+        });
+    });
+}();
+!function(){    require('wiki-lemma:widget/tools/searchHeader/toolButtons-n/userInfo')();
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery'),
+      animation = require('wiki-common:widget/util/animation'),
+      nslog = require('wiki-common:widget/component/nslog/nslog'),
+      initSearchbar = require('wiki-common:widget/component/searchbar/searchbar');
+
+    var isFadeIn = false,
+        isFadeOut = false;
+
+    var fadeInAni, fadeOutAni;
+
+    $(window).on('scroll', function(e) {
+        var scrollTop = $(this).scrollTop();
+
+        if (scrollTop > 200 && !isFadeIn && $('.lemmaWgt-searchHeader').css('display') == 'none') {
+            fadeOutAni && fadeOutAni.stop();
+            fadeInAni = animation({
+                duration: 200,
+                easing: 'linear',
+                onStart: function() {
+                    isFadeOut = false;
+                    isFadeIn = true;
+                    $('.lemmaWgt-searchHeader').css('display', 'block');
+                },
+                onStep: function(progress) {
+                    $('.lemmaWgt-searchHeader').css('opacity', progress)
+                },
+                onComplete: function(progress) {
+                    isFadeIn = false;
+                    nslog(10010007);
+                }
+            });
+        } else if (scrollTop <= 200 && !isFadeOut && $('.lemmaWgt-searchHeader').css('display') == 'block') {
+            fadeInAni && fadeInAni.stop();
+            fadeOutAni = animation({
+                duration: 300,
+                easing: 'linear',
+                onStart: function() {
+                    $('.lemmaWgt-searchHeader #suggestion').hide();
+                    isFadeIn = false;
+                    isFadeOut = true;
+                },
+                onStep: function(progress) {
+                    $('.lemmaWgt-searchHeader').css('opacity', 1 - progress);
+                },
+                onComplete: function(progress) {
+                    isFadeOut = false;
+                    $('.lemmaWgt-searchHeader').css('display', 'none');
+                }
+            });
+        }
+    });
+}();
+!function(){    require('wiki-lemma:widget/tools/newSideShare/qzopensl');
+    require.async(["wiki-lemma:widget/tools/newSideShare/taskSideShare"],function(taskShare){
+        taskShare.init({
+            title: '不确定性原理',
+            desc: "\u4e0d\u786e\u5b9a\u6027\u539f\u7406\uff08Uncertainty principle\uff09\u662f\u7531\u6d77\u68ee\u5821\u4e8e1927\u5e74\u63d0\u51fa\uff0c\u8fd9\u4e2a\u7406\u8bba\u662f\u8bf4\uff0c\u4f60\u4e0d\u53ef\u80fd\u540c\u65f6\u77e5\u9053\u4e00\u4e2a\u7c92\u5b50\u7684\u4f4d\u7f6e\u548c\u5b83\u7684\u901f\u5ea6\uff0c\u7c92\u5b50\u4f4d\u7f6e\u7684\u4e0d\u786e\u5b9a\u6027\uff0c\u5fc5\u7136\u5927\u4e8e\u6216\u7b49\u4e8e\u666e\u6717\u514b\u5e38\u6570\uff08Planck constant\uff09\u9664\u4e8e4\u03c0\uff08\u0394x\u0394p\u2265h\\\/4\u03c0\uff09\uff0c\u8fd9\u8868\u660e\u5fae\u89c2\u4e16\u754c\u7684\u7c92\u5b50\u884c\u4e3a\u4e0e\u5b8f\u89c2\u7269\u8d28\u5f88\u4e0d\u4e00\u6837\u3002\u6b64\u5916\uff0c\u4e0d\u786e\u5b9a\u539f\u7406\u6d89\u53ca\u5f88\u591a\u6df1\u523b\u7684\u54f2\u5b66",
+            pic: 'https:\/\/gss3.bdstatic.com\/7Po3dSag_xI4khGkpoWK1HF6hhy\/baike\/w%3D268\/sign=1dca615e0b24ab18e016e6310dfbe69a\/8326cffc1e178a82f6adfbd8f403738da977e831.jpg',
+            url: '',
+            qqPic: 'https:\/\/gss3.bdstatic.com\/7Po3dSag_xI4khGkpoWK1HF6hhy\/baike\/whfpf%3D383%2C383%2C0\/sign=bdb30f416963f6241c086a43e179d8c0\/8326cffc1e178a82f6adfbd8f403738da977e831.jpg',
+            newLemmaId: '473553',
+            lemmaTitle: '不确定性原理'
+        });
+    });
+}();
+!function(){    var $ = require('wiki-common:widget/lib/jquery/jquery');
+    var nslog = require("wiki-common:widget/component/nslog/nslog");
+    var testElem = require('wiki-common:widget/component/testElem/testElem');
+    var cmsModuleLoader = require('wiki-common:widget/component/cmsModuleLoader/cmsModuleLoader');
+
+    function requireAsync() {
+        require.async(['wiki-lemma:widget/tools/announcement/announcement']);
+    }
+
+    cmsModuleLoader('/api/wikiui/getlemmaconfig', [{
+        name: 'announcement',
+        script: 'wiki-lemma:widget/tools/announcement/announcement.js'
+    }]);
+
+    require.async(["wiki-lemma:widget/tools/lazyLoad/lazyLoad"], function(LazyLoad) {
+        new LazyLoad();
+    });
+
+    require.async(['wiki-common:widget/component/nslog/nslog','wiki-common:widget/lib/jquery/jquery'], function(nslog, $) {
+        nslog().setGlobal({
+            lemmaId: "24947",
+            newLemmaId: "473553",
+            subLemmaId: "24947",
+            lemmaTitle: "不确定性原理"
+        });
+
+        // 词条页 pv
+        nslog(9322);
+
+        // 新版头部pv（小流量）
+        if ($('.pc-header-new').length > 0) {
+            nslog(9069);
+        }
+
+        // 链接点击 pv
+        var lemmaPageRegExp = new RegExp(/\/subview\/\d+|\/view\/\d+|\/item\//i);
+        $('body').on('mousedown', 'a', function() {
+            var href = $(this).attr('href');
+            if (href && href.indexOf('/') >= 0 && href.indexOf('#') !== 0) {
+                // 链接点击 pv
+                nslog(10000001);
+                if (lemmaPageRegExp.test(href)) {
+                    // 词条页链接点击 pv
+                    nslog(10000002, window.location.href, {
+                        targetTitle: $(this).text()
+                    });
+                }
+            }
+        });
+
+        /****** 词条页站内流转需求统计 start ******/
+        (function () {
+            // 各种统计配置
+            var circulationLinkCfg = {
+                innerLink: [ // 内链
+                    '.para',
+                    '.lemmaWgt-baseInfo-simple-largeMovie',
+                    '.lemmaWgt-baseInfo-simple-largeStar',
+                    '.basic-info .basicInfo-block',
+                    '.lemma-summary',
+                    '.lemmaWgt-lemmaSummary',
+                    '.view-tip-panel',
+                    '.horizontal-module',
+                    '.lemmaWgt-roleIntroduction',
+                    '.dramaSeries .dramaSerialList',
+                    '.module-music',
+                    '.table-view',
+                    '[log-set-param="table_view"]',
+                    '.list-module',
+                    '.cell-module',
+                    '.baseBox .dl-baseinfo', // 配置后台字段
+                    '.pvBtn-box .leadPVBtnWrapper',
+                    '.drama-actor',
+                    '#staffList',
+                    '.starMovieAndTvplay',
+                    '.main_tab:not(.main_tab-defaultTab)' // 除去词条tab外的tab
+                ],
+                relationTable: '.rs-container-foot', // 关系表
+                peopleRelation: '.star-info-block.relations, .lemmaWgt-focusAndRelation', // 人物关系（明星+普通）
+                moduleActors: '.featureBaseInfo .actors, .lemmaWgt-majorActors', // 主要演员、嘉宾、主持人
+                moduleWorks: '.featureBaseInfo .works, .large-feature .works', // 代表作品
+                moduleQuarterly: '.featureBaseInfo .po_quarterly, .mian_quarterly', // 分季介绍
+                rankStar: '.rank-list.stars-rank', // 明星榜
+                rankDrama: '.drama-rank-list', // 电视剧榜
+                specialTopic: '.special-topic', // 专题模块
+                modDetailTable: '#modDetailTable', // 关系表出图
+                chuizhitu: '.chuizhitu', // 垂直化模块
+                polysemantList: '.polysemantList-wrapper' // 义项切换
+            };
+            /****** 连接统计 ******/
+            function clickNslogFn() {
+                for (var k in circulationLinkCfg) {
+                    if (k === 'innerLink') {
+                        // 词条内链到词条页
+                        var tempArr = circulationLinkCfg[k];
+                        for (var i = 0, l = tempArr.length; i < l; i++) {
+                            tempArr[i] += ' a';
+                        }
+                        var sSelector = tempArr.join(', ');
+
+                        $('body').on('mousedown', sSelector, {key: k},function(e) {
+                            var key = e.data.key;
+                            var href = $(this).attr('href');
+                            var tar = $(this).attr('target') || '';
+                            if (href && href.indexOf('/') >= 0 && href.indexOf('#') !== 0
+                            && tar === '_blank' && lemmaPageRegExp.test(href)) {
+                                // 词条页普通内链点击 pv
+                                nslog(10000004, null ,{division: key});
+                            }
+                        });
+                    } else {
+                        // 模块到词条页链接
+                        $(circulationLinkCfg[k]).on('mousedown', 'a', {key: k}, function (e) {
+                            var key = e.data.key;
+                            var href = $(this).attr('href');
+                            if (href && href.indexOf('#') !== 0 && lemmaPageRegExp.test(href)) {
+                                // 词条页配置模块链接点击 pv
+                                nslog(10000004, null, {division: key});
+                            }
+                        });
+                    }
+                }
+            }
+            // 发起统计请求
+            clickNslogFn();
+
+            /****** 各模块展现量pv ******/
+            function checkModuleIsShow() {
+                var result = [];
+                for (var k in circulationLinkCfg) {
+                    if (k !== 'innerLink' && k !== 'relationTable') {
+                        !!$(circulationLinkCfg[k]).html() && result.push(k);
+                    }
+                }
+                if (result.length > 0) {
+                    nslog(10000005, null, {showModules: result.join(',')});
+                }
+            }
+            checkModuleIsShow();
+
+        })();
+        /****** 词条页站内流转需求统计 end ******/
+
+    });
+
+    // 广告接入 wikiad 统一加载
+    // log 词条页广告被拦截情况（此处 log 请求行为）
+    nslog(70000101, window.location.href, {
+        api: 'lemma-ad',
+        action: 'request'
+    });
+    var tags = [];
+    var tagsArray = [];
+    for (var key in tags) {
+        tagsArray.push(tags[key].tagName);
+    }
+    $.ajax({
+        type: 'GET',
+        url: '/api/wikiad/getsquirrels',
+        data: {
+            lemmaId: 473553,
+            tags: tagsArray.join()
+        },
+        cache: false,
+        dataType: 'JSON',
+        success: function (res) {
+            // log 词条页广告被拦截情况（此处 log 请求成功）
+            nslog(70000101, window.location.href, {
+                api: 'lemma-ad',
+                action: 'success'
+            });
+
+            if (!res.errno) {
+                if (res.data[5]) {
+                    require.async(['wiki-lemma:widget/promotion/rightPreciseAd/rightPreciseAd'], function(rightPreciseAd) {
+                        rightPreciseAd(res.data[5]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[5][0].adId,
+                            adTitle: res.data[5][0].name,
+                            adPos: 5
+                        });
+                    });
+                } else if (res.data[1]) {
+                                        require.async(['wiki-lemma:widget/promotion/vbaike/vbaike'], function(vbaike) {
+                        vbaike(res.data[1]);
+                        for(var i in res.data[1]) {
+                            nslog(10002201, location.href, {
+                                adId: res.data[1][i].adId,
+                                adTitle: res.data[1][i].name,
+                                adPos: 1
+                            });
+                        }
+                    });
+                                    }
+                if (res.data[9]) {
+                                        require.async(['wiki-lemma:widget/promotion/rightBigAd/rightBigAd'], function(rightBigAd) {
+                        rightBigAd(res.data[9]);
+                            nslog(10002201, location.href, {
+                                adId: res.data[9][0].adId,
+                                adTitle: res.data[9][0].name,
+                                adPos: 9
+                            });
+                    });
+                                    } else if(res.data[2]) {
+                    require.async(['wiki-lemma:widget/promotion/slide/slide'], function(slide) {
+                        slide(res.data[2]);
+                        for(var i in res.data[2]) {
+                            nslog(10002201, location.href, {
+                                adId: res.data[2][i].adId,
+                                adTitle: res.data[2][i].name,
+                                adPos: 2
+                            });
+                        }
+                    });
+                }
+                if (res.data[3]) {
+                                        require.async(['wiki-lemma:widget/promotion/topAd/topAd'], function(topAd) {
+                        topAd(res.data[3]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[3][0].adId,
+                            adTitle: res.data[3][0].name,
+                            adPos: 3
+                        });
+                    });
+                                    }
+                if (res.data[4]) {
+                                        require.async(['wiki-lemma:widget/promotion/rightAd/rightAd'], function(rightAd) {
+                        rightAd(res.data[4]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[4][0].adId,
+                            adTitle: res.data[4][0].name,
+                            adPos: 4
+                        });
+                    });
+                                    }
+                if (res.data[15]) {
+                    require.async(['wiki-lemma:widget/promotion/banner/banner'], function(banner) {
+                        banner(res.data[15]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[15][0].adId,
+                            adTitle: res.data[15][0].name,
+                            adPos: 15
+                        });
+                    });
+                }
+                if (res.data[16]) {
+                    require.async(['wiki-lemma:widget/promotion/declaration/declaration'], function(declaration) {
+                        declaration(res.data[16]);
+                        nslog(10002201, location.href, {
+                            adId: res.data[16][0].adId,
+                            adTitle: res.data[16][0].name,
+                            adPos: 16
+                        });
+                    })
+                }
+            } else {
+                return;
+            }
+
+            setTimeout(function () {
+                var elemArr = {};
+                res.data[1] && res.data[1].length > 0 && (elemArr['lemma-vbaike-ad'] = $('.lemmaWgt-promotion-vbaike .promotion_viewport a:eq(0) img').get(0));
+                res.data[2] && res.data[2].length > 0 && (elemArr['lemma-slide-ad'] = $('.lemmaWgt-promotion-slide .promotion_viewport a:eq(0) img').get(0));
+                res.data[3] && res.data[3].length > 0 && (elemArr['lemma-navbar-ad'] = {
+                    node: $('.header [nslog-type="10002202"]').get(0),
+                    validations: {
+                        'noBackgroundImage': function() {
+                            return $('.header [nslog-type="10002202"]').css('background-image').indexOf(res.data[3][0].picUrl) < 0
+                        }
+                    }
+                });
+                res.data[4] && res.data[4].length > 0 && (elemArr['lemma-side-ad'] = {
+                    node: $('.right-ad img').get(0),
+                    validations: {
+                        'noBackgroundImage': function() {
+                            return $('.right-ad img').attr('src').indexOf(res.data[4][0].picUrl) < 0
+                        }
+                    }
+                });
+                res.data[15] && res.data[15].length > 0 && (elemArr['lemma-configModule-banner'] = $('.configModuleBanner').get(0));
+                res.data[16] && res.data[16].length > 0 && (elemArr['lemma-configModule-declaration'] = $('.lemmaWgt-declaration').get(0));
+
+                testElem.log(elemArr, 70000102);
+            }, 1000);
+        },
+        error: function () {
+            // log 词条页广告被拦截情况（此处 log 请求失败）
+            nslog(70000101, window.location.href, {
+                api: 'lemma-ad',
+                action: 'error'
+            });
+        }
+    });
+
+    // 设置分享内容
+    window.BKShare.setCommon({
+        bdText: "\u3010\u4e0d\u786e\u5b9a\u6027\u539f\u7406_\u767e\u5ea6\u767e\u79d1\u3011\u4e0d\u786e\u5b9a\u6027\u539f\u7406\uff08Uncertainty principle\uff09\u662f\u7531\u6d77\u68ee\u5821\u4e8e1927\u5e74\u63d0\u51fa\uff0c\u8fd9\u4e2a\u7406\u8bba\u662f\u8bf4\uff0c\u4f60\u4e0d\u53ef\u80fd\u540c\u65f6\u77e5\u9053\u4e00\u4e2a\u7c92\u5b50\u7684\u4f4d\u7f6e\u548c\u5b83\u7684\u901f\u5ea6\uff0c\u7c92\u5b50\u4f4d\u7f6e\u7684\u4e0d\u786e\u5b9a\u6027\uff0c\u5fc5\u7136\u5927\u4e8e\u6216\u7b49\u4e8e\u666e\u6717\u514b\u5e38\u6570\uff08Planck constant\uff09\u9664\u4e8e4\u03c0\uff08\u0394x\u0394p\u2265h\/4\u03c0\uff09\uff0c\u8fd9\u8868\u660e\u5fae\u89c2\u4e16\u754c\u7684\u7c92\u5b50\u884c\u4e3a\u4e0e\u5b8f\u89c2\u7269\u8d28\u5f88\u4e0d\u4e00\u6837\u3002\u6b64\u5916\uff0c\u4e0d\u786e\u5b9a\u539f\u7406\u6d89\u53ca\u5f88\u591a\u6df1\u523b\u7684\u54f2\u5b66.....\uff08\u5206\u4eab\u81ea@\u767e\u5ea6\u767e\u79d1\uff09",
+        bdDesc: '',
+        bdUrl: 'http:\/\/baike.baidu.com\/item\/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%8E%9F%E7%90%86\/473553',
+        bdPic: '',
+        onBeforeClick: function (){
+            $('.bdshare_dialog_box').hide();
+        }
+    });
+
+    // 底部投诉带入当前页面 url
+    var map = [1, 2, 6, 5];
+    $('.wgt-footer-main .suggestion').find('a').each(function(i) {
+        $(this).attr('href', 'http://help.baidu.com/newadd?word=%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%8E%9F%E7%90%86' + '&&submit_link=' + encodeURIComponent(window.location.href) + '&prod_id=10&category=' + map[i]);
+    });
+
+    // 为超出预设内容的表格添加table-responsive控制
+    $('.main-content').find('table').each(function(index) {
+        var $that = $(this);
+        if ($that.width() > 790) {
+            $that.wrap('<div class="table-responsive"></div>');
+        }
+    });
+}();
+!function(){      require('wiki-common:widget/component/psLink/psLink');
+    }();</script>
+<script type="text/javascript">
+  var Hunter = window.Hunter || {};
+  Hunter.userConfig = Hunter.userConfig || [];
+  </script>
+<script type="text/javascript" src="https://gss0.baidu.com/70cFsjip0QIZ8tyhnq/hunter/baike.js?st=17546" defer></script><script type="text/javascript">
+  // DOM Ready时，统计用户可操作时间。
+  alog('speed.set', 'drt', +new Date);
+
+  void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+</script>
+</html>

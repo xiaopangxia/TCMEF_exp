@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0[háo máo]毫毛编辑锁定毫毛，即皮毛。人体皮肤上的汗毛。出自《素问·玉机真脏论》等。中文名毫毛外文名vellus hair汉语拼音háo máo释    义细长而末端尖锐的毛。比    喻极细微的事物目录1本意2引申3示例毫毛本意编辑即皮毛。人体皮肤上的汗毛。《素问·玉机真脏论》：“风寒客于人，使人毫毛毕直。”毫毛引申编辑①指人体最浅表部位。《素问·汤液醪醴论》：“其有不从毫毛而生，五脏阳以竭也。”②眉中的长毛。《枢灵·阴阳二十五人》：“血气盛则美眉，眉有毫毛。”毫毛示例编辑毫毛不敢有所近。——《史记·项羽本纪》不准你动他一根毫毛window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":24447,"fentryTableName":"\u4eba\u4f53\u4f53\u6bdb","fentryTableType":1,"entryId":2486058,"templateId":0,"entryTitle":"\u4eba\u4f53\u7684\u4f53\u6bdb","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([633279, rsdataList]);
+        }词条标签：语言，文化，字词，医学术语

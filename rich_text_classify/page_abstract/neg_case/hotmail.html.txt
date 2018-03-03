@@ -1,0 +1,1 @@
+Hotmail是互联网免费电子邮件提供商之一，世界上的任何人可以通过网页浏览器对其进行读取，收发电子邮件。它于1995年，由杰克·史密斯（Jack Smith）和印度企业家沙比尔·巴蒂亚（Sabeer Bhatia）建立，并于1996年7月4日（美国独立日）开始商业运作。于1997年末被微软以4亿美元的巨资收购，并由原来运行于FreeBSD平台逐步过渡至完全运行于Windows平台上。之后还跟微软（Microsoft）的其它服务合并成为MSN和Windows Live的组成部分。2012年7月31日开始，微软Outlook将逐步淘汰Hotmail服务，凸显云计算战略。美国时间2013年5月2日，微软宣布完成Hotmail到Outlook邮箱的升级，用户访问Hotmail将被重定向至Outlook邮箱。Hotmail正式终结。

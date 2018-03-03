@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0佐佐冈浩志编辑锁定本词条缺少名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！佐佐冈浩志，是出自日本动漫《凉风》中的角色之一。体育用品公司“Adirex”的业务员。中文名佐佐冈浩志外文名佐々冈 浩志ささおか ひろし外文名sasaoka	hiroshi登场作品《凉风》性    别男目录1角色背景2名字由来佐佐冈浩志角色背景编辑体育用品公司“Adirex”的业务员，来到青羽高校与朝比奈凉风洽谈公司赞助赴美留学的事务。早乙女优花的青梅竹马，大她两届的学长、心仪的对象。优花曾对他告白数次，但他一直把优花当妹妹看待，不当作一回事。在漫画163话中也是由他给凉风提供工作，并让其在公司田径队继续练习。佐佐冈浩志名字由来编辑来自日本职棒广岛东洋鲤鱼选手佐佐冈真司。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":35965,"fentryTableName":"\u300a\u51c9\u98ce \u300b\u4e3b\u8981\u89d2\u8272","fentryTableType":1,"entryId":8931,"templateId":0,"entryTitle":"\u51c9\u98ce","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([5290778, rsdataList]);
+        }词条标签：动漫形象，人物

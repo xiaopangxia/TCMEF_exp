@@ -1,0 +1,6 @@
+收藏查看我的收藏0有用+1已投票0佩特里奇编辑锁定本词条缺少名片图，补充相关内容使词条更完整，还能快速升级，赶紧来编辑吧！佩特里奇，保加利亚西南边境城镇。在贝拉希查山地北麓斯特鲁马河流域。中文名称佩特里奇所属地区保加利亚地理位置贝拉希查山地北麓斯特鲁马河流域人    口2.5万人口约2.5万。曾为商业城镇。第一次世界大战时被毁，后重建。铁路要站。有机械制造、烟草、罐头等工厂。农产品集散地。旅游业颇盛。window.rsInsertData = window['rsInsertData'] || [];
+        var rsdataList = {"foot":[{"fentryTableId":29729,"fentryTableName":"\u4fdd\u52a0\u5229\u4e9a\u57ce\u5e02","fentryTableType":1,"entryId":2554472,"templateId":0,"entryTitle":"\u4fdd\u52a0\u5229\u4e9a\u57ce\u5e02","isManual":0,"isExpand":1}],"top":[]};
+
+        if (rsdataList.top || rsdataList.foot) {
+            rsInsertData.push([285957, rsdataList]);
+        }词条标签：行政区划，外国行政区划，地形地貌

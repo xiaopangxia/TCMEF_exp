@@ -1,0 +1,1 @@
+D-Link DGS1216T是一款网管交换机，传输速率为10Mbps/100Mbps/1000Mbps。
